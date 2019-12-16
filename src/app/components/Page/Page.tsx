@@ -10,7 +10,7 @@ interface IProps {
 const Page: React.FC<IProps> = ({ children, className, location }) => {
   const animation = location.state && location.state.animation;
 
-  console.log(location)
+  // console.log(location)
 
   const pageClasses = cx('Page', {
     [`Page--${ animation }`]: animation,
