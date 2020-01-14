@@ -1,0 +1,25 @@
+{% for part in sentence %}
+  {% if part.image %}
+    <img src="{{ part.image }}" alt="{{ part.alt }}" />
+  {% else %}
+    {{ part }}
+  {% endif %}
+{% endfor %}
+
+<!-- // SRPSKI
+
+{{ text1 }}
+<img src="{{ image1 }}" alt="{{ alt1 }}" />
+{{ text2 }}
+<img src="{{ image2 }}" alt="{{ alt2 }}" />
+{{ text3 }}
+
+
+
+
+// ENGLESKI 
+
+<img src="{{ image1 }}" alt="{{ alt1 }}" />
+{{ text1 }}
+<img src="{{ image2 }}" alt="{{ alt2 }}" />
+{{ text2 }} -->

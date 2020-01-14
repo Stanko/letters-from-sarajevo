@@ -1,67 +1,56 @@
 # Letters From Sarajevo
 
-WIP
+Work in progress!
+
+Adaptation of the book "Letters From Sarajevo" for web.
 
 ## Setup
 
-Marvin was test on node version 12.x
+Prerequisites
 
-Clone this repo and install dependencies:
+* Node 12+
+* Ruby 2.3+
+
+### MacOS
+
+You should probably install separate ruby from the one coming with OS. Follow this answer on StackOverflow: https://stackoverflow.com/a/54873916
+
+Then install jekyll and bundler gems:
+
+```
+gem install jekyll bundler
+```
+
+In project folder run:
+
+```
+bundle install
+```
+
+and
 
 ```
 npm install
 ```
 
-Now run simple setup script:
+### NPM tasks
 
+* `npm run dev` 
+
+  Use this command for development. It will start jekyll server (with livereload), and watch for any changes on SCSS and JS files.
+
+* `npm start` 
+
+  Use this command for writing new posts. this command will start jekyll server (with livereload) but won't watch on SCSS and JS file changes.
+
+
+## Notes for ruby installed by brew on MacOS
+
+If you have ruby installed by brew, please make sure you are using it along with it's gems.
+
+You should add something like this to your `.bash_profile`.
+
+```sh
+# Use ruby installed by brew
+export PATH="/usr/local/opt/ruby/bin:/usr/local/lib/ruby/gems/2.6.0/bin/:$PATH"
 ```
-node setup.js
-```
-
-It will take you through the short setup process. For now there are only a couple options to choose from:
-
-* SCSS support
-* Pre-Rendering Static HTML Files using [react-snap](https://github.com/stereobooster/react-snap)
-* Git hooks (run linter on commit and run tests before push)
-
-
-## Available Scripts
-
-In the project directory, you can run:
-
-### `npm start`
-
-Runs the app in the development mode.<br>
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
-
-The page will reload if you make edits.<br>
-You will also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.<br>
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.<br>
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.<br>
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (Webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
