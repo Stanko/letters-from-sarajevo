@@ -1,1 +1,24 @@
-{{content}}
+---
+layout: compress
+---
+
+<!DOCTYPE html>
+<html lang="{{ page.lang | default: site.lang | default: "en" }}">
+
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" href="{{ "/public/assets/app.css" | relative_url }}">
+
+    <title>{{ site.title | append: " &middot; " | append: page.title }}</title>
+  </head>
+
+  <body>
+    {{ content }}
+
+    <script src="{{ "/public/assets/app.js" | relative_url  }}"></script>
+
+  </body>
+</html>

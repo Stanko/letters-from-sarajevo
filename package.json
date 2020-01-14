@@ -1,0 +1,23 @@
+{
+  "name": "letters-from-sarajevo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "_assets/js/index.js",
+  "dependencies": {},
+  "devDependencies": {
+    "autoprefixer": "^9.7.3",
+    "babel-core": "^6.26.3",
+    "babel-preset-env": "^1.7.0",
+    "node-sass": "^4.13.0",
+    "parcel-bundler": "^1.12.4"
+  },
+  "scripts": {
+    "build-assets": "rm -rf ./public/assets && parcel build _assets/js/app.js --no-source-maps --out-dir public/assets --public-url /public/assets",
+    "watch-assets": "rm -rf ./public/assets && parcel watch _assets/js/app.js --no-source-maps --out-dir public/assets --public-url /public/assets",
+    "serve": "bundle exec jekyll serve  --incremental --livereload --host 0.0.0.0",
+    "start": "rm -rf _site && npm run build-assets && npm run serve",
+    "dev": "rm -rf _site && npm run watch-assets & npm run serve"
+  },
+  "author": "Stanko / Gaston / Uroš",
+  "license": "MIT"
+}
