@@ -1,11 +1,11 @@
-title: Your awesome title
+title: Pisma iz Sarajeva
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 
 collections:
   sr:
     output: true
-    permalink: /:name
+    permalink: /sr/:name/
 
 # Exclude from processing.
 exclude:
@@ -17,6 +17,7 @@ exclude:
   - .editorconfig
   - Gemfile.lock
   - Gemfile
+  - README.md
 
 # plugins:
 
