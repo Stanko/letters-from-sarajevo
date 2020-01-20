@@ -10,19 +10,19 @@ blockOne:
 
 blockTwo:
   image: /public/img/letter-01/02.png
-  alt: Ljudi pretrčavaju ulicu, pored table "Pazi snajper".
+  alt: Miš beži u rupu, dok vuče čoveka koji mu se drži za red.
+  text: Granate i dalje padaju. Usavršili smo načine spašavanja.
+
+blockThree:
+  image: /public/img/letter-01/03.png
+  alt: Ljudi pretrčavaju ulicu, pored table 'Pazi snajper'.
   text: >-
     Preko mnogih raskršća i dalje je mora pretrčavati.
     Umesto semafora stoje table s upozorenjima.
 
-blockThree:
-  image: /public/img/letter-01/03.png
-  alt: Miš beži u rupu, dok vuče čoveka koji mu se drži za red.
-  text: Granate i dalje padaju. Usavršili smo načine spašavanja.
-
 blockFour:
   image: /public/img/letter-01/04.png
-  alt: Poslednje drvo u parku, mala breza sa natpisom "Ko posiječe ovu brezu biće mu poslednja".
+  alt: Poslednje drvo u parku, mala breza sa natpisom 'Ko posiječe ovu brezu biće mu poslednja'.
   text: >-
     Zimus je gotovo svo gradsko drveće posječeno za ogreva.
     Sačuvalo se samo poneko.
