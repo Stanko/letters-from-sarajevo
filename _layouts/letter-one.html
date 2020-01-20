@@ -2,26 +2,52 @@
 layout: default
 ---
 
-<h1>{{ page.header }}</h1>
+<div class="LetterOne">
+  <h1 class="LetterOne-title">{{ page.header }}</h1>
 
-<div>
-  <div>
-    {{ page.blockOne.text }}
-    <img src="{{ page.blockOne.image }}" alt="{{ page.blockOne.alt }}" />
-  </div>
+  <div class="LetterOne-blocks">
+    <div class="LetterOne-block LetterOne-block--one">
+      <p class="LetterOne-text">
+        {{ page.blockOne.text }}
+      </p>
+      <img
+        class="LetterOne-image LetterOne-image--one"
+        src="{{ page.blockOne.image }}"
+        alt="{{ page.blockOne.alt }}"
+      />
+    </div>
 
-  <div>
-    {{ page.blockTwo.text }}
-    <img src="{{ page.blockTwo.image }}" alt="{{ page.blockTwo.alt }}" />
-  </div>
+    <div class="LetterOne-block LetterOne-block--two">
+      <p class="LetterOne-text">
+        {{ page.blockTwo.text }}
+      </p>
+      <img
+        class="LetterOne-image"
+        src="{{ page.blockTwo.image }}"
+        alt="{{ page.blockTwo.alt }}"
+      />
+    </div>
 
-  <div>
-    {{ page.blockThree.text }}
-    <img src="{{ page.blockThree.image }}" alt="{{ page.blockThree.alt }}" />
-  </div>
+    <div class="LetterOne-block LetterOne-block--three">
+      <p class="LetterOne-text">
+        {{ page.blockThree.text }}
+      </p>
+      <img
+        class="LetterOne-image"
+        src="{{ page.blockThree.image }}"
+        alt="{{ page.blockThree.alt }}"
+      />
+    </div>
 
-  <div>
-    {{ page.blockFour.text }}
-    <img src="{{ page.blockFour.image }}" alt="{{ page.blockFour.alt }}" />
+    <div class="LetterOne-block LetterOne-block--four">
+      <p class="LetterOne-text">
+        {{ page.blockFour.text }}
+      </p>
+      <img
+        class="LetterOne-image"
+        src="{{ page.blockFour.image }}"
+        alt="{{ page.blockFour.alt }}"
+      />
+    </div>
   </div>
 </div>

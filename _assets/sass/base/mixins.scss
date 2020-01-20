@@ -1,0 +1,19 @@
+// Letters
+
+@mixin letter {
+  padding: 2rem;
+  margin: 0 auto;
+
+  @include md {
+    padding: 3rem;
+  }
+
+  @include lg {
+    padding: 4rem;
+    max-width: 90rem;
+  }
+
+  @include xl {
+    max-width: 105rem;
+  }
+}
