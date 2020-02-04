@@ -4,6 +4,7 @@
  * 2. Prevent adjustments of font size after orientation changes in IE and iOS.
  */
 @import url("https://fonts.googleapis.com/css?family=Patrick+Hand+SC&display=swap&subset=latin-ext");
+@import url("https://fonts.googleapis.com/css?family=Roboto+Slab:300&display=swap&subset=latin-ext");
 html {
   font-family: sans-serif;
   /* 1 */
@@ -376,14 +377,33 @@ textarea {
 
 html {
   font-size: 10px; }
+  @media (min-width: 1200px) {
+    html {
+      font-size: 12px; } }
 
 body {
   font-size: 2.4rem;
-  font-family: 'Patrick Hand SC', cursive; }
+  font-family: "Patrick Hand SC", Helvetica, Arial, sans-serif; }
 
 img {
   max-width: 100%;
   width: auto; }
+
+.Container {
+  padding: 2rem;
+  margin: 0 auto;
+  width: 100%;
+  max-width: 70rem; }
+  @media (min-width: 600px) {
+    .Container {
+      padding: 3rem; } }
+  @media (min-width: 900px) {
+    .Container {
+      padding: 5rem 4rem; } }
+
+.turbolinks-progress-bar {
+  height: 0.5rem;
+  background-color: #111; }
 
 h1,
 h2,
@@ -399,22 +419,77 @@ p {
   margin: 0;
   line-height: 1.1em; }
 
+.Sentence {
+  font-size: 2rem;
+  margin-bottom: 2.5rem;
+  text-align: center; }
+  @media (min-width: 600px) {
+    .Sentence {
+      font-size: 2.2rem;
+      margin-bottom: 1rem;
+      text-align: left; } }
+  @media (min-width: 900px) {
+    .Sentence {
+      font-size: 2.4rem; } }
+
+.Sentence-imageWrapper {
+  align-items: center;
+  display: inline-flex;
+  margin: 0 0.5rem 0;
+  max-width: 4rem;
+  vertical-align: middle; }
+  .Sentence-imageWrapper:first-child {
+    margin-left: 0; }
+  @media (min-width: 600px) {
+    .Sentence-imageWrapper {
+      margin: 1rem;
+      max-width: 5rem; } }
+  @media (min-width: 900px) {
+    .Sentence-imageWrapper {
+      max-width: 6rem; } }
+
+.Sentence-image {
+  max-height: 4rem; }
+  @media (min-width: 600px) {
+    .Sentence-image {
+      max-height: 5rem; } }
+  @media (min-width: 900px) {
+    .Sentence-image {
+      max-height: 6rem; } }
+
+.Sentence-imageWrapper--lg {
+  max-width: 6rem; }
+  @media (min-width: 900px) {
+    .Sentence-imageWrapper--lg {
+      max-width: 9rem; } }
+  .Sentence-imageWrapper--lg .Sentence-image {
+    max-height: 6rem; }
+    @media (min-width: 900px) {
+      .Sentence-imageWrapper--lg .Sentence-image {
+        max-height: 9rem; } }
+
+.Sentence-imageWrapper--xl {
+  max-width: 9rem; }
+  @media (min-width: 900px) {
+    .Sentence-imageWrapper--xl {
+      max-width: 11rem; } }
+  .Sentence-imageWrapper--xl .Sentence-image {
+    max-height: 9rem; }
+    @media (min-width: 900px) {
+      .Sentence-imageWrapper--xl .Sentence-image {
+        max-height: 11rem; } }
+
 .LetterOne {
   padding: 2rem;
-  margin: 0 auto; }
+  margin: 0 auto;
+  width: 100%;
+  max-width: 70rem; }
   @media (min-width: 600px) {
     .LetterOne {
       padding: 3rem; } }
   @media (min-width: 900px) {
     .LetterOne {
-      padding: 4rem;
-      max-width: 90rem; } }
-  @media (min-width: 1200px) {
-    .LetterOne {
-      max-width: 105rem; } }
-  @media (min-width: 600px) and (max-width: 899px) {
-    .LetterOne {
-      max-width: 70rem; } }
+      padding: 5rem 4rem; } }
 
 @media (min-width: 900px) {
   .LetterOne-blocks {
@@ -500,3 +575,84 @@ p {
     .LetterOne-image--one {
       max-width: 100%;
       max-height: 30rem; } }
+
+.LetterTwo {
+  padding: 2rem;
+  margin: 0 auto;
+  width: 100%;
+  max-width: 70rem; }
+  @media (min-width: 600px) {
+    .LetterTwo {
+      padding: 3rem; } }
+  @media (min-width: 900px) {
+    .LetterTwo {
+      padding: 5rem 4rem; } }
+
+.LetterTwo .Sentence:first-child {
+  margin-bottom: 5rem; }
+
+.LetterTwo .Sentence:last-child {
+  margin-top: 7rem; }
+  @media (min-width: 600px) {
+    .LetterTwo .Sentence:last-child {
+      margin-left: 10rem;
+      margin-top: 5rem; } }
+
+.Sentence-imageWrapper--window {
+  margin-top: 1rem;
+  margin-bottom: 1rem; }
+  @media (min-width: 600px) {
+    .Sentence-imageWrapper--window {
+      margin-top: 0; } }
+
+.Response {
+  padding: 2rem;
+  margin: 0 auto;
+  width: 100%;
+  max-width: 70rem; }
+  @media (min-width: 600px) {
+    .Response {
+      padding: 3rem; } }
+  @media (min-width: 900px) {
+    .Response {
+      padding: 5rem 4rem; } }
+
+.Response-content {
+  font-family: "Roboto Slab", serif;
+  font-weight: 300;
+  font-size: 1.8rem; }
+  @media (min-width: 600px) {
+    .Response-content {
+      font-size: 2rem; } }
+  .Response-content p {
+    padding-bottom: 1em;
+    line-height: 1.4em; }
+
+.Pagination {
+  display: flex;
+  justify-content: space-between;
+  font-size: 2rem;
+  flex-wrap: wrap; }
+  @media (min-width: 600px) {
+    .Pagination {
+      justify-content: center;
+      font-size: 2.4rem; } }
+
+.Pagination-separator {
+  margin: 3rem 0 2.5rem;
+  flex-basis: 100%;
+  text-align: center; }
+
+.Pagination-link {
+  align-items: center;
+  color: #111;
+  display: flex;
+  text-decoration: none;
+  justify-content: center; }
+
+.Pagination-image {
+  width: 5rem;
+  margin: 0 2rem; }
+  @media (max-width: 599px) {
+    .Pagination-image {
+      display: none; } }

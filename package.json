@@ -3,7 +3,9 @@
   "version": "1.0.0",
   "description": "",
   "main": "_assets/js/index.js",
-  "dependencies": {},
+  "dependencies": {
+    "turbolinks": "^5.2.0"
+  },
   "devDependencies": {
     "autoprefixer": "^9.7.3",
     "babel-core": "^6.26.3",

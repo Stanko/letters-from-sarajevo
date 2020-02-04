@@ -1,5 +1,8 @@
 ---
 layout: letter-two
+prevLink: /sr/prvi-odgovor
+nextLink: /sr/drugi-odgovor
+title: Drugo pismo
 
 header: 
   - Dragi
@@ -29,6 +32,7 @@ sentenceTwo:
   - iznad samog
   - image: /public/img/letter-02/window.png
     alt: prozora
+    modifier: window
   - "."
 
 sentenceThree:
@@ -40,30 +44,25 @@ sentenceThree:
   - je
   - image: /public/img/letter-02/destroy.png
     alt: Uništila
+    modifier: lg
   - sve u našoj sobi.
 
 sentenceFour:
   - Sada sam u Kosinoj sobi
   - image: /public/img/letter-02/bed.png
     alt: Tadija se drži za glavu u krevetu.
+    modifier: xl
    
 sentenceFive:
   - Puno
   - image: /public/img/letter-02/greetings.png
     alt: pozdrava
+    modifier: lg
   - Vama
   - image: /public/img/letter-02/two-of-you.png
     alt: dvojici
+    modifier: lg
   - od
   - image: /public/img/letter-02/tadija-2.png
     alt: mene
-
-
-# todo check if we are going to use this at all
-# postScriptum:
-#   - P.S. Uz ovo
-#   - šaljem vam i
-#   - sa trenutcima
-#   - početka i kraja dnevnog
-#   - te početka i kraja
 ---

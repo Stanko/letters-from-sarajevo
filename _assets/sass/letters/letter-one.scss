@@ -1,9 +1,5 @@
 .LetterOne {
-  @include letter;
-
-  @include md-only {
-    max-width: 70rem;
-  }
+  @include container;
 }
 
 .LetterOne-blocks {

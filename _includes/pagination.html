@@ -1,0 +1,16 @@
+<nav class="Pagination">
+  <div class="Pagination-separator">***</div>
+  {% if page.prevLink %}
+    <a class="Pagination-link Pagination-link--prev" href="{{ page.prevLink }}">
+      <div>&laquo; {{ site.prevLinkText }}</div>
+    </a>
+  {% endif %}
+
+  <img class="Pagination-image" src="/public/img/letter.png" aria-hidden />
+
+  {% if page.nextLink %}
+    <a class="Pagination-link Pagination-link--next" href="{{ page.nextLink }}">
+      <div>{{ site.nextLinkText }} &raquo;</div>
+    </a>
+  {% endif %}
+</nav>

@@ -1,6 +1,14 @@
+# -------------- LANGUAGE SPECIFIC BLOCK
 title: Pisma iz Sarajeva
-baseurl: "" # the subpath of your site, e.g. /blog
+
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
+
+prevLinkText: Prethodno pismo
+nextLinkText: Sledeće pismo
+
+# -------------- END OF LANGUAGE SPECIFIC BLOCK
+
+baseurl: "" # the subpath of your site, e.g. /blog
 
 collections:
   sr:

@@ -1,0 +1,40 @@
+.Pagination {
+  display: flex;
+  justify-content: space-between;
+  font-size: 2rem;
+  flex-wrap: wrap;
+
+  @include md {
+    justify-content: center;
+    font-size: 2.4rem;
+  }
+}
+
+.Pagination-separator {
+  margin: 3rem 0 2.5rem;
+  flex-basis: 100%;
+  text-align: center;
+}
+
+.Pagination-link {
+  align-items: center;
+  color: $black;
+  display: flex;
+  text-decoration: none;
+  justify-content: center;
+}
+
+.Pagination-link--prev {
+}
+
+.Pagination-link--next {
+}
+
+.Pagination-image {
+  width: 5rem;
+  margin: 0 2rem;
+
+  @include sm-only {
+    display: none;
+  }
+}

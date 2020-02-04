@@ -1,33 +1,24 @@
 ---
 layout: default
 ---
-
-<div>
+<div class="LetterTwo">
   {% assign sentence = page.header %}
   {% include sentence-with-images.html %}
-</div>
 
-<div>
   {% assign sentence = page.sentenceOne %}
   {% include sentence-with-images.html %}
-</div>
 
-<div>
   {% assign sentence = page.sentenceTwo %}
   {% include sentence-with-images.html %}
-</div>
 
-<div>
   {% assign sentence = page.sentenceThree %}
   {% include sentence-with-images.html %}
-</div>
 
-<div>
   {% assign sentence = page.sentenceFour %}
   {% include sentence-with-images.html %}
-</div>
 
-<div>
   {% assign sentence = page.sentenceFive %}
   {% include sentence-with-images.html %}
+
+  {% include pagination.html %}
 </div>

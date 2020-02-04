@@ -1,0 +1,18 @@
+.Response {
+  @include container;
+}
+
+.Response-content {
+  font-family: $font-family-serif;
+  font-weight: $font-weight-serif;
+  font-size: 1.8rem;
+
+  @include md {
+    font-size: 2rem;
+  }
+
+  p {
+    padding-bottom: 1em;
+    line-height: 1.4em;
+  }
+}

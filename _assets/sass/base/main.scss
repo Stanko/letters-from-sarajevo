@@ -1,18 +1,31 @@
-// @import url('https://fonts.googleapis.com/css?family=Patrick+Hand&display=swap&subset=latin-ext');
-// @import url('https://fonts.googleapis.com/css?family=Pangolin&display=swap&subset=latin-ext');
 @import url('https://fonts.googleapis.com/css?family=Patrick+Hand+SC&display=swap&subset=latin-ext');
+@import url('https://fonts.googleapis.com/css?family=Roboto+Slab:300&display=swap&subset=latin-ext');
 
 html {
   font-size: 10px;
+
+  @include xl {
+    font-size: 12px;
+  }
 }
 
 body {
   // -moz-osx-font-smoothing: grayscale;
   font-size: 2.4rem;
-  font-family: 'Patrick Hand SC', cursive;
+  font-family: $font-family-handwriting;
 }
 
 img {
   max-width: 100%;
   width: auto;
+}
+
+.Container {
+  @include container;
+}
+
+// Turbolinks progress bar
+.turbolinks-progress-bar {
+  height: 0.5rem;
+  background-color: $black;
 }

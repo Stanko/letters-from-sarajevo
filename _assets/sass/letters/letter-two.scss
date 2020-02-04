@@ -1,0 +1,25 @@
+.LetterTwo {
+  @include container;
+}
+
+.LetterTwo .Sentence:first-child {
+  margin-bottom: 5rem;
+}
+
+.LetterTwo .Sentence:last-child {
+  margin-top: 7rem;
+
+  @include md {
+    margin-left: 10rem;
+    margin-top: 5rem;
+  }
+}
+
+.Sentence-imageWrapper--window {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+
+  @include md {
+    margin-top: 0;
+  }
+}

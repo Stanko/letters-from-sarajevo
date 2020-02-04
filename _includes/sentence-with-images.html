@@ -1,7 +1,20 @@
+<div class="Sentence">
 {% for part in sentence %}
   {% if part.image %}
-    <img src="{{ part.image }}" alt="{{ part.alt }}" />
+    {% if part.modifier %}
+      {% assign className = "Sentence-imageWrapper--" | append: part.modifier %}
+    {% else %}
+      {% assign className = "" %}
+    {% endif %}
+    <div class="Sentence-imageWrapper {{ className }}">
+      <img
+        class="Sentence-image"
+        src="{{ part.image }}"
+        alt="{{ part.alt }}"
+      />
+    </div>
   {% else %}
-    {{ part }}
+    <span>{{ part }}</span>
   {% endif %}
 {% endfor %}
+</div>
