@@ -1,16 +1,32 @@
 <nav class="Pagination">
   <div class="Pagination-separator">* * *</div>
   {% if page.prevLink %}
-    <a class="Pagination-link Pagination-link--prev" href="{{ page.prevLink }}">
-      <div>&laquo; {{ site.prevLinkText }}</div>
+    <a
+      class="Pagination-link Pagination-link--prev"
+      href="{{ page.prevLink }}"
+      title="{{ site.prevLinkText }}"
+      aria-label="{{ site.prevLinkText }}"
+    >
+      &laquo;
     </a>
+  {% else %}
+    <div class="Pagination-placeholder"></div>
   {% endif %}
 
-  <img class="Pagination-image" src="/public/img/letter.png" aria-hidden />
+  <div class="Pagination-imageWrapper">
+    <img src="/public/img/letter.png" aria-hidden />
+  </div>
 
   {% if page.nextLink %}
-    <a class="Pagination-link Pagination-link--next" href="{{ page.nextLink }}">
-      <div>{{ site.nextLinkText }} &raquo;</div>
+    <a
+      class="Pagination-link Pagination-link--next"
+      href="{{ page.nextLink }}"
+      title="{{ site.nextLinkText }}"
+      aria-label="{{ site.nextLinkText }}"
+    >
+      &raquo;
     </a>
+  {% else %}
+    <div class="Pagination-placeholder"></div>
   {% endif %}
 </nav>

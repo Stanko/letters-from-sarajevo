@@ -6,6 +6,10 @@ img {
   width: auto;
 }
 
+a {
+  transition: background 250ms, color 250ms, border 250ms;
+}
+
 .Container {
   @include container;
 }

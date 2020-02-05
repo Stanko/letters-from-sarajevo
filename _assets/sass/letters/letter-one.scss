@@ -25,6 +25,10 @@
   @include lg {
     flex-basis: calc(50% - 1.5rem);
   }
+
+  &:last-child {
+    margin-bottom: 0;
+  }
 }
 
 .LetterOne-block--two,
@@ -64,7 +68,6 @@
     .LetterOne-text {
       max-width: 90%;
       margin: 0;
-      margin-bottom: 4rem;
     }
   }
 }
