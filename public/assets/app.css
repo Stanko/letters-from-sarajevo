@@ -375,16 +375,6 @@ textarea {
   font: inherit;
   /* 2 */ }
 
-html {
-  font-size: 10px; }
-  @media (min-width: 1200px) {
-    html {
-      font-size: 12px; } }
-
-body {
-  font-size: 2.4rem;
-  font-family: "Patrick Hand SC", Helvetica, Arial, sans-serif; }
-
 img {
   max-width: 100%;
   width: auto; }
@@ -405,6 +395,17 @@ img {
   height: 0.5rem;
   background-color: #111; }
 
+html {
+  font-size: 10px; }
+  @media (min-width: 1200px) {
+    html {
+      font-size: 12px; } }
+
+body {
+  font-size: 2.4rem;
+  font-family: "Patrick Hand SC", Helvetica, Arial, sans-serif;
+  line-height: 1.1em; }
+
 h1,
 h2,
 h3,
@@ -416,8 +417,7 @@ h6 {
   margin: 0; }
 
 p {
-  margin: 0;
-  line-height: 1.1em; }
+  margin: 0; }
 
 .Sentence {
   font-size: 2rem;
@@ -605,6 +605,101 @@ p {
     .Sentence-imageWrapper--window {
       margin-top: 0; } }
 
+.LetterThree {
+  padding: 2rem;
+  margin: 0 auto;
+  width: 100%;
+  max-width: 70rem; }
+  @media (min-width: 600px) {
+    .LetterThree {
+      padding: 3rem; } }
+  @media (min-width: 900px) {
+    .LetterThree {
+      padding: 5rem 4rem; } }
+  @media (max-width: 599px) {
+    .LetterThree {
+      font-size: 2rem;
+      text-align: center; } }
+
+.LetterThree-stamp {
+  vertical-align: middle;
+  max-width: 8rem; }
+  @media (min-width: 600px) {
+    .LetterThree-stamp {
+      max-width: 10rem; } }
+
+.LetterThree-stamp--tall {
+  max-width: 6rem; }
+  @media (min-width: 600px) {
+    .LetterThree-stamp--tall {
+      max-width: 9rem; } }
+
+.LetterThree-stamp--square {
+  max-width: 7rem; }
+  @media (min-width: 600px) {
+    .LetterThree-stamp--square {
+      max-width: 12rem; } }
+
+.LetterThree-stamp--landscape {
+  max-width: 11rem; }
+  @media (min-width: 600px) {
+    .LetterThree-stamp--landscape {
+      max-width: 13rem; } }
+
+.LetterThree-block {
+  margin-bottom: 3rem; }
+  @media (min-width: 600px) {
+    .LetterThree-block {
+      margin-bottom: 4rem; } }
+
+.LetterThree-block--double {
+  display: flex;
+  align-items: center;
+  justify-content: center; }
+  @media (min-width: 600px) {
+    .LetterThree-block--double {
+      justify-content: flex-end; } }
+  @media (max-width: 599px) {
+    .LetterThree-block--double .LetterThree-stamp {
+      max-width: 9rem; } }
+
+.LetterThree-doubleItem {
+  align-items: center;
+  display: flex;
+  flex-basis: calc(100% - 1rem);
+  flex-wrap: wrap;
+  justify-content: center;
+  max-width: 15rem; }
+  .LetterThree-doubleItem:first-child {
+    margin-right: 2rem; }
+  @media (min-width: 600px) {
+    .LetterThree-doubleItem {
+      flex-basis: 50%;
+      max-width: 100%; } }
+
+.LetterThree-doubleItemText {
+  flex-basis: 100%; }
+  @media (min-width: 600px) {
+    .LetterThree-doubleItemText {
+      flex-basis: 50%;
+      text-align: right;
+      padding-right: 1rem; } }
+
+@media (min-width: 600px) {
+  .LetterThree-block--two {
+    text-align: right;
+    padding-right: 10%; } }
+
+@media (min-width: 600px) {
+  .LetterThree-block--four {
+    display: flex;
+    align-items: center;
+    justify-content: center; } }
+
+@media (min-width: 600px) {
+  .LetterThree-blockFourStamps {
+    margin-left: 2rem; } }
+
 .LetterFive {
   padding: 2rem;
   margin: 0 auto;
@@ -617,6 +712,61 @@ p {
     .LetterFive {
       padding: 5rem 4rem; } }
 
+.LetterFive-date {
+  text-align: right;
+  margin-bottom: 2rem; }
+
+.LetterFive-header {
+  margin-bottom: 2rem; }
+
+.LetterFive-top {
+  margin-bottom: 4rem; }
+  @media (min-width: 600px) {
+    .LetterFive-top {
+      display: flex;
+      align-items: center; } }
+
+.LetterFive-topText {
+  flex-shrink: 0;
+  margin-bottom: 1rem; }
+  @media (min-width: 600px) {
+    .LetterFive-topText {
+      margin-right: 2rem; } }
+
+.LetterFive-bottom {
+  margin-bottom: 4rem; }
+  @media (min-width: 600px) {
+    .LetterFive-bottom {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap; } }
+
+@media (min-width: 600px) {
+  .LetterFive-bottomLeft {
+    flex-basis: 40%;
+    padding-right: 2rem; } }
+
+.LetterFive-bottomText {
+  margin-bottom: 1rem; }
+  @media (min-width: 600px) {
+    .LetterFive-bottomText {
+      margin-bottom: 2rem; } }
+
+@media (min-width: 600px) {
+  .LetterFive-bottomImageSmall {
+    display: none; } }
+
+.LetterFive-bottomImageLargeWrapper {
+  display: none;
+  margin: 2rem 0; }
+  @media (min-width: 600px) {
+    .LetterFive-bottomImageLargeWrapper {
+      flex-basis: 60%;
+      display: block; } }
+
+.LetterFive-signature {
+  text-align: right; }
+
 .Response {
   padding: 2rem;
   margin: 0 auto;
@@ -628,6 +778,9 @@ p {
   @media (min-width: 900px) {
     .Response {
       padding: 5rem 4rem; } }
+  @media (max-width: 599px) {
+    .Response {
+      margin-top: 1rem; } }
 
 .Response-content {
   font-family: "Roboto Slab", serif;
@@ -643,7 +796,7 @@ p {
 
 .Response-date {
   text-indent: 2em;
-  margin-bottom: 2em; }
+  margin-bottom: 3rem; }
 
 .Response-signature {
   margin-top: 2em;

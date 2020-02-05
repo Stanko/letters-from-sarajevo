@@ -1,3 +1,82 @@
 .LetterFive {
   @include container;
 }
+
+.LetterFive-date {
+  text-align: right;
+  margin-bottom: 2rem;
+}
+
+.LetterFive-header {
+  margin-bottom: 2rem;
+}
+
+.LetterFive-top {
+  margin-bottom: 4rem;
+
+  @include md {
+    display: flex;
+    align-items: center;
+  }
+}
+
+.LetterFive-topText {
+  flex-shrink: 0;
+  margin-bottom: 1rem;
+
+  @include md {
+    margin-right: 2rem;
+  }
+}
+
+.LetterFive-topImage {
+
+}
+
+.LetterFive-bottom {
+  margin-bottom: 4rem;
+
+  @include md {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+}
+
+.LetterFive-bottomLeft {
+  @include md {
+    flex-basis: 40%;
+    padding-right: 2rem;
+  }
+}
+
+.LetterFive-bottomText {
+  margin-bottom: 1rem;
+
+  @include md {
+    margin-bottom: 2rem;
+  }
+}
+
+.LetterFive-bottomImageSmall {
+  @include md {
+    display: none;
+  }
+}
+
+.LetterFive-bottomImageLargeWrapper {
+  display: none;
+  margin: 2rem 0;
+
+  @include md {
+    flex-basis: 60%;
+    display: block;
+  }
+}
+
+.LetterFive-bottomImageLarge {
+}
+
+.LetterFive-signature {
+  text-align: right;
+}

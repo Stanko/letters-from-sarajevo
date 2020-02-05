@@ -1,5 +1,9 @@
 .Response {
   @include container;
+
+  @include sm-only {
+    margin-top: 1rem;
+  }
 }
 
 .Response-content {
@@ -20,7 +24,7 @@
 
 .Response-date {
   text-indent: 2em;
-  margin-bottom: 2em;
+  margin-bottom: 3rem;
 }
 
 .Response-signature {

@@ -1,0 +1,115 @@
+.LetterThree {
+  @include container;
+
+  @include sm-only {
+    font-size: 2rem;
+    text-align: center;
+  }
+}
+
+.LetterThree-stamp {
+  vertical-align: middle;
+  max-width: 8rem;
+
+  @include md {
+    max-width: 10rem;
+  }
+}
+
+.LetterThree-stamp--tall {
+  max-width: 6rem;
+
+  @include md {
+    max-width: 9rem;
+  }
+}
+
+.LetterThree-stamp--square {
+  max-width: 7rem;
+
+  @include md {
+    max-width: 12rem;
+  }
+}
+
+.LetterThree-stamp--landscape {
+  max-width: 11rem;
+
+  @include md {
+    max-width: 13rem;
+  }
+}
+
+.LetterThree-block {
+  margin-bottom: 3rem;
+
+  @include md {
+    margin-bottom: 4rem;
+  }
+}
+
+.LetterThree-block--double {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  @include md {
+    justify-content: flex-end;
+  }
+
+  .LetterThree-stamp {
+    @include sm-only {
+      max-width: 9rem;
+    }
+  }
+}
+
+.LetterThree-doubleItem {
+  align-items: center;
+  display: flex;
+  flex-basis: calc(100% - 1rem);
+  flex-wrap: wrap;
+  justify-content: center;
+  max-width: 15rem;
+
+  &:first-child {
+    margin-right: 2rem;
+  }
+
+  @include md {
+    flex-basis: 50%;
+    max-width: 100%;
+  }
+}
+
+.LetterThree-doubleItemText {
+  flex-basis: 100%;
+
+  @include md {
+    flex-basis: 50%;
+    text-align: right;
+    padding-right: 1rem;
+  }
+}
+
+
+.LetterThree-block--two {
+  @include md {
+    text-align: right;
+    padding-right: 10%;
+  }
+}
+
+.LetterThree-block--four {
+  @include md {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}
+
+.LetterThree-blockFourStamps {
+  @include md {
+    margin-left: 2rem;
+  }
+}

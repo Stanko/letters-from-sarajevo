@@ -1,20 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Patrick+Hand+SC&display=swap&subset=latin-ext');
 @import url('https://fonts.googleapis.com/css?family=Roboto+Slab:300&display=swap&subset=latin-ext');
 
-html {
-  font-size: 10px;
-
-  @include xl {
-    font-size: 12px;
-  }
-}
-
-body {
-  // -moz-osx-font-smoothing: grayscale;
-  font-size: 2.4rem;
-  font-family: $font-family-handwriting;
-}
-
 img {
   max-width: 100%;
   width: auto;
