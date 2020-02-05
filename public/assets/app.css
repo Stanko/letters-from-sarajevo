@@ -605,6 +605,18 @@ p {
     .Sentence-imageWrapper--window {
       margin-top: 0; } }
 
+.LetterFive {
+  padding: 2rem;
+  margin: 0 auto;
+  width: 100%;
+  max-width: 70rem; }
+  @media (min-width: 600px) {
+    .LetterFive {
+      padding: 3rem; } }
+  @media (min-width: 900px) {
+    .LetterFive {
+      padding: 5rem 4rem; } }
+
 .Response {
   padding: 2rem;
   margin: 0 auto;
@@ -625,8 +637,17 @@ p {
     .Response-content {
       font-size: 2rem; } }
   .Response-content p {
-    padding-bottom: 1em;
-    line-height: 1.4em; }
+    margin-bottom: 0.5em;
+    line-height: 1.4em;
+    text-indent: 2em; }
+
+.Response-date {
+  text-indent: 2em;
+  margin-bottom: 2em; }
+
+.Response-signature {
+  margin-top: 2em;
+  text-indent: 2em; }
 
 .Pagination {
   display: flex;

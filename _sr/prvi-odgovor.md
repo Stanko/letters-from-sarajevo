@@ -5,10 +5,24 @@ nextLink: /sr/drugo-pismo
 title: Prvi odgovor
 ---
 
+<div class="Response-date">18. februar 1993.</div>
+
 Dragi tata,
 
-Morbi commodo augue eu vehicula rutrum. Donec at varius odio. Mauris sodales nec tellus a mollis. In scelerisque venenatis nulla, sit amet lacinia quam consectetur in. Maecenas a ultrices enim. Curabitur vitae sem dui. Phasellus vitae tristique libero.
+Dobili smo tvoje pismo! Mama kaže da ti odgovor ne mogu poslati, jer pisma u Sarajevo ne stižu. Zato ti pišem u svesci, pa ćeš ti sve ovo pročitati kada dođeš. 
 
-Proin non finibus dui. Aliquam posuere libero non purus viverra, vitae venenatis mauris rutrum. Ut felis dui, aliquam et neque vitae, viverra bibendum arcu. Suspendisse accumsan massa vitae ipsum ultrices, eu luctus nisi vehicula. Suspendisse quis justo porta, laoreet nisi eu, molestie ligula. Nam vitae diam eget tortor porta ornare at eu sem. Pellentesque elementum varius sagittis.
+Prošlo je već šest mjeseci otkako si mamu, Staneta i mene ispratio na onaj autobus bez i jednog stakla. Kad je autobus krenuo, gledao sam kako mašeš sve dok se nisi izgubio u daljini. "Dobro je što autobus nema stakala", pomislio sam, "inače bih povraćao." Prolazili smo pored vojnika koji su nam povremeno nešto dobacivali. Svaki put su uniforme bile drugačije boje.
 
-Morbi tincidunt tellus ac sapien luctus sodales. Pellentesque vehicula eu sem eu maximus. Nulla facilisi. In et tempor quam, ut euismod leo. Donec interdum, lorem sagittis rhoncus consectetur, purus erat iaculis nisi, eget vestibulum purus neque vel ante. Proin leo felis, tristique quis nibh id, posuere placerat dui. Pellentesque tincidunt fermentum pharetra. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ac lorem sed urna pretium pretium. Aliquam erat volutpat. 
+Onda se autobus pokvario. Baš pored vojnika. Naredili su nam da izađemo iz njega i počeli da pretresaju prtljag. Jedan od njih, s kaubojskim šeširom i brkovima, razgovarao je na engleskom s vojnicima u plavim beretkama. Primijetio je da ga posmatram, pomilovao me po glavi i rekao: "Ne boj se, neće tebe niko da dira."
+
+Čekali smo u gomili dok se nije pojavio novi autobus. Bio je već pun i imao je sva stakla. Znao sam da će mi u njemu biti muka.
+
+Mama se probila kroz gužvu i uspjela da nas među prvima ubaci unutra. Doviknula nam je da će odmah doći, čim se pobrine za ruksake. Stajao sam sa Stanetom u prepunom autobusu i pokušavao da vidim vrata. Kada je autobus krenuo, počeo sam grčevito da plačem, stežući Stanetova ramena. Sljedeće čega se sjećam bile su ruke nepoznatih ljudi oko mene, koji su me tapšali po ramenima i govorili: "Ne boj se, evo ti mame, ušla je..."
+
+Povraćao sam u tom autobusu.
+
+Sjećam se da si na rastanku rekao da ćeš nam se uskoro pridružiti, i da do tada uživamo u Beogradu. Ali mi nismo u Beogradu. živimo u selu Divljani, pored Niša, u odmaralištu koje se zove "Sutjeska". Nadam se da ćeš uskoro i ti biti ovdje.
+
+Puno pozdrava od mame, Staneta i mene.
+
+<div class="Response-signature">Kosta</div>

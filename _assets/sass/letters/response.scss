@@ -12,7 +12,18 @@
   }
 
   p {
-    padding-bottom: 1em;
+    margin-bottom: 0.5em;
     line-height: 1.4em;
+    text-indent: 2em;
   }
+}
+
+.Response-date {
+  text-indent: 2em;
+  margin-bottom: 2em;
+}
+
+.Response-signature {
+  margin-top: 2em;
+  text-indent: 2em;
 }
