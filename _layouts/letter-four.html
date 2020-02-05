@@ -1,0 +1,96 @@
+---
+layout: default
+---
+
+<div class="LetterFour">
+  <div class="LetterFour-date">{{ page.letterDate }}</div>
+
+  <div class="LetterFour-header">{{ page.header }}</div>
+
+  {% assign sentence = page.sentenceOne %}
+  {% include sentence-with-images.html %}
+
+  {% assign sentence = page.sentenceTwo %}
+  {% include sentence-with-images.html %}
+
+  {% assign sentence = page.sentenceThree %}
+  {% include sentence-with-images.html %}
+
+  {% assign sentence = page.sentenceFour %}
+  {% include sentence-with-images.html %}
+
+  <div class="LetterFour-lastSentence">
+    <div class="LetterFour-lastSentenceBlock">
+      <p class="">
+        {{ page.sentenceLeft.text }}
+      </p>
+      <img
+        class=""
+        src="{{ page.sentenceLeft.image }}"
+        alt="{{ page.sentenceLeft.alt }}"
+      />
+    </div>
+
+    <div class="LetterFour-lastSentenceBlock">
+      <p class="">
+        {{ page.sentenceRight.text }}
+      </p>
+      <img
+        class=""
+        src="{{ page.sentenceRight.image }}"
+        alt="{{ page.sentenceRight.alt }}"
+      />
+    </div>
+  </div>
+
+  <div class="LetterFour-blocks">
+    <div class="LetterFour-block LetterFour-block--one">
+      <p class="LetterFour-text">
+        {{ page.blockOne.text }}
+      </p>
+      <img
+        class="LetterFour-image LetterFour-image--one"
+        src="{{ page.blockOne.image }}"
+        alt="{{ page.blockOne.alt }}"
+      />
+    </div>
+
+    <div class="LetterFour-block LetterFour-block--two">
+      <p class="LetterFour-text">
+        {{ page.blockTwo.text }}
+      </p>
+      <img
+        class="LetterFour-image"
+        src="{{ page.blockTwo.image }}"
+        alt="{{ page.blockTwo.alt }}"
+      />
+      <p class="LetterFour-text">
+        {{ page.blockTwo.textBottom }}
+      </p>
+    </div>
+
+    <div class="LetterFour-block LetterFour-block--three">
+      <p class="LetterFour-text">
+        {{ page.blockThree.text }}
+      </p>
+      <img
+        class="LetterFour-image"
+        src="{{ page.blockThree.image }}"
+        alt="{{ page.blockThree.alt }}"
+      />
+    </div>
+
+    <div class="LetterFour-block LetterFour-block--four">
+      <p class="LetterFour-text">
+        {{ page.blockFour.text }}
+      </p>
+      <img
+        class="LetterFour-image"
+        src="{{ page.blockFour.image }}"
+        alt="{{ page.blockFour.alt }}"
+      />
+    </div>
+  </div>
+
+  {% include pagination.html %}
+</div>

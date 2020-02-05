@@ -27,7 +27,8 @@ exclude:
   - Gemfile
   - README.md
 
-# plugins:
+plugins:
+  - jekyll-redirect-from
 
 # Plugins which are activated by default on GitHub pages
 

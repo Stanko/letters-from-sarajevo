@@ -1,9 +1,5 @@
 .Response {
   @include container;
-
-  @include sm-only {
-    margin-top: 1rem;
-  }
 }
 
 .Response-content {
@@ -13,6 +9,11 @@
 
   @include md {
     font-size: 2rem;
+  }
+
+  h1 {
+    font-size: 1.5em;
+    margin-bottom: 1em;
   }
 
   p {

@@ -2,6 +2,13 @@
   @include container;
 }
 
+.LetterTwo .Sentence {
+  @include md {
+    margin-bottom: 1rem;
+  }
+}
+
+
 .LetterTwo .Sentence:first-child {
   margin-bottom: 5rem;
 }

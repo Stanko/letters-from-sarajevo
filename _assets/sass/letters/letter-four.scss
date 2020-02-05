@@ -1,0 +1,77 @@
+.LetterFour {
+  @include container;
+}
+
+.LetterFour-date {
+  margin-bottom: 5rem;
+  text-align: right;
+}
+
+.LetterFour-header {
+  margin-bottom: 5rem;
+}
+
+.LetterFour-lastSentence {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  img {
+    margin-top: 1rem;
+
+    @include md {
+      max-width: 50%;
+    }
+  }
+}
+
+.LetterFour-lastSentenceBlock {
+  flex-basis: calc(50% - 1.5rem);
+}
+
+.LetterFour-blocks {
+  margin-top: 10rem;
+
+  @include md {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+}
+
+.LetterFour-block {
+  margin-bottom: 6rem;
+
+  @include md {
+    margin-bottom: 8rem;
+    flex-basis: calc(50% - 1.5rem);
+  }
+
+  @include lg {
+    flex-basis: calc(50% - 2.5rem);
+  }
+
+  &:last-child {
+    margin-bottom: 0;
+  }
+}
+
+.LetterFour-block--three {
+  @include md {
+    margin-bottom: 0;
+  }
+}
+
+
+.LetterFour-image {
+  display: block;
+  margin: 2rem auto 0;
+
+  @include lg {
+    max-width: 100%;
+  }
+}
+
+.LetterFour-block--two .LetterFour-image {
+  margin-bottom: 2rem;
+}

@@ -1,6 +1,7 @@
 ---
 layout: response
 prevLink: /sr/peto-pismo
+nextLink: /sr/epilog
 title: Peto odgovor
 ---
 
@@ -17,5 +18,3 @@ Stane i Ivica su se mnogo bolje proveli: plesali su sa svim mlađim djevojčicam
 Jeleni ništa nisam rekao, i sada se družimo kao i ranije. Ne znam da li ću uspjeti da skupim hrabrost i kažem joj šta osjećam. Bilo bi mi lakše da si ti ovdje, sa mnom.
 
 <div class="Response-signature">Kosta</div>
-
-<a href="/sr/epilog">Epilog</a>

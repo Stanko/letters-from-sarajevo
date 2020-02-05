@@ -1,23 +1,16 @@
 .Sentence {
-  font-size: 2rem;
-  margin-bottom: 2.5rem;
+  margin-bottom: 3rem;
   text-align: center;
 
   @include md {
-    font-size: 2.2rem;
-    margin-bottom: 1rem;
     text-align: left;
-  }
-
-  @include lg {
-    font-size: 2.4rem;
   }
 }
 
 .Sentence-imageWrapper {
   align-items: center;
   display: inline-flex;
-  margin: 0 0.5rem 0;
+  margin: 0.2rem 0.5rem;
   max-width: 4rem;
   vertical-align: middle;
 
@@ -75,6 +68,22 @@
 
     @include lg {
       max-height: 11rem;
+    }
+  }
+}
+
+.Sentence-imageWrapper--xwide {
+  max-width: 22rem;
+
+  @include lg {
+    max-width: 25rem;
+  }
+
+  .Sentence-image {
+    max-height: 12rem;
+
+    @include lg {
+      max-height: 14rem;
     }
   }
 }
