@@ -1,37 +1,21 @@
 .Navigation {
-  position: fixed;
   width: 100%;
-  box-shadow: 0 0 0.4rem #ddd;
-  background: $white;
-  z-index: 1;
-  font-size: 1.8rem;
+  border-bottom: thin solid $gray-border;
+  background: $gray-light;
+  padding: 2rem 0;
 }
 
 .Navigation-content {
-  padding: 1rem 2rem;
+  @include container;
   margin: 0 auto;
   width: 100%;
   max-width: 70rem;
-  display: flex;
-
-  @include md {
-    padding: 1.5rem 3rem;
-  }
-
-  @include lg {
-    padding: 1.5rem 4rem;
-  }
 }
 
 .Navigation-link {
-  text-decoration: none;
-  color: $black;
+  @include link;
 }
 
-.Navigation-link--home {
-  margin-right: auto;
-
-  @include md {
-    font-size: 2.4rem;
-  }
+.Navigation-separator {
+  margin: 0 0.5rem;
 }

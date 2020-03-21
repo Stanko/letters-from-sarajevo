@@ -1,5 +1,4 @@
 <nav class="Pagination">
-  <div class="Pagination-separator">* * *</div>
   {% if page.prevLink %}
     <a
       class="Pagination-link Pagination-link--prev"
@@ -14,7 +13,14 @@
   {% endif %}
 
   <div class="Pagination-imageWrapper">
-    <img src="/public/img/letter.png" aria-hidden />
+    <a
+      href="/"
+      class="Pagination-homeLink"
+      title="{{ site.homeLinkText }}"
+      aria-label="{{ site.homeLinkText }}"
+    >
+      <img src="/public/img/letter.png" aria-hidden />
+    </a>
   </div>
 
   {% if page.nextLink %}

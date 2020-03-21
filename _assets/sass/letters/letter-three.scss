@@ -1,5 +1,5 @@
 .LetterThree {
-  @include container;
+  @include letter;
 
   @include sm-only {
     font-size: 2rem;

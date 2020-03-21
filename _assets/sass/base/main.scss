@@ -6,8 +6,12 @@ img {
   width: auto;
 }
 
-a {
-  transition: background 250ms, color 250ms, border 250ms;
+body {
+  background: $gray-light;
+}
+
+.Content {
+  background: $white;
 }
 
 .Container {
@@ -18,4 +22,19 @@ a {
 .turbolinks-progress-bar {
   height: 0.5rem;
   background-color: $black;
+}
+
+.NotFound {
+  @include response;
+
+  h1 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+  }
+
+  a {
+    @include link;
+    margin-top: 3rem;
+    display: inline-block;
+  }
 }

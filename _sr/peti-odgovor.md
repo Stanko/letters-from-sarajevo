@@ -2,7 +2,7 @@
 layout: response
 prevLink: /sr/peto-pismo
 nextLink: /sr/epilog
-title: Peto odgovor
+title: Peti odgovor
 ---
 
 <div class="Response-date">17. januar 1994.</div>

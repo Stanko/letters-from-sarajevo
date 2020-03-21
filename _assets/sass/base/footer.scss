@@ -1,0 +1,29 @@
+.Footer {
+  width: 100%;
+  border-top: thin solid $gray-border;
+  background: $gray-light;
+  padding: 4rem 0;
+  color: $gray;
+  line-height: 1.6em;
+  font-size: 1.8rem;
+
+  @include md {
+    padding: 5rem 0;
+  }
+
+  @include lg {
+    padding: 6rem 0;
+  }
+
+  a {
+    @include link;
+    margin-top: 0.5rem;
+  }
+}
+
+.Footer-nav {
+  margin-top: 1rem;
+  display: inline-flex;
+  flex-direction: column;
+  align-items: flex-start;
+}

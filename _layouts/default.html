@@ -12,13 +12,22 @@ layout: compress
 
     <link rel="stylesheet" href="{{ "/public/assets/app.css" | relative_url }}">
 
-    <title>{{ site.title | append: " &middot; " | append: page.title }}</title>
+    <title>
+      {{ site.title }}
+      {% if page.title %}
+        {{ "" | append: " &middot; " | append: page.title }}
+      {% endif %}
+    </title>
     <script src="{{ "/public/assets/app.js" | relative_url  }}"></script>
   </head>
 
   <body>
     {% include navigation.html %}
-    {{ content }}
 
+    <div class="Content">
+      {{ content }}
+    </div>
+
+    {% include footer.html %}
   </body>
 </html>

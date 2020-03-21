@@ -1,0 +1,20 @@
+---
+layout: default
+---
+
+<div class="Home">
+  <div class="Home-content">
+    <div class="Home-top">
+      <div class="Container">
+        <h1 class="Home-title">{{ page.homeTitle }}</h1>
+        <div class="Home-author">{{ page.homeAuthor }}</div>
+      </div>
+    </div>
+    <div class="Container">
+      <p class="Home-text">{{ page.homeText }}</p>
+      <p class="Home-dedication">{{ page.homeDedication }}</p>
+    </div>
+  </div>
+
+  {% include first-letter-link.html %}
+</div>

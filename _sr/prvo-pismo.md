@@ -1,6 +1,7 @@
 ---
 layout: letter-one
 nextLink: /sr/prvi-odgovor
+
 title: Prvo pismo
 
 header: Dragi Kole i Stane,

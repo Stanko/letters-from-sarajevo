@@ -8,9 +8,7 @@ html {
 
 body {
   // -moz-osx-font-smoothing: grayscale;
-  font-size: 2.4rem;
-  font-family: $font-family-handwriting;
-  line-height: 1.1em;
+  @include typewriter-font;
 }
 
 h1,
@@ -26,4 +24,9 @@ h6 {
 
 p {
   margin: 0;
+}
+
+a {
+  transition: background 300ms, color 300ms, border 300ms;
+  text-decoration: none;
 }

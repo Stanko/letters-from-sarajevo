@@ -1,15 +1,5 @@
 .Response {
-  @include container;
-}
-
-.Response-content {
-  font-family: $font-family-serif;
-  font-weight: $font-weight-serif;
-  font-size: 1.8rem;
-
-  @include md {
-    font-size: 2rem;
-  }
+  @include response;
 
   h1 {
     font-size: 1.5em;

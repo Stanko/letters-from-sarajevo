@@ -1,0 +1,13 @@
+<div class="Footer">
+  <div class="Container">
+    <p>
+      {{ site.belgrade }} 2020.
+    </p>
+    <nav class="Footer-nav">
+      {% if page.url != '/' %}
+      <a href="/">{{ site.homeLinkText }}</a>
+      {% endif %}
+      <a href="{{ site.aboutLink }}">{{ site.aboutText }}</a>
+    </nav>
+  </div>
+</div>

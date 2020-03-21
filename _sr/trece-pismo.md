@@ -4,7 +4,6 @@ prevLink: /sr/drugi-odgovor
 nextLink: /sr/treci-odgovor
 title: Treće pismo
 ---
-
 <div class="LetterThree">
   <div class="LetterFive-date">
     Sarajevo, 5.VII '93.

@@ -1,0 +1,79 @@
+# -------------- LANGUAGE SPECIFIC BLOCK
+
+title: Letters from Sarajevo
+
+url: "https://lettersfromsarajevo.com" # the base hostname & protocol for your site, e.g. http://example.com
+
+firstLetterLink: "/en/first-letter"
+firstLetterText: "The first letter"
+
+prevLinkText: Previous letter
+nextLinkText: Next letter
+
+homeLinkText: Home page
+
+aboutText: About the book and the website
+aboutLink: /en/about
+
+belgrade: Belgrade
+
+
+collections:
+  en:
+    output: true
+    permalink: /en/:name/
+
+# -------------- END OF LANGUAGE SPECIFIC BLOCK
+
+baseurl: "" # the subpath of your site, e.g. /blog
+
+# Exclude from processing.
+exclude:
+  - _assets
+  - .cache
+  - node_modules
+  - package-lock.json
+  - package.json
+  - .editorconfig
+  - Gemfile.lock
+  - Gemfile
+  - README.md
+  - english
+  - .browserlistrc
+  - .gitignore
+  - .nvmrc
+
+plugins:
+  - jekyll-redirect-from
+
+# Plugins which are activated by default on GitHub pages
+
+# - jekyll-coffeescript
+# - jekyll-gist
+# - jekyll-github-metadata
+# - jekyll-relative-links
+# - jekyll-optional-front-matter
+# - jekyll-readme-index
+# - jekyll-default-layout
+# - jekyll-titles-from-headings
+
+# Plugins allowed by GitHub Pages
+
+# - jekyll-coffeescript
+# - jekyll-feed
+# - jekyll-gist
+# - jekyll-github-metadata
+# - jekyll-paginate
+# - jekyll-redirect-from
+# - jekyll-seo-tag
+# - jekyll-sitemap
+# - jekyll-avatar
+# - jemoji
+# - jekyll-mentions
+# - jekyll-relative-links
+# - jekyll-optional-front-matter
+# - jekyll-readme-index
+# - jekyll-default-layout
+# - jekyll-titles-from-headings
+# - jekyll-include-cache
+# - jekyll-octicons

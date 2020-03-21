@@ -1,19 +1,31 @@
 # -------------- LANGUAGE SPECIFIC BLOCK
+
 title: Pisma iz Sarajeva
 
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://pismaizsarajeva.com" # the base hostname & protocol for your site, e.g. http://example.com
+
+firstLetterLink: "/sr/prvo-pismo"
+firstLetterText: "Prvo pismo"
 
 prevLinkText: Prethodno pismo
 nextLinkText: Sledeće pismo
 
-# -------------- END OF LANGUAGE SPECIFIC BLOCK
+homeLinkText: Početna strana
 
-baseurl: "" # the subpath of your site, e.g. /blog
+aboutText: O knjizi i sajtu
+aboutLink: /sr/o-knjizi-i-sajtu
+
+belgrade: Beograd
+
 
 collections:
   sr:
     output: true
     permalink: /sr/:name/
+
+# -------------- END OF LANGUAGE SPECIFIC BLOCK
+
+baseurl: "" # the subpath of your site, e.g. /blog
 
 # Exclude from processing.
 exclude:
@@ -26,6 +38,10 @@ exclude:
   - Gemfile.lock
   - Gemfile
   - README.md
+  - english
+  - .browserlistrc
+  - .gitignore
+  - .nvmrc
 
 plugins:
   - jekyll-redirect-from
