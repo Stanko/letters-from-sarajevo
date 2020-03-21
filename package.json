@@ -18,9 +18,11 @@
     "watch-assets": "rm -rf ./public/assets && parcel watch _assets/js/app.js --no-source-maps --out-dir public/assets --public-url /public/assets",
     "serve": "bundle exec jekyll serve --incremental --livereload --host 0.0.0.0",
     "build-jekyll": "bundle exec jekyll build",
-    "start": "rm -rf _site && npm run build-assets && npm run serve",
-    "build": "rm -rf _site && npm run build-assets && npm run build-jekyll",
-    "dev": "rm -rf _site && npm run watch-assets & npm run serve"
+    "clean": "rm -rf ./_site",
+    "start": "npm run clean && npm run build-assets && npm run serve",
+    "build": "npm run clean && npm run build-assets && npm run build-jekyll",
+    "build-english": "rm ./index.html ./404.html ./_config.yml && cp ./english/* ./ && npm run clean && npm run build-assets && npm run build-jekyll",
+    "dev": "npm run clean && npm run watch-assets & npm run serve"
   },
   "author": "Stanko / Gaston / Uroš",
   "license": "MIT"
