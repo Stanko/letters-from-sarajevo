@@ -1,9 +1,4 @@
-import Turbolinks from "turbolinks";
-import run from "./run"
-
 import "../sass/index.scss";
-
-Turbolinks.start();
 
 let isVhListenerSet = false;
 
@@ -13,10 +8,5 @@ function setVhUnit() {
   isVhListenerSet = true;
 }
 
-run(() => {
-  if (!isVhListenerSet) {
-    console.log('123')
-    window.addEventListener('resize', setVhUnit);
-  }
-  setVhUnit();
-});
+window.addEventListener('resize', setVhUnit);
+setVhUnit();

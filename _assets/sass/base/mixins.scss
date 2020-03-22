@@ -49,12 +49,20 @@
   @include md {
     font-size: 2rem;
   }
+
+  @include lg {
+    font-size: 2.2rem;
+  }
 }
 
 @mixin handwritten-font {
   font-size: 2.3rem;
   font-family: $font-family-handwriting;
   line-height: 1.1em;
+
+  @include md {
+    font-size: 2.5rem;
+  }
 }
 
 @mixin link {

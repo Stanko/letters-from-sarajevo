@@ -12,6 +12,7 @@ body {
 
 .Content {
   background: $white;
+  overflow: hidden;
 }
 
 .Container {
@@ -33,7 +34,6 @@ body {
   }
 
   a {
-    @include link;
     margin-top: 3rem;
     display: inline-block;
   }

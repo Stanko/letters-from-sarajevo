@@ -33,6 +33,7 @@
   border: thin solid darken($gray-light, 5);
 
   &:hover {
+    border: thin solid darken($gray-light, 5);
     background: darken($gray-light, 5);
   }
 }
@@ -57,6 +58,7 @@
 }
 
 .Pagination-homeLink {
+  border: none;
   transition: transform 300ms;
 
   &:hover {

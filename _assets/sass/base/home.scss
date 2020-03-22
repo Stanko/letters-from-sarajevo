@@ -41,16 +41,23 @@
 }
 
 .Home-start {
-  display: block;
-  position: relative;
+  border: none;
   color: $black;
+  display: block;
   margin: 3rem auto 0;
+  position: relative;
+  transform: translate3d(0, 1rem, 0);
+  transition: transform 300ms;
+
+  &:hover {
+    transform: translate3d(0, 0, 0);
+  }
 }
 
 .Home-startImage {
   display: block;
-  transition: opacity 300ms;
   opacity: 0.9;
+  transition: opacity 300ms;
 
   .Home-start:hover & {
     opacity: 1;
@@ -59,9 +66,9 @@
 
 .Home-startText {
   font-size: 2rem;
+  left: 30%;
   position: absolute;
   top: 45%;
-  left: 30%;
   transform: rotate(6deg);
   z-index: 1;
 

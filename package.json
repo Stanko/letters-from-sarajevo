@@ -3,14 +3,12 @@
   "version": "1.0.0",
   "description": "",
   "main": "_assets/js/index.js",
-  "dependencies": {
-    "turbolinks": "^5.2.0"
-  },
+  "dependencies": {},
   "devDependencies": {
-    "autoprefixer": "^9.7.3",
+    "autoprefixer": "^9.7.4",
     "babel-core": "^6.26.3",
     "babel-preset-env": "^1.7.0",
-    "node-sass": "^4.13.0",
+    "node-sass": "^4.13.1",
     "parcel-bundler": "^1.12.4"
   },
   "scripts": {

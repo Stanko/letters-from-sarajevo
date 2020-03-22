@@ -29,6 +29,7 @@ baseurl: "" # the subpath of your site, e.g. /blog
 
 # Exclude from processing.
 exclude:
+  - _sr # language specific
   - _assets
   - .cache
   - node_modules

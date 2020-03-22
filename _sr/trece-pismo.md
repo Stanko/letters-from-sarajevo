@@ -94,10 +94,15 @@ title: Treće pismo
     </div>
   </div>
 
-  <div class="LetterThree-block">
+  <div class="LetterThree-bottom">
     <img
-      class="LetterThree-stamp LetterThree-stamp--landscape"
+      class="LetterThree-stamp LetterThree-stamp--landscape LetterThree-stamp--bottom"
       src="/public/img/letter-03/plane.png"
+      alt=""
+    />
+    <img
+      class="LetterThree-tadija"
+      src="/public/img/letter-03/tadija.png"
       alt=""
     />
   </div>
