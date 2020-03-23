@@ -14,13 +14,13 @@ title: Treće pismo
     <img 
       class="LetterThree-stamp LetterThree-stamp--tall" 
       src="/public/img/letter-03/football-player.jpg"
-      aria-hidden 
+      aria-hidden="true" 
     />
     i Stane
     <img
       class="LetterThree-stamp LetterThree-stamp--square"
       src="/public/img/letter-03/olimpics.jpg"
-      aria-hidden
+      aria-hidden="true"
     />,
   </div>
 

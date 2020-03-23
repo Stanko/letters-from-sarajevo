@@ -16,10 +16,11 @@ layout: compress
     <title>
       {{ site.title }}
       {% if page.title %}
-        {{ "" | append: " &middot; " | append: page.title }}
+        {{ " &middot; " | append: page.title }}
       {% endif %}
     </title>
 
+    <meta property="description" content="{{ site.metaDescription }}">
     <meta property="og:site_name" content="{{ site.title }}">
     <meta property="og:title" content="{{ site.title }}">
     <meta property="og:description" content="{{ site.metaDescription }}">
