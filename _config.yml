@@ -37,7 +37,7 @@ baseurl: "" # the subpath of your site, e.g. /blog
 
 # Exclude from processing.
 exclude:
-  # - _en # LANGUAGE SPECIFIC
+  - _en # language specific
   - _assets
   - .cache
   - node_modules
@@ -51,6 +51,7 @@ exclude:
   - .browserlistrc
   - .gitignore
   - .nvmrc
+  - prepare-english-build.sh
 
 plugins:
   - jekyll-redirect-from

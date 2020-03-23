@@ -51,6 +51,7 @@ exclude:
   - .browserlistrc
   - .gitignore
   - .nvmrc
+  - english.sh
 
 plugins:
   - jekyll-redirect-from
