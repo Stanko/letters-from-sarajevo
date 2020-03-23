@@ -11,7 +11,11 @@ layout: default
       </div>
     </div>
     <div class="Container">
-      <p class="Home-text">{{ page.homeText }}</p>
+      {% for part in page.homeText %}
+        <p class="Home-text">
+          {{ part }}
+        </p>
+      {% endfor %}
       <p class="Home-dedication">{{ page.homeDedication }}</p>
     </div>
   </div>

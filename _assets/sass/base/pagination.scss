@@ -55,6 +55,10 @@
   @include md {
     width: 5rem;
   }
+
+  img {
+    width: 100%;
+  }
 }
 
 .Pagination-homeLink {

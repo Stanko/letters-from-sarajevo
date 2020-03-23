@@ -3,11 +3,19 @@
   flex-direction: column;
   justify-content: space-between;
   background: $white;
+
+  @include ie {
+    display: block;
+  }
 }
 
 @media (max-height: 1200px) {
   .Home {
     @include vh(100, min-height);
+
+    @include ie {
+      min-height: unset;
+    }
   }
 }
 
@@ -15,6 +23,7 @@
   border-bottom: thin solid $gray-border;
   background: $gray-light;
   padding: 3rem 0 2.5rem;
+  margin-bottom: 3rem;
 }
 
 .Home-title {
@@ -27,8 +36,7 @@
 }
 
 .Home-text {
-  margin-top: 3rem;
-  max-width: 50rem;
+  margin-bottom: 1em;
 }
 
 .Home-dedication {
@@ -58,6 +66,8 @@
   display: block;
   opacity: 0.9;
   transition: opacity 300ms;
+  width: 100%;
+  height: auto;
 
   .Home-start:hover & {
     opacity: 1;

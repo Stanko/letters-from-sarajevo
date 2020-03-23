@@ -4,6 +4,14 @@ title: Pisma iz Sarajeva
 
 url: "https://pismaizsarajeva.com" # the base hostname & protocol for your site, e.g. http://example.com
 
+metaDescription: >-
+  Početak rata u Bosni.
+  Desetogodišnji Kosta sa majkom i mlađim bratom napušta Sarajevo.
+  Otac ostaje u opsednutom, bombardovanom gradu i zajedno sa ostalim Sarajlijama preživljava teške dane.
+  Uprkos tome, sinovima šalje šaljiva pisma, želeći da ih razveseli i ohrabri.
+  Desetak godina kasnije, koristeći autentična očeva pisma, Kosta sastavlja priču svog detinjstva."
+metaImage: pisma-iz-sarajeva.jpg
+
 firstLetterLink: "/sr/prvo-pismo"
 firstLetterText: "Prvo pismo"
 

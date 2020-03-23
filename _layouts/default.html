@@ -4,10 +4,11 @@ layout: compress
 
 <!DOCTYPE html>
 <html lang="{{ page.lang | default: site.lang | default: "en" }}">
-
   <head>
     <meta charset="utf-8">
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link href="http://gmpg.org/xfn/11" rel="profile">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <link rel="stylesheet" href="{{ "/public/assets/app.css" | relative_url }}">
@@ -18,7 +19,15 @@ layout: compress
         {{ "" | append: " &middot; " | append: page.title }}
       {% endif %}
     </title>
-    <script src="{{ "/public/assets/app.js" | relative_url  }}"></script>
+
+    <meta property="og:site_name" content="{{ site.title }}">
+    <meta property="og:title" content="{{ site.title }}">
+    <meta property="og:description" content="{{ site.metaDescription }}">
+    <meta property="og:image" content="/public/img/{{ site.metaImage }}">
+    <meta property="og:url" content="{{ site.url }}">
+    <meta name="twitter:title" content="{{ site.title }}">
+    <meta name="twitter:description" content={{ site.metaDescription }}>
+    <meta property="twitter:image" content="/public/img/{{ site.metaImage }}">
   </head>
 
   <body>
@@ -29,5 +38,7 @@ layout: compress
     </div>
 
     {% include footer.html %}
+
+    <script src="{{ "/public/assets/app.js" | relative_url  }}"></script>
   </body>
 </html>

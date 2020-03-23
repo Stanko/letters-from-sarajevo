@@ -1,8 +1,13 @@
 # Letters From Sarajevo
 
-Work in progress!
+* Serbian version: https://pismaizsarajeva.com
+* English version: https://lettersfromsarajevo.com
 
 Adaptation of the book "Letters From Sarajevo" for web.
+
+## License
+
+[CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/)
 
 ## Setup
 

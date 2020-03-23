@@ -1,15 +1,84 @@
 .About {
+  padding-bottom: 4rem;
+
+  @include md {
+    padding-bottom: 5rem;
+  }
+
+  @include lg {
+    padding-bottom: 6rem;
+  }
+
   p {
+    font-size: 1.8rem;
+    line-height: 1.4em;
     margin-bottom: 1em;
+
+    @include md {
+    }
+
+    @include lg {
+      font-size: 2rem;
+    }
   }
 
   h2 {
     font-size: 2.5rem;
     margin: 4rem 0 2rem;
+
+    @include md {
+      margin-top: 5rem;
+    }
+
+    @include lg {
+      margin-top: 6rem;
+    }
   }
 
   h3 {
     font-size: 2.2rem;
     margin: 2rem 0 1rem;
   }
+
+  img {
+    display: block;
+  }
+}
+
+.About-book {
+}
+
+.About-drawings {
+  margin-bottom: 1em;
+
+  @include lg {
+    width: 150%;
+    margin-left: -25%;
+    display: flex;
+    justify-content: space-between;
+  }
+}
+
+
+.About-drawings img {
+  @include lg {
+    flex-basis: calc(50% - 1rem);
+    width: calc(50% - 1rem);
+    max-width: calc(50% - 1rem);
+  }
+}
+
+.About-signature {
+  color: #aaa;
+  font-size: 0.8em;
+  line-height: 1.4em;
+  margin-top: 10rem;
+  text-align: right;
+}
+
+img.About-monkey {
+  height: 1em;
+  width: auto;
+  display: inline;
+  transform: translateY(0.2em);
 }

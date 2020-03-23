@@ -31,6 +31,10 @@
 .Sentence-image {
   max-height: 4rem;
 
+  @include ie {
+    width: 100%;
+  }
+
   @include md {
     max-height: 5rem;
   }

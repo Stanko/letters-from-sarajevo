@@ -22,6 +22,6 @@
     "build-english": "rm ./index.html ./404.html ./_config.yml && cp ./english/* ./ && npm run clean && npm run build-assets && npm run build-jekyll",
     "dev": "npm run clean && npm run watch-assets & npm run serve"
   },
-  "author": "Stanko / Gaston / Uroš",
-  "license": "MIT"
+  "author": "Stanko",
+  "license": "CC BY-NC 4.0"
 }

@@ -30,7 +30,7 @@
 }
 
 .LetterFive-topImage {
-
+  width: 100%;
 }
 
 .LetterFive-bottom {
@@ -45,8 +45,10 @@
 
 .LetterFive-bottomLeft {
   @include md {
-    flex-basis: 40%;
-    padding-right: 2rem;
+    flex-basis: calc(40% - 2rem);
+    max-width: calc(40% - 2rem);
+    width: calc(40% - 2rem);
+    margin-right: 2rem;
   }
 }
 
@@ -70,11 +72,14 @@
 
   @include md {
     flex-basis: 60%;
+    max-width: 60%;
+    width: 60%;
     display: block;
   }
 }
 
 .LetterFive-bottomImageLarge {
+  width: 100%;
 }
 
 .LetterFive-signature {

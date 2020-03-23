@@ -31,3 +31,19 @@ a {
   transition: background 300ms, color 300ms, border 300ms;
   text-decoration: none;
 }
+
+hr {
+  border: none;
+  border-top: thin solid $gray-border;
+  margin: 4rem auto;
+  width: 10rem;
+  position: relative;
+
+  @include md {
+    margin: 5rem auto;
+  }
+
+  @include lg {
+    margin: 6rem auto;
+  }
+}
