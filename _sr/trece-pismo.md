@@ -95,16 +95,19 @@ title: Treće pismo
   </div>
 
   <div class="LetterThree-bottom">
-    <img
-      class="LetterThree-stamp LetterThree-stamp--landscape LetterThree-stamp--bottom"
-      src="/public/img/letter-03/plane.jpg"
-      alt=""
-    />
-    <img
-      class="LetterThree-tadija"
-      src="/public/img/letter-03/tadija.png"
-      alt=""
-    />
+    Puno pozdrava
+    <div class="LetterThree-bottomImages">
+      <img
+        class="LetterThree-stamp LetterThree-stamp--landscape LetterThree-stamp--bottom"
+        src="/public/img/letter-03/plane.jpg"
+        aria-hidden="true"
+      />
+      <img
+        class="LetterThree-tadija"
+        src="/public/img/letter-03/tadija.png"
+        alt="Tata koji mašta o avionu za Divljanu"
+      />
+    </div>
   </div>
 
   {% include pagination.html %}

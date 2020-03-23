@@ -115,16 +115,27 @@
 }
 
 .LetterThree-bottom {
-  position: relative;
-  max-width: 32rem;
   margin: 4rem auto 0;
 
   @include md {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     margin-top: 5rem;
   }
 
   @include lg {
     margin-top: 6rem;
+  }
+}
+
+.LetterThree-bottomImages {
+  position: relative;
+  margin: 1rem auto 0;
+  max-width: 32rem;
+
+  @include md {
+    margin: 0;
   }
 }
 

@@ -50,7 +50,7 @@ sentenceThree:
 sentenceFour:
   - Sada sam u Kosinoj sobi
   - image: /public/img/letter-02/bed.png
-    alt: Tadija se drži za glavu u krevetu.
+    alt: Tata se drži za glavu u krevetu.
     modifier: xl
    
 sentenceFive:
