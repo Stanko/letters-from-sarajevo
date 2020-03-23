@@ -21,7 +21,7 @@ blockThree:
   alt: Ljudi pretrčavaju ulicu, pored table 'Pazi snajper'.
   text: >-
     Preko mnogih raskršća i dalje se mora pretrčavati.
-    Umesto semafora stoje table s upozorenjima.
+    Umjesto semafora stoje table s upozorenjima.
 
 blockFour:
   image: /public/img/letter-01/04.png
@@ -31,6 +31,6 @@ blockFour:
     Sačuvalo se samo poneko.
     Jedno takvo (jedna mala breza) vidio sam kod veterinarskog fakulteta.
     Na njoj je tabla s natpisom:
-  treeInscription: Ko poseče ovu brezu biće mu poslednja!
+  treeInscription: Ko posiječe ovu brezu biće mu poslednja!
 
 ---
