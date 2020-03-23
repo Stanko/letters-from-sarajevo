@@ -20,7 +20,7 @@ blockThree:
   image: /public/img/letter-01/03.png
   alt: Ljudi pretrčavaju ulicu, pored table 'Pazi snajper'.
   text: >-
-    Preko mnogih raskršća i dalje je mora pretrčavati.
+    Preko mnogih raskršća i dalje se mora pretrčavati.
     Umesto semafora stoje table s upozorenjima.
 
 blockFour:

@@ -10,6 +10,7 @@ metaDescription: >-
   Otac ostaje u opsednutom, bombardovanom gradu i zajedno sa ostalim Sarajlijama preživljava teške dane.
   Uprkos tome, sinovima šalje šaljiva pisma, želeći da ih razveseli i ohrabri.
   Desetak godina kasnije, koristeći autentična očeva pisma, Kosta sastavlja priču svog detinjstva."
+
 metaImage: pisma-iz-sarajeva.jpg
 
 firstLetterLink: "/sr/prvo-pismo"
@@ -23,8 +24,7 @@ homeLinkText: Početna strana
 aboutText: O knjizi i sajtu
 aboutLink: /sr/o-knjizi-i-sajtu
 
-belgrade: Beograd
-
+footerText: U znak sećanja na Kostu, Beograd 2020.
 
 collections:
   sr:
@@ -37,7 +37,7 @@ baseurl: "" # the subpath of your site, e.g. /blog
 
 # Exclude from processing.
 exclude:
-  - _en # LANGUAGE SPECIFIC
+  # - _en # LANGUAGE SPECIFIC
   - _assets
   - .cache
   - node_modules

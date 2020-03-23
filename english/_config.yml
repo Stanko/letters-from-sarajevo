@@ -4,8 +4,17 @@ title: Letters from Sarajevo
 
 url: "https://lettersfromsarajevo.com" # the base hostname & protocol for your site, e.g. http://example.com
 
-firstLetterLink: "/en/first-letter"
-firstLetterText: "The first letter"
+metaDescription: >-
+  The beginning of the Bosnian war.
+  Ten-year-old Kosta flees Sarajevo, together with his mother and his younger brother.
+  His father stays in the besieged and bombarded city.
+  In spite of everything, he writes funny letters to his sons, trying to cheer them up.
+  Ten years later, using authentic letters written by his father, Kosta writes the story of his childhood.
+
+metaImage: letters-from-sarajevo.jpg
+
+firstLetterLink: "/en/letter-one"
+firstLetterText: "Letter one"
 
 prevLinkText: Previous letter
 nextLinkText: Next letter
@@ -15,8 +24,7 @@ homeLinkText: Home page
 aboutText: About the book and the website
 aboutLink: /en/about
 
-belgrade: Belgrade
-
+footerText: In loving memory of Kosta, Belgrade 2020.
 
 collections:
   en:

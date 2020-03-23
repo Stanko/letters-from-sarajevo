@@ -21,7 +21,7 @@ Mama se probila kroz gužvu i uspjela da nas među prvima ubaci unutra. Doviknul
 
 Povraćao sam u tom autobusu.
 
-Sjećam se da si na rastanku rekao da ćeš nam se uskoro pridružiti, i da do tada uživamo u Beogradu. Ali mi nismo u Beogradu. živimo u selu Divljani, pored Niša, u odmaralištu koje se zove "Sutjeska". Nadam se da ćeš uskoro i ti biti ovdje.
+Sjećam se da si na rastanku rekao da ćeš nam se uskoro pridružiti, i da do tada uživamo u Beogradu. Ali mi nismo u Beogradu. Živimo u selu Divljani, pored Niša, u odmaralištu koje se zove "Sutjeska". Nadam se da ćeš uskoro i ti biti ovdje.
 
 Puno pozdrava od mame, Staneta i mene.
 

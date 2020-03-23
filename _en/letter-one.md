@@ -1,35 +1,37 @@
 ---
 layout: letter-one
-nextLink: /en/first-letter
+nextLink: /en/reply-one
 
-title: The first letter
+title: Letter one
 
 header: Dear Kole and Stane,
 
 blockOne:
   image: /public/img/letter-01/01.png
-  alt: Čovek vuče kanistere sa vodom, dok mašta o pivu.
-  text: Vode nema. Vučemo je s drugog kraja grada.
+  alt: Man drags canisters with water, while daydreaming about a pint of beer.
+  text: There is no water. We have to drag it across town.
 
 blockTwo:
   image: /public/img/letter-01/02.png
-  alt: Miš beži u rupu, dok vuče čoveka koji mu se drži za red.
-  text: Granate i dalje padaju. Usavršili smo načine spašavanja.
+  alt: Mouse runs into a mouse hole and drags a man who is holding to it's tail.
+  text: The bombs are still falling. We specialized our runaway methods.
 
 blockThree:
   image: /public/img/letter-01/03.png
-  alt: Ljudi pretrčavaju ulicu, pored table 'Pazi snajper'.
+  alt: People running across the street, next to a warning which says "Watch out for snipers"
   text: >-
-    Preko mnogih raskršća i dalje je mora pretrčavati.
-    Umesto semafora stoje table s upozorenjima.
+    We still have to run across many streets.
+    Instead of traffic lights, there are warnings: "Watch out for snipers".
+
 
 blockFour:
   image: /public/img/letter-01/04.png
-  alt: Poslednje drvo u parku, mala breza sa natpisom 'Ko posiječe ovu brezu biće mu poslednja'.
+  alt: The last tree in the park, tiny birch with the sign which says "If you cut down this tree, it will be your last one"
   text: >-
-    Zimus je gotovo svo gradsko drveće posječeno za ogreva.
-    Sačuvalo se samo poneko.
-    Jedno takvo (jedna mala breza) vidio sam kod veterinarskog fakulteta.
-    Na njoj je tabla s natpisom.
+    This winter almost all trees in the city were cut down for heating. 
+    Only few are left.
+    I saw one of those (a tiny birch) near the University.
+    It had a sign with inscription on it:<br/>"If you cut down this tree, it will be your last one".
+
 
 ---

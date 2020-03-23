@@ -22,6 +22,7 @@
     }
   }
 
+  h1,
   h2 {
     font-size: 2.5rem;
     margin: 4rem 0 2rem;
@@ -57,10 +58,14 @@
     display: flex;
     justify-content: space-between;
   }
+
+  img {
+    width: 100%;
+  }
 }
 
 
-.About-drawings img {
+.About-drawing {
   @include lg {
     flex-basis: calc(50% - 1rem);
     width: calc(50% - 1rem);
