@@ -70,7 +70,7 @@ blockThree:
   alt: Čovek sa igračkom i zvečkom.
   text: >-
     Protekla godina bila je ovdje vrlo teška, neki nisu izdržali,
-    malo su se "prehladili"
+    malo su se "prehladili".
 
 blockFour:
   image: /public/img/letter-04/icarus.png
