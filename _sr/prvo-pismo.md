@@ -31,6 +31,6 @@ blockFour:
     Sačuvalo se samo poneko.
     Jedno takvo (jedna mala breza) vidio sam kod veterinarskog fakulteta.
     Na njoj je tabla s natpisom:
-  treeInscription: Ko posiječe ovu brezu biće mu poslednja!
+  treeInscription: Ko posječe ovu brezu biće mu posljednja!
 
 ---
