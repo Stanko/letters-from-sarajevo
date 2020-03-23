@@ -37,9 +37,7 @@ Rezultat je fantastičan, i ispod možete videti poređenje jednog od originalni
   </div>  
 </div>
 
-Ako želite da pomognete da se knjiga prevede na još neki jezik, kao i za sva ostala pitanja i sugestije možete me kontaktirati na:
-<br/>
-in<script>document.write('&#102;&#111;')</script><img alt="@" src="/public/img/monkey.png" class="About-monkey">pismaizsarajeva<script>document.write('.c')</script>om
+Za sada, ako želite da pomognete da se knjiga prevede na još neki jezik ili date sugestiju molim Vas da to učinite na GitHub-u, tako što ćete <a href="https://github.com/Stanko/letters-from-sarajevo/issues">ovde</a> kreirati novi *Issue*.
 
 Hvala Vam na interesovanju!
 
