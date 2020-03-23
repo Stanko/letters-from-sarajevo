@@ -20,7 +20,7 @@ layout: compress
       {% endif %}
     </title>
 
-    <meta property="description" content="{{ site.metaDescription }}">
+    <meta name="description" content="{{ site.metaDescription }}">
     <meta property="og:site_name" content="{{ site.title }}">
     <meta property="og:title" content="{{ site.title }}">
     <meta property="og:description" content="{{ site.metaDescription }}">
@@ -48,9 +48,9 @@ layout: compress
   <body>
     {% include navigation.html %}
 
-    <div class="Content">
+    <main class="Content">
       {{ content }}
-    </div>
+    </main>
 
     {% include footer.html %}
 
