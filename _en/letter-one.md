@@ -31,7 +31,8 @@ blockFour:
     This winter almost all trees in the city were cut down for heating. 
     Only few are left.
     I saw one of those (a tiny birch) near the University.
-    It had a sign with inscription on it:<br/>"If you cut down this tree, it will be your last one".
+    It had a sign with inscription on it:
+  treeInscription: If you cut down this tree, it will be your last one!
 
 
 ---

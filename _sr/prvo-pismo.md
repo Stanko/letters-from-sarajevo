@@ -30,6 +30,7 @@ blockFour:
     Zimus je gotovo svo gradsko drveće posječeno za ogreva.
     Sačuvalo se samo poneko.
     Jedno takvo (jedna mala breza) vidio sam kod veterinarskog fakulteta.
-    Na njoj je tabla s natpisom.
+    Na njoj je tabla s natpisom:
+  treeInscription: Ko poseče ovu brezu biće mu poslednja!
 
 ---

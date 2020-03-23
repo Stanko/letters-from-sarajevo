@@ -122,3 +122,12 @@
     max-height: 30rem;
   }
 }
+
+.LetterOne-treeInscription {
+  font-size: 0.8em;
+  margin-bottom: 1rem;
+
+  @include md-only {
+    text-align: center;
+  }
+}

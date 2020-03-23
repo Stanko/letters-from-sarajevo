@@ -13,13 +13,13 @@ title: Treće pismo
     Dragi Kole 
     <img 
       class="LetterThree-stamp LetterThree-stamp--tall" 
-      src="/public/img/letter-03/football-player.png" 
+      src="/public/img/letter-03/football-player.jpg"
       aria-hidden 
     />
     i Stane
     <img
       class="LetterThree-stamp LetterThree-stamp--square"
-      src="/public/img/letter-03/olimpics.png"
+      src="/public/img/letter-03/olimpics.jpg"
       aria-hidden
     />,
   </div>
@@ -28,7 +28,7 @@ title: Treće pismo
     Ovdje još uvijek ne rade 
     <img 
       class="LetterThree-stamp" 
-      src="/public/img/letter-03/phone.png"
+      src="/public/img/letter-03/phone.jpg"
       alt="telefoni"
     />.
   </div>
@@ -39,7 +39,7 @@ title: Treće pismo
       <div>
         <img 
           class="LetterThree-stamp" 
-          src="/public/img/letter-03/letter.png"
+          src="/public/img/letter-03/letter.jpg"
           alt="pišete"
         />,
       </div>
@@ -48,7 +48,7 @@ title: Treće pismo
       <div class="LetterThree-doubleItemText">možda tamo nema</div>
       <img 
         class="LetterThree-stamp" 
-        src="/public/img/letter-03/postbox.png"
+        src="/public/img/letter-03/postbox.jpg"
         alt="pošte"
       />?
     </div>
@@ -59,13 +59,13 @@ title: Treće pismo
     <div class="LetterThree-blockFourStamps">
       <img 
         class="LetterThree-stamp LetterThree-stamp--landscape" 
-        src="/public/img/letter-03/tree.png"
+        src="/public/img/letter-03/tree.jpg"
         alt="napolju" 
       />
       ili
       <img
         class="LetterThree-stamp LetterThree-stamp--landscape"
-        src="/public/img/letter-03/home.png"
+        src="/public/img/letter-03/home.jpg"
         alt="u kući"
       />?
     </div>
@@ -78,7 +78,7 @@ title: Treće pismo
       </div>
       <img 
         class="LetterThree-stamp" 
-        src="/public/img/letter-03/chess.png"
+        src="/public/img/letter-03/chess.jpg"
         alt="šah"
       />
     </div>
@@ -88,7 +88,7 @@ title: Treće pismo
       </div>
       <img 
         class="LetterThree-stamp" 
-        src="/public/img/letter-03/boxing.png"
+        src="/public/img/letter-03/boxing.jpg"
         alt="boks"
       />
     </div>
@@ -97,7 +97,7 @@ title: Treće pismo
   <div class="LetterThree-bottom">
     <img
       class="LetterThree-stamp LetterThree-stamp--landscape LetterThree-stamp--bottom"
-      src="/public/img/letter-03/plane.png"
+      src="/public/img/letter-03/plane.jpg"
       alt=""
     />
     <img
