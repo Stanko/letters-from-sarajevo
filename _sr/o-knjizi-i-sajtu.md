@@ -5,7 +5,7 @@ title: O knjizi i sajtu
 
 # O knjizi
 
-Devedesetih godina, za vreme rata u Bosni, naš otac je ostao zaglavljen u Sarajevu, dok smo moja majka, moj brat Kosta i ja uspeli da pobengemo u Srbiju. Uprkos teškoj situaciji, naš otac nam je slao pisma - duhovita, pozitivna i puna crteža.
+Devedesetih godina, za vreme rata u Bosni, naš otac je ostao zaglavljen u Sarajevu, dok smo moja majka, moj brat Kosta i ja uspeli da pobegnemo u Srbiju. Uprkos teškoj situaciji, naš otac nam je slao pisma - duhovita, pozitivna i puna crteža.
 
 Desetak godina kasnije Zavod za udžbenike je objavio knjigu koja se sastoji od probranih, originalnih pisama mog oca i odgovorima koje je Kosta zapisivao u svesku.
 
