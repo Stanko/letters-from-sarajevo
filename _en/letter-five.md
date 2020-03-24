@@ -2,7 +2,7 @@
 layout: default
 prevLink: /en/reply-four
 nextLink: /en/reply-five
-title: Peto pismo
+title: Letter five
 ---
 
 <div class="LetterFive">
@@ -38,8 +38,8 @@ title: Peto pismo
         src="/public/img/letter-05/stove.png" 
       />
       <p class="LetterFive-bottomText">
-        Stove is small, black, ugly. That's why I have drawn eyebrows and nose on it.
-        On the small door it already had round holes you can see flames through.
+        The stove is small, black, ugly. That's why I have drawn eyebrows and nose on it.
+        On the small door it already had round holes that you can see flames through.
         When you open the ash tray it looks it is yawning or speaking.
         <br/>
         (Picture 2.)
