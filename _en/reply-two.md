@@ -13,7 +13,7 @@ I'm sorry for our room, but mom says that is not what is important. She says: "R
 
 Here in Divljana I made a good friend, Mihajlo. (Samir is still my best friend, although I haven't seen him since we left Sarajevo.) Mihajlo lives on the ground floor of our resort, "Sutjeska". A few days ago they found a snake in his room. I think the snake won't climb to our room on the second floor.
 
-As soon as I got to "Sutjeska", Mihajlo explained to me that we are in war with boys from the other resort, called "Igman". We immediately attacked some of them with pine cones. There were a lot of them, so we retreated and watched them from a far through Mihajlo's large binoculars. He said me is going to move away soon, and that he is going to leave me the binoculars.
+As soon as I got to "Sutjeska", Mihajlo explained to me that we are in war with boys from the other resort, called "Igman". We immediately attacked some of them with pine cones. There were a lot of them, so we retreated and watched them from a far through Mihajlo's large binoculars. He said to me that he is going to move away soon, and that he is going to leave me the binoculars.
 
 I'm proud that I belong to "Sutjeska", even though boys from "Igman" are more numerous. Excluding Mihajlo and myself, there are only two younger boys in "Sutjeska" and they are not of much use, while older ones don't participate in the war. Mihajlo and myself are leaders of "Sutjeska", while Siniša is leading "Igman" boys and he is a fourth grader like us.
 
