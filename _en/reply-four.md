@@ -5,7 +5,7 @@ nextLink: /en/letter-five
 title: Reply four
 ---
 
-<div class="Response-date">November 4, 1993.</div>
+<div class="Response-date">November 4, 1993</div>
 
 Dear daddy,
 

@@ -5,7 +5,7 @@ nextLink: /en/epilogue
 title: Reply five
 ---
 
-<div class="Response-date">January 17, 1994.</div>
+<div class="Response-date">January 17, 1994</div>
 
 Dear daddy,
 

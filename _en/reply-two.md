@@ -5,7 +5,7 @@ nextLink: /en/letter-three
 title: Reply two
 ---
 
-<div class="Response-date">June 11, 1993.</div>
+<div class="Response-date">June 11, 1993</div>
 
 Dear daddy,
 

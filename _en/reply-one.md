@@ -5,15 +5,15 @@ nextLink: /en/letter-two
 title: Reply one
 ---
 
-<div class="Response-date">February 18, 1993.</div>
+<div class="Response-date">February 18, 1993</div>
 
 Dear daddy,
 
-We got your letter! Mom told me that I can't send you a reply, as nothing gets delivered to Sarajevo. That's why I'm writing to you in a notebook, and you can read them all together when you come to us.
+We got your letter! Mom told me that I can't send you a reply, as nothing gets delivered to Sarajevo. That's why I'm writing to you in a notebook, and you will read them all of this when you come to us.
 
-It's been six months since we left Sarajevo in the bus with no windows. As the bus was leaving I was watching you wave until I lost the sight of you in the distance. "It is good windows are broken", I thought to myself, "I would be sick otherwise". We were passing by groups of soldiers, and some of them were shouting at us. Every group had their uniforms in a different color.
+It's been six months since we left Sarajevo in the windowless bus. As the bus was leaving I watched you wave until I lost sight of you in the distance. "It's good there are no windows", I thought to myself, "or else I would be sick otherwise". We passed soldiers who'd occasionally shout something at us. All of them wore different colored uniforms.
 
-And then the bus broke down, right next to a group of soldiers. They ordered everyone to come off the bus and started searching the baggage. One of them, with a cowboy hat and mustache was speaking in English with other soldier in blue berets. He noticed I was watching him, petted me on the head and told me: "Don't worry, everything will be alright."
+And then the bus broke down, right next to a group of soldiers. They ordered everyone to come off the bus and started searching the baggage. One of them, with a cowboy hat and a mustache was speaking in English with other soldier in blue berets. He noticed I was watching him, patted me on the head and told me: "Don't worry, everything will be alright."
 
 We waited for another bus. When it finally came, it was already crowded and its windows were in place. I knew it I would get sick in this one.
 
