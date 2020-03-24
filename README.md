@@ -1,7 +1,7 @@
 # Letters From Sarajevo
 
 * Serbian version: https://pismaizsarajeva.com
-* English version is still WIP: https://lettersfromsarajevo.com
+* English version: https://lettersfromsarajevo.com
 
 Adaptation of the book "Letters From Sarajevo" for web.
 
