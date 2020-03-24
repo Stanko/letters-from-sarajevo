@@ -24,6 +24,7 @@
 
   @include lg {
     flex-basis: calc(50% - 1.5rem);
+    width: calc(50% - 1.5rem);
   }
 
   &:last-child {
@@ -44,7 +45,7 @@
     }
 
     .LetterOne-image {
-      max-width: calc(100% - 20rem);
+      width: calc(100% - 20rem);
     }
   }
 }
@@ -69,6 +70,13 @@
       max-width: 90%;
       margin: 0 0 1rem;
     }
+  }
+}
+
+.LetterOne-blockThreeTextWrapper {
+  @include md-only {
+    width: 20rem;
+    flex-basis: 20rem;
   }
 }
 
@@ -123,11 +131,15 @@
   }
 }
 
-.LetterOne-treeInscription {
+.LetterOne-inscription {
   font-size: 0.8em;
   margin-bottom: 1rem;
+  line-height: 1.1em;
+
 
   @include md-only {
-    text-align: center;
+    .LetterOne-block--four & {
+      text-align: center;
+    }
   }
 }

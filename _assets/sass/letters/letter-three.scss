@@ -92,6 +92,22 @@
   }
 }
 
+.LetterThree-doubleItemText--narrow {
+  @include md {
+    flex-basis: 35%;
+  }
+}
+
+.LetterThree-doubleItemTextBottom {
+  flex-basis: 100%;
+
+  @include md {
+    flex-basis: auto;
+    text-align: left;
+    padding-left: 0.5rem;
+  }
+}
+
 
 .LetterThree-block--two {
   @include md {

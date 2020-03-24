@@ -74,7 +74,7 @@ blockThree:
 
 blockFour:
   image: /public/img/letter-04/icarus.png
-  alt: Poslednje drvo u parku, mala breza sa natpisom 'Ko posiječe ovu brezu biće mu poslednja'.
+  alt: Tata mašta o Ikarovim krilima.
   text: >-
     Puno vas pozdravljam!<br/>
     Nadam se da ćemo se uskoro vidjeti.

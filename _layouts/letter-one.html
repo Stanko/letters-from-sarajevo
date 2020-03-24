@@ -29,9 +29,16 @@ layout: default
     </div>
 
     <div class="LetterOne-block LetterOne-block--three">
-      <p class="LetterOne-text">
-        {{ page.blockThree.text }}
-      </p>
+      <div class="LetterOne-blockThreeTextWrapper">
+        <p class="LetterOne-text">
+          {{ page.blockThree.text }}
+        </p>
+        {% if page.blockThree.warningInscription %}
+          <p class="LetterOne-inscription">
+            {{ page.blockThree.warningInscription }}
+          </p>
+        {% endif %}
+      </div>
       <img
         class="LetterOne-image"
         src="{{ page.blockThree.image }}"
@@ -43,7 +50,7 @@ layout: default
       <p class="LetterOne-text">
         {{ page.blockFour.text }}
       </p>
-      <p class="LetterOne-treeInscription">
+      <p class="LetterOne-inscription">
         {{ page.blockFour.treeInscription }}
       </p>
       <img

@@ -25,6 +25,9 @@ aboutText: About the book and the website
 aboutLink: /en/about
 
 footerText: In loving memory of Kosta, Belgrade 2020.
+footerCopyright: All of the content and site's code are under <a href="https://creativecommons.org/licenses/by-nc/4.0/">CC BY-NC 4.0</a> license.
+
+# analyticsCode:
 
 collections:
   en:
