@@ -8,13 +8,13 @@ header: Dear Kole and Stane,
 
 blockOne:
   image: /public/img/letter-01/01.png
-  alt: Man drags canisters with water, while daydreaming about a pint of beer.
-  text: There is no water. We have to drag it across town.
+  alt: Man carries canisters with water, while daydreaming about a pint of beer.
+  text: There is no water. We have to carry it across town.
 
 blockTwo:
   image: /public/img/letter-01/02.png
   alt: Mouse runs into a mouse hole and drags a man who is holding to it's tail.
-  text: The bombs are still falling. We perfected our runaway methods.
+  text: The shells are still falling. We perfected our rescue techniques.
 
 blockThree:
   image: /public/img/letter-01/03.png
@@ -29,10 +29,10 @@ blockFour:
   image: /public/img/letter-01/04.png
   alt: The last tree in the park, tiny birch with the sign which says "If you cut down this tree, it will be your last one"
   text: >-
-    This winter almost all trees in the city were cut down for heating. 
+    This winter almost all the trees in the city were cut down for heating. 
     Only a few are left.
     I saw one of those (a tiny birch) near the University.
-    It had a sign with inscription on it:
+    It had a sign which read:
   treeInscription: If you cut down this tree, it will be your last one!
 
 
