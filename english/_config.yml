@@ -6,7 +6,7 @@ url: "https://lettersfromsarajevo.com" # the base hostname & protocol for your s
 
 metaDescription: >-
   The beginning of the Bosnian war.
-  Ten-year-old Kosta flees Sarajevo, together with his mother and his younger brother.
+  Ten year old Kosta flees Sarajevo, together with his mother and his younger brother.
   His father stays in the besieged and bombarded city.
   In spite of everything, he writes funny letters to his sons, trying to cheer them up.
   Ten years later, using authentic letters written by his father, Kosta writes the story of his childhood.
@@ -27,7 +27,11 @@ aboutLink: /en/about
 footerText: In loving memory of Kosta, Belgrade 2020.
 footerCopyright: All of the content and site's code are under <a href="https://creativecommons.org/licenses/by-nc/4.0/">CC BY-NC 4.0</a> license.
 
-# analyticsCode:
+analyticsCode: UA-65023927-4
+
+languages:
+  - link: https://pismaizsarajeva.com
+    text: Serbian
 
 collections:
   en:

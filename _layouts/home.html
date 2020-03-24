@@ -5,9 +5,12 @@ layout: default
 <div class="Home">
   <div class="Home-content">
     <div class="Home-top">
-      <div class="Container">
-        <h1 class="Home-title">{{ page.homeTitle }}</h1>
-        <div class="Home-author">{{ page.homeAuthor }}</div>
+      <div class="Home-topContent Container">
+        <div>
+          <h1 class="Home-title">{{ page.homeTitle }}</h1>
+          <div class="Home-author">{{ page.homeAuthor }}</div>
+        </div>
+        {% include language-selector.html %}
       </div>
     </div>
     <div class="Container">

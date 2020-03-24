@@ -3,13 +3,29 @@
   border-bottom: thin solid $gray-border;
   background: $gray-light;
   padding: 2rem 0;
+
+  .LanguageSelector {
+    margin-top: 1rem;
+
+    @include md {
+      margin: 0;
+    }
+  }
 }
 
 .Navigation-content {
   @include container;
   margin: 0 auto;
   width: 100%;
-  max-width: 70rem;
+
+  @include md {
+    display: flex;
+    align-items: center;
+  }
+}
+
+.Navigation-title {
+  margin-right: auto;
 }
 
 .Navigation-link {

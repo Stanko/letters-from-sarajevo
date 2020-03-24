@@ -3,7 +3,9 @@
   <nav class="Navigation-content">
     <a class="Navigation-link"href="/">{{ site.title }}</a>
     <span class="Navigation-separator">&bull;</span>
-    {{ page.title }}
+    <span class="Navigation-title">{{ page.title }}</span>
+
+    {% include language-selector.html %}
   </nav>
 </div>
 {% endif %}

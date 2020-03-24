@@ -29,6 +29,10 @@ footerCopyright: Sav sadržaj i kod sajta su pod <a href="https://creativecommon
 
 analyticsCode: UA-65023927-3
 
+languages:
+  - link: https://lettersfromsarajevo.com
+    text: English
+
 collections:
   sr:
     output: true

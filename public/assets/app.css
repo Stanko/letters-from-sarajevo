@@ -539,6 +539,11 @@ hr {
   border-bottom: thin solid #ddd;
   background: #f7f7f7;
   padding: 2rem 0; }
+  .Navigation .LanguageSelector {
+    margin-top: 1rem; }
+    @media (min-width: 600px) {
+      .Navigation .LanguageSelector {
+        margin: 0; } }
 
 .Navigation-content {
   margin: 0 auto;
@@ -547,12 +552,18 @@ hr {
   padding-left: 2rem;
   padding-right: 2rem;
   margin: 0 auto;
-  width: 100%;
-  max-width: 70rem; }
+  width: 100%; }
   @media (min-width: 600px) {
     .Navigation-content {
       padding-left: 3rem;
       padding-right: 3rem; } }
+  @media (min-width: 600px) {
+    .Navigation-content {
+      display: flex;
+      align-items: center; } }
+
+.Navigation-title {
+  margin-right: auto; }
 
 .Navigation-link {
   border-bottom: thin solid #f7f7f7;
@@ -563,6 +574,9 @@ hr {
 
 .Navigation-separator {
   margin: 0 0.5rem; }
+
+.LanguageSelector {
+  font-size: 0.8em; }
 
 .Home {
   display: flex;
@@ -586,6 +600,18 @@ hr {
   background: #f7f7f7;
   padding: 3rem 0 2.5rem;
   margin-bottom: 3rem; }
+
+.Home-topContent .LanguageSelector {
+  margin-top: 1rem; }
+  @media (min-width: 600px) {
+    .Home-topContent .LanguageSelector {
+      margin: 0; } }
+
+@media (min-width: 600px) {
+  .Home-topContent {
+    display: flex;
+    justify-content: space-between;
+    align-items: center; } }
 
 .Home-title {
   font-size: 3rem;

@@ -26,6 +26,22 @@
   margin-bottom: 3rem;
 }
 
+.Home-topContent  {
+  .LanguageSelector {
+    margin-top: 1rem;
+
+    @include md {
+      margin: 0;
+    }
+  }
+
+  @include md {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+}
+
 .Home-title {
   font-size: 3rem;
   margin-bottom: 0.5rem;
