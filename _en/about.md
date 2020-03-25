@@ -20,7 +20,7 @@ The website was created as we wanted to share this story with everyone.
 
 It is very hard to transfer the book of this form to a website. The difference between English and Serbian languages didn't help either. I've done the best I could, but I still recommend you experience *the Letters* on larger screens, instead of a mobile phone.
 
-All of the content and website's code are available on [GitHub](https://github.com/Stanko/letters-from-sarajevo) under [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/) liense.
+All of the content and website's code are available on [GitHub](https://github.com/Stanko/letters-from-sarajevo) under [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/) license.
 
 ## Drawings
 
