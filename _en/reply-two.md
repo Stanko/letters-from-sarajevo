@@ -7,7 +7,7 @@ title: Reply two
 
 <div class="Response-date">June 11, 1993</div>
 
-Dear daddy,
+Dear dad,
 
 I'm sorry about our room, but mom says that is not what is important. She says: "The room doesn't matter as long as we all get together again".
 

@@ -8,7 +8,7 @@ title: Reply three
 <div class="Response-date">August 10, 1993</div>
 
 
-Dear daddy,
+Dear dad,
 
 Your letter arrived while mom and I were in the hospital. (Meanwhile granny Ruža from our room was watching Stane.)
 

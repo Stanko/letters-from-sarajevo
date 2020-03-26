@@ -7,7 +7,7 @@ title: Reply four
 
 <div class="Response-date">November 4, 1993</div>
 
-Dear daddy,
+Dear dad,
 
 I was happy about your letter, and then mom came in to the room crying. She found out uncle Grujo died. I went with her to the authorities, for her to ask a paper which allows her to travel by train for free. It took a couple of hours, and they barely gave it to her. She traveled this morning for the funeral, and told me to watch Stane. He is ooutside playing with Ivica. I'm watching them playing through the window. I haven't told Stane where mom left. I just told him she will be back tomorrow.
 

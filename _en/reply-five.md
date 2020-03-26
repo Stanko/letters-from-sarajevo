@@ -7,7 +7,7 @@ title: Reply five
 
 <div class="Response-date">January 17, 1994</div>
 
-Dear daddy,
+Dear dad,
 
 Stane and I like your stove very much. Here is the recipe for hot chocolate: take three sppons of cocoa, three spoons of powdered milk and sugar. Add a little bit of water, mix everything and heat up on the stove. (I got the recipe from granny Ruža from "Sutjeska")
 

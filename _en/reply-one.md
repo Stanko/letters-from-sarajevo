@@ -7,7 +7,7 @@ title: Reply one
 
 <div class="Response-date">February 18, 1993</div>
 
-Dear daddy,
+Dear dad,
 
 We got your letter! Mom told me that I can't send you a reply, as nothing gets delivered to Sarajevo. That's why I'm writing to you in a notebook, and you will read them all of this when you come to us.
 
