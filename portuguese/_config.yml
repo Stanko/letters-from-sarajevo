@@ -1,44 +1,44 @@
 # -------------- LANGUAGE SPECIFIC BLOCK
 
-title: Letters from Sarajevo
+title: Cartas de Sarajevo
 
-url: "https://lettersfromsarajevo.com" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://cartasdesarajevo.com.br" # the base hostname & protocol for your site, e.g. http://example.com
 
 metaDescription: >-
-  The beginning of the Bosnian war.
-  Ten year old Kosta flees Sarajevo, together with his mother and his younger brother.
-  His father stays in the besieged and bombarded city and survives the tough times with the other Sarajevans.
-  In spite of everything, he writes funny letters to his sons, trying to encourage and cheer them up.
-  Ten years later, using authentic letters written by his father, Kosta writes the story of his childhood.
+  Era o começo da Guerra da Bósnia.
+  Kosta, um garoto de dez anos, foge de Sarajevo com sua mãe e irmão mais novo.
+  Seu pai fica na cidade sitiada e constantemente bombardeada, sobrevivendo a tempos difíceis com outros sarajevanos.
+  Apesar de tudo, ele escreve divertidas cartas para seus filhos, tentando os encorajar e animar.
+  Dez anos depois, usando as cartas originais escritas por seu pai, Kosta escreve a história de sua infância.
 
 metaImage: letters-from-sarajevo.jpg
 
-firstLetterLink: "/en/letter-one"
-firstLetterText: "Letter one"
+firstLetterLink: "/ptbr/letter-one"
+firstLetterText: "Carta nº 1"
 
-prevLinkText: Previous letter
-nextLinkText: Next letter
+prevLinkText: Carta anterior
+nextLinkText: Próxima carta
 
 homeLinkText: Home page
 
-aboutText: About the book and the website
-aboutLink: /en/about
+aboutText: Sobre o livro e o website
+aboutLink: /ptbr/about
 
-footerText: In loving memory of Kosta, Belgrade 2020.
-footerCopyright: All of the content and site's code are under <a href="https://creativecommons.org/licenses/by-nc/4.0/">CC BY-NC 4.0</a> license.
+footerText: "Em memória de Kosta, Belgrado 2020."
+footerCopyright: Todo o conteúdo e o código desse site está disponível sob a licença <a href="https://creativecommons.org/licenses/by-nc/4.0/">CC BY-NC 4.0</a>.
 
-analyticsCode: UA-65023927-4
+analyticsCode: UA-65023927-5
 
 languages:
+  - link: https://lettersfromsarajevo.com
+    text: English
   - link: https://pismaizsarajeva.com
-    text: Serbian
-  - link: https://cartasdesarajevo.com.br
-    text: Português (BR)
+    text: Srpski
 
 collections:
-  en:
+  ptbr:
     output: true
-    permalink: /en/:name/
+    permalink: /ptbr/:name/
 
 # -------------- END OF LANGUAGE SPECIFIC BLOCK
 

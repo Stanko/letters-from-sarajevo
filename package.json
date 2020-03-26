@@ -20,6 +20,7 @@
     "start": "npm run clean && npm run build-assets && npm run serve",
     "build": "npm run clean && npm run build-assets && npm run build-jekyll",
     "build-english": "sh prepare-english-build.sh && npm run clean && npm run build-assets && npm run build-jekyll",
+    "build-portuguese": "sh prepare-portuguese-build.sh && npm run clean && npm run build-assets && npm run build-jekyll",
     "dev": "npm run clean && npm run watch-assets & npm run serve"
   },
   "author": "Stanko",
