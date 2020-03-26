@@ -38,7 +38,7 @@ sentenceTwo:
 sentenceThree:
   - image: /public/img/letter-02/tadija-1.png
     alt: I
-  - was at the University.
+  - was at University.
   - image: /public/img/letter-02/rocket-2.png
     alt: Rocket
   - has
