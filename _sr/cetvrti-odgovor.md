@@ -1,5 +1,6 @@
 ---
 layout: response
+lang: sr
 prevLink: /sr/cetvrto-pismo
 nextLink: /sr/peto-pismo
 title: Četvrti odgovor

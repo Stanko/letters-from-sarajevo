@@ -1,5 +1,6 @@
 ---
 layout: letter-two
+lang: sr
 prevLink: /sr/prvi-odgovor
 nextLink: /sr/drugi-odgovor
 title: Drugo pismo

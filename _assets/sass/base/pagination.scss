@@ -30,11 +30,11 @@
   padding-bottom: 0.6rem;
   font-size: 2.7rem;
   background: $gray-light;
-  border: thin solid darken($gray-light, 5);
+  border: thin solid $gray-hover;
 
   &:hover {
-    border: thin solid darken($gray-light, 5);
-    background: darken($gray-light, 5);
+    border: thin solid $gray-hover;
+    background: $gray-hover;
   }
 }
 

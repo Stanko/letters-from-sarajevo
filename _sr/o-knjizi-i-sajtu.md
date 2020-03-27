@@ -1,5 +1,6 @@
 ---
 layout: about
+lang: sr
 title: O knjizi i sajtu
 ---
 

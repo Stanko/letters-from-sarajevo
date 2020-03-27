@@ -1,5 +1,6 @@
 ---
 layout: default
+lang: sr
 prevLink: /sr/cetvrti-odgovor
 nextLink: /sr/peti-odgovor
 title: Peto pismo

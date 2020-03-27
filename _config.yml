@@ -32,6 +32,13 @@ analyticsCode: UA-65023927-3
 languages:
   - link: https://lettersfromsarajevo.com
     text: English
+    flag: gb.svg
+  # - link: https://lettersfromsarajevo.com/pt-br/
+  #   text: Português do Brasil
+  #   flag: br.svg
+  - link: https://pismaizsarajeva.com
+    text: Srpski
+    flag: rs.svg
 
 collections:
   sr:

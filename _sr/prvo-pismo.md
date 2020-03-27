@@ -1,5 +1,6 @@
 ---
 layout: letter-one
+lang: sr
 nextLink: /sr/prvi-odgovor
 
 title: Prvo pismo

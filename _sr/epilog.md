@@ -1,5 +1,6 @@
 ---
 layout: response
+lang: sr
 title: Epilog
 prevLink: /sr/peti-odgovor
 ---

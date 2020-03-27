@@ -1,3 +1,84 @@
 .LanguageSelector {
   font-size: 0.8em;
 }
+
+.LanguageSelector-flag {
+  width: 3rem;
+  flex-basis: 3rem;
+  margin-right: 0.8rem;
+  flex-shrink: 0;
+}
+
+.LanguageSelector-globe {
+  width: 2rem;
+
+  @include md {
+    display: block;
+    width: 3rem;
+  }
+}
+
+.LanguageSelector-text {
+  margin-left: 0.6rem;
+
+  @include md {
+    display: none;
+  }
+}
+
+[data-inclusive-menu] {
+  position: relative;
+}
+
+[data-inclusive-menu-opens] {
+  cursor: pointer;
+  margin: 0;
+  padding: 0;
+  border: none;
+  background: none;
+  transition: opacity 300ms;
+  display: flex;
+
+  &:hover,
+  &:focus,
+  &[aria-expanded="true"] {
+    opacity: 1;
+  }
+
+  @include md {
+    opacity: 0.5;
+  }
+}
+
+[data-inclusive-menu] [role="menu"] {
+  background: $gray-light;
+  border: thin solid $gray-border;
+  left: 0;
+  top: calc(100% + 1rem);
+  position: absolute;
+  width: auto;
+
+  @include md {
+    left: auto;
+    right: 0;
+  }
+}
+
+[data-inclusive-menu] [role^="menuitem"] {
+  align-items: center;
+  border: none;
+  display: flex;
+  padding: 0 0.8rem;
+  white-space: nowrap;
+  width: 13rem;
+  line-height: 0;
+  height: 3.5rem;
+
+  &:hover {
+    background: $gray-hover;
+  }
+
+  &:focus {
+    background: $gray-hover;
+  }
+}

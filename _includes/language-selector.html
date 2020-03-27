@@ -1,5 +1,32 @@
-<div class="LanguageSelector">
-  {% for language in site.languages %}
-    <a href="{{ language.link }}">{{ language.text }}</a>
-  {% endfor %}
+<div class="LanguageSelector" data-inclusive-menu>
+  <button
+    data-inclusive-menu-opens="language"
+    aria-haspopup="true"
+    aria-expanded="false"
+    aria-label="{{ site.selectLanguage | default: "Select language" }}"
+  >
+    <img class="LanguageSelector-globe" src="/public/img/globe.svg" aria-hidden="true" />
+    <span aria-hidden="true" class="LanguageSelector-text">
+      {{ site.selectLanguage | default: "Select language" }}
+    </span>
+  </button>
+  <div id="language" data-inclusive-menu-from="left" role="menu" hidden>
+    {% for language in site.languages %}
+      <a
+        role="menuitem"
+        tabindex="-1"
+        href="{{ language.link }}"
+        class="LanguageSelector-link"
+      >
+        <img
+          class="LanguageSelector-flag"
+          src="/public/img/flags/{{ language.flag }}"
+          aria-hidden="true"
+         />
+        {{ language.text }}
+      </a>
+    {% endfor %}
+  </div>
 </div>
+
+<!-- TODO add noscript version -->

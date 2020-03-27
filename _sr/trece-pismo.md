@@ -1,5 +1,6 @@
 ---
 layout: default
+lang: sr
 prevLink: /sr/drugi-odgovor
 nextLink: /sr/treci-odgovor
 title: Treće pismo

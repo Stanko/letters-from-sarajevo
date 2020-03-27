@@ -10,6 +10,15 @@ body {
   background: $gray-light;
 }
 
+* {
+  outline: none;
+}
+
+.--show-focus *:focus {
+  outline: 1px dotted rgba(0, 0, 0, 0.7);
+  outline-offset: 0.5rem;
+}
+
 .Content {
   background: $white;
   overflow: hidden;
@@ -17,12 +26,6 @@ body {
 
 .Container {
   @include container;
-}
-
-// Turbolinks progress bar
-.turbolinks-progress-bar {
-  height: 0.5rem;
-  background-color: $black;
 }
 
 .NotFound {

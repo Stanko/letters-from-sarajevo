@@ -30,8 +30,15 @@ footerCopyright: All of the content and site's code are under <a href="https://c
 analyticsCode: UA-65023927-4
 
 languages:
+  - link: https://lettersfromsarajevo.com
+    text: English
+    flag: gb.svg
+  # - link: https://lettersfromsarajevo.com/pt-br/
+  #   text: Português do Brasil
+  #   flag: br.svg
   - link: https://pismaizsarajeva.com
-    text: Serbian
+    text: Srpski
+    flag: rs.svg
 
 collections:
   en:

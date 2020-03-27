@@ -1,5 +1,6 @@
 ---
 layout: response
+lang: sr
 prevLink: /sr/peto-pismo
 nextLink: /sr/epilog
 title: Peti odgovor

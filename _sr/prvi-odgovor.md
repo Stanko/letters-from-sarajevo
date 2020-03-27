@@ -1,5 +1,6 @@
 ---
 layout: response
+lang: sr
 prevLink: /sr/prvo-pismo
 nextLink: /sr/drugo-pismo
 title: Prvi odgovor
