@@ -9,7 +9,7 @@ title: Reply five
 
 Dear dad,
 
-Stane and I like your stove very much. Here is the recipe for hot chocolate: take three sppons of cocoa, three spoons of powdered milk and sugar. Add a little bit of water, mix everything and heat up on the stove. (I got the recipe from granny Ruža from "Sutjeska")
+Stane and I like your stove very much. Here is the recipe for hot chocolate: take three spoons of cocoa, three spoons of powdered milk and sugar. Add a little bit of water, mix everything and heat up on the stove. (I got the recipe from granny Ruža from "Sutjeska")
 
 We had a new year's eve party, in the room which serves as our classroom during the day. We played cassettes and danced to the music. I wanted to tell Jelena that I love her, but I lost all courage when she appeared in a dress. She looked different somehow, like she wasn't the one I spend so much time with. It seemed Siniša figured out what is going on. He was teasing me and urged me to dance with Jelena, but alas. I was standing in the corner, watching her dance with a seventh grader from "Sutjeska". Just to think I used to fight for "Sutjeska", I was raging inside.
 

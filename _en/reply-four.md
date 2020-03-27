@@ -9,7 +9,7 @@ title: Reply four
 
 Dear dad,
 
-I was happy about your letter, and then mom came in to the room crying. She found out uncle Grujo died. I went with her to the authorities, for her to ask a paper which allows her to travel by train for free. It took a couple of hours, and they barely gave it to her. She traveled this morning for the funeral, and told me to watch Stane. He is ooutside playing with Ivica. I'm watching them playing through the window. I haven't told Stane where mom left. I just told him she will be back tomorrow.
+I was happy about your letter, and then mom came in to the room crying. She found out uncle Grujo died. I went with her to the authorities, for her to ask a paper which allows her to travel by train for free. It took a couple of hours, and they barely gave it to her. She traveled this morning for the funeral, and told me to watch Stane. He is outside playing with Ivica. I'm watching them playing through the window. I haven't told Stane where mom left. I just told him she will be back tomorrow.
 
 Two months ago we moved to "Igman", and now I'm hanging out with Siniša. In the beginning I was sad I left "Sutjeska", but now I'm proud to he part of "Igman". Boys from "Sutjeska" are attacking us cowardly with pine cones, and avoid real, open fights. I still haven't got a single letter from Mihajlo. Maybe he doesn't write to me because I became one of the *Igman*-boys, or maybe he just forgot about me. (I don't know why, but I think Samir did not forget me. He would write to me if he could.)
 

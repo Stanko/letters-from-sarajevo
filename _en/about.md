@@ -32,7 +32,7 @@ The result is marvelous, and below you can see one comparison of the original dr
     <img src="/public/img/scan.jpg" alt="Original drawing, scanned in a low resolution" />
   </div>
   <div class="About-drawing">
-    <img src="/public/img/letter-01/03.png" alt="The same drawing, redrawn by Ican" />
+    <img src="/public/img/letter-01/03.png" alt="The same drawing, redrawn by Ivan" />
   </div>  
 </div>
 
