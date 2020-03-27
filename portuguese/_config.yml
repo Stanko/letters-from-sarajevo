@@ -5,10 +5,8 @@ title: Cartas de Sarajevo
 url: "https://cartasdesarajevo.com.br" # the base hostname & protocol for your site, e.g. http://example.com
 
 metaDescription: >-
-  Era o começo da Guerra da Bósnia.
-  Kosta, um garoto de dez anos, foge de Sarajevo com sua mãe e irmão mais novo.
-  Seu pai fica na cidade sitiada e constantemente bombardeada, sobrevivendo a tempos difíceis com outros sarajevanos.
-  Apesar de tudo, ele escreve divertidas cartas para seus filhos, tentando os encorajar e animar.
+  O começo da Guerra da Bósnia.
+  Kosta, um garoto de dez anos, foge de Sarajevo com sua mãe e irmão mais novo. Seu pai fica na cidade, sitiada e bombardeada, sobrevivendo a tempos difíceis com outros sarajevanos. Apesar de tudo, ele escreve cartas divertidas para seus filhos, tentando encorajá-los e animá-los.
   Dez anos depois, usando as cartas originais escritas por seu pai, Kosta escreve a história de sua infância.
 
 metaImage: letters-from-sarajevo.jpg
@@ -64,7 +62,6 @@ exclude:
 
 plugins:
   - jekyll-redirect-from
-
 # Plugins which are activated by default on GitHub pages
 
 # - jekyll-coffeescript
