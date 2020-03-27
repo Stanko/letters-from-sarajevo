@@ -17,7 +17,7 @@ Aí o ônibus quebrou, bem ao lado de um grupo de soldados. Eles ordenaram que t
 
 Esperamos todos juntos pelo próximo ônibus. Quando ele finalmente chegou, já estava lotado e tinha janelas. Eu sabia que ia enjoar.
 
-Mamãe abriu caminho no meio da multidão e conseguimos lugar o ônibus. Ela disse que se juntaria a nós assim que pegasse nossas mochilas. Eu fiquei com Stane no um ônibus superlotado, tentando ver a porta. Quando o ônibus começou a andar, comecei a chorar, apertando os ombros de Stane. A próxima coisa que me lembro são as pessoas ao meu redor sendo afetuosas e dizendo: "Não se preocupe, olha lá, sua mãe está aqui."
+Mamãe abriu caminho no meio da multidão e conseguimos lugares no ônibus. Ela disse que se juntaria a nós assim que pegasse nossas mochilas. Eu fiquei com Stane no um ônibus superlotado, tentando ver a porta. Quando o ônibus começou a andar, comecei a chorar, apertando os ombros de Stane. A próxima coisa que me lembro são as pessoas ao meu redor sendo afetuosas e dizendo: "Não se preocupe, olha lá, sua mãe está aqui."
 
 Eu vomitei naquele ônibus.
 
