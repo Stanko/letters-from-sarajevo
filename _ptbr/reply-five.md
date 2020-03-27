@@ -2,7 +2,7 @@
 layout: response
 prevLink: /ptbr/letter-five
 nextLink: /ptbr/epilogue
-title: Resposta nº 5
+title: Quinta resposta
 ---
 
 <div class="Response-date">January 17, 1994</div>

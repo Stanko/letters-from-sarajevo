@@ -2,7 +2,7 @@
 layout: response
 prevLink: /ptbr/letter-three
 nextLink: /ptbr/letter-four
-title: Resposta nº 3
+title: Terceira resposta
 ---
 
 <div class="Response-date">10 de agosto de 1993</div>

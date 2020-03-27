@@ -2,7 +2,7 @@
 layout: letter-two
 prevLink: /ptbr/reply-one
 nextLink: /ptbr/reply-two
-title: Carta nº 2
+title: Segunda carta
 
 header: 
   - Queridos

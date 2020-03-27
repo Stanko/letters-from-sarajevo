@@ -2,7 +2,7 @@
 layout: response
 prevLink: /ptbr/letter-two
 nextLink: /ptbr/letter-three
-title: Resposta nº 2
+title: Segunda resposta
 ---
 
 <div class="Response-date">11 de junho de 1993</div>

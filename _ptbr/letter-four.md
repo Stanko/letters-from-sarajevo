@@ -2,7 +2,7 @@
 layout: letter-four
 prevLink: /ptbr/reply-three
 nextLink: /ptbr/reply-four
-title: Carta nº 4
+title: Quarta carta
 
 letterDate: Sarajevo, 20.VIII 1993
 

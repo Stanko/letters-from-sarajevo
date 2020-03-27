@@ -2,7 +2,7 @@
 layout: response
 prevLink: /ptbr/letter-one
 nextLink: /ptbr/letter-two
-title: Resposta nº 1
+title: Primeira resposta
 ---
 
 <div class="Response-date">18 de fevereiro de 1993</div>
