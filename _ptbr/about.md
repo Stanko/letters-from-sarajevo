@@ -8,7 +8,7 @@ title: Sobre
 Nos anos 90, durante a Guerra da Bósnia, nosso pai ficou em Sarajevo (Saraievo), enquanto minha mãe, meu irmão Kosta e eu conseguimos fugir
 para a Sérvia. Apesar de tudo, nosso pai nos escrevia cartas - divertidas, positivas e cheias de desenhos.
 
-Cerca de dez anos depois, o livro foi publicado. Este consiste em cartas selecionadas do meu pai e as respostas que meu irmão Kosta escrevia em um caderno.
+Cerca de dez anos depois, o livro foi publicado, consistindo em cartas selecionadas do meu pai e as respostas que meu irmão Kosta escrevia em um caderno.
 
 {:.About-book}
 ![O Livro, publicado em 2005.](/public/img/korice.jpg)
