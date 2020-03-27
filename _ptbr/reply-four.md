@@ -9,7 +9,7 @@ title: Quarta resposta
 
 Querido pai,
 
-Fiquei feliz com a sua carta, então a mamãe entrou no meu quarto chorando. Ela soube que o tio Grujo morreu. Fui com ela até as autoridades, para ela pedir um documento que a permite viajar de trem de graça. Demorou horas e eles quase não deram os documentos pra ela. Ela foi ao funeral esta manhã e me pediu para tomar conta do Stane. Ele está lá fora brincando com o Ivica. Estou os estou observando brincar pela janela. Eu não contei para o Stane onde a mamãe foi. Eu só disse a ele que ela voltará amanhã.
+Fiquei feliz com a sua carta, então a mamãe entrou no meu quarto chorando. Ela soube que o tio Grujo morreu. Fui com ela até as autoridades, para ela pedir um documento que a permite viajar de trem de graça. Demorou horas e eles quase não deram os documentos pra ela. Ela foi ao funeral esta manhã e me pediu para tomar conta do Stane. Ele está lá fora brincando com o Ivica. Os estou observando brincar pela janela. Eu não contei para o Stane onde a mamãe foi. Eu só disse a ele que ela voltará amanhã.
 
 Há dois meses, nos mudamos para o "Igman" e agora estou andando com o Siniša. No começo, fiquei chateado por deixar o "Sutjeska", mas agora tenho orgulho de pertencer ao "Igman". Os garotos do "Sutjeska" estão nos atacando covardemente com pinhas, evitando uma verdadeira luta aberta. Ainda não recebi nenhuma carta de Mihajlo. Talvez ele não tenha escrito porque descobriu que eu me tornei um "Igman", ou talvez ele só tenha se esquecido de mim. (Não sei por que, mas tenho certeza que Samir não me esqueceu. Ele escreveria para mim se pudesse.)
 
