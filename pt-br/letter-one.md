@@ -2,7 +2,7 @@
 layout: letter-one
 nextLink: /ptbr/reply-one
 
-title: Carta nº 1
+title: Primeira carta
 
 header: Queridos Kole e Stane,
 
