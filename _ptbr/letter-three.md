@@ -4,6 +4,7 @@ prevLink: /ptbr/reply-two
 nextLink: /ptbr/reply-three
 title: Terceira carta
 ---
+
 <div class="LetterThree">
   <div class="LetterFive-date">
     Sarajevo, 5.VII '93.
@@ -25,12 +26,12 @@ title: Terceira carta
   </div>
 
   <div class="LetterThree-block LetterThree-block--two">
-    Ainda não temos <img 
+    Aqui os <img 
       class="LetterThree-stamp" 
       src="/public/img/letter-03/phone.jpg"
       alt="telefones"
     />
-    funcionando aqui.
+    ainda não funcionam.
   </div>
 
   <div class="LetterThree-block LetterThree-block--double">
@@ -61,7 +62,7 @@ title: Terceira carta
   </div>
 
   <div class="LetterThree-block LetterThree-block--four">
-    Como vocês estão passando o tempo:
+    O que vocês têm feito:
     <div class="LetterThree-blockFourStamps">
       <img 
         class="LetterThree-stamp LetterThree-stamp--landscape" 
@@ -90,7 +91,7 @@ title: Terceira carta
     </div>
     <div class="LetterThree-doubleItem">
       <div class="LetterThree-doubleItemText">
-        Se vocês não estiverem se comportando, vou mandar sua mãe
+        Se vocês não se comportarem, vou mandar sua mãe
       </div>
       <img 
         class="LetterThree-stamp" 
@@ -116,5 +117,6 @@ title: Terceira carta
     </div>
   </div>
 
-  {% include pagination.html %}
+{% include pagination.html %}
+
 </div>
