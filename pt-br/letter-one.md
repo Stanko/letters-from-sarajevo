@@ -24,16 +24,13 @@ blockThree:
     Ao invés de semáforos, há cartazes que dizem:
   warningInscription: Cuidado com os franco-atiradores!
 
-
 blockFour:
   image: /public/img/letter-01/04.png
   alt: Existe apenas uma árvore no parque, uma pequena bétula com uma placa que diz "Se você cortar essa árvore, será sua última"
   text: >-
-    Nesse inverno, quase todas as árvores da cidade foram cortadas para os aquecedores.
+    Nesse inverno quase todas as árvores da cidade foram cortadas para serem usadas nos aquecedores.
     Apenas algumas sobraram.
     Eu vi uma delas (uma pequena bétula) perto da Universidade.
     Nela tinha uma placa que dizia:
   treeInscription: Se você cortar essa árvore, será a sua última!
-
-
 ---
