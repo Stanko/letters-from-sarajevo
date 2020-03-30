@@ -14,7 +14,7 @@ blockOne:
 
 blockTwo:
   image: /public/img/letter-01/02.png
-  alt: Miš beži u rupu, dok vuče čoveka koji mu se drži za red.
+  alt: Miš beži u rupu, dok vuče čoveka koji mu se drži za rep.
   text: Granate i dalje padaju. Usavršili smo načine spašavanja.
 
 blockThree:

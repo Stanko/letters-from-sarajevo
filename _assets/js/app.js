@@ -5,13 +5,13 @@ import HasTabbed from 'has-tabbed';
 
 
 document.documentElement.className = '';
-const tabbed = new HasTabbed('--show-focus');
+new HasTabbed('--show-focus');
 
-// get a menu button
-const exampleButton = document.querySelector('[data-inclusive-menu-opens]')
+const languageSwitcherButton = document.querySelector('[data-inclusive-menu-opens]')
 
-// Make it a menu button
-const exampleMenuButton = new MenuButton(exampleButton)
+if (languageSwitcherButton) {
+  new MenuButton(languageSwitcherButton)
+}
 
 
 function setVhUnit() {

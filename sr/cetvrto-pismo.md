@@ -18,14 +18,14 @@ sentenceOne:
 sentenceTwo:
   - Za to vrijeme
   - image: /public/img/letter-04/earth.png
-    alt: zemlja
+    alt: Zemlja
   - je jedan put
   - image: /public/img/letter-04/earth-run.png
     alt: obišla
     modifier: xl
   - oko
   - image: /public/img/letter-04/sun.png
-    alt: sunca
+    alt: Sunca
     modifier: lg
   - .
 
@@ -48,10 +48,12 @@ sentenceFour:
 sentenceLeft:
   text: Radite li gimnastiku?
   image: /public/img/letter-04/lazy.png
+  alt: Kole i Stane leže na kauču i puše.
 
 sentenceRight:
   text: Slušate li mamu?
   image: /public/img/letter-04/mom.png
+  alt: Mama koja stoji iza Koleta i Staneta sa oklagijom i bokserskom rukavicom.
 
 
 

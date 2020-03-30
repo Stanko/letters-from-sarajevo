@@ -1,0 +1,33 @@
+homeUrl: /
+
+title: Letters from Sarajevo
+
+url: "https://lettersfromsarajevo.com"
+
+metaDescription: >-
+  The beginning of the Bosnian war.
+  Ten year old Kosta flees Sarajevo, together with his mother and his younger brother.
+  His father stays in the besieged and bombarded city and survives the tough times with the other Sarajevans.
+  In spite of everything, he writes funny letters to his sons, trying to encourage and cheer them up.
+  Ten years later, using authentic letters written by his father, Kosta writes the story of his childhood.
+
+metaImage: letters-from-sarajevo.jpg
+
+firstLetterLink: "/en/letter-one"
+firstLetterText: "Letter one"
+
+prevLinkText: Previous letter
+nextLinkText: Next letter
+
+homeLinkText: Home page
+
+aboutText: About the book and the website
+aboutLink: /en/about
+
+footerText: In loving memory of Kosta, Belgrade 2020.
+footerCopyright: All of the content and site's code are under <a href="https://creativecommons.org/licenses/by-nc/4.0/">CC BY-NC 4.0</a> license.
+
+error404: Error 404
+pageNotFound: Page not found
+
+analyticsCode: UA-65023927-4

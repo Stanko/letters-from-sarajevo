@@ -1,10 +1,12 @@
+{% include set-translations.html %}
+
 <nav class="Pagination">
   {% if page.prevLink %}
     <a
       class="Pagination-link Pagination-link--prev"
       href="{{ page.prevLink }}"
-      title="{{ site.prevLinkText }}"
-      aria-label="{{ site.prevLinkText }}"
+      title="{{ t.prevLinkText }}"
+      aria-label="{{ t.prevLinkText }}"
     >
       &laquo;
     </a>
@@ -14,10 +16,10 @@
 
   <div class="Pagination-imageWrapper">
     <a
-      href="/"
+      href="{{ t.homeUrl }}"
       class="Pagination-homeLink"
-      title="{{ site.homeLinkText }}"
-      aria-label="{{ site.homeLinkText }}"
+      title="{{ t.homeLinkText }}"
+      aria-label="{{ t.homeLinkText }}"
     >
       <img src="/public/img/letter.png" aria-hidden="true" />
     </a>
@@ -27,8 +29,8 @@
     <a
       class="Pagination-link Pagination-link--next"
       href="{{ page.nextLink }}"
-      title="{{ site.nextLinkText }}"
-      aria-label="{{ site.nextLinkText }}"
+      title="{{ t.nextLinkText }}"
+      aria-label="{{ t.nextLinkText }}"
     >
       &raquo;
     </a>

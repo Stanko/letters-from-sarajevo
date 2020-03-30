@@ -1,0 +1,35 @@
+homeUrl: /
+
+title: Pisma iz Sarajeva
+
+url: "https://pismaizsarajeva.com"
+
+metaDescription: >-
+  Početak rata u Bosni.
+  Desetogodišnji Kosta sa majkom i mlađim bratom napušta Sarajevo.
+  Otac ostaje u opsednutom, bombardovanom gradu i zajedno sa ostalim Sarajlijama preživljava teške dane.
+  Uprkos tome, sinovima šalje šaljiva pisma, želeći da ih razveseli i ohrabri.
+  Desetak godina kasnije, koristeći autentična očeva pisma, Kosta sastavlja priču svog detinjstva."
+
+metaImage: pisma-iz-sarajeva.jpg
+
+firstLetterLink: "/sr/prvo-pismo"
+firstLetterText: "Prvo pismo"
+
+prevLinkText: Prethodno pismo
+nextLinkText: Sledeće pismo
+
+homeLinkText: Početna strana
+
+aboutText: O knjizi i sajtu
+aboutLink: /sr/o-knjizi-i-sajtu
+
+footerText: U znak sećanja na Kostu, Beograd 2020.
+footerCopyright: Sav sadržaj i kod sajta su pod <a href="https://creativecommons.org/licenses/by-nc/4.0/">CC BY-NC 4.0</a> licencom.
+
+error404: Greška 404
+pageNotFound: Stranica nije pronađena
+
+analyticsCode: UA-65023927-3
+
+manifest: /public/img/favicon/site.sr.webmanifest

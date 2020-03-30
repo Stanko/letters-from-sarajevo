@@ -19,7 +19,8 @@ baseurl: ""
 
 # Exclude from processing.
 exclude:
-  - sr
+  - en
+  - ru
   - _assets
   - .cache
   - node_modules

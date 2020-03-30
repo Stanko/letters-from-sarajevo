@@ -1,16 +1,18 @@
+{% include set-translations.html %}
+
 <div class="Footer">
   <div class="Container">
     <p>
-      {{ site.footerText }}
+      {{ t.footerText }}
     </p>
     <nav class="Footer-nav">
-      {% if page.url != '/' %}
-      <a href="/">{{ site.homeLinkText }}</a>
+      {% if page.url != t.homeUrl %}
+      <a href="{{ t.homeUrl }}">{{ t.homeLinkText }}</a>
       {% endif %}
-      <a href="{{ site.aboutLink }}">{{ site.aboutText }}</a>
+      <a href="{{ t.aboutLink }}">{{ t.aboutText }}</a>
     </nav>
     <p class="Footer-license">
-      {{ site.footerCopyright }}
+      {{ t.footerCopyright }}
     </p>
   </div>
 </div>
