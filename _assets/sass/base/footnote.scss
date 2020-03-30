@@ -1,0 +1,15 @@
+.footnote {
+  font-size: 0.75em;
+  margin-top: 4rem;
+
+  h2 {
+    clip: rect(0 0 0 0);
+    opacity: 0;
+    position: absolute;
+    visibility: hidden;
+  }
+}
+
+.footnote-index {
+  margin-right: 0.5rem;
+}
