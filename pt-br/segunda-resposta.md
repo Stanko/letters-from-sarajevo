@@ -1,7 +1,8 @@
 ---
 layout: response
-prevLink: /ptbr/letter-two
-nextLink: /ptbr/letter-three
+lang: pt-br
+prevLink: /pt-br/segunda-carta
+nextLink: /pt-br/terceira-carta
 title: Segunda resposta
 ---
 

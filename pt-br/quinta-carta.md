@@ -1,7 +1,8 @@
 ---
 layout: default
-prevLink: /ptbr/reply-four
-nextLink: /ptbr/reply-five
+lang: pt-br
+prevLink: /pt-br/quarta-resposta
+nextLink: /pt-br/quinta-resposta
 title: Quinta carta
 ---
 

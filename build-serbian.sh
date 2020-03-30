@@ -25,3 +25,7 @@ rm ./_site/sr/en.html
 mkdir ./_site/ru
 cp ./sr/ru.html ./_site/ru/index.html
 rm ./_site/sr/ru.html
+
+mkdir ./_site/pt-br
+cp ./sr/pt-br.html ./_site/pt-br/index.html
+rm ./_site/sr/pt-br.html

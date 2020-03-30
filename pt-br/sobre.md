@@ -1,5 +1,6 @@
 ---
 layout: about
+lang: pt-br
 title: Sobre
 ---
 

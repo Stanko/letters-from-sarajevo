@@ -11,16 +11,16 @@ metaDescription: >-
 
 metaImage: letters-from-sarajevo.jpg # TODO
 
-firstLetterLink: "/pt-br/letter-one"
+firstLetterLink: "/pt-br/primeira-carta"
 firstLetterText: "Primeira carta"
 
 prevLinkText: Carta anterior
 nextLinkText: Próxima carta
 
-homeLinkText: Home page
+homeLinkText: Página inicial
 
 aboutText: Sobre o livro e o website
-aboutLink: /pt-br/about
+aboutLink: /pt-br/sobre
 
 footerText: "Em memória de Kosta, Belgrado 2020."
 footerCopyright: Todo o conteúdo e o código desse site está disponível sob a licença <a href="https://creativecommons.org/licenses/by-nc/4.0/">CC BY-NC 4.0</a>.

@@ -1,6 +1,7 @@
 ---
 layout: letter-one
-nextLink: /ptbr/reply-one
+lang: pt-br
+nextLink: /pt-br/primeira-resposta
 
 title: Primeira carta
 

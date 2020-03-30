@@ -1,7 +1,8 @@
 ---
 layout: default
-prevLink: /ptbr/reply-two
-nextLink: /ptbr/reply-three
+lang: pt-br
+prevLink: /pt-br/segunda-resposta
+nextLink: /pt-br/terceira-resposta
 title: Terceira carta
 ---
 

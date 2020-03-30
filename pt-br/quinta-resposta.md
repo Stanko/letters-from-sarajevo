@@ -1,7 +1,8 @@
 ---
 layout: response
-prevLink: /ptbr/letter-five
-nextLink: /ptbr/epilogue
+lang: pt-br
+prevLink: /pt-br/quinta-carta
+nextLink: /pt-br/epilogo
 title: Quinta resposta
 ---
 

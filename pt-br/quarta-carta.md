@@ -1,7 +1,8 @@
 ---
 layout: letter-four
-prevLink: /ptbr/reply-three
-nextLink: /ptbr/reply-four
+lang: pt-br
+prevLink: /pt-br/terceira-resposta
+nextLink: /pt-br/quarta-resposta
 title: Quarta carta
 
 letterDate: Sarajevo, 20.VIII 1993

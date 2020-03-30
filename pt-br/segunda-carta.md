@@ -1,7 +1,8 @@
 ---
 layout: letter-two
-prevLink: /ptbr/reply-one
-nextLink: /ptbr/reply-two
+lang: pt-br
+prevLink: /pt-br/primeira-resposta
+nextLink: /pt-br/segunda-resposta
 title: Segunda carta
 
 header: 

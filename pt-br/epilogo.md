@@ -1,7 +1,8 @@
 ---
 layout: response
+lang: pt-br
 title: Epílogo
-prevLink: /ptbr/reply-five
+prevLink: /pt-br/quinta-resposta
 ---
 
 # Epílogo
