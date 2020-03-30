@@ -11,7 +11,7 @@ Querido pai,
 
 Sua carta chegou enquanto a mamãe e eu estávamos no hospital. (A vovó Ruža do nosso quarto ficou de olho no Stane durante esse período.)
 
-Fomos parar no hospital por comer cogumelos venenosos. Frequentemente a tia Nada, do primeiro andar, me levava para a floresta para colhermos cogumelos. Era interessante, ela falava sobre a natureza o tempo todo. À noite voltávamos com cogumelos e todos do quarto jantavam juntos. Depois de um jantar desses, eu saí com o Mihajlo. Estávamos vendo a lua pelos binóculos, como se fosse um telescópio. De repente, senti uma fraqueza. Voltei para o quarto e contei pra mãe. Todos se viraram para mim: "Você também?"
+Fomos parar no hospital por comer cogumelos venenosos. Frequentemente a tia Nada, do primeiro andar, me levava na floresta para colhermos cogumelos. Era interessante, ela falava sobre a natureza o tempo todo. À noite voltávamos com cogumelos e todos do quarto jantavam juntos. Depois de um jantar desses, eu saí com o Mihajlo. Estávamos vendo a lua pelos binóculos, como se fosse um telescópio. De repente, senti uma fraqueza. Voltei para o quarto e contei pra mãe. Todos se viraram para mim: "Você também?"
 
 A ambulância nos levou até Niš. Pela primeira vez na vida mamãe ficou feliz pelo Stane ser chato para comer. Ele nem experimentou os cogumelos.
 
