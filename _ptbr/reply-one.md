@@ -21,7 +21,7 @@ Mamãe abriu caminho no meio da multidão e conseguimos lugares no ônibus. Ela 
 
 Eu vomitei naquele ônibus.
 
-Eu me lembro de você dizendo que se juntaria a nós em breve e que enquanto isso, a gente deveria aproveitar Belgrado. Mas não estamos em Belgrado. Estamos em uma pequena vila do interior chamada Divljana, perto de Niš, em um conjunto residencial chamado "Sutjeska". Espero que você venha pra cá em breve.
+Eu me lembro de você dizendo que se juntaria a nós em breve e que enquanto isso, a gente deveria aproveitar Belgrado. Mas não estamos em Belgrado. Estamos em uma pequena vila do interior chamada Divljana, perto de Niš, em uma colônia de férias chamada "Sutjeska". Espero que você venha pra cá em breve.
 
 Com muito amor,
 Mamãe, Stane e eu.
