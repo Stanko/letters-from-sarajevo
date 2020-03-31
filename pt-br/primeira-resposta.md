@@ -22,9 +22,14 @@ Mamãe abriu caminho no meio da multidão e conseguimos lugares no ônibus. Ela 
 
 Eu vomitei naquele ônibus.
 
-Eu me lembro de você dizendo que se juntaria a nós em breve e que enquanto isso, a gente deveria aproveitar Belgrado. Mas não estamos em Belgrado. Estamos em uma pequena vila do interior chamada Divljana, perto de Niš, em uma colônia de férias chamada "Sutjeska". Espero que você venha pra cá em breve.
+Eu me lembro de você dizendo que se juntaria a nós em breve e que enquanto isso, a gente deveria aproveitar Belgrado. Mas não estamos em Belgrado. Estamos em uma pequena vila do interior chamada Divljana, perto de Niš, em uma colônia de férias<sup aria-describedby="footnote-label" class="footnote-index"><a name="footnote-index-1" href="#footnote-1">1</a></sup> chamada "Sutjeska". Espero que você venha pra cá em breve.
 
 Com muito amor,
 Mamãe, Stane e eu.
 
 <div class="Response-signature">Kosta</div>
+
+<footer class="footnote">
+<h2 id="footnote-label">Footnotes</h2>
+<sup class="footnote-index" aria-label="retornar ao conteúdo"><a name="footnote-1" href="#footnote-index-1">1</a></sup> O termo orignal <i>odmaralište</i> refere-se à um tipo específico de construção soviética. A palavra <i>odmor</i> significa férias, <i>odmaralište</i> é o lugar onde se passam as férias. São hotéis voltados para famílias da classe trabalhadora, equivalente às colônias de férias promovidas por sindicatos no Brasil.
+</footer>
