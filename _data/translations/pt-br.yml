@@ -1,0 +1,31 @@
+homeUrl: /pt-br/
+
+title: Cartas de Sarajevo
+
+url: "https://lettersfromsarajevo.com/pt-br/"
+
+metaDescription: >-
+  O começo da Guerra da Bósnia.
+  Kosta, um garoto de dez anos, foge de Sarajevo com sua mãe e irmão mais novo. Seu pai fica na cidade, sitiada e bombardeada, sobrevivendo a tempos difíceis com outros sarajevanos. Apesar de tudo, ele escreve cartas divertidas para seus filhos, tentando encorajá-los e animá-los.
+  Dez anos depois, usando as cartas originais escritas por seu pai, Kosta escreve a história de sua infância.
+
+metaImage: letters-from-sarajevo.jpg # TODO
+
+firstLetterLink: "/pt-br/primeira-carta"
+firstLetterText: "Primeira carta"
+
+prevLinkText: Carta anterior
+nextLinkText: Próxima carta
+
+homeLinkText: Página inicial
+
+aboutText: Sobre o livro e o website
+aboutLink: /pt-br/sobre
+
+footerText: "Em memória de Kosta, Belgrado 2020."
+footerCopyright: Todo o conteúdo e o código desse site está disponível sob a licença <a href="https://creativecommons.org/licenses/by-nc/4.0/">CC BY-NC 4.0</a>.
+
+error404: Erro 404
+pageNotFound: Página não encontrada
+
+analyticsCode: UA-65023927-4

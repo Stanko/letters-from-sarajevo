@@ -70,7 +70,7 @@
   display: flex;
   padding: 0 0.8rem;
   white-space: nowrap;
-  width: 13rem;
+  width: 19rem;
   line-height: 0;
   height: 3.5rem;
 
@@ -80,5 +80,9 @@
 
   &:focus {
     background: $gray-hover;
+  }
+
+  @include md {
+    width: 22rem;
   }
 }
