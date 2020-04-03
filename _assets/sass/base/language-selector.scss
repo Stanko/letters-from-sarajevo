@@ -1,5 +1,10 @@
 .LanguageSelector {
-  font-size: 0.8em;
+  font-size: 0.9em;
+}
+
+.LanguageSelector-button {
+  display: flex;
+  align-items: center;
 }
 
 .LanguageSelector-flag {
@@ -9,21 +14,27 @@
   flex-shrink: 0;
 }
 
-.LanguageSelector-globe {
-  width: 2rem;
+.LanguageSelector-icon {
+  width: 2.4rem;
+  vertical-align: middle;
 
   @include md {
-    display: block;
     width: 3rem;
   }
 }
 
 .LanguageSelector-text {
   margin-left: 0.6rem;
+  display: inline-block;
+  transform: translateY(-0.1rem);
 
   @include md {
-    display: none;
+    margin-left: 0.8rem;
   }
+}
+
+.LanguageSelector-link--current {
+  color: $gray;
 }
 
 [data-inclusive-menu] {
@@ -37,14 +48,12 @@
   border: none;
   background: none;
   transition: opacity 300ms;
-  display: flex;
 
   &:hover,
   &:focus,
   &[aria-expanded="true"] {
     opacity: 1;
   }
-
   @include md {
     opacity: 0.5;
   }
@@ -57,6 +66,7 @@
   top: calc(100% + 1rem);
   position: absolute;
   width: auto;
+  flex-direction: column;
 
   @include md {
     left: auto;
@@ -70,7 +80,7 @@
   display: flex;
   padding: 0 0.8rem;
   white-space: nowrap;
-  width: 19rem;
+  width: 20.5rem;
   line-height: 0;
   height: 3.5rem;
 
@@ -83,6 +93,6 @@
   }
 
   @include md {
-    width: 22rem;
+    width: 22.5rem;
   }
 }

@@ -1,26 +1,34 @@
+{% include set-translations.html %}
+
 <div class="LanguageSelector" data-inclusive-menu>
   <button
+    class="LanguageSelector-button"
     data-inclusive-menu-opens="language"
     aria-haspopup="true"
     aria-expanded="false"
-    aria-label="{{ site.selectLanguage | default: "Select language" }}"
+    aria-label="{{ t.language | default: "Language" }}"
   >
-    <img class="LanguageSelector-globe" src="/public/img/globe.svg" aria-hidden="true" />
+    <img class="LanguageSelector-icon" src="/public/img/translation.svg" aria-hidden="true" />
     <span aria-hidden="true" class="LanguageSelector-text">
-      {{ site.selectLanguage | default: "Select language" }}
+      {{ t.language | default: "Language" }}
     </span>
   </button>
-  <div id="language" data-inclusive-menu-from="left" role="menu" hidden>
+  <div
+    id="language"
+    data-inclusive-menu-from="left"
+    role="menu"
+    hidden
+  >
     {% for language in site.languages %}
       <a
         role="menuitem"
         tabindex="-1"
         href="{{ language.link }}"
-        class="LanguageSelector-link"
+        class="LanguageSelector-link {% if language.code == lang %}LanguageSelector-link--current{% endif %}"
       >
         <img
           class="LanguageSelector-flag"
-          src="/public/img/flags/{{ language.flag }}"
+          src="/public/img/flags/{{ language.code }}.svg"
           aria-hidden="true"
          />
         {{ language.text }}
@@ -44,6 +52,3 @@
     </style>
   </noscript>
 </div>
-
-
-<!-- TODO add noscript version -->
