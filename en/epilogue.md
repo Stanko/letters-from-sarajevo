@@ -8,9 +8,9 @@ prevLink: /en/reply-five
 
 # Epilogue
 
-Shortly after I wrote the last letter we moved to Kraljevo. When we were leaving Divljana, our friends accompanied us to the station: Jelena and Aleksandra stood on the side, while Siniša and Ivica were silently throwing snowballs at a tree in the distance.
+We moved to Kraljevo shortly after I had written the last letter. When we were leaving Divljana our friends saw us off to the station. Jelena and Aleksandra stood on the side while Siniša and Ivica quietly threw snowballs at a tree in the distance.
 
-Three months later, daddy got out from Sarajevo and joined us, after two years of being separated;
+Three months later, dad left Sarajevo and joined us after two years of separation.
 
 -----
 

@@ -9,27 +9,27 @@ letterDate: Sarajevo, 20.VIII 1993
 header: Dear Kole and Stane,
 
 sentenceOne:
-  - It has been a year since you
+  - It's been a year already since you
   - image: /public/img/letter-04/left.png
     alt: left Sarajevo
     modifier: xwide
 
 sentenceTwo:
-  - Meanwhile
+  - During that time,
   - image: /public/img/letter-04/earth.png
-    alt: Earth
-  - has
+    alt: tje Earth
+  - made
   - image: /public/img/letter-04/earth-run.png
-    alt: rotated
+    alt: one rotation
     modifier: xl
-  - once around
+  - around
   - image: /public/img/letter-04/sun.png
     alt: the Sun
     modifier: lg
   - .
 
 sentenceThree:
-  - "In the same time, you traveled a shorter route: Sarajevo - Divljana."
+  - "You made a shorter trip: Sarevo - Divljana."
 
 sentenceFour:
   - Have you changed →
@@ -37,46 +37,50 @@ sentenceFour:
     alt: lost weight
   - or
   - image: /public/img/letter-04/fat.png
-    alt: gained weight
+    alt: gained
   - or
   - image: /public/img/letter-04/mustaches.png
-    alt: grew mustaches
+    alt: grown moustache?
     modifier: xl
   - "?"
 
 sentenceLeft:
-  text: Are you working out?
+  text: Are you exercising?
   image: /public/img/letter-04/lazy.png
+  alt: Kole and Stane lying on the couch.
 
 sentenceRight:
-  text: Are you listening to your mother?
+  text: Are you listening to your mum?
   image: /public/img/letter-04/mom.png
+  alt: Mum standing behind Kole and Stane with a rolling pin and a boxing glove.
 
 
 
 blockOne:
   image: /public/img/letter-04/truce.png
-  alt: Soldier lying on the cannon clogged with a cork.
-  text: It has been quiet here for the last ten days.
+  text: It's been quiet here for some ten days.
+  alt: A soldier lying on a cannon stuffed with a wine cork.
+
 
 blockTwo:
   image: /public/img/letter-04/electricity.png
-  alt: Man who can't stare in to the shining light bulb. 
-  text: Last night, after a long, long time, we got electricity back.
-  textBottom: We already got used to darkness.
+  text: Last night, the electricity was back on after a long, long time. 
+  textBottom: We had gotten used to the darkness.
+  alt: A lightbulb turned on and a man shying away from it.
 
 blockThree:
   image: /public/img/letter-04/sick.png
-  alt: Man with a toy and a rattle.
   text: >-
-    Last year was really harsh, some didn't handle it well,
-    they got "a little bit sick".
+    We had a very difficult year here. Some couldn't take it. 
+    They went a little nutty. 
+  alt: A man playing with a toy and a rattle.
 
 blockFour:
   image: /public/img/letter-04/icarus.png
-  alt: Father daydreaming about having Icarus' wings.
   text: >-
     Lots of love!<br/>
-    I hope I'll see you soon.
+    Hope to see you soon.
+  alt: Dad daydreaming about Icarus' wings.
+
 
 ---

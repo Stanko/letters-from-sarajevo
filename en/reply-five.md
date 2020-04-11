@@ -9,12 +9,14 @@ title: Reply five
 
 Dear dad,
 
-Stane and I like your stove very much. Here is the recipe for hot chocolate: take three spoons of cocoa, three spoons of powdered milk and sugar. Add a little bit of water, mix everything and heat up on the stove. (I got the recipe from granny Ruža from "Sutjeska")
+Stane and I love your stove. Here's how you can make hot chocolate on it. Put three spoonfuls of cocoa, three spoonfuls of dry milk, and some sugar in a pot. Then add some water and stir it all up and heat it on your stove. (I got the recipe from nana Ruža from the Sutjeska.)
 
-We had a new year's eve party, in the room which serves as our classroom during the day. We played cassettes and danced to the music. I wanted to tell Jelena that I love her, but I lost all courage when she appeared in a dress. She looked different somehow, like she wasn't the one I spend so much time with. It seemed Siniša figured out what is going on. He was teasing me and urged me to dance with Jelena, but alas. I was standing in the corner, watching her dance with a seventh grader from "Sutjeska". Just to think I used to fight for "Sutjeska", I was raging inside.
+We threw a party for New Year's, in the room that we use as a classroom in the mornings. We played music on a cassette player, and then we danced to it. I wanted to confess my love to Jelena, but I lost all courage when she showed up in a dress. She seemed different somehow, as though she wasn't the same girl I spend so much time with. I guess Siniša figured out what's going on. He teased me and tried to convince me to dance with Jelena but to no avail. I stood bewilderedly in the corner of the classroom, watching her dance with a seventh-grader from the Sutjeska. And to think there was a time when I fought for that stupid Sutjeska, I ranted to myself.
 
-Stane and Ivica had a much better time: they danced with all the younger girls, even with two from the second grade.
+Stane and Ivica had a much better time. They danced with all the younger girls, even with a couple of two-graders.
 
-I haven't told Jelena anything, and we are still hanging out like we used to. Not sure if I'll gather enough courage and tell her what I fell. It would be easier if you were here, with me.
+I didn't say anything to Jelena, and now we spend time as we did before. I don't know if I'll ever muster the courage and tell her how I feel. Having you here would make things easier for me.
+
+
 
 <div class="Response-signature">Kosta</div>

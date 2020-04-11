@@ -9,20 +9,22 @@ title: Reply one
 
 Dear dad,
 
-We got your letter! Mom told me that I can't send you a reply, as nothing gets delivered to Sarajevo. That's why I'm writing to you in a notebook, and you will read them all of this when you come to us.
+We got your letter! Mum says I can't mail you my reply because letters aren't being delivered to Sarajevo. That's why I'm writing it down in a notebook so you'll read them all when you get back.
 
-It's been six months since we left Sarajevo in the windowless bus. As the bus was leaving I watched you wave until I lost sight of you in the distance. "It's good there are no windows", I thought to myself, "or else I would be sick otherwise". We passed soldiers who'd occasionally shout something at us. All of them wore different colored uniforms.
+It's been six months already since you walked mum, Stane and me to that bus without a single window pane. As the bus drove off, I watched you wave at us until you got lost in the distance. "It's a good thing the bus has no window panes", I thought "or I'd throw up". We passed soldiers by who would occasionally shout something at us. They were all wearing different-coloured uniforms.
 
-And then the bus broke down, right next to a group of soldiers. They ordered everyone to come off the bus and started searching the baggage. One of them, with a cowboy hat and a mustache was speaking in English with other soldier in blue berets. He noticed I was watching him, patted me on the head and told me: "Don't worry, everything will be alright."
+Then the bus broke down. Right next to the soldiers. They ordered us to get off and started going through our luggage. One of them, wearing a cowboy hat and a moustache, spoke English to the soldiers in blue berets. He noticed I was gazing at him, so he patted my head and said "Don't be afraid, no one's going to touch you."
 
-We waited all together for the next bus. When it finally came, it was already crowded and its windows were in place. I knew it I would get sick in this one.
+We waited in the crowd until another bus came along. It was already full, and it had all of its window panes. I knew I was going to feel sick in this one.
 
-Mom fought her way through the crowd and managed to get us on the bus. She told us she would join us as soon as she got our backpacks. I stood with Stane in the overcrowded bus and tried to see the door. When the bus started moving, I started to cry, while squeezing Stane's shoulders. Next thing I remember are the people around me, caressing me and saying: "Don't worry, look, your mummy is here."
+Mum pushed through the crowd and managed to get us on the bus quickly. She shouted she would get right on, just as soon as she takes care of the rucksacks. I was standing on a crowded bus with Stane, trying to see the door. When the bus got going, I started to weep
+convulsively, gripping to Stane's shoulders. The next thing I remember were the hands of strangers around me, padding me on the shoulders and saying "Don't be scared, your mum is here, she got on..."
 
-I threw up in that bus.
+I threw up on that bus.
 
-I remember you said you would join us soon and that we should enjoy Belgrade in the meantime.  But we are not in Belgrade. We are in a small countryside village called Divljana, in a resort called "Sutjeska". I hope you will be here soon.
+At the departure, I remember you saying you'd join us soon and that until then we should enjoy Belgrade. But, we're not in Belgrade. We live in a village Divljana, near Niš, in an Inn called "Sutjeska". I hope soon you'll be here too. 
 
-Lots of love from mom, Stane and me.
+Warmest regards from mum, Stane and me,
+
 
 <div class="Response-signature">Kosta</div>

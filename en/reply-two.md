@@ -9,14 +9,17 @@ title: Reply two
 
 Dear dad,
 
-I'm sorry about our room, but mom says that is not what is important. She says: "The room doesn't matter as long as we all get together again".
+I'm sorry to hear about our room, but mum says it doesn't matter. She says "The room doesn't matter so long as we're together again."
 
-Here in Divljana I made a good friend, Mihajlo. (Samir is still my best friend, although I haven't seen him since we left Sarajevo.) Mihajlo lives on the ground floor of our resort, "Sutjeska". A few days ago they found a snake in his room. I think the snake won't climb to our room on the second floor.
+I made a good friend here in Divljana. His name is Mihajlo. (Samir is still my best friend, even though I hadn't seen him since leaving Sarajevo.) Mihajlo lives on the ground floor of Sutjeska, our Inn. Recently, they found a snake in his room. I think the snakes won't climb all the way up to our second-story room.
 
-As soon as I got to "Sutjeska", Mihajlo explained to me that we were in war with boys from the other resort, called "Igman". We immediately attacked some of them with pine cones. Since they'd outnumbered us, so we retreated and watched them from a far through Mihajlo's large binoculars. He said that he was going to move away soon, and that he was going to leave me the binoculars.
+As soon as I got to the Sutjeska Inn, Mihajlo explained to me we were at war with the boys from the other Inn, which was called Igman. We attacked some of them with pine cones right away. Since they outnumbered us, we retreated and watched them from afar using Mihajlo's big binoculars. He told me he was moving away soon and that he'll leave his binoculars to me when he does.
 
-I'm proud to belong to "Sutjeska", although there are more boys in "Igman". Excluding Mihajlo and myself, there are only two younger boys in "Sutjeska" and they are not of much use, while the older ones don't participate in the war. Mihajlo and myself are leaders of "Sutjeska", while Siniša is leading the "Igman" boys and he is a fourth-grader like us.
+I am proud to belong to the Sutjeska Inn even though the Igman Inn has more kids. Apart from Mihajlo and me, there are only two younger boys here in the Sutjeska Inn who are of little use while the older boys don't take part in the war. Mihajlo and I are the leaders in the Sutjeska whereas Siniša is the leader of the Igman boys. He is in the fourth grade too.
 
-Stane made a good friend too, Ivica. As they don't go to school yet, they play all day long. The only person they don't like is fat Bora from the restaurant. He forces children to dip hands in some smelly liquid. Your hands get all chapped from it. Bora shouts at Stane and Ivica when they try to avoid that smelly water. Stane can't wait for you to come and show fat Bora who is the boss. I can't wait for you to come, too.
+Stane also made a good friend, Ivica. Too young for school, the two of them play together all day long. The only person they don't like is fat Bora from the restaurant. He makes children dip their hands into a smelly liquid before meals. The liquid makes your hands chap badly. Bora shouts at Stane and Ivica whenever they try to avoid the stinky water. Stane can't wait for you to come and teach fat Bora a lesson.
+
+I can't wait for you to get here either.
+
 
 <div class="Response-signature">Kosta</div>

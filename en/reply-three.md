@@ -10,14 +10,15 @@ title: Reply three
 
 Dear dad,
 
-Your letter arrived while mom and I were in the hospital. (Meanwhile granny Ruža from our room was watching Stane.)
+Your letter arrived while mum and I were in the hospital. (While we were gone, nana Ruža from our room took care of Stane.)
 
-We ended in the hospital by eating poisonous mushrooms. Often, Auntie Nada from the first floor would take me to the forrest to pick mushrooms. It was interesting, she was talking about nature all the time. In the evening we would bring mushrooms back, and everyone from the room would eat dinner together. After one of those dinners I went outside with Mihajlo. We were watching moon through binoculars, as it was a telescope. Suddenly, I felt weak. I came back to the room and told mom. Everyone turned around to me: "You too?".
+We were taken to the hospital because of poisonous mushrooms. Mrs Nada from the first floor often took me mushroom picking in the woods. It was fun; she would speak about nature the whole time. In the evening, we would return to the Inn with mushrooms, and everybody from the room would have dinner together. After one of those dinners, I went outside with Mihajlo. We were watching the Moon through his binoculars like through a telescope. Suddenly, I felt a little queasy. I went back to the room and told mum that I was feeling sick. Then everybody turned toward me and said "You too?"
 
-The ambulance took us to Niš. For the first time ever, mom was happy Stane is a picky eater. He didn't even try mushrooms.
+The ambulance took us to Niš. For the first time ever, mum was happy about Stane being a picky eater. He wouldn't even try the mushrooms.
 
-We've spent around ten days in the hospital, children and parents separated. The next day we were feeling better but we were still getting infusions. Yesterday, we all returned to Divljana, again by ambulance. Auntie Nada and I made a deal not to pick mushrooms again.
+We stayed in the hospital for some ten days, kids apart from the grownups. We felt better the next day already, but we were still on an IV. We all returned to Divljana yesterday, riding the ambulance once again. Mrs Nada and I agreed we wouldn't go looking for mushrooms again.
 
-Today I found Mihajlo moved away to Novi Sad. Because I was in the hospital, he left binoculars to the other boy. He left a message with him as well, that he is going to write to me from Novi Sad. Now, I'm going to receive letters both from him and you. (I wish you were both here.)
+Today I found out that Mihajlo had moved to Novi Sad. Since I was in the hospital, he gave the binoculars to another boy. He told me Mihajlo had said he would write to me from Novi Sad. Now I'll receive letters from him and you. (I'd rather you were both here.)
+
 
 <div class="Response-signature">Kosta</div>

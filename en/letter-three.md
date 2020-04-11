@@ -28,40 +28,40 @@ title: Letter three
     Here <img 
       class="LetterThree-stamp" 
       src="/public/img/letter-03/phone.jpg"
-      alt="phone"
+      alt="the phones"
     />
-    are still not working.
+    are still out.
   </div>
 
   <div class="LetterThree-block LetterThree-block--double">
     <div class="LetterThree-doubleItem">
       <div class="LetterThree-doubleItemText LetterThree-doubleItemText--narrow">
-        Why are you two not 
+        Why don't the two of you
       </div>
       <div>
         <img 
           class="LetterThree-stamp" 
           src="/public/img/letter-03/letter.jpg"
-          alt="writing letters"
+          alt="write"
         />
       </div>
       <div class="LetterThree-doubleItemTextBottom">to me,</div>
     </div>
     <div class="LetterThree-doubleItem">
       <div class="LetterThree-doubleItemText LetterThree-doubleItemText--narrow">
-        Maybe there are no 
+        Perhaps, there's no
       </div>
       <img 
         class="LetterThree-stamp" 
         src="/public/img/letter-03/postbox.jpg"
-        alt="post offices"
+        alt="post service"
       /> 
-      <div class="LetterThree-doubleItemTextBottom">there?</div>
+      <div class="LetterThree-doubleItemTextBottom">?</div>
     </div>
   </div>
 
   <div class="LetterThree-block LetterThree-block--four">
-    How are you spending your time:
+    How are you spending your time -
     <div class="LetterThree-blockFourStamps">
       <img 
         class="LetterThree-stamp LetterThree-stamp--landscape" 
@@ -72,7 +72,7 @@ title: Letter three
       <img
         class="LetterThree-stamp LetterThree-stamp--landscape"
         src="/public/img/letter-03/home.jpg"
-        alt="in home"
+        alt="inside"
       />?
     </div>
   </div>
@@ -90,12 +90,12 @@ title: Letter three
     </div>
     <div class="LetterThree-doubleItem">
       <div class="LetterThree-doubleItemText">
-        If you are not behaving, I recommend to your mother
+        If you don't listen to your mum, I recommend she use
       </div>
       <img 
         class="LetterThree-stamp" 
         src="/public/img/letter-03/boxing.jpg"
-        alt="to use her boxing skills"
+        alt="her boxing skills"
       />
     </div>
   </div>
@@ -111,7 +111,7 @@ title: Letter three
       <img
         class="LetterThree-tadija"
         src="/public/img/letter-03/tadija.png"
-        alt="Father who daydreams about airplane to Divljana"
+        alt="Dad daydreaming about a plane to Divljana"
       />
     </div>
   </div>

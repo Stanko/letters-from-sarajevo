@@ -5,38 +5,40 @@ title: About
 
 # About the book
 
-In the nineties, during the Bosnian war, our father was stuck in Sarajevo, while my mother, my brother Kosta and I managed to flee to Serbia. In spite of everything, our father was writing letters to us - funny, positive and full of drawings.
+In the 1990s, during the war in Bosnia, our father was stuck in Sarajevo while my mother, my brother Kosta and I managed to flee to Serbia. Despite the difficult situation, our father sent us letters that were funny, positive and filled with drawings.
 
-About ten years later, the book was published. It consists of my father's selected letters and replies Kosta was writing down in a notebook.
+The book consisting of a number of selected authentic letters written by my father and the replies Kosta wrote down in his notebook was published some ten years later by the Institute for textbook publishing.
 
 {:.About-book}
-![Book, published in 2005.](/public/img/korice.jpg)
+![Book covers, published in 2005](/public/img/korice.jpg)
 
-Combined, these letters tell a little bit of a different, more cheerful story about the war.
+Combined, these letters tell a slightly different and more buoyant tale of the war.
 
 ## About the website
 
-The website was created as we wanted to share this story with everyone.
+The website came about because we wanted to share this story with the world.
 
-It is very hard to transfer the book of this form to a website. The difference between English and Serbian languages didn't help either. I've done the best I could, but I still recommend you experience *the Letters* on larger screens, instead of a mobile phone.
+Adequately conveying this type of book on a website is no easy task. I did my best but I still recommend that you read *the Letters* on a bigger screen, not on a mobile phone.
 
-All of the content and website's code are available on [GitHub](https://github.com/Stanko/letters-from-sarajevo) under [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/) license.
+Special thanks to my colleagues Felipe and Ana who translated this website into Brazilian Portuguese.
 
-## Drawings
+The entire website content and code are available on [GitHub](https://github.com/Stanko/letters-from-sarajevo), under [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/) licence.
 
-Unfortunately, original letters were lost in the process, and we are left with only digital versions, scanned in a low resolution. That is why we own a huge thank you to my friend, [Ivan Nedeljković](https://www.instagram.com/sun_day_sign/), who redrew and digitalized all of the drawings based on original scans.
+## The drawings
 
-The result is marvelous, and below you can see one comparison of the original drawing and Ivan's version.
+Unfortunately, the original letters got lost and all we are left with are the digital versions of them, and poorly scanned ones too. That's why we are very grateful to my friend [Ivan Nedeljković](https://www.instagram.com/sun_day_sign/) who, based on the originals, made new copies of the drawings and digitalized them.
+
+The end result is fantastic. Below you can see one of the original drawings compared to Ivan’s version.
 <div class="About-drawings">
   <div class="About-drawing">
-    <img src="/public/img/scan.jpg" alt="Original drawing, scanned in a low resolution" />
+    <img src="/public/img/scan.jpg" alt="An original drawing scanned in low resolution." />
   </div>
   <div class="About-drawing">
-    <img src="/public/img/letter-01/03.png" alt="The same drawing, redrawn by Ivan" />
+    <img src="/public/img/letter-01/03.png" alt="The same drawing Ivan remade and digitalized." />
   </div>  
 </div>
 
-For now, if you want to help with translating the book to another language or if you have a suggestion, please do it by opening a new *Issue* <a href="https://github.com/Stanko/letters-from-sarajevo/issues">here</a> on GitHub.
+For the time being, if you want to help translate the book into another language or make a suggestion, please do so on GitHub by creating a new [*Issue*](https://github.com/Stanko/letters-from-sarajevo/issues).
 
 Thank you for your interest!
 

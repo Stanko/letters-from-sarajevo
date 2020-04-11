@@ -15,18 +15,18 @@ header:
 letterDate: "Sarajevo, 4.V 93."
 
 sentenceOne:
-  - Last week, rigth at
+  - Last week, precisely at
   - image: /public/img/letter-02/clock.png
     alt: noon
-  - on 28th of April
+  - on April 28
   - image: /public/img/letter-02/fly-in.png
-    alt: rocket flew
-  - "to our room."
+    alt: a shell flew
+  - into our room.
 
 sentenceTwo:
   - image: /public/img/letter-02/rocket-1.png
-    alt: Rocket
-  - has
+    alt: The shell
+  - actually
   - image: /public/img/letter-02/hit.png
     alt: hit
   - right above
@@ -38,9 +38,9 @@ sentenceTwo:
 sentenceThree:
   - image: /public/img/letter-02/tadija-1.png
     alt: I
-  - was at University.
+  - was at university.
   - image: /public/img/letter-02/rocket-2.png
-    alt: Rocket
+    alt: The shell
   - has
   - image: /public/img/letter-02/destroy.png
     alt: destroyed
@@ -48,15 +48,15 @@ sentenceThree:
   - everything in our room.
 
 sentenceFour:
-  - Now I'm in Kosa's room
+  - I'm in Kosa’s room now.
   - image: /public/img/letter-02/bed.png
-    alt: Father covering his head in the bed.
+    alt: Dad lying in bed, holding his head up.
     modifier: xl
    
 sentenceFive:
-  - Lots of
+  - Best
   - image: /public/img/letter-02/greetings.png
-    alt: greetings
+    alt: regards
     modifier: lg
   - to you
   - image: /public/img/letter-02/two-of-you.png
