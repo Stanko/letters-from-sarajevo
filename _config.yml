@@ -2,18 +2,21 @@ languages:
   - link: https://lettersfromsarajevo.com/
     text: English
     code: en
-  - link: https://lettersfromsarajevo.com/ru/
-    text: Русский
-    code: ru
   - link: https://lettersfromsarajevo.com/pt-br/
     text: Português do Brasil
     code: pt-br
-  # - link: https://lettersfromsarajevo.com/cn/
-  #   text: 中文
-  #   code: cn
   - link: https://pismaizsarajeva.com/
     text: Srpski
     code: sr
+  - link: https://lettersfromsarajevo.com/el/
+    text: Συνάρτηση
+    code: el
+  - link: https://lettersfromsarajevo.com/ru/
+    text: Русский
+    code: ru
+  - link: https://lettersfromsarajevo.com/cn/
+    text: 中文
+    code: cn
 
 baseurl: ""
 

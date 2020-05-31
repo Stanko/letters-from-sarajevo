@@ -67,6 +67,7 @@
   position: absolute;
   width: auto;
   flex-direction: column;
+  z-index: 10;
 
   @include md {
     left: auto;

@@ -1,0 +1,33 @@
+homeUrl: /cn/
+
+title: Letters from Sarajevo
+
+language: Language
+
+url: "https://lettersfromsarajevo.com"
+
+metaDescription: >-
+  战争状况开始于波斯尼亚。
+  科斯塔 (Kosta) 年龄十岁的，与母亲和弟弟一起离开了萨拉热窝。他的父亲留在被围成的，被炸毁的城市中，与其他萨拉热窝居民一起度过了艰难的日子。尽管如此，他还是给儿子们发了写信带幽默的，希望为他们加油，鼓励他们。
+  十年后，科斯塔使用真实的父亲的信件撰写了他童年的故事。
+
+metaImage: letters-from-sarajevo.jpg
+
+firstLetterLink: "/en/letter-one"
+firstLetterText: "Letter one"
+
+prevLinkText: Previous letter
+nextLinkText: Next letter
+
+homeLinkText: 主页
+
+aboutText: About the book and the website
+aboutLink: /cn/about
+
+footerText: In loving memory of Kosta, Belgrade 2020.
+footerCopyright: The entire website content and code are under <a href="https://creativecommons.org/licenses/by-nc/4.0/">CC BY-NC 4.0</a> licence.
+
+error404: Error 404
+pageNotFound: Page not found
+
+analyticsCode: UA-65023927-4
