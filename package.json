@@ -7,9 +7,10 @@
     "url": "git+ssh://git@github.com/Stanko/letters-from-sarajevo.git"
   },
   "dependencies": {
-    "parcel": "^2.8.3",
     "@parcel/transformer-sass": "^2.8.3",
-    "has-tabbed": "^0.9.2"
+    "has-tabbed": "^0.9.2",
+    "lightningcss-linux-x64-gnu": "^1.18.0",
+    "parcel": "^2.8.3"
   },
   "scripts": {
     "build-assets": "rm -rf ./public/assets && parcel build _assets/js/app.js --dist-dir ./public/assets --public-url /public/assets",
