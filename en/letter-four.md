@@ -29,7 +29,7 @@ sentenceTwo:
   - .
 
 sentenceThree:
-  - "You made a shorter trip: Sarevo - Divljana."
+  - "You made a shorter trip: Sarajevo - Divljana."
 
 sentenceFour:
   - Have you changed →
