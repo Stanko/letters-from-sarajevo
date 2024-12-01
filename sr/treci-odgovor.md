@@ -17,7 +17,7 @@ U bolnicu su nas poslali zbog otrovnih gljiva. Teta Nada s prvog sprata često m
 
 Kolima hitne pomoći odvezli su nas do Niša. Prvi put u životu mama je bila srećna što je Stane izbirljiv u jelu. Gljive nije htio ni da proba.
 
-U bolnici smo ostali desetak dana, odvojeno odrasli i djeca. Već sljedećeg dana nam je bilo bolje, ali su nam i dalje davali infuziju. Juče su nas sve zajedno vratili u Divljane, ponovo bolničkim kolima. Teta Nada i ja smo se dogovorili da više ne idemo po gljive.
+U bolnici smo ostali desetak dana, odvojeno odrasli i djeca. Već sljedećeg dana nam je bilo bolje, ali su nam i dalje davali infuziju. Juče su nas sve zajedno vratili u Divljanu, ponovo bolničkim kolima. Teta Nada i ja smo se dogovorili da više ne idemo po gljive.
 
 Danas sam saznao da se Mihajlo odselio u Novi Sad. Pošto sam ja bio u bolnici, dvogled je ostavio drugom dječaku. Po njemu mi je poručio da će mi pisati iz Novog Sada. Sada ću primati pisma i od njega i od tebe. (Više bih volio da ste obojica ovdje.)
 
