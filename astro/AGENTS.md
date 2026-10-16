@@ -20,3 +20,15 @@ Consult these guides before working on related tasks:
 - [Adding or managing content](https://docs.astro.build/en/guides/content-collections/)
 - [Adding styles or using Tailwind](https://docs.astro.build/en/guides/styling/)
 - [Supporting multiple languages](https://docs.astro.build/en/guides/internationalization/)
+
+## Code Style
+
+- Keep changes small, local, and focused. Ask before refactoring.
+- Prefer explicit code over abstractions and helper layers.
+- Follow existing naming, structure, and conventions.
+- Preserve behavior, sequencing, identity, and lifecycle.
+- Separate logical blocks with blank lines.
+- Prefer if-else. Use ternaries only for simple assignments; never nest them.
+- Ask when requirements leave design or interaction choices open.
+- Preserve unrelated changes; avoid formatting churn.
+- Keep comments and explanations brief and direct.

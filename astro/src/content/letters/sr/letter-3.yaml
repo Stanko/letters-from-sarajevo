@@ -1,0 +1,75 @@
+key: letter-3
+lang: sr
+slug: trece-pismo
+title: Treće pismo
+template: letter-three
+date: Sarajevo, 5.VII '93.
+header:
+  - Dragi Kole
+  - image: /img/letter-03/football-player.jpg
+    alt: ""
+    decorative: true
+    modifiers:
+      - tall
+  - i Stane
+  - image: /img/letter-03/olimpics.jpg
+    alt: ""
+    decorative: true
+    modifiers:
+      - square
+  - ","
+phoneSentence:
+  - Ovdje još uvijek ne rade
+  - image: /img/letter-03/phone.jpg
+    alt: telefoni
+  - .
+questions:
+  - text: Zašto mi vas dvojica ne
+    image:
+      image: /img/letter-03/letter.jpg
+      alt: pišete
+    narrow: false
+    imageWrapped: true
+    suffix: ","
+  - text: možda tamo nema
+    image:
+      image: /img/letter-03/postbox.jpg
+      alt: pošte
+    narrow: false
+    imageWrapped: false
+    suffix: "?"
+activityText: "Kako provodite vrijeme:"
+activityOptions:
+  - image: /img/letter-03/tree.jpg
+    alt: napolju
+    modifiers:
+      - landscape
+  - ili
+  - image: /img/letter-03/home.jpg
+    alt: u kući
+    modifiers:
+      - landscape
+  - "?"
+games:
+  - text: Jeste li zaboravili igrati
+    image:
+      image: /img/letter-03/chess.jpg
+      alt: šah
+    narrow: false
+    imageWrapped: false
+  - text: Ako ne budete slušali, mami preporučujem
+    image:
+      image: /img/letter-03/boxing.jpg
+      alt: boks
+    narrow: false
+    imageWrapped: false
+signoff: Puno pozdrava
+dreamImages:
+  - image: /img/letter-03/plane.jpg
+    alt: ""
+    decorative: true
+    modifiers:
+      - landscape
+      - bottom
+  - image: /img/letter-03/tadija.png
+    alt: Tata koji mašta o avionu za Divljanu

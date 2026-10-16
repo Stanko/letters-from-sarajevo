@@ -1,0 +1,59 @@
+key: letter-2
+lang: ru
+slug: vtoroye-pismo
+title: Второе письмо
+template: letter-two
+date: Сараево, 4.V 93.
+header:
+  - Дорогие
+  - image: /img/letter-02/kole.png
+    alt: Коле
+  - "&"
+  - image: /img/letter-02/stane.png
+    alt: Стане
+sentenceOne:
+  - На прошлой неделе, 28 апреля, точно в
+  - image: /img/letter-02/clock.png
+    alt: полдень
+  - в нашу комнату
+  - image: /img/letter-02/fly-in.png
+    alt: влетела граната
+  - .
+sentenceTwo:
+  - На самом деле
+  - image: /img/letter-02/rocket-1.png
+    alt: граната
+  - image: /img/letter-02/hit.png
+    alt: разорвалась
+  - над самым
+  - image: /img/letter-02/window.png
+    alt: окном
+    modifier: window
+  - .
+sentenceThree:
+  - image: /img/letter-02/tadija-1.png
+    alt: Я
+  - был на факультете.
+  - image: /img/letter-02/rocket-2.png
+    alt: Граната
+  - image: /img/letter-02/destroy.png
+    alt: уничтожила
+    modifier: lg
+  - все в нашей комнате.
+sentenceFour:
+  - Теперь я в Косиной комнате
+  - image: /img/letter-02/bed.png
+    alt: Папа держится за голову в кровати.
+    modifier: xl
+sentenceFive:
+  - Большой
+  - image: /img/letter-02/greetings.png
+    alt: привет
+    modifier: lg
+  - вам
+  - image: /img/letter-02/two-of-you.png
+    alt: обоим
+    modifier: lg
+  - от
+  - image: /img/letter-02/tadija-2.png
+    alt: меня

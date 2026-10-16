@@ -1,0 +1,6 @@
+---
+import NotFound from "../components/NotFound.astro";
+import { isSerbianSite } from "../i18n";
+---
+
+<NotFound lang={isSerbianSite ? "sr" : "en"} />

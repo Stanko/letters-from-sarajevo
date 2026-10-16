@@ -1,0 +1,29 @@
+---
+import type { LetterData } from "../../lib/book";
+type Stamp = Extract<
+  LetterData,
+  { template: "letter-three" }
+>["dreamImages"][number];
+interface Props {
+  stamp: Stamp;
+  isPortrait?: boolean;
+}
+const { stamp, isPortrait = false } = Astro.props;
+let classes = ["LetterThree-tadija"];
+if (!isPortrait) {
+  classes = [
+    "LetterThree-stamp",
+    ...(stamp.modifiers ?? []).map(
+      (modifier) => `LetterThree-stamp--${modifier}`,
+    ),
+  ];
+}
+const decorative = stamp.decorative ? "true" : undefined;
+---
+
+<img
+  class:list={classes}
+  src={stamp.image}
+  alt={stamp.alt}
+  aria-hidden={decorative}
+/>

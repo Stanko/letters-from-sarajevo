@@ -1,20 +1,50 @@
 ---
-import Navigation from '../components/Navigation.astro';
-import Footer from '../components/Footer.astro';
-import { canonicalHomeUrl, languages, siteOrigin, translations, type Locale } from '../i18n';
-import '../styles/index.scss';
+import Navigation from "../components/Navigation.astro";
+import Footer from "../components/Footer.astro";
+import {
+  canonicalHomeUrl,
+  homeUrl,
+  languages,
+  siteOrigin,
+  translations,
+  type Locale,
+  type LocalizedLink,
+} from "../i18n";
+import "../styles/index.scss";
 
 interface Props {
   lang: Locale;
   title?: string;
   isHome?: boolean;
   canonical?: string;
+  alternates?: LocalizedLink[];
+  noindex?: boolean;
 }
 
-const { lang, title, isHome = false, canonical } = Astro.props;
+const {
+  lang,
+  title,
+  isHome = false,
+  canonical,
+  alternates,
+  noindex = false,
+} = Astro.props;
+let alternateLinks = alternates ?? [];
+if (!alternates && isHome) {
+  alternateLinks = languages.map(({ code }) => ({
+    lang: code,
+    href: homeUrl(code),
+    canonical: canonicalHomeUrl(code),
+  }));
+}
+const defaultAlternate = alternateLinks.find((link) => link.lang === "en");
 const t = translations[lang];
 const pageTitle = title ? `${t.title} · ${title}` : t.title;
-const pageUrl = canonical ?? (isHome ? canonicalHomeUrl(lang) : new URL(Astro.url.pathname, siteOrigin(lang)).href);
+const pageUrl =
+  canonical ??
+  (isHome
+    ? canonicalHomeUrl(lang)
+    : new URL(Astro.url.pathname, siteOrigin(lang)).href);
 const imageUrl = new URL(`/img/${t.metaImage}`, siteOrigin(lang)).href;
 ---
 
@@ -25,11 +55,18 @@ const imageUrl = new URL(`/img/${t.metaImage}`, siteOrigin(lang)).href;
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>{pageTitle}</title>
     <meta name="description" content={t.metaDescription} />
+    {noindex && <meta name="robots" content="noindex" />}
     <link rel="canonical" href={pageUrl} />
-    {isHome && languages.map(({ code }) => (
-      <link rel="alternate" hreflang={code} href={canonicalHomeUrl(code)} />
+    {alternateLinks.map((link) => (
+      <link rel="alternate" hreflang={link.lang} href={link.canonical} />
     ))}
-    {isHome && <link rel="alternate" hreflang="x-default" href={canonicalHomeUrl('en')} />}
+    {defaultAlternate && (
+      <link
+        rel="alternate"
+        hreflang="x-default"
+        href={defaultAlternate.canonical}
+      />
+    )}
     <meta property="og:type" content="website" />
     <meta property="og:site_name" content={t.title} />
     <meta property="og:title" content={pageTitle} />
@@ -41,20 +78,54 @@ const imageUrl = new URL(`/img/${t.metaImage}`, siteOrigin(lang)).href;
     <meta name="twitter:description" content={t.metaDescription} />
     <meta name="twitter:image" content={imageUrl} />
 
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Patrick+Hand+SC&display=swap&subset=latin-ext" />
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto+Slab:300&display=swap&subset=latin-ext" />
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Pangolin&display=swap" />
-    <link rel="apple-touch-icon" sizes="180x180" href="/img/favicon/apple-touch-icon.png" />
-    <link rel="icon" type="image/png" sizes="32x32" href="/img/favicon/favicon-32x32.png" />
-    <link rel="icon" type="image/png" sizes="16x16" href="/img/favicon/favicon-16x16.png" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Patrick+Hand+SC&display=swap&subset=latin-ext"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Roboto+Slab:300&display=swap&subset=latin-ext"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Pangolin&display=swap"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="/img/favicon/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="/img/favicon/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="/img/favicon/favicon-16x16.png"
+    />
     <link rel="shortcut icon" href="/img/favicon/favicon.ico" />
-    <link rel="manifest" href={`/img/favicon/site${lang === 'sr' ? '.sr' : ''}.webmanifest`} />
-    <link rel="mask-icon" href="/img/favicon/safari-pinned-tab.svg" color="#2b5797" />
+    <link
+      rel="manifest"
+      href={`/img/favicon/site${lang === "sr" ? ".sr" : ""}.webmanifest`}
+    />
+    <link
+      rel="mask-icon"
+      href="/img/favicon/safari-pinned-tab.svg"
+      color="#2b5797"
+    />
     <meta name="theme-color" content="#ffffff" />
   </head>
   <body>
-    {title && <Navigation lang={lang} title={title} />}
-    <main class="Content"><slot /></main>
+    {title && (
+      <Navigation lang={lang} title={title} alternates={alternateLinks} />
+    )}
+    <main class="Content">
+      <slot />
+    </main>
     <Footer lang={lang} isHome={isHome} />
   </body>
 </html>

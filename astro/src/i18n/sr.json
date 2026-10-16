@@ -3,7 +3,6 @@
   "language": "Jezik",
   "metaDescription": "Početak rata u Bosni. Desetogodišnji Kosta sa majkom i mlađim bratom napušta Sarajevo. Otac ostaje u opsednutom, bombardovanom gradu i zajedno sa ostalim Sarajlijama preživljava teške dane. Uprkos tome, sinovima šalje šaljiva pisma, želeći da ih razveseli i ohrabri. Desetak godina kasnije, koristeći autentična očeva pisma, Kosta sastavlja priču svog detinjstva.",
   "metaImage": "pisma-iz-sarajeva.jpg",
-  "firstLetterLink": "/sr/prvo-pismo",
   "firstLetterText": "Prvo pismo",
   "prevLinkText": "Prethodno pismo",
   "nextLinkText": "Sledeće pismo",
@@ -23,5 +22,7 @@
       "Desetak godina kasnije, koristeći autentična očeva pisma, Kosta sastavlja priču svog detinjstva."
     ],
     "dedication": "Samiru i Siniši"
-  }
+  },
+  "replySignature": "Kosta",
+  "footnoteReturnLabel": "Nazad na tekst"
 }

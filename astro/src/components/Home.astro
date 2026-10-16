@@ -1,11 +1,15 @@
 ---
-import BaseLayout from '../layouts/BaseLayout.astro';
-import LanguageSelector from './LanguageSelector.astro';
-import { livePageUrl, translations, type Locale } from '../i18n';
+import BaseLayout from "../layouts/BaseLayout.astro";
+import LanguageSelector from "./LanguageSelector.astro";
+import { translations, type Locale } from "../i18n";
+import { entryUrl, getBookEntries, getBookEntry } from "../lib/book";
 
-interface Props { lang: Locale }
+interface Props {
+  lang: Locale;
+}
 const { lang } = Astro.props;
 const t = translations[lang];
+const firstLetter = getBookEntry(await getBookEntries(), lang, "letter-1");
 ---
 
 <BaseLayout lang={lang} isHome>
@@ -21,14 +25,22 @@ const t = translations[lang];
         </div>
       </div>
       <div class="Container">
-        {t.home.paragraphs.map((paragraph) => <p class="Home-text">{paragraph}</p>)}
+        {t.home.paragraphs.map((paragraph) => (
+          <p class="Home-text">{paragraph}</p>
+        ))}
         <p class="Home-dedication">{t.home.dedication}</p>
       </div>
     </div>
     <div class="Container">
-      <a class="Home-start" href={livePageUrl(lang, t.firstLetterLink)}>
+      <a class="Home-start" href={entryUrl(firstLetter)}>
         <span class="Home-startText">{t.firstLetterText}</span>
-        <img class="Home-startImage" src="/img/letter-color1.jpg" alt="" width="1200" height="1012" />
+        <img
+          class="Home-startImage"
+          src="/img/letter-color1.jpg"
+          alt=""
+          width="1200"
+          height="1012"
+        />
       </a>
     </div>
   </div>

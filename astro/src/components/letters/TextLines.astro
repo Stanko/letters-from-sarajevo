@@ -1,0 +1,13 @@
+---
+interface Props {
+  text: string;
+}
+const { text } = Astro.props;
+---
+
+{text.split("\n").map((line, index) => (
+  <Fragment>
+    {index > 0 && <br />}
+    {line}
+  </Fragment>
+))}

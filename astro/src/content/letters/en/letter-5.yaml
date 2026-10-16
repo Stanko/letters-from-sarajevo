@@ -1,0 +1,23 @@
+key: letter-5
+lang: en
+slug: letter-five
+title: Letter five
+template: letter-five
+date: Sarajevo, 2.XII 1993.
+header: Dear Stane and Kole,
+intro: "I have no news to report:"
+newsImage:
+  image: /img/letter-05/news.png
+  alt: There's no electricity, no water, no bread, no phone.
+paragraphs:
+  - text: I got a small stove that I put in my room. I can make some tea on it.
+    caption: (Image 1)
+  - text:
+      The stove is small, black and ugly. That’s why I drew eyebrows and a nose on it. There were
+      round holes on it already through which you can see the flames. When you open the ashtray, it
+      looks as though the stove is yawning or talking.
+    caption: (Image 2.)
+stoveImage:
+  image: /img/letter-05/stove.png
+  alt: A stove with eyebrows and a nose drawn on it.
+signoff: Lots of love!

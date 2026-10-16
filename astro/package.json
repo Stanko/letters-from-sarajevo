@@ -7,17 +7,24 @@
   },
   "scripts": {
     "dev": "astro dev",
+    "check": "astro check",
     "build": "SITE_TARGET=international astro build",
     "build:sr": "SITE_TARGET=serbian astro build",
     "preview": "astro preview",
     "preview:sr": "SITE_TARGET=serbian astro preview",
-    "astro": "astro"
+    "astro": "astro",
+    "format": "prettier . --write",
+    "format:check": "prettier . --check"
   },
   "dependencies": {
     "astro": "^7.4.0"
   },
   "devDependencies": {
+    "@astrojs/check": "^0.9.10",
     "@types/node": "^26.6.5",
-    "sass": "^1.105.2"
+    "prettier": "^3.9.10",
+    "prettier-plugin-astro": "^1.1.1",
+    "sass": "^1.105.2",
+    "typescript": "^6.0.3"
   }
 }

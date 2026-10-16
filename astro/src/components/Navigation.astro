@@ -1,16 +1,29 @@
 ---
-import LanguageSelector from './LanguageSelector.astro';
-import { homeUrl, translations, type Locale } from '../i18n';
+import LanguageSelector from "./LanguageSelector.astro";
+import {
+  homeUrl,
+  translations,
+  type Locale,
+  type LocalizedLink,
+} from "../i18n";
 
-interface Props { lang: Locale; title: string }
-const { lang, title } = Astro.props;
+interface Props {
+  lang: Locale;
+  title: string;
+  alternates?: LocalizedLink[];
+}
+const { lang, title, alternates } = Astro.props;
 ---
 
 <header class="Navigation">
   <nav class="Navigation-content">
-    <a class="Navigation-link" href={homeUrl(lang)}>{translations[lang].title}</a>
-    <span class="Navigation-separator" aria-hidden="true">&bull;</span>
+    <a class="Navigation-link" href={homeUrl(lang)}>
+      {translations[lang].title}
+    </a>
+    <span class="Navigation-separator" aria-hidden="true">
+      &bull;
+    </span>
     <span class="Navigation-title">{title}</span>
-    <LanguageSelector lang={lang} />
+    <LanguageSelector lang={lang} alternates={alternates} />
   </nav>
 </header>

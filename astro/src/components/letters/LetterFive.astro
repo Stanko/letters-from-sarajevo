@@ -1,0 +1,51 @@
+---
+import type { LetterData } from "../../lib/book";
+interface Props {
+  letter: Extract<LetterData, { template: "letter-five" }>;
+}
+const { letter } = Astro.props;
+---
+
+<div class="LetterFive">
+  <div class="LetterFive-date">{letter.date}</div>
+  <div class="LetterFive-header">{letter.header}</div>
+  <div class="LetterFive-top">
+    <p class="LetterFive-topText">{letter.intro}</p>
+    <div class="LetterFive-topImageWrapper">
+      <img
+        class="LetterFive-topImage"
+        src={letter.newsImage.image}
+        alt={letter.newsImage.alt}
+      />
+    </div>
+  </div>
+  <div class="LetterFive-bottom">
+    <div class="LetterFive-bottomLeft">
+      {letter.paragraphs.map((paragraph, index) => (
+        <Fragment>
+          <p class="LetterFive-bottomText">
+            {paragraph.text}
+            <br />
+            {paragraph.caption}
+          </p>
+          {index === 0 && (
+            <img
+              class="LetterFive-bottomImageSmall"
+              src={letter.stoveImage.image}
+              alt={letter.stoveImage.alt}
+            />
+          )}
+        </Fragment>
+      ))}
+    </div>
+    <div class="LetterFive-bottomImageLargeWrapper">
+      <img
+        class="LetterFive-bottomImageLarge"
+        src={letter.stoveImage.image}
+        alt={letter.stoveImage.alt}
+      />
+    </div>
+  </div>
+  <div class="LetterFive-signature">{letter.signoff}</div>
+  <slot />
+</div>

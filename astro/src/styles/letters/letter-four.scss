@@ -3,7 +3,8 @@
 @use "../base/mixins" as *;
 
 .LetterFour {
-  @include letter;}
+  @include letter;
+}
 
 .LetterFour-date {
   margin-bottom: 5rem;
@@ -64,7 +65,6 @@
     margin-bottom: 0;
   }
 }
-
 
 .LetterFour-image {
   display: block;

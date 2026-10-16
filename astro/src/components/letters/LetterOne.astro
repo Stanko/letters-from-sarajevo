@@ -1,0 +1,63 @@
+---
+import type { LetterData } from "../../lib/book";
+import TextLines from "./TextLines.astro";
+interface Props {
+  letter: Extract<LetterData, { template: "letter-one" }>;
+}
+const { letter } = Astro.props;
+---
+
+<div class="LetterOne">
+  <div class="LetterOne-title">{letter.header}</div>
+  <div class="LetterOne-blocks">
+    <div class="LetterOne-block LetterOne-block--one">
+      <p class="LetterOne-text">
+        <TextLines text={letter.blockOne.text} />
+      </p>
+      <img
+        class="LetterOne-image LetterOne-image--one"
+        src={letter.blockOne.image}
+        alt={letter.blockOne.alt}
+      />
+    </div>
+    <div class="LetterOne-block LetterOne-block--two">
+      <p class="LetterOne-text">
+        <TextLines text={letter.blockTwo.text} />
+      </p>
+      <img
+        class="LetterOne-image"
+        src={letter.blockTwo.image}
+        alt={letter.blockTwo.alt}
+      />
+    </div>
+    <div class="LetterOne-block LetterOne-block--three">
+      <div class="LetterOne-blockThreeTextWrapper">
+        <p class="LetterOne-text">
+          <TextLines text={letter.blockThree.text} />
+        </p>
+        {letter.blockThree.warningInscription && (
+          <p class="LetterOne-inscription">
+            {letter.blockThree.warningInscription}
+          </p>
+        )}
+      </div>
+      <img
+        class="LetterOne-image"
+        src={letter.blockThree.image}
+        alt={letter.blockThree.alt}
+      />
+    </div>
+    <div class="LetterOne-block LetterOne-block--four">
+      <p class="LetterOne-text">
+        <TextLines text={letter.blockFour.text} />
+      </p>
+      <p class="LetterOne-inscription">{letter.blockFour.treeInscription}</p>
+      <img
+        class="LetterOne-image"
+        src={letter.blockFour.image}
+        alt={letter.blockFour.alt}
+      />
+    </div>
+  </div>
+  <slot />
+</div>

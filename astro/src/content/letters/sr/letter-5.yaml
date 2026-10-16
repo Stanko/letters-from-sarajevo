@@ -1,0 +1,22 @@
+key: letter-5
+lang: sr
+slug: peto-pismo
+title: Peto pismo
+template: letter-five
+date: Sarajevo, 2.XII 1993.
+header: Dragi Stane i Kole,
+intro: "Kod mene ništa novo:"
+newsImage:
+  image: /img/letter-05/news.png
+  alt: Nema struje, nema vode, nema hleba, nema telefona
+paragraphs:
+  - text: Dobio sam malu peć koju sam postavio u sobu. Na njoj mogu skuhati čaj.
+    caption: (Slika 1.)
+  - text:
+      Peć je mala, crna, ružna. Zato sam joj nacrtao obrve i nos. Na vratašcima je imala već kružne
+      otvore kroz koje se vidi plamen. Kada se otvori lužnica izgleda kao da zijeva ili govori.
+    caption: (Slika 2.)
+stoveImage:
+  image: /img/letter-05/stove.png
+  alt: Peć sa docrtanim obrvama i nosom
+signoff: Puno pozdrava!

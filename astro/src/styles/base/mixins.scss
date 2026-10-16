@@ -78,12 +78,10 @@
   }
 }
 
-
 @mixin vh($value, $property: height) {
-  #{ $property }: #{ $value }vh;
-  #{ $property }: #{ $value }dvh;
+  #{ $property }: #{$value}vh;
+  #{ $property }: #{$value}dvh;
 }
-
 
 @mixin ie {
   @media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {

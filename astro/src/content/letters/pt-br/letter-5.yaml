@@ -1,0 +1,23 @@
+key: letter-5
+lang: pt-br
+slug: quinta-carta
+title: Quinta carta
+template: letter-five
+date: Sarajevo, 2.XII 1993.
+header: Queridos Stane e Kole,
+intro: "Nada novo por aqui:"
+newsImage:
+  image: /img/letter-05/news.png
+  alt: Sem eletricidade, sem água, sem pão, sem telefone
+paragraphs:
+  - text: Eu arranjei um pequeno fogão. Agora eu posso fazer chá nele.
+    caption: (Figura 1.)
+  - text:
+      O fogão é pequeno, preto e feio. Então eu desenhei duas sobrancelhas e um nariz nele. Já tinha
+      dois furos circulares onde podemos ver as chamas lá dentro. Quando você abre o cinzeiro,
+      parece que ele está bocejando ou tagarelando.
+    caption: (Figura 2.)
+stoveImage:
+  image: /img/letter-05/stove.png
+  alt: Dois fogões lado a lado (figuras 1 e 2), um com sobrancelhas e um nariz desenhado.
+signoff: Com muito amor!

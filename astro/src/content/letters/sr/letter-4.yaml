@@ -1,0 +1,66 @@
+key: letter-4
+lang: sr
+slug: cetvrto-pismo
+title: Četvrto pismo
+template: letter-four
+date: Sarajevo, 20.VIII 1993
+header: Dragi Kole i Stane,
+sentenceOne:
+  - Prošla je već godina dana od kada ste
+  - image: /img/letter-04/left.png
+    alt: napustili Sarajevo
+    modifier: xwide
+sentenceTwo:
+  - Za to vrijeme
+  - image: /img/letter-04/earth.png
+    alt: Zemlja
+  - je jedan put
+  - image: /img/letter-04/earth-run.png
+    alt: obišla
+    modifier: xl
+  - oko
+  - image: /img/letter-04/sun.png
+    alt: Sunca
+    modifier: lg
+  - .
+sentenceThree:
+  - "Vi ste za to vrijeme prešli nešto manji put: Sarajevo - Divljana."
+sentenceFour:
+  - Da li ste se promjenili →
+  - image: /img/letter-04/thin.png
+    alt: smšali
+  - ili
+  - image: /img/letter-04/fat.png
+    alt: se ugojili
+  - ili
+  - image: /img/letter-04/mustaches.png
+    alt: pustili brkove
+    modifier: xl
+  - "?"
+sentenceLeft:
+  text: Radite li gimnastiku?
+  image: /img/letter-04/lazy.png
+  alt: Kole i Stane leže na kauču i puše.
+sentenceRight:
+  text: Slušate li mamu?
+  image: /img/letter-04/mom.png
+  alt: Mama koja stoji iza Koleta i Staneta sa oklagijom i bokserskom rukavicom.
+blockOne:
+  image: /img/letter-04/truce.png
+  alt: Vojnik leži na topu koji je začepljen pampurom.
+  text: Ovdje je već desetak dana mirno.
+blockTwo:
+  image: /img/letter-04/electricity.png
+  alt: Upaljena sijalica i čovek koji ne može da gleda u nju.
+  text: Sinoć je posle dugo, dugo vremena došla struja.
+  textBottom: Već smo se bili navikli na mrak.
+blockThree:
+  image: /img/letter-04/sick.png
+  alt: Čovek sa igračkom i zvečkom.
+  text: Protekla godina bila je ovdje vrlo teška, neki nisu izdržali, malo su se "prehladili".
+blockFour:
+  image: /img/letter-04/icarus.png
+  alt: Tata mašta o Ikarovim krilima.
+  text: |-
+    Puno vas pozdravljam!
+    Nadam se da ćemo se uskoro vidjeti.

@@ -1,0 +1,80 @@
+---
+import type { GetStaticPaths } from "astro";
+import { render, type CollectionEntry } from "astro:content";
+import BaseLayout from "../../layouts/BaseLayout.astro";
+import ReplyLayout from "../../layouts/ReplyLayout.astro";
+import Letter from "../../components/letters/Letter.astro";
+import Pagination from "../../components/Pagination.astro";
+import {
+  canonicalAboutUrl,
+  isLocalLanguage,
+  type LocalizedLink,
+} from "../../i18n";
+import {
+  canonicalEntryUrl,
+  entryAlternates,
+  getBookEntries,
+  readingNeighbours,
+  type BookEntry,
+} from "../../lib/book";
+import { aboutAlternates, getAboutPages } from "../../lib/about";
+
+interface Props {
+  entry: BookEntry | CollectionEntry<"about">;
+  alternates: LocalizedLink[];
+  neighbours?: ReturnType<typeof readingNeighbours>;
+}
+
+export const getStaticPaths = (async () => {
+  const entries = await getBookEntries();
+  const aboutPages = await getAboutPages();
+  const readingPaths = entries
+    .filter(({ data }) => isLocalLanguage(data.lang))
+    .map((entry) => ({
+      params: { lang: entry.data.lang, slug: entry.data.slug },
+      props: {
+        entry,
+        alternates: entryAlternates(entry, entries),
+        neighbours: readingNeighbours(entry, entries),
+      },
+    }));
+  const aboutPaths = aboutPages
+    .filter(({ data }) => isLocalLanguage(data.lang))
+    .map((entry) => ({
+      params: { lang: entry.data.lang, slug: entry.data.slug },
+      props: { entry, alternates: aboutAlternates() },
+    }));
+  return [...readingPaths, ...aboutPaths];
+}) satisfies GetStaticPaths;
+
+const { entry, alternates, neighbours } = Astro.props;
+const { lang, title } = entry.data;
+const Content =
+  entry.collection !== "letters" ? (await render(entry)).Content : undefined;
+const canonical =
+  entry.collection === "about"
+    ? canonicalAboutUrl(lang)
+    : canonicalEntryUrl(entry);
+---
+
+<BaseLayout
+  lang={lang}
+  title={title}
+  canonical={canonical}
+  alternates={alternates}
+>
+  {entry.collection === "letters" && (
+    <Letter letter={entry.data}>
+      <Pagination lang={lang} {...neighbours} />
+    </Letter>
+  )}
+  {entry.collection === "replies" && (
+    <ReplyLayout reply={entry.data}>
+      {Content && <Content />}
+      <Pagination slot="pagination" lang={lang} {...neighbours} />
+    </ReplyLayout>
+  )}
+  {entry.collection === "about" && (
+    <div class="Container About">{Content && <Content />}</div>
+  )}
+</BaseLayout>

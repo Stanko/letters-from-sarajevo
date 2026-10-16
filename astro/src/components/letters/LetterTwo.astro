@@ -1,0 +1,23 @@
+---
+import type { LetterData } from "../../lib/book";
+import IllustratedSentence from "./IllustratedSentence.astro";
+interface Props {
+  letter: Extract<LetterData, { template: "letter-two" }>;
+}
+const { letter } = Astro.props;
+const sentences = [
+  letter.header,
+  letter.sentenceOne,
+  letter.sentenceTwo,
+  letter.sentenceThree,
+  letter.sentenceFour,
+  letter.sentenceFive,
+];
+---
+
+<div class="LetterTwo">
+  {sentences.map((parts) => (
+    <IllustratedSentence parts={parts} />
+  ))}
+  <slot />
+</div>

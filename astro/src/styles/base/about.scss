@@ -47,6 +47,7 @@
 
   img {
     display: block;
+    height: auto;
   }
 }
 
@@ -67,7 +68,6 @@
     width: 100%;
   }
 }
-
 
 .About-drawing {
   @include lg {

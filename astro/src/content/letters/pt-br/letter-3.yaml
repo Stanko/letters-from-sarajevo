@@ -1,0 +1,75 @@
+key: letter-3
+lang: pt-br
+slug: terceira-carta
+title: Terceira carta
+template: letter-three
+date: Sarajevo, 5.VII '93.
+header:
+  - Queridos Kole
+  - image: /img/letter-03/football-player.jpg
+    alt: ""
+    decorative: true
+    modifiers:
+      - tall
+  - e Stane
+  - image: /img/letter-03/olimpics.jpg
+    alt: ""
+    decorative: true
+    modifiers:
+      - square
+  - ","
+phoneSentence:
+  - Aqui os
+  - image: /img/letter-03/phone.jpg
+    alt: telefones
+  - ainda não funcionam.
+questions:
+  - text: Por que vocês não estão
+    image:
+      image: /img/letter-03/letter.jpg
+      alt: escrevendo cartas
+    narrow: true
+    imageWrapped: true
+    bottomText: pra mim?
+  - text: Talvez não tenha
+    image:
+      image: /img/letter-03/postbox.jpg
+      alt: caixa dos Correios
+    narrow: true
+    imageWrapped: false
+    bottomText: aí.
+activityText: "O que vocês têm feito:"
+activityOptions:
+  - image: /img/letter-03/tree.jpg
+    alt: Fora
+    modifiers:
+      - landscape
+  - ou
+  - image: /img/letter-03/home.jpg
+    alt: dentro de casa
+    modifiers:
+      - landscape
+  - "?"
+games:
+  - text: Vocês esqueceram como se joga
+    image:
+      image: /img/letter-03/chess.jpg
+      alt: xadrez
+    narrow: false
+    imageWrapped: false
+  - text: Se vocês não se comportarem, vou mandar sua mãe
+    image:
+      image: /img/letter-03/boxing.jpg
+      alt: usar suas habilidades de boxeadora
+    narrow: false
+    imageWrapped: false
+signoff: Com muito amor
+dreamImages:
+  - image: /img/letter-03/plane.jpg
+    alt: ""
+    decorative: true
+    modifiers:
+      - landscape
+      - bottom
+  - image: /img/letter-03/tadija.png
+    alt: Papai sonhando com um avião indo para Divljana

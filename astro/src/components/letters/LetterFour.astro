@@ -1,0 +1,60 @@
+---
+import type { LetterData } from "../../lib/book";
+import IllustratedSentence from "./IllustratedSentence.astro";
+import TextLines from "./TextLines.astro";
+interface Props {
+  letter: Extract<LetterData, { template: "letter-four" }>;
+}
+const { letter } = Astro.props;
+const blocks = [
+  letter.blockOne,
+  letter.blockTwo,
+  letter.blockThree,
+  letter.blockFour,
+];
+const modifiers = ["one", "two", "three", "four"];
+---
+
+<div class="LetterFour">
+  <div class="LetterFour-date">{letter.date}</div>
+  <div class="LetterFour-header">{letter.header}</div>
+  {[
+    letter.sentenceOne,
+    letter.sentenceTwo,
+    letter.sentenceThree,
+    letter.sentenceFour,
+  ].map((parts) => (
+    <IllustratedSentence parts={parts} />
+  ))}
+  <div class="LetterFour-lastSentence">
+    {[letter.sentenceLeft, letter.sentenceRight].map((sentence) => (
+      <div class="LetterFour-lastSentenceBlock">
+        <p>{sentence.text}</p>
+        <img src={sentence.image} alt={sentence.alt} />
+      </div>
+    ))}
+  </div>
+  <div class="LetterFour-blocks">
+    {blocks.map((block, index) => (
+      <div class={`LetterFour-block LetterFour-block--${modifiers[index]}`}>
+        <p class="LetterFour-text">
+          <TextLines text={block.text} />
+        </p>
+        <img
+          class:list={[
+            "LetterFour-image",
+            { "LetterFour-image--one": index === 0 },
+          ]}
+          src={block.image}
+          alt={block.alt}
+        />
+        {block.textBottom && (
+          <p class="LetterFour-text">
+            <TextLines text={block.textBottom} />
+          </p>
+        )}
+      </div>
+    ))}
+  </div>
+  <slot />
+</div>

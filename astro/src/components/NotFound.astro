@@ -1,0 +1,43 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro";
+import {
+  homeUrl,
+  languages,
+  siteOrigin,
+  translations,
+  type Locale,
+} from "../i18n";
+import { entryUrl, getBookEntries, getBookEntry } from "../lib/book";
+
+interface Props {
+  lang: Locale;
+}
+const { lang } = Astro.props;
+const t = translations[lang];
+const firstLetter = getBookEntry(await getBookEntries(), lang, "letter-1");
+const alternates = languages.map(({ code }) => ({
+  lang: code,
+  href: `/${code}/404/`,
+  canonical: new URL(`/${code}/404/`, siteOrigin(code)).href,
+}));
+---
+
+<BaseLayout lang={lang} title={t.error404} noindex alternates={alternates}>
+  <div class="NotFound">
+    <h1>{t.error404}</h1>
+    <p>{t.pageNotFound}</p>
+    <a href={homeUrl(lang)}>{t.homeLinkText}</a>
+  </div>
+  <div class="Container">
+    <a class="Home-start" href={entryUrl(firstLetter)}>
+      <span class="Home-startText">{t.firstLetterText}</span>
+      <img
+        class="Home-startImage"
+        src="/img/letter-color1.jpg"
+        alt=""
+        width="1200"
+        height="1012"
+      />
+    </a>
+  </div>
+</BaseLayout>

@@ -3,7 +3,6 @@
   "language": "Language",
   "metaDescription": "The beginning of the Bosnian war. Ten-year-old Kosta flees Sarajevo with his mother and his younger brother. The father stays behind in the besieged, bombed city and endures difficult times with other Sarajevans. Despite that, he sends humorous letters to his boys in an attempt to uplift and reassure them. Some ten years later, Kosta tells the story of his childhood using authentic letters his father wrote.",
   "metaImage": "letters-from-sarajevo.jpg",
-  "firstLetterLink": "/en/letter-one",
   "firstLetterText": "Letter one",
   "prevLinkText": "Previous letter",
   "nextLinkText": "Next letter",
@@ -23,5 +22,7 @@
       "Some ten years later, Kosta tells the story of his childhood using authentic letters his father wrote."
     ],
     "dedication": "To Samir and Siniša"
-  }
+  },
+  "replySignature": "Kosta",
+  "footnoteReturnLabel": "Return to the text"
 }

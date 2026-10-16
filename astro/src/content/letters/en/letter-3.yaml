@@ -1,0 +1,75 @@
+key: letter-3
+lang: en
+slug: letter-three
+title: Letter three
+template: letter-three
+date: Sarajevo, 5.VII '93.
+header:
+  - Dear Kole
+  - image: /img/letter-03/football-player.jpg
+    alt: ""
+    decorative: true
+    modifiers:
+      - tall
+  - and Stane
+  - image: /img/letter-03/olimpics.jpg
+    alt: ""
+    decorative: true
+    modifiers:
+      - square
+  - ","
+phoneSentence:
+  - Here
+  - image: /img/letter-03/phone.jpg
+    alt: the phones
+  - are still out.
+questions:
+  - text: Why don't the two of you
+    image:
+      image: /img/letter-03/letter.jpg
+      alt: write
+    narrow: true
+    imageWrapped: true
+    bottomText: to me,
+  - text: Perhaps, there's no
+    image:
+      image: /img/letter-03/postbox.jpg
+      alt: post service
+    narrow: true
+    imageWrapped: false
+    bottomText: "?"
+activityText: How are you spending your time -
+activityOptions:
+  - image: /img/letter-03/tree.jpg
+    alt: outside
+    modifiers:
+      - landscape
+  - or
+  - image: /img/letter-03/home.jpg
+    alt: inside
+    modifiers:
+      - landscape
+  - "?"
+games:
+  - text: Did you forget how to play
+    image:
+      image: /img/letter-03/chess.jpg
+      alt: chess
+    narrow: false
+    imageWrapped: false
+  - text: If you don't listen to your mum, I recommend she use
+    image:
+      image: /img/letter-03/boxing.jpg
+      alt: her boxing skills
+    narrow: false
+    imageWrapped: false
+signoff: Lots of love
+dreamImages:
+  - image: /img/letter-03/plane.jpg
+    alt: ""
+    decorative: true
+    modifiers:
+      - landscape
+      - bottom
+  - image: /img/letter-03/tadija.png
+    alt: Dad daydreaming about a plane to Divljana

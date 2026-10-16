@@ -1,0 +1,37 @@
+---
+import StampImage from "./StampImage.astro";
+import type { LetterData } from "../../lib/book";
+interface Props {
+  question: Extract<
+    LetterData,
+    { template: "letter-three" }
+  >["questions"][number];
+}
+const { question } = Astro.props;
+---
+
+<div class="LetterThree-doubleItem">
+  <div
+    class:list={[
+      "LetterThree-doubleItemText",
+      { "LetterThree-doubleItemText--narrow": question.narrow },
+    ]}
+  >
+    {question.text}
+  </div>
+  {question.imageWrapped && (
+    <div>
+      <StampImage stamp={question.image} />
+      {question.suffix}
+    </div>
+  )}
+  {!question.imageWrapped && (
+    <Fragment>
+      <StampImage stamp={question.image} />
+      {question.suffix}
+    </Fragment>
+  )}
+  {question.bottomText && (
+    <div class="LetterThree-doubleItemTextBottom">{question.bottomText}</div>
+  )}
+</div>

@@ -1,0 +1,25 @@
+---
+import type { LetterData } from "../../lib/book";
+interface Props {
+  parts: Extract<LetterData, { template: "letter-two" }>["header"];
+}
+const { parts } = Astro.props;
+---
+
+<div class="Sentence">
+  {parts.map((part) => (
+    <Fragment>
+      {typeof part === "string" && <span>{part}</span>}
+      {typeof part !== "string" && (
+        <div
+          class:list={[
+            "Sentence-imageWrapper",
+            part.modifier && `Sentence-imageWrapper--${part.modifier}`,
+          ]}
+        >
+          <img class="Sentence-image" src={part.image} alt={part.alt} />
+        </div>
+      )}{" "}
+    </Fragment>
+  ))}
+</div>

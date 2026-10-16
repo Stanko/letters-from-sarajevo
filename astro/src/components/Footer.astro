@@ -1,7 +1,10 @@
 ---
-import { homeUrl, livePageUrl, translations, type Locale } from '../i18n';
+import { aboutUrl, homeUrl, translations, type Locale } from "../i18n";
 
-interface Props { lang: Locale; isHome?: boolean }
+interface Props {
+  lang: Locale;
+  isHome?: boolean;
+}
 const { lang, isHome = false } = Astro.props;
 const t = translations[lang];
 ---
@@ -11,7 +14,7 @@ const t = translations[lang];
     <p>{t.footerText}</p>
     <nav class="Footer-nav">
       {!isHome && <a href={homeUrl(lang)}>{t.homeLinkText}</a>}
-      <a href={livePageUrl(lang, t.aboutLink)}>{t.aboutText}</a>
+      <a href={aboutUrl(lang)}>{t.aboutText}</a>
     </nav>
     <!-- These strings contain the existing, trusted license link. -->
     <p class="Footer-license" set:html={t.footerCopyright} />

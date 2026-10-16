@@ -1,0 +1,37 @@
+---
+import { translations } from "../i18n";
+import type { ReplyData } from "../lib/book";
+
+interface Props {
+  reply: ReplyData;
+}
+const { reply } = Astro.props;
+---
+
+<div class="Response">
+  {reply.kind === "reply" && <div class="Response-date">{reply.date}</div>}
+  <slot />
+  {reply.kind === "reply" && (
+    <>
+      <div class="Response-signature">
+        {translations[reply.lang].replySignature}
+      </div>
+      {reply.footnote && (
+        <footer class="Footnote">
+          <h2 id="footnote-label">{reply.footnote.label}</h2>
+          <sup class="Footnote-index">
+            <a
+              id="footnote-1"
+              href="#footnote-index-1"
+              aria-label={translations[reply.lang].footnoteReturnLabel}
+            >
+              1
+            </a>
+          </sup>{" "}
+          <Fragment set:html={reply.footnote.content} />
+        </footer>
+      )}
+    </>
+  )}
+  <slot name="pagination" />
+</div>

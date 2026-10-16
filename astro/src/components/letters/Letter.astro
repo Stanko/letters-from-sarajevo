@@ -1,0 +1,38 @@
+---
+import type { LetterData } from "../../lib/book";
+import LetterOne from "./LetterOne.astro";
+import LetterTwo from "./LetterTwo.astro";
+import LetterThree from "./LetterThree.astro";
+import LetterFour from "./LetterFour.astro";
+import LetterFive from "./LetterFive.astro";
+interface Props {
+  letter: LetterData;
+}
+const { letter } = Astro.props;
+---
+
+{letter.template === "letter-one" && (
+  <LetterOne letter={letter}>
+    <slot />
+  </LetterOne>
+)}
+{letter.template === "letter-two" && (
+  <LetterTwo letter={letter}>
+    <slot />
+  </LetterTwo>
+)}
+{letter.template === "letter-three" && (
+  <LetterThree letter={letter}>
+    <slot />
+  </LetterThree>
+)}
+{letter.template === "letter-four" && (
+  <LetterFour letter={letter}>
+    <slot />
+  </LetterFour>
+)}
+{letter.template === "letter-five" && (
+  <LetterFive letter={letter}>
+    <slot />
+  </LetterFive>
+)}

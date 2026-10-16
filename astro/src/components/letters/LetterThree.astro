@@ -1,0 +1,44 @@
+---
+import type { LetterData } from "../../lib/book";
+import StampImage from "./StampImage.astro";
+import StampSentence from "./StampSentence.astro";
+import StampQuestion from "./StampQuestion.astro";
+interface Props {
+  letter: Extract<LetterData, { template: "letter-three" }>;
+}
+const { letter } = Astro.props;
+---
+
+<div class="LetterThree">
+  <div class="LetterFive-date">{letter.date}</div>
+  <div class="LetterThree-block">
+    <StampSentence parts={letter.header} />
+  </div>
+  <div class="LetterThree-block LetterThree-block--two">
+    <StampSentence parts={letter.phoneSentence} />
+  </div>
+  <div class="LetterThree-block LetterThree-block--double">
+    {letter.questions.map((question) => (
+      <StampQuestion question={question} />
+    ))}
+  </div>
+  <div class="LetterThree-block LetterThree-block--four">
+    {letter.activityText}
+    <div class="LetterThree-blockFourStamps">
+      <StampSentence parts={letter.activityOptions} />
+    </div>
+  </div>
+  <div class="LetterThree-block LetterThree-block--double">
+    {letter.games.map((question) => (
+      <StampQuestion question={question} />
+    ))}
+  </div>
+  <div class="LetterThree-bottom">
+    {letter.signoff}
+    <div class="LetterThree-bottomImages">
+      <StampImage stamp={letter.dreamImages[0]!} />
+      <StampImage stamp={letter.dreamImages[1]!} isPortrait />
+    </div>
+  </div>
+  <slot />
+</div>
