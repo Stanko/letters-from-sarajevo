@@ -22,8 +22,15 @@ const t = translations[lang];
 const flags = { en: enFlag, sr: srFlag, ru: ruFlag, "pt-br": ptBrFlag };
 ---
 
-<details class="LanguageSelector" data-language-selector>
-  <summary class="LanguageSelector-button">
+<div class="LanguageSelector" data-language-selector>
+  <button
+    id="language-button"
+    class="LanguageSelector-button"
+    type="button"
+    aria-haspopup="menu"
+    aria-expanded="false"
+    aria-controls="language-menu"
+  >
     <Image
       layout="none"
       loading="eager"
@@ -32,8 +39,13 @@ const flags = { en: enFlag, sr: srFlag, ru: ruFlag, "pt-br": ptBrFlag };
       alt=""
     />
     <span class="LanguageSelector-text">{t.language}</span>
-  </summary>
-  <nav class="LanguageSelector-menu" aria-label={t.language}>
+  </button>
+  <nav
+    id="language-menu"
+    class="LanguageSelector-menu"
+    aria-label={t.language}
+    hidden
+  >
     {languages.map(({ code, label }) => (
       <a
         href={
@@ -58,20 +70,109 @@ const flags = { en: enFlag, sr: srFlag, ru: ruFlag, "pt-br": ptBrFlag };
       </a>
     ))}
   </nav>
-</details>
+  <noscript>
+    <style is:inline>
+      #language-menu[hidden] {
+        display: flex;
+        position: relative;
+      }
+      #language-button {
+        display: none;
+      }
+    </style>
+  </noscript>
+</div>
 
 <script>
   document
-    .querySelectorAll<HTMLDetailsElement>("[data-language-selector]")
+    .querySelectorAll<HTMLElement>("[data-language-selector]")
     .forEach((selector) => {
-      const summary = selector.querySelector("summary");
+      const button = selector.querySelector("button");
+      const menu = selector.querySelector("nav");
 
-      selector.addEventListener("keydown", (event) => {
-        if (event.key === "Escape" && selector.open) {
-          selector.open = false;
-          summary?.focus();
-          event.preventDefault();
+      if (!button || !menu) {
+        return;
+      }
+
+      const links = Array.from(menu.querySelectorAll("a"));
+
+      const setExpanded = (expanded: boolean) => {
+        if (!expanded && menu.contains(document.activeElement)) {
+          button.focus();
         }
+
+        button.setAttribute("aria-expanded", String(expanded));
+        menu.hidden = !expanded;
+      };
+
+      menu.setAttribute("role", "menu");
+      menu.setAttribute("aria-labelledby", button.id);
+      links.forEach((link) => {
+        link.setAttribute("role", "menuitem");
+        link.tabIndex = -1;
+        link.addEventListener("click", () => setExpanded(false));
+      });
+
+      setExpanded(false);
+
+      button.addEventListener("click", () => {
+        const expanded = button.getAttribute("aria-expanded") === "false";
+        setExpanded(expanded);
+
+        if (expanded) {
+          links[0]?.focus();
+        }
+      });
+
+      button.addEventListener("keydown", (event) => {
+        if (event.key === "ArrowDown" || event.key === "ArrowUp") {
+          event.preventDefault();
+          setExpanded(true);
+          const index = event.key === "ArrowUp" ? links.length - 1 : 0;
+          links[index]?.focus();
+        }
+      });
+
+      menu.addEventListener("keydown", (event) => {
+        if (event.ctrlKey || event.altKey || event.metaKey) {
+          return;
+        }
+
+        if (event.key === "Escape" || event.key === "Tab") {
+          setExpanded(false);
+
+          if (event.key === "Escape" || event.shiftKey) {
+            event.preventDefault();
+          }
+          return;
+        }
+
+        const index = links.findIndex(
+          (link) => link === document.activeElement,
+        );
+
+        if (event.key === " ") {
+          event.preventDefault();
+          links[index]?.click();
+          return;
+        }
+
+        let nextIndex = index;
+
+        if (event.key === "ArrowDown") {
+          nextIndex = (index + 1) % links.length;
+        } else if (event.key === "ArrowUp") {
+          nextIndex = (index - 1 + links.length) % links.length;
+        } else if (event.key === "Home") {
+          nextIndex = 0;
+        } else if (event.key === "End") {
+          nextIndex = links.length - 1;
+        } else {
+          return;
+        }
+
+        event.preventDefault();
+        links[nextIndex]?.focus();
       });
 
       selector.addEventListener("focusout", (event) => {
@@ -79,13 +180,13 @@ const flags = { en: enFlag, sr: srFlag, ru: ruFlag, "pt-br": ptBrFlag };
           event.relatedTarget instanceof Node &&
           !selector.contains(event.relatedTarget)
         ) {
-          selector.open = false;
+          setExpanded(false);
         }
       });
 
       document.addEventListener("click", (event) => {
         if (event.target instanceof Node && !selector.contains(event.target))
-          selector.open = false;
+          setExpanded(false);
       });
     });
 </script>

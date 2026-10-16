@@ -170,8 +170,14 @@ images are not migrated; retain specific files if external references need them.
 - `public/img/`: favicons and social-sharing images, retaining stable `/img/`
   URLs. Rendered image URLs are generated under `/_astro/`.
 
-The language selector uses native HTML details/summary, including without
-JavaScript. A small script closes it on Escape, focus leaving, or outside clicks.
+The language selector follows the [WAI menu button keyboard pattern](https://www.w3.org/WAI/ARIA/apg/patterns/menu-button/examples/menu-button-actions-active-descendant/),
+using focus on native links as in the related navigation menu example.
+Enter/Space/Down opens it at the first link; Up opens it at the last. Arrows wrap,
+Home/End jump to the first/last link. Enter/Space activates a link. Escape closes and returns to the button;
+Tab closes and moves onward, while Shift+Tab closes and returns to the button.
+It also closes when focus leaves or the user clicks outside. JavaScript adds the
+menu/menuitem roles and removes links from the Tab sequence. Without JavaScript,
+all language links remain visible and tabbable.
 Translation strings are rendered as text except the existing trusted license
 HTML in `footerCopyright`. Illustrated text uses plain strings; multiline YAML
 text renders explicit line breaks. The existing Portuguese footnote retains

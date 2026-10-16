@@ -4,6 +4,11 @@
 
 .LanguageSelector {
   font-size: 0.9em;
+  position: relative;
+
+  [hidden] {
+    display: none;
+  }
 }
 
 .LanguageSelector-button {
@@ -16,6 +21,9 @@
   flex-basis: 3rem;
   margin-right: 0.8rem;
   flex-shrink: 0;
+  outline: 1px solid rgb(0 0 0 / 0.1);
+  outline-offset: -1px;
+  border-radius: 2px;
 }
 
 .LanguageSelector-icon {
@@ -41,10 +49,6 @@
   color: $gray;
 }
 
-.LanguageSelector {
-  position: relative;
-}
-
 .LanguageSelector-button {
   cursor: pointer;
   margin: 0;
@@ -53,6 +57,7 @@
   background: none;
   list-style: none;
   transition: opacity 300ms;
+  color: inherit;
 
   &:hover,
   &:focus,
@@ -73,7 +78,6 @@
   border: thin solid $gray-border;
   left: 0;
   top: calc(100% + 1rem);
-  position: absolute;
   z-index: 2;
   width: auto;
   display: flex;
@@ -83,6 +87,10 @@
     left: auto;
     right: 0;
   }
+}
+
+.LanguageSelector-button:not([hidden]) + .LanguageSelector-menu {
+  position: absolute;
 }
 
 .LanguageSelector-link {
