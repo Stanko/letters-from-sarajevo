@@ -1,4 +1,5 @@
 ---
+import { Image } from "astro:assets";
 import type { LetterData } from "../../lib/book";
 import IllustratedSentence from "./IllustratedSentence.astro";
 import TextLines from "./TextLines.astro";
@@ -30,7 +31,7 @@ const modifiers = ["one", "two", "three", "four"];
     {[letter.sentenceLeft, letter.sentenceRight].map((sentence) => (
       <div class="LetterFour-lastSentenceBlock">
         <p>{sentence.text}</p>
-        <img src={sentence.image} alt={sentence.alt} />
+        <Image layout="none" src={sentence.image} alt={sentence.alt} />
       </div>
     ))}
   </div>
@@ -40,7 +41,8 @@ const modifiers = ["one", "two", "three", "four"];
         <p class="LetterFour-text">
           <TextLines text={block.text} />
         </p>
-        <img
+        <Image
+          layout="none"
           class:list={[
             "LetterFour-image",
             { "LetterFour-image--one": index === 0 },

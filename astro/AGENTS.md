@@ -32,3 +32,10 @@ Consult these guides before working on related tasks:
 - Ask when requirements leave design or interaction choices open.
 - Preserve unrelated changes; avoid formatting churn.
 - Keep comments and explanations brief and direct.
+
+# Code formatting
+
+- Use the repository's Prettier configuration.
+- Do not introduce alternative formatting conventions.
+- Run `npm run format` after modifying code.
+- Ensure `npm run format:check` passes before finishing.

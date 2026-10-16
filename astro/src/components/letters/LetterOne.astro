@@ -1,4 +1,5 @@
 ---
+import { Image } from "astro:assets";
 import type { LetterData } from "../../lib/book";
 import TextLines from "./TextLines.astro";
 interface Props {
@@ -14,7 +15,8 @@ const { letter } = Astro.props;
       <p class="LetterOne-text">
         <TextLines text={letter.blockOne.text} />
       </p>
-      <img
+      <Image
+        layout="none"
         class="LetterOne-image LetterOne-image--one"
         src={letter.blockOne.image}
         alt={letter.blockOne.alt}
@@ -24,7 +26,8 @@ const { letter } = Astro.props;
       <p class="LetterOne-text">
         <TextLines text={letter.blockTwo.text} />
       </p>
-      <img
+      <Image
+        layout="none"
         class="LetterOne-image"
         src={letter.blockTwo.image}
         alt={letter.blockTwo.alt}
@@ -41,7 +44,8 @@ const { letter } = Astro.props;
           </p>
         )}
       </div>
-      <img
+      <Image
+        layout="none"
         class="LetterOne-image"
         src={letter.blockThree.image}
         alt={letter.blockThree.alt}
@@ -52,7 +56,8 @@ const { letter } = Astro.props;
         <TextLines text={letter.blockFour.text} />
       </p>
       <p class="LetterOne-inscription">{letter.blockFour.treeInscription}</p>
-      <img
+      <Image
+        layout="none"
         class="LetterOne-image"
         src={letter.blockFour.image}
         alt={letter.blockFour.alt}

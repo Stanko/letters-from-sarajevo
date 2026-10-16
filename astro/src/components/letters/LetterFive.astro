@@ -1,4 +1,5 @@
 ---
+import { Image } from "astro:assets";
 import type { LetterData } from "../../lib/book";
 interface Props {
   letter: Extract<LetterData, { template: "letter-five" }>;
@@ -12,7 +13,8 @@ const { letter } = Astro.props;
   <div class="LetterFive-top">
     <p class="LetterFive-topText">{letter.intro}</p>
     <div class="LetterFive-topImageWrapper">
-      <img
+      <Image
+        layout="none"
         class="LetterFive-topImage"
         src={letter.newsImage.image}
         alt={letter.newsImage.alt}
@@ -29,7 +31,8 @@ const { letter } = Astro.props;
             {paragraph.caption}
           </p>
           {index === 0 && (
-            <img
+            <Image
+              layout="none"
               class="LetterFive-bottomImageSmall"
               src={letter.stoveImage.image}
               alt={letter.stoveImage.alt}
@@ -39,7 +42,8 @@ const { letter } = Astro.props;
       ))}
     </div>
     <div class="LetterFive-bottomImageLargeWrapper">
-      <img
+      <Image
+        layout="none"
         class="LetterFive-bottomImageLarge"
         src={letter.stoveImage.image}
         alt={letter.stoveImage.alt}

@@ -5,22 +5,22 @@ title: Letter one
 template: letter-one
 header: Dear Kole and Stane,
 blockOne:
-  image: /img/letter-01/01.png
+  image: ../../../assets/letter-01/01.png
   text: There's no water. We haul it from across the city.
   alt: A man hauls water containers while daydreaming about beer.
 blockTwo:
-  image: /img/letter-01/02.png
+  image: ../../../assets/letter-01/02.png
   text: Shells keep falling. We've perfected our rescue techniques.
   alt: A mouse swoops into a hole in the wall while dragging a man clinging to its tail.
 blockThree:
-  image: /img/letter-01/03.png
+  image: ../../../assets/letter-01/03.png
   text:
     Many intersections still have to be crossed running. Traffic lights are replaced with warning
     signs.
   warningInscription: Caution sniper!
   alt: People running across a street, passing by a "caution sniper" sign.
 blockFour:
-  image: /img/letter-01/04.png
+  image: ../../../assets/letter-01/04.png
   text:
     "Almost all of the trees in the city were cut down for firewood last winter. There's only a
     few left. I saw one of them (a small birch tree) near the faculty of veterinary medicine. There

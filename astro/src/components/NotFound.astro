@@ -1,4 +1,6 @@
 ---
+import { Image } from "astro:assets";
+import letterImage from "../assets/letter-color1.jpg";
 import BaseLayout from "../layouts/BaseLayout.astro";
 import {
   homeUrl,
@@ -31,13 +33,7 @@ const alternates = languages.map(({ code }) => ({
   <div class="Container">
     <a class="Home-start" href={entryUrl(firstLetter)}>
       <span class="Home-startText">{t.firstLetterText}</span>
-      <img
-        class="Home-startImage"
-        src="/img/letter-color1.jpg"
-        alt=""
-        width="1200"
-        height="1012"
-      />
+      <Image layout="none" class="Home-startImage" src={letterImage} alt="" />
     </a>
   </div>
 </BaseLayout>

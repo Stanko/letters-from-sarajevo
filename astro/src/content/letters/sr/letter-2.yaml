@@ -6,55 +6,55 @@ template: letter-two
 date: Sarajevo, 4.V 93.
 header:
   - Dragi
-  - image: /img/letter-02/kole.png
+  - image: ../../../assets/letter-02/kole.png
     alt: Kole
   - "&"
-  - image: /img/letter-02/stane.png
+  - image: ../../../assets/letter-02/stane.png
     alt: Stane
 sentenceOne:
   - Prošle sedmice, 28. aprila tačno u
-  - image: /img/letter-02/clock.png
+  - image: ../../../assets/letter-02/clock.png
     alt: podne
   - u našu sobu je
-  - image: /img/letter-02/fly-in.png
+  - image: ../../../assets/letter-02/fly-in.png
     alt: uletela granata
   - .
 sentenceTwo:
-  - image: /img/letter-02/rocket-1.png
+  - image: ../../../assets/letter-02/rocket-1.png
     alt: Granata
   - je, ustvari,
-  - image: /img/letter-02/hit.png
+  - image: ../../../assets/letter-02/hit.png
     alt: udarila
   - iznad samog
-  - image: /img/letter-02/window.png
+  - image: ../../../assets/letter-02/window.png
     alt: prozora
     modifier: window
   - .
 sentenceThree:
-  - image: /img/letter-02/tadija-1.png
+  - image: ../../../assets/letter-02/tadija-1.png
     alt: Ja
   - sam bio na fakultetu.
-  - image: /img/letter-02/rocket-2.png
+  - image: ../../../assets/letter-02/rocket-2.png
     alt: Granata
   - je
-  - image: /img/letter-02/destroy.png
+  - image: ../../../assets/letter-02/destroy.png
     alt: Uništila
     modifier: lg
   - sve u našoj sobi.
 sentenceFour:
   - Sada sam u Kosinoj sobi
-  - image: /img/letter-02/bed.png
+  - image: ../../../assets/letter-02/bed.png
     alt: Tata se drži za glavu u krevetu.
     modifier: xl
 sentenceFive:
   - Puno
-  - image: /img/letter-02/greetings.png
+  - image: ../../../assets/letter-02/greetings.png
     alt: pozdrava
     modifier: lg
   - Vama
-  - image: /img/letter-02/two-of-you.png
+  - image: ../../../assets/letter-02/two-of-you.png
     alt: dvojici
     modifier: lg
   - od
-  - image: /img/letter-02/tadija-2.png
+  - image: ../../../assets/letter-02/tadija-2.png
     alt: mene

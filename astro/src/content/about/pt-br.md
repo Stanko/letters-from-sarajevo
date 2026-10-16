@@ -11,9 +11,11 @@ para a Sérvia. Apesar de tudo, nosso pai nos escrevia cartas - divertidas, posi
 
 Cerca de dez anos depois, o livro foi publicado, consistindo em cartas selecionadas do meu pai e as respostas que meu irmão Kosta escrevia em um caderno.
 
-<p class="About-book">
-  <img src="/img/korice.jpg" alt="O Livro, publicado em 2005." width="738" height="561" />
-</p>
+<div class="About-book">
+
+![O Livro, publicado em 2005.](../../assets/korice.jpg)
+
+</div>
 
 Combinadas, essas cartas contam uma história um pouco mais alegre e diferente da guerra.
 
@@ -33,10 +35,14 @@ O resultado é maravilhoso, e abaixo você pode comparar um dos desenhos origina
 
 <div class="About-drawings">
   <div class="About-drawing">
-    <img src="/img/scan.jpg" alt="Desenho original, digitalizado Original drawing, digitalizada em baixa resolução" width="2745" height="1656" />
+
+![Desenho original, digitalizado Original drawing, digitalizada em baixa resolução](../../assets/scan.jpg)
+
   </div>
   <div class="About-drawing">
-    <img src="/img/letter-01/03.png" alt="O mesmo desenho, redesenhado pelo Ivan" width="1639" height="1080" />
+
+![O mesmo desenho, redesenhado pelo Ivan](../../assets/letter-01/03.png)
+
   </div>  
 </div>
 

@@ -5,20 +5,20 @@ title: Primeira carta
 template: letter-one
 header: Queridos Kole e Stane,
 blockOne:
-  image: /img/letter-01/01.png
+  image: ../../../assets/letter-01/01.png
   alt: Homem carrega litros de água, enquanto sonha com uma caneca de cerveja.
   text: Não há água. Nós precisamos ir buscar do outro lado da cidade.
 blockTwo:
-  image: /img/letter-01/02.png
+  image: ../../../assets/letter-01/02.png
   alt: Um rato corre para um buraco na parede carregando um homem pendurado à sua cauda.
   text: Os mísseis continuam caindo. Nós aprimoramos nossas técnicas de resgate.
 blockThree:
-  image: /img/letter-01/03.png
+  image: ../../../assets/letter-01/03.png
   alt: Pessoas correndo nas ruas, é possível ler um cartaz dizendo "Cuidado com os franco-atiradores"
   text: "Ainda temos que correr por muitas ruas. Ao invés de semáforos, há cartazes que dizem:"
   warningInscription: Cuidado com os franco-atiradores!
 blockFour:
-  image: /img/letter-01/04.png
+  image: ../../../assets/letter-01/04.png
   alt:
     Existe apenas uma árvore no parque, uma pequena bétula com uma placa que diz "Se você cortar
     essa árvore, será sua última"

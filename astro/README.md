@@ -105,7 +105,7 @@ links used extensionless paths; Astro emits directories with `index.html`.
 | International `/sr`, `/sr/`, `/sr/index.html`         | `https://pismaizsarajeva.com/`                                                                        |
 | Serbian `/sr`, `/sr/`, `/sr/index.html`               | `/`                                                                                                   |
 | Serbian English, Russian, Portuguese homepage aliases | Corresponding international homepage                                                                  |
-| `/public/img/*`                                       | `/img/:splat` for the migrated assets                                                                 |
+| `/public/img/*`                                       | `/img/:splat` for files retained in `public/img/`                                                     |
 | `/404.html`                                           | Preserved on both sites                                                                               |
 
 The `.html`, homepage, and image redirects above are generated as HTTP 301
@@ -135,12 +135,17 @@ images are not migrated; retain specific files if external references need them.
 - `src/pages/[lang]/[slug].astro`: reading and About pages, filtered by build target.
 - `src/content/about/{lang}.md`: About prose and image descriptions, copied
   from the legacy Markdown sources. Keep ordinary Markdown for prose and
-  simple HTML for styled image groups and the signature. `lang`, `slug`, and
+  Markdown image syntax inside HTML wrappers for styled image groups, plus
+  simple HTML for the signature. Relative image paths resolve into `src/assets/`
+  and Astro generates their dimensions. `lang`, `slug`, and
   `title` are required; slugs must match `aboutLink` in the locale labels.
   The shared route renders these pages with `BaseLayout` and existing `.About`
   styles; `src/lib/about.ts` validates translations and supplies language links.
 - `src/content/letters/{lang}/letter-*.yaml`: illustrated letter content, including
   text, images, alt text, and the language-specific ordering of illustrated words.
+  Image paths are relative to each YAML file (for example,
+  `../../../assets/letter-01/01.png`). The schema uses Astro's `image()` helper
+  to validate files and supply image metadata to the letter components.
 - `src/components/letters/`: five shared letter compositions and their small
   illustration helpers. Layout markup is shared across languages.
 - `src/content/replies/{lang}/*.md`: reply and epilogue prose. Reply dates belong
@@ -157,11 +162,13 @@ images are not migrated; retain specific files if external references need them.
   validation schemas. No MDX or custom Markdown plugins are used.
 - `src/styles/`: original global SCSS, compiled by Astro. Sass modules replace
   legacy imports, with native focus rings and dynamic viewport height.
-- `public/img/`: illustrations, homepage images, flags, and favicons at `/img/`.
-  About uses `korice.jpg` (738 × 561), `scan.jpg` (2745 × 1656), and the existing
-  `letter-01/03.png` (1639 × 1080). Keep explicit intrinsic `width` and `height`
-  on About images; CSS scales their height proportionally. If replacing an
-  image, update these attributes from the actual file dimensions.
+- `src/assets/`: illustrations, homepage/About images, and flags. Components
+  import these files and use `Image` from `astro:assets` with `layout="none"`
+  so existing CSS controls their layout. Astro emits optimized assets with
+  intrinsic `width` and `height`; global `height: auto` preserves their ratios
+  as CSS scales them. About images use Astro's built-in Markdown processing.
+- `public/img/`: favicons and social-sharing images, retaining stable `/img/`
+  URLs. Rendered image URLs are generated under `/_astro/`.
 
 The language selector uses native HTML details/summary, including without
 JavaScript. A small script closes it on Escape, focus leaving, or outside clicks.

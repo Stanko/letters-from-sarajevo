@@ -33,6 +33,13 @@
   }
 }
 
+.LetterFive-topImageWrapper {
+  @include md {
+    flex: 1;
+    min-width: 0;
+  }
+}
+
 .LetterFive-topImage {
   width: 100%;
 }

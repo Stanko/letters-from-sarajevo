@@ -1,4 +1,5 @@
 ---
+import { Image } from "astro:assets";
 import type { LetterData } from "../../lib/book";
 type Stamp = Extract<
   LetterData,
@@ -21,7 +22,8 @@ if (!isPortrait) {
 const decorative = stamp.decorative ? "true" : undefined;
 ---
 
-<img
+<Image
+  layout="none"
   class:list={classes}
   src={stamp.image}
   alt={stamp.alt}

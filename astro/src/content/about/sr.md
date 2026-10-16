@@ -10,9 +10,11 @@ Devedesetih godina, za vreme rata u Bosni, naš otac je ostao zaglavljen u Saraj
 
 Desetak godina kasnije Zavod za udžbenike je objavio knjigu koja se sastoji od probranih, originalnih pisama mog oca i odgovorima koje je Kosta zapisivao u svesku.
 
-<p class="About-book">
-  <img src="/img/korice.jpg" alt="Korice knjige, objavljene 2005. godine" width="738" height="561" />
-</p>
+<div class="About-book">
+
+![Korice knjige, objavljene 2005. godine](../../assets/korice.jpg)
+
+</div>
 
 Zajedno, ona pričaju jednu malo drugačiju i vedriju priču o ratu.
 
@@ -32,10 +34,14 @@ Rezultat je fantastičan, i ispod možete videti poređenje jednog od originalni
 
 <div class="About-drawings">
   <div class="About-drawing">
-    <img src="/img/scan.jpg" alt="Originalni crtež, skeniran u lošoj rezoluciji" width="2745" height="1656" />
+
+![Originalni crtež, skeniran u lošoj rezoluciji](../../assets/scan.jpg)
+
   </div>
   <div class="About-drawing">
-    <img src="/img/letter-01/03.png" alt="Isti crtež, koji je Ivan ponovo nacrtao i digitalizovao" width="1639" height="1080" />
+
+![Isti crtež, koji je Ivan ponovo nacrtao i digitalizovao](../../assets/letter-01/03.png)
+
   </div>  
 </div>
 

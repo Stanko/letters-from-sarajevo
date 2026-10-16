@@ -6,13 +6,13 @@ template: letter-three
 date: Сараево, 5.VII '93.
 header:
   - Дорогие Коле
-  - image: /img/letter-03/football-player.jpg
+  - image: ../../../assets/letter-03/football-player.jpg
     alt: ""
     decorative: true
     modifiers:
       - tall
   - и Стане
-  - image: /img/letter-03/olimpics.jpg
+  - image: ../../../assets/letter-03/olimpics.jpg
     alt: ""
     decorative: true
     modifiers:
@@ -20,32 +20,32 @@ header:
   - ","
 phoneSentence:
   - Здесь все еще не работают
-  - image: /img/letter-03/phone.jpg
+  - image: ../../../assets/letter-03/phone.jpg
     alt: телефоны
   - .
 questions:
   - text: Почему вы оба мне не
     image:
-      image: /img/letter-03/letter.jpg
+      image: ../../../assets/letter-03/letter.jpg
       alt: пишете
     narrow: false
     imageWrapped: true
     suffix: ","
   - text: Может быть там нет
     image:
-      image: /img/letter-03/postbox.jpg
+      image: ../../../assets/letter-03/postbox.jpg
       alt: почты
     narrow: false
     imageWrapped: false
     suffix: "?"
 activityText: "Как вы проводите время:"
 activityOptions:
-  - image: /img/letter-03/tree.jpg
+  - image: ../../../assets/letter-03/tree.jpg
     alt: на улице
     modifiers:
       - landscape
   - или
-  - image: /img/letter-03/home.jpg
+  - image: ../../../assets/letter-03/home.jpg
     alt: дома
     modifiers:
       - landscape
@@ -53,23 +53,23 @@ activityOptions:
 games:
   - text: Не забываете играть в
     image:
-      image: /img/letter-03/chess.jpg
+      image: ../../../assets/letter-03/chess.jpg
       alt: шахматы
     narrow: false
     imageWrapped: false
   - text: Если не будете слушаться, я советую маме взяться за
     image:
-      image: /img/letter-03/boxing.jpg
+      image: ../../../assets/letter-03/boxing.jpg
       alt: бокс
     narrow: false
     imageWrapped: false
 signoff: Большой привет
 dreamImages:
-  - image: /img/letter-03/plane.jpg
+  - image: ../../../assets/letter-03/plane.jpg
     alt: ""
     decorative: true
     modifiers:
       - landscape
       - bottom
-  - image: /img/letter-03/tadija.png
+  - image: ../../../assets/letter-03/tadija.png
     alt: Папа мечтает о самолете в Дивляну

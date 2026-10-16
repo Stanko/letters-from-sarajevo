@@ -7,7 +7,7 @@ date: Сараево, 2.XII 1993.
 header: Дорогие Коле и Стане,
 intro: "У меня ничего нового:"
 newsImage:
-  image: /img/letter-05/news.png
+  image: ../../../assets/letter-05/news.png
   alt: Нет электричества, нет воды, нет хлеба, нет телефона
 paragraphs:
   - text: Я получил небольшую печку, которую поставил в комнате. На ней я могу согреть чай.
@@ -18,6 +18,6 @@ paragraphs:
       зевает или говорит.
     caption: (Рисунок 2)
 stoveImage:
-  image: /img/letter-05/stove.png
+  image: ../../../assets/letter-05/stove.png
   alt: Печь с нарисованными бровями и носом
 signoff: Большой привет!

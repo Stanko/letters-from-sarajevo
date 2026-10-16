@@ -51,9 +51,6 @@
   }
 }
 
-.About-book {
-}
-
 .About-drawings {
   margin-bottom: 1em;
 
@@ -70,6 +67,10 @@
 }
 
 .About-drawing {
+  p {
+    margin-bottom: 0;
+  }
+
   @include lg {
     flex-basis: calc(50% - 1rem);
     width: calc(50% - 1rem);

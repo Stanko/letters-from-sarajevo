@@ -7,19 +7,19 @@ date: Сараево, 20.VIII 1993
 header: Дорогие Коле и Стане,
 sentenceOne:
   - Прошел уже год с того дня как вы
-  - image: /img/letter-04/left.png
+  - image: ../../../assets/letter-04/left.png
     alt: уехали из Сараева
     modifier: xwide
 sentenceTwo:
   - За это время
-  - image: /img/letter-04/earth.png
+  - image: ../../../assets/letter-04/earth.png
     alt: Земля
   - один раз
-  - image: /img/letter-04/earth-run.png
+  - image: ../../../assets/letter-04/earth-run.png
     alt: обошла
     modifier: xl
   - вокруг
-  - image: /img/letter-04/sun.png
+  - image: ../../../assets/letter-04/sun.png
     alt: Солнца
     modifier: lg
   - .
@@ -27,39 +27,39 @@ sentenceThree:
   - "Вы за это время проделали более короткий путь: Сараево - Дивляна."
 sentenceFour:
   - Изменились ли вы →
-  - image: /img/letter-04/thin.png
+  - image: ../../../assets/letter-04/thin.png
     alt: похудели
   - или
-  - image: /img/letter-04/fat.png
+  - image: ../../../assets/letter-04/fat.png
     alt: поправились
   - или
-  - image: /img/letter-04/mustaches.png
+  - image: ../../../assets/letter-04/mustaches.png
     alt: отрастили усы
     modifier: xl
   - "?"
 sentenceLeft:
   text: Делаете ли вы гимнастику?
-  image: /img/letter-04/lazy.png
+  image: ../../../assets/letter-04/lazy.png
   alt: Коле и Стане лежат на диване и курят.
 sentenceRight:
   text: Слушаетесь ли вы маму?
-  image: /img/letter-04/mom.png
+  image: ../../../assets/letter-04/mom.png
   alt: Мама стоит позади Коле и Стане со скалкой и боксерской перчаткой.
 blockOne:
-  image: /img/letter-04/truce.png
+  image: ../../../assets/letter-04/truce.png
   alt: Солдат лежит на пушке с заткнутым дулом.
   text: Здесь уже десять дней спокойно.
 blockTwo:
-  image: /img/letter-04/electricity.png
+  image: ../../../assets/letter-04/electricity.png
   alt: Включенная лампочка и человек, который не может на нее смотреть.
   text: Вчера вечером после долгого-долгого времени дали электричество.
   textBottom: Мы здесь уже привыкли к темноте.
 blockThree:
-  image: /img/letter-04/sick.png
+  image: ../../../assets/letter-04/sick.png
   alt: Человек с игрушкой и погремушкой.
   text: Прошлый год здесь был очень тяжелым, некоторые не выдержали,  малость «переохладились».
 blockFour:
-  image: /img/letter-04/icarus.png
+  image: ../../../assets/letter-04/icarus.png
   alt: Папа мечтает о крыльях Икара.
   text: |-
     Огромный вам привет!

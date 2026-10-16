@@ -1,4 +1,5 @@
 ---
+import { Image } from "astro:assets";
 import type { LetterData } from "../../lib/book";
 interface Props {
   parts: Extract<LetterData, { template: "letter-two" }>["header"];
@@ -17,7 +18,13 @@ const { parts } = Astro.props;
             part.modifier && `Sentence-imageWrapper--${part.modifier}`,
           ]}
         >
-          <img class="Sentence-image" src={part.image} alt={part.alt} />
+          <Image
+            layout="none"
+            class="Sentence-image"
+            style={`--image-ratio: ${part.image.width / part.image.height}`}
+            src={part.image}
+            alt={part.alt}
+          />
         </div>
       )}{" "}
     </Fragment>

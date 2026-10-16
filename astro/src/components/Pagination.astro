@@ -1,4 +1,6 @@
 ---
+import { Image } from "astro:assets";
+import letterImage from "../assets/letter.png";
 import { homeUrl, translations, type Locale } from "../i18n";
 
 interface Props {
@@ -30,7 +32,7 @@ const t = translations[lang];
       title={t.homeLinkText}
       aria-label={t.homeLinkText}
     >
-      <img src="/img/letter.png" alt="" />
+      <Image layout="none" src={letterImage} alt="" />
     </a>
   </div>
   {next && (

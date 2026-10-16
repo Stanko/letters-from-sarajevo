@@ -6,55 +6,55 @@ template: letter-two
 date: Sarajevo, 4.V 93.
 header:
   - Dear
-  - image: /img/letter-02/kole.png
+  - image: ../../../assets/letter-02/kole.png
     alt: Kole
   - "&"
-  - image: /img/letter-02/stane.png
+  - image: ../../../assets/letter-02/stane.png
     alt: Stane
 sentenceOne:
   - Last week, precisely at
-  - image: /img/letter-02/clock.png
+  - image: ../../../assets/letter-02/clock.png
     alt: noon
   - on April 28
-  - image: /img/letter-02/fly-in.png
+  - image: ../../../assets/letter-02/fly-in.png
     alt: a shell flew
   - into our room.
 sentenceTwo:
-  - image: /img/letter-02/rocket-1.png
+  - image: ../../../assets/letter-02/rocket-1.png
     alt: The shell
   - actually
-  - image: /img/letter-02/hit.png
+  - image: ../../../assets/letter-02/hit.png
     alt: hit
   - right above
-  - image: /img/letter-02/window.png
+  - image: ../../../assets/letter-02/window.png
     alt: the window
     modifier: window
   - .
 sentenceThree:
-  - image: /img/letter-02/tadija-1.png
+  - image: ../../../assets/letter-02/tadija-1.png
     alt: I
   - was at university.
-  - image: /img/letter-02/rocket-2.png
+  - image: ../../../assets/letter-02/rocket-2.png
     alt: The shell
   - has
-  - image: /img/letter-02/destroy.png
+  - image: ../../../assets/letter-02/destroy.png
     alt: destroyed
     modifier: lg
   - everything in our room.
 sentenceFour:
   - I'm in Kosa’s room now.
-  - image: /img/letter-02/bed.png
+  - image: ../../../assets/letter-02/bed.png
     alt: Dad lying in bed, holding his head up.
     modifier: xl
 sentenceFive:
   - Best
-  - image: /img/letter-02/greetings.png
+  - image: ../../../assets/letter-02/greetings.png
     alt: regards
     modifier: lg
   - to you
-  - image: /img/letter-02/two-of-you.png
+  - image: ../../../assets/letter-02/two-of-you.png
     alt: two
     modifier: lg
   - from
-  - image: /img/letter-02/tadija-2.png
+  - image: ../../../assets/letter-02/tadija-2.png
     alt: me

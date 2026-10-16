@@ -1,4 +1,10 @@
 ---
+import { Image } from "astro:assets";
+import translationIcon from "../assets/translation.svg";
+import enFlag from "../assets/flags/en.svg";
+import srFlag from "../assets/flags/sr.svg";
+import ruFlag from "../assets/flags/ru.svg";
+import ptBrFlag from "../assets/flags/pt-br.svg";
 import {
   homeUrl,
   languages,
@@ -13,11 +19,18 @@ interface Props {
 }
 const { lang, alternates } = Astro.props;
 const t = translations[lang];
+const flags = { en: enFlag, sr: srFlag, ru: ruFlag, "pt-br": ptBrFlag };
 ---
 
 <details class="LanguageSelector" data-language-selector>
   <summary class="LanguageSelector-button">
-    <img class="LanguageSelector-icon" src="/img/translation.svg" alt="" />
+    <Image
+      layout="none"
+      loading="eager"
+      class="LanguageSelector-icon"
+      src={translationIcon}
+      alt=""
+    />
     <span class="LanguageSelector-text">{t.language}</span>
   </summary>
   <nav class="LanguageSelector-menu" aria-label={t.language}>
@@ -34,9 +47,11 @@ const t = translations[lang];
           { "LanguageSelector-link--current": code === lang },
         ]}
       >
-        <img
+        <Image
+          layout="none"
+          loading="eager"
           class="LanguageSelector-flag"
-          src={`/img/flags/${code}.svg`}
+          src={flags[code]}
           alt=""
         />
         {label}

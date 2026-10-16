@@ -10,9 +10,11 @@ In the 1990s, during the war in Bosnia, our father was stuck in Sarajevo while m
 
 The book consisting of a number of selected authentic letters written by my father and the replies Kosta wrote down in his notebook was published some ten years later by the Institute for textbook publishing.
 
-<p class="About-book">
-  <img src="/img/korice.jpg" alt="Book covers, published in 2005" width="738" height="561" />
-</p>
+<div class="About-book">
+
+![Book covers, published in 2005](../../assets/korice.jpg)
+
+</div>
 
 Combined, these letters tell a slightly different and more buoyant tale of the war.
 
@@ -33,10 +35,14 @@ Unfortunately, the original letters got lost and all we are left with are the di
 The end result is fantastic. Below you can see one of the original drawings compared to Ivan’s version.
 <div class="About-drawings">
   <div class="About-drawing">
-    <img src="/img/scan.jpg" alt="An original drawing scanned in low resolution." width="2745" height="1656" />
+
+![An original drawing scanned in low resolution.](../../assets/scan.jpg)
+
   </div>
   <div class="About-drawing">
-    <img src="/img/letter-01/03.png" alt="The same drawing Ivan remade and digitalized." width="1639" height="1080" />
+
+![The same drawing Ivan remade and digitalized.](../../assets/letter-01/03.png)
+
   </div>  
 </div>
 
