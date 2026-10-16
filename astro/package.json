@@ -1,0 +1,23 @@
+{
+  "name": "astro",
+  "type": "module",
+  "version": "0.0.1",
+  "engines": {
+    "node": ">=22.22.0"
+  },
+  "scripts": {
+    "dev": "astro dev",
+    "build": "SITE_TARGET=international astro build",
+    "build:sr": "SITE_TARGET=serbian astro build",
+    "preview": "astro preview",
+    "preview:sr": "SITE_TARGET=serbian astro preview",
+    "astro": "astro"
+  },
+  "dependencies": {
+    "astro": "^7.4.0"
+  },
+  "devDependencies": {
+    "@types/node": "^26.6.5",
+    "sass": "^1.105.2"
+  }
+}

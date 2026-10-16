@@ -1,0 +1,27 @@
+{
+  "title": "Letters from Sarajevo",
+  "language": "Language",
+  "metaDescription": "The beginning of the Bosnian war. Ten-year-old Kosta flees Sarajevo with his mother and his younger brother. The father stays behind in the besieged, bombed city and endures difficult times with other Sarajevans. Despite that, he sends humorous letters to his boys in an attempt to uplift and reassure them. Some ten years later, Kosta tells the story of his childhood using authentic letters his father wrote.",
+  "metaImage": "letters-from-sarajevo.jpg",
+  "firstLetterLink": "/en/letter-one",
+  "firstLetterText": "Letter one",
+  "prevLinkText": "Previous letter",
+  "nextLinkText": "Next letter",
+  "homeLinkText": "Home page",
+  "aboutText": "About the book and the website",
+  "aboutLink": "/en/about",
+  "footerText": "In loving memory of Kosta, Belgrade 2020.",
+  "footerCopyright": "The entire website content and code are under <a href=\"https://creativecommons.org/licenses/by-nc/4.0/\">CC BY-NC 4.0</a> licence.",
+  "error404": "Error 404",
+  "pageNotFound": "Page not found",
+  "home": {
+    "title": "Letters from Sarajevo",
+    "author": "Kosta Tadić",
+    "paragraphs": [
+      "The beginning of the Bosnian war.",
+      "Ten-year-old Kosta flees Sarajevo with his mother and his younger brother. The father stays behind in the besieged, bombed city and endures difficult times with other Sarajevans. Despite that, he sends humorous letters to his boys in an attempt to uplift and reassure them.",
+      "Some ten years later, Kosta tells the story of his childhood using authentic letters his father wrote."
+    ],
+    "dedication": "To Samir and Siniša"
+  }
+}

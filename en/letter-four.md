@@ -17,7 +17,7 @@ sentenceOne:
 sentenceTwo:
   - During that time,
   - image: /public/img/letter-04/earth.png
-    alt: tje Earth
+    alt: the Earth
   - made
   - image: /public/img/letter-04/earth-run.png
     alt: one rotation
@@ -54,17 +54,14 @@ sentenceRight:
   image: /public/img/letter-04/mom.png
   alt: Mum standing behind Kole and Stane with a rolling pin and a boxing glove.
 
-
-
 blockOne:
   image: /public/img/letter-04/truce.png
   text: It's been quiet here for some ten days.
   alt: A soldier lying on a cannon stuffed with a wine cork.
 
-
 blockTwo:
   image: /public/img/letter-04/electricity.png
-  text: Last night, the electricity was back on after a long, long time. 
+  text: Last night, the electricity was back on after a long, long time.
   textBottom: We had gotten used to the darkness.
   alt: A lightbulb turned on and a man shying away from it.
 
@@ -72,7 +69,7 @@ blockThree:
   image: /public/img/letter-04/sick.png
   text: >-
     We had a very difficult year here. Some couldn't take it. 
-    They went a little nutty. 
+    They went a little nutty.
   alt: A man playing with a toy and a rattle.
 
 blockFour:
@@ -81,6 +78,4 @@ blockFour:
     Lots of love!<br/>
     Hope to see you soon.
   alt: Dad daydreaming about Icarus' wings.
-
-
 ---

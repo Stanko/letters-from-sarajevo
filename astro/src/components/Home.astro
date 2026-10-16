@@ -1,0 +1,35 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import LanguageSelector from './LanguageSelector.astro';
+import { livePageUrl, translations, type Locale } from '../i18n';
+
+interface Props { lang: Locale }
+const { lang } = Astro.props;
+const t = translations[lang];
+---
+
+<BaseLayout lang={lang} isHome>
+  <div class="Home">
+    <div class="Home-content">
+      <div class="Home-top">
+        <div class="Home-topContent Container">
+          <div>
+            <h1 class="Home-title">{t.home.title}</h1>
+            <div class="Home-author">{t.home.author}</div>
+          </div>
+          <LanguageSelector lang={lang} />
+        </div>
+      </div>
+      <div class="Container">
+        {t.home.paragraphs.map((paragraph) => <p class="Home-text">{paragraph}</p>)}
+        <p class="Home-dedication">{t.home.dedication}</p>
+      </div>
+    </div>
+    <div class="Container">
+      <a class="Home-start" href={livePageUrl(lang, t.firstLetterLink)}>
+        <span class="Home-startText">{t.firstLetterText}</span>
+        <img class="Home-startImage" src="/img/letter-color1.jpg" alt="" width="1200" height="1012" />
+      </a>
+    </div>
+  </div>
+</BaseLayout>

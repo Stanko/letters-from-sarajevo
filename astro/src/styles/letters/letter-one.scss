@@ -1,0 +1,149 @@
+@use "../base/variables" as *;
+@use "../base/breakpoints" as *;
+@use "../base/mixins" as *;
+
+.LetterOne {
+  @include letter;
+}
+
+.LetterOne-blocks {
+  @include lg {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+}
+
+.LetterOne-title {
+  margin-bottom: 5rem;
+  text-align: center;
+}
+
+.LetterOne-block {
+  margin-bottom: 6rem;
+
+  @include md {
+    margin-bottom: 8rem;
+  }
+
+  @include lg {
+    flex-basis: calc(50% - 1.5rem);
+    width: calc(50% - 1.5rem);
+  }
+
+  &:last-child {
+    margin-bottom: 0;
+  }
+}
+
+.LetterOne-block--two,
+.LetterOne-block--three {
+  @include md-only {
+    display: flex;
+    align-items: center;
+
+    .LetterOne-text {
+      flex-basis: 18rem;
+      min-width: 18rem;
+      text-align: left;
+    }
+
+    .LetterOne-image {
+      width: calc(100% - 20rem);
+    }
+  }
+}
+
+.LetterOne-block--two {
+  @include md-only {
+    .LetterOne-text {
+      margin-left: 2rem;
+    }
+  }
+}
+
+.LetterOne-block--three {
+  @include md-only {
+    .LetterOne-text {
+      margin-right: 2rem;
+    }
+  }
+
+  @include lg {
+    .LetterOne-text {
+      max-width: 90%;
+      margin: 0 0 1rem;
+    }
+  }
+}
+
+.LetterOne-blockThreeTextWrapper {
+  @include md-only {
+    width: 20rem;
+    flex-basis: 20rem;
+  }
+}
+
+.LetterOne-block--one,
+.LetterOne-block--four {
+  @include md-only {
+    .LetterOne-text {
+      text-align: center;
+      max-width: 40rem;
+    }
+  }
+}
+
+.LetterOne-block--two {
+  flex-direction: row-reverse;
+}
+
+.LetterOne-text {
+  margin-bottom: 1rem;
+
+  @include md {
+    max-width: 60rem;
+    position: relative;
+    margin: 0 auto 1rem;
+  }
+}
+
+.LetterOne-image {
+  display: block;
+  margin: 0 auto;
+
+  @include md {
+    max-width: 56rem;
+  }
+
+  @include lg {
+    max-width: 100%;
+  }
+}
+
+.LetterOne-image--one {
+  width: 100%;
+  max-width: 32rem;
+
+  @include md {
+    width: auto;
+  }
+
+  @include lg {
+    max-width: 100%;
+    max-height: 30rem;
+  }
+}
+
+.LetterOne-inscription {
+  font-size: 0.8em;
+  margin-bottom: 1rem;
+  line-height: 1.1em;
+
+
+  @include md-only {
+    .LetterOne-block--four & {
+      text-align: center;
+    }
+  }
+}

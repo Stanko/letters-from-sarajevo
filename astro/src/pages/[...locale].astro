@@ -1,0 +1,36 @@
+---
+import type { GetStaticPaths } from 'astro';
+import Home from '../components/Home.astro';
+import { canonicalHomeUrl, isSerbianSite, languages, type Locale } from '../i18n';
+
+interface Props {
+  lang: Locale;
+  redirect?: string;
+}
+
+export const getStaticPaths = (() => {
+  const defaultLocale = !import.meta.env.DEV && isSerbianSite ? 'sr' : 'en';
+
+  return languages.map(({ code }) => {
+    const locale = code === defaultLocale ? undefined : code;
+    const isExternal = isSerbianSite ? code !== 'sr' : code === 'sr';
+
+    return {
+      params: { locale },
+      props: {
+        lang: code,
+        redirect: !import.meta.env.DEV && isExternal ? canonicalHomeUrl(code) : undefined,
+      },
+    };
+  }).concat([{
+    // Preserve /en/ and /sr/ aliases for the site's root homepage.
+    params: { locale: defaultLocale },
+    props: { lang: defaultLocale, redirect: '/' },
+  }]);
+}) satisfies GetStaticPaths;
+
+const { lang, redirect } = Astro.props;
+if (redirect) return Astro.redirect(redirect, 301);
+---
+
+<Home lang={lang} />

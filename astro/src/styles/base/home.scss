@@ -1,0 +1,108 @@
+@use "./variables" as *;
+@use "./breakpoints" as *;
+@use "./mixins" as *;
+
+.Home {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background: $white;
+
+  @include ie {
+    display: block;
+  }
+}
+
+@media (max-height: 1200px) {
+  .Home {
+    @include vh(100, min-height);
+
+    @include ie {
+      min-height: unset;
+    }
+  }
+}
+
+.Home-top {
+  border-bottom: thin solid $gray-border;
+  background: $gray-light;
+  padding: 3rem 0 2.5rem;
+  margin-bottom: 3rem;
+}
+
+.Home-topContent  {
+  .LanguageSelector {
+    margin-top: 1rem;
+
+    @include md {
+      margin: 0;
+    }
+  }
+
+  @include md {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+}
+
+.Home-title {
+  font-size: 3rem;
+  margin-bottom: 0.5rem;
+}
+
+.Home-author {
+  color: $gray;
+}
+
+.Home-text {
+  margin-bottom: 1em;
+}
+
+.Home-dedication {
+  margin-top: 3rem;
+  color: $gray;
+
+  @include md {
+    margin-top: 5rem;
+  }
+}
+
+.Home-start {
+  border: none;
+  color: $black;
+  display: block;
+  margin: 3rem auto 0;
+  position: relative;
+  transform: translate3d(0, 1rem, 0);
+  transition: transform 300ms;
+
+  &:hover {
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+.Home-startImage {
+  display: block;
+  opacity: 0.9;
+  transition: opacity 300ms;
+  width: 100%;
+  height: auto;
+
+  .Home-start:hover & {
+    opacity: 1;
+  }
+}
+
+.Home-startText {
+  font-size: 2rem;
+  left: 30%;
+  position: absolute;
+  top: 45%;
+  transform: rotate(6deg);
+  z-index: 1;
+
+  @include md {
+    font-size: 2.6rem;
+  }
+}

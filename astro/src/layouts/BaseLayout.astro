@@ -1,0 +1,60 @@
+---
+import Navigation from '../components/Navigation.astro';
+import Footer from '../components/Footer.astro';
+import { canonicalHomeUrl, languages, siteOrigin, translations, type Locale } from '../i18n';
+import '../styles/index.scss';
+
+interface Props {
+  lang: Locale;
+  title?: string;
+  isHome?: boolean;
+  canonical?: string;
+}
+
+const { lang, title, isHome = false, canonical } = Astro.props;
+const t = translations[lang];
+const pageTitle = title ? `${t.title} · ${title}` : t.title;
+const pageUrl = canonical ?? (isHome ? canonicalHomeUrl(lang) : new URL(Astro.url.pathname, siteOrigin(lang)).href);
+const imageUrl = new URL(`/img/${t.metaImage}`, siteOrigin(lang)).href;
+---
+
+<!doctype html>
+<html lang={lang}>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>{pageTitle}</title>
+    <meta name="description" content={t.metaDescription} />
+    <link rel="canonical" href={pageUrl} />
+    {isHome && languages.map(({ code }) => (
+      <link rel="alternate" hreflang={code} href={canonicalHomeUrl(code)} />
+    ))}
+    {isHome && <link rel="alternate" hreflang="x-default" href={canonicalHomeUrl('en')} />}
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content={t.title} />
+    <meta property="og:title" content={pageTitle} />
+    <meta property="og:description" content={t.metaDescription} />
+    <meta property="og:image" content={imageUrl} />
+    <meta property="og:url" content={pageUrl} />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content={pageTitle} />
+    <meta name="twitter:description" content={t.metaDescription} />
+    <meta name="twitter:image" content={imageUrl} />
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Patrick+Hand+SC&display=swap&subset=latin-ext" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto+Slab:300&display=swap&subset=latin-ext" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Pangolin&display=swap" />
+    <link rel="apple-touch-icon" sizes="180x180" href="/img/favicon/apple-touch-icon.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="/img/favicon/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="/img/favicon/favicon-16x16.png" />
+    <link rel="shortcut icon" href="/img/favicon/favicon.ico" />
+    <link rel="manifest" href={`/img/favicon/site${lang === 'sr' ? '.sr' : ''}.webmanifest`} />
+    <link rel="mask-icon" href="/img/favicon/safari-pinned-tab.svg" color="#2b5797" />
+    <meta name="theme-color" content="#ffffff" />
+  </head>
+  <body>
+    {title && <Navigation lang={lang} title={title} />}
+    <main class="Content"><slot /></main>
+    <Footer lang={lang} isHome={isHome} />
+  </body>
+</html>

@@ -1,0 +1,109 @@
+@use "./variables" as *;
+@use "./breakpoints" as *;
+@use "./mixins" as *;
+
+.LanguageSelector {
+  font-size: 0.9em;
+}
+
+.LanguageSelector-button {
+  display: flex;
+  align-items: center;
+}
+
+.LanguageSelector-flag {
+  width: 3rem;
+  flex-basis: 3rem;
+  margin-right: 0.8rem;
+  flex-shrink: 0;
+}
+
+.LanguageSelector-icon {
+  width: 2.4rem;
+  vertical-align: middle;
+
+  @include md {
+    width: 3rem;
+  }
+}
+
+.LanguageSelector-text {
+  margin-left: 0.6rem;
+  display: inline-block;
+  transform: translateY(-0.1rem);
+
+  @include md {
+    margin-left: 0.8rem;
+  }
+}
+
+.LanguageSelector-link--current {
+  color: $gray;
+}
+
+.LanguageSelector {
+  position: relative;
+}
+
+.LanguageSelector-button {
+  cursor: pointer;
+  margin: 0;
+  padding: 0;
+  border: none;
+  background: none;
+  list-style: none;
+  transition: opacity 300ms;
+
+  &:hover,
+  &:focus,
+  .LanguageSelector[open] & {
+    opacity: 1;
+  }
+  @include md {
+    opacity: 0.5;
+  }
+}
+
+.LanguageSelector-button::-webkit-details-marker {
+  display: none;
+}
+
+.LanguageSelector-menu {
+  background: $gray-light;
+  border: thin solid $gray-border;
+  left: 0;
+  top: calc(100% + 1rem);
+  position: absolute;
+  z-index: 2;
+  width: auto;
+  display: flex;
+  flex-direction: column;
+
+  @include md {
+    left: auto;
+    right: 0;
+  }
+}
+
+.LanguageSelector-link {
+  align-items: center;
+  border: none;
+  display: flex;
+  padding: 0 0.8rem;
+  white-space: nowrap;
+  width: 20.5rem;
+  line-height: 0;
+  height: 3.5rem;
+
+  &:hover {
+    background: $gray-hover;
+  }
+
+  &:focus {
+    background: $gray-hover;
+  }
+
+  @include md {
+    width: 24rem;
+  }
+}

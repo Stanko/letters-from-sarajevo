@@ -1,0 +1,52 @@
+---
+import { homeUrl, languages, translations, type Locale } from '../i18n';
+
+interface Props { lang: Locale }
+const { lang } = Astro.props;
+const t = translations[lang];
+---
+
+<details class="LanguageSelector" data-language-selector>
+  <summary class="LanguageSelector-button">
+    <img class="LanguageSelector-icon" src="/img/translation.svg" alt="" />
+    <span class="LanguageSelector-text">{t.language}</span>
+  </summary>
+  <nav class="LanguageSelector-menu" aria-label={t.language}>
+    {languages.map(({ code, label }) => (
+      <a
+        href={homeUrl(code)}
+        lang={code}
+        hreflang={code}
+        aria-current={code === lang ? 'page' : undefined}
+        class:list={['LanguageSelector-link', { 'LanguageSelector-link--current': code === lang }]}
+      >
+        <img class="LanguageSelector-flag" src={`/img/flags/${code}.svg`} alt="" />
+        {label}
+      </a>
+    ))}
+  </nav>
+</details>
+
+<script>
+  document.querySelectorAll<HTMLDetailsElement>('[data-language-selector]').forEach((selector) => {
+    const summary = selector.querySelector('summary');
+
+    selector.addEventListener('keydown', (event) => {
+      if (event.key === 'Escape' && selector.open) {
+        selector.open = false;
+        summary?.focus();
+        event.preventDefault();
+      }
+    });
+
+    selector.addEventListener('focusout', (event) => {
+      if (event.relatedTarget instanceof Node && !selector.contains(event.relatedTarget)) {
+        selector.open = false;
+      }
+    });
+
+    document.addEventListener('click', (event) => {
+      if (event.target instanceof Node && !selector.contains(event.target)) selector.open = false;
+    });
+  });
+</script>

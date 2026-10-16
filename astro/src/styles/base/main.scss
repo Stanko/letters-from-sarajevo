@@ -1,0 +1,41 @@
+@use "./variables" as *;
+@use "./breakpoints" as *;
+@use "./mixins" as *;
+
+
+img {
+  max-width: 100%;
+  width: auto;
+}
+
+body {
+  background: $gray-light;
+}
+
+:focus-visible {
+  outline: 1px dotted rgba(0, 0, 0, 0.7);
+  outline-offset: 0.5rem;
+}
+
+.Content {
+  background: $white;
+  overflow: hidden;
+}
+
+.Container {
+  @include container;
+}
+
+.NotFound {
+  @include response;
+
+  h1 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+  }
+
+  a {
+    margin-top: 3rem;
+    display: inline-block;
+  }
+}
