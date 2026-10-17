@@ -1,0 +1,62 @@
+key: letter-2
+lang: el
+slug: deftero-gramma
+title: Δεύτερο γράμμα
+template: letter-two
+date: Σαράγιεβο, 4 Μαΐου 1993
+header:
+  - Αγαπητέ
+  - image: ../../../assets/letter-02/kole.png
+    alt: Κώστα
+  - "&"
+  - image: ../../../assets/letter-02/stane.png
+    alt: Στάνε
+  - ","
+sentenceOne:
+  - Την περασμένη εβδομάδα, στις 28 Απριλίου, ακριβώς
+  - image: ../../../assets/letter-02/clock.png
+    alt: το μεσημέρι
+  - ", μια"
+  - image: ../../../assets/letter-02/fly-in.png
+    alt: βόμβα έπεσε
+  - στο δωμάτιό μας.
+sentenceTwo:
+  - image: ../../../assets/letter-02/rocket-1.png
+    alt: Η βόμβα
+  - ", στην πραγματικότητα,"
+  - image: ../../../assets/letter-02/hit.png
+    alt: χτύπησε
+  - ακριβώς πάνω από
+  - image: ../../../assets/letter-02/window.png
+    alt: το παράθυρο
+    modifier: window
+  - .
+sentenceThree:
+  - image: ../../../assets/letter-02/tadija-1.png
+    alt: Ο μπαμπάς
+  - ήμουν στο Πανεπιστήμιο.
+  - image: ../../../assets/letter-02/rocket-2.png
+    alt: Η βόμβα
+  - έχει
+  - image: ../../../assets/letter-02/destroy.png
+    alt: καταστρέψει
+    modifier: lg
+  - όλο το δωμάτιό μας.
+sentenceFour:
+  - Μένω στο δωμάτιο της Κόσα τώρα.
+  - image: ../../../assets/letter-02/bed.png
+    alt: Ο μπαμπάς κρατά το κεφάλι του στο κρεβάτι.
+    modifier: xl
+sentenceFive:
+  - Πολλές
+  - image: ../../../assets/letter-02/greetings.png
+    alt: ευχές
+    modifier: lg
+  - σε σας
+  - image: ../../../assets/letter-02/two-of-you.png
+    alt: τους δύο
+    modifier: lg
+  - από
+  - image: ../../../assets/letter-02/tadija-2.png
+    alt: μένα
+  - .

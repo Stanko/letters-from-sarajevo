@@ -1,0 +1,67 @@
+key: letter-4
+lang: el
+slug: tetarto-gramma
+title: Τέταρτο γράμμα
+template: letter-four
+date: Σαράγιεβο, 20 Αυγούστου 1993
+header: Αγαπητοί Κωστή και Στάνε,
+sentenceOne:
+  - Πέρασε ήδη ένας χρόνος από τότε που
+  - image: ../../../assets/letter-04/left.png
+    alt: φύγατε από το Σαράγιεβο
+    modifier: xwide
+  - .
+sentenceTwo:
+  - Κατά τη διάρκεια αυτής της περιόδου,
+  - image: ../../../assets/letter-04/earth.png
+    alt: η Γη
+  - έκανε
+  - image: ../../../assets/letter-04/earth-run.png
+    alt: μια ολόκληρη στροφή
+    modifier: xl
+  - γύρω από
+  - image: ../../../assets/letter-04/sun.png
+    alt: τον Ήλιο
+    modifier: lg
+  - .
+sentenceThree:
+  - "Εσείς στο μεταξύ κάνατε ένα λίγο μικρότερο δρόμο: Σαράγιεβο - Ντίβλιανι."
+sentenceFour:
+  - Έχετε αλλάξει →
+  - image: ../../../assets/letter-04/thin.png
+    alt: αδυνατίσατε
+  - ή
+  - image: ../../../assets/letter-04/fat.png
+    alt: παχύνατε
+  - ή
+  - image: ../../../assets/letter-04/mustaches.png
+    alt: μουστάκι
+    modifier: xl
+  - ;
+sentenceLeft:
+  text: Κάνετε γυμναστική;
+  image: ../../../assets/letter-04/lazy.png
+  alt: Ο Κώστας και ο Στάνε ξαπλώνουν στον καναπέ και καπνίζουν.
+sentenceRight:
+  text: Ακούτε τη μαμά;
+  image: ../../../assets/letter-04/mom.png
+  alt: Μαμά πίσω από την Κωστά και τον Στάνε με τον πλάστη στο ένα χέρι και στο άλλο ένα γάντι του μποξ.
+blockOne:
+  image: ../../../assets/letter-04/truce.png
+  alt: Ο στρατιώτης ξαπλώνει πάνω σε ένα κανόνι φραγμένο με την τάπα.
+  text: Εδώ ήταν ήρεμα τα πράγματα για περίπου δέκα ημέρες.
+blockTwo:
+  image: ../../../assets/letter-04/electricity.png
+  alt: Ένας λαμπτήρας και ένας άντρας που δεν μπορεί να το κοιτάξει.
+  text: Χτες το βράδυ, μετά από πολύ, πολύ καιρό, ήρθε και το ρεύμα.
+  textBottom: Είχαμε ήδη συνηθίσει στο σκοτάδι.
+blockThree:
+  image: ../../../assets/letter-04/sick.png
+  alt: Ένας άντρας με παιχνίδι και κουδουνίστρα.
+  text: Ο τελευταίος χρόνος ήταν πολύ δύσκολος εδώ. Κάποιοι δεν το άντεξαν και «κρύωσαν» λίγο.
+blockFour:
+  image: ../../../assets/letter-04/icarus.png
+  alt: Ο μπαμπάς ονειρεύεται τα φτερά του Ίκαρου.
+  text: |-
+    Σας χαιρετώ με πολλή αγάπη!
+    Ελπίζω να σας δω σύντομα.

@@ -1,0 +1,77 @@
+key: letter-3
+lang: el
+slug: trito-gramma
+title: Τρίτο γράμμα
+template: letter-three
+date: Σαράγιεβο, 5 Ιουλίου 1993
+header:
+  - Αγαπητοί Κώστα
+  - image: ../../../assets/letter-03/football-player.jpg
+    alt: ""
+    modifiers:
+      - tall
+    decorative: true
+  - και Στάνε
+  - image: ../../../assets/letter-03/olimpics.jpg
+    alt: ""
+    modifiers:
+      - square
+    decorative: true
+  - ","
+phoneSentence:
+  - εδώ τα
+  - image: ../../../assets/letter-03/phone.jpg
+    alt: τηλέφωνα
+  - δεν λειτουργούν ακόμα.
+questions:
+  - text: Γιατί δεν μου
+    image:
+      image: ../../../assets/letter-03/letter.jpg
+      alt: γράφετε εσείς
+    narrow: false
+    imageWrapped: true
+    bottomText: εσείς οι δύο;
+  - text: Ίσως δεν υπάρχει
+    image:
+      image: ../../../assets/letter-03/postbox.jpg
+      alt: ταχυδρομείο
+    narrow: false
+    imageWrapped: false
+    bottomText: εκεί;
+activityText: Πώς περνάτε το χρόνο σας;
+activityOptions:
+  - image: ../../../assets/letter-03/tree.jpg
+    alt: Έξω
+    modifiers:
+      - landscape
+  - ή
+  - image: ../../../assets/letter-03/home.jpg
+    alt: μέσα στο σπίτι
+    modifiers:
+      - landscape
+  - ;
+games:
+  - text: Ξεχάσατε να παίζετε
+    image:
+      image: ../../../assets/letter-03/chess.jpg
+      alt: σκάκι
+    narrow: false
+    imageWrapped: false
+    suffix: ;
+  - text: Εάν δεν ακούτε τη μαμά, της προτείνω
+    image:
+      image: ../../../assets/letter-03/boxing.jpg
+      alt: παίξει μποξ
+    narrow: false
+    imageWrapped: false
+    suffix: .
+signoff: Με πολλή αγάπη
+dreamImages:
+  - image: ../../../assets/letter-03/plane.jpg
+    alt: ""
+    modifiers:
+      - landscape
+      - bottom
+    decorative: true
+  - image: ../../../assets/letter-03/tadija.png
+    alt: Ο μπαμπάς που ονειρεύεται ένα αεροπλάνο για τη Ντίβλιανι.

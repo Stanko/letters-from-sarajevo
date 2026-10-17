@@ -1,7 +1,7 @@
 # Letters from Sarajevo — Astro
 
 Static migration of the existing Jekyll website. Homepages, five illustrated
-letters, five replies, the epilogue, and About pages are available in all four
+letters, five replies, the epilogue, and About pages are available in all five
 languages. Each build includes a custom 404 page and Netlify routing rules.
 
 ## Development
@@ -14,12 +14,12 @@ npm run dev -- --background
 ```
 
 Local homepages are English at `/`, Serbian at `/sr/`, Russian at `/ru/`, and
-Brazilian Portuguese at `/pt-br/`. `/en/` redirects to `/`.
+Brazilian Portuguese at `/pt-br/`, plus Greek at `/el/`. `/en/` redirects to `/`.
 Reading pages retain their localized paths, such as `/en/letter-one/` and
-`/sr/prvo-pismo/`. All four languages are available locally. Language switching
+`/sr/prvo-pismo/`. All five languages are available locally. Language switching
 on a reading page opens the corresponding translation of that entry.
 About pages are `/en/about/`, `/sr/o-knjizi-i-sajtu/`,
-`/ru/o-knige-i-sayte/`, and `/pt-br/sobre/`. Their language selector opens the
+`/ru/o-knige-i-sayte/`, `/pt-br/sobre/`, and `/el/schetika/`. Their language selector opens the
 corresponding About translation. About pages are outside the reading sequence.
 
 Manage the background server with `npm run astro -- dev status`,
@@ -35,10 +35,10 @@ Manage the background server with `npm run astro -- dev status`,
 | `npm run preview:sr` | Preview Serbian build                            | localhost               |
 | `npm run check`      | Validate content and Astro/TypeScript components | —                       |
 
-The international build has English at `/`, Russian at `/ru/`, and Portuguese
-at `/pt-br/`; `/sr/` redirects to the Serbian domain. The Serbian build has
+The international build has English at `/`, Russian at `/ru/`, Portuguese
+at `/pt-br/`, and Greek at `/el/`; `/sr/` redirects to the Serbian domain. The Serbian build has
 Serbian at `/`; `/sr/` redirects to `/`, and the other language prefixes redirect
-to the international domain. Reading pages for English, Russian, and Portuguese
+to the international domain. Reading pages for English, Russian, Portuguese, and Greek
 are emitted by the international build; Serbian reading pages are emitted by
 the Serbian build. Production language links work across both domains.
 Astro emits static HTML homepage redirects for previews. The generated
@@ -126,6 +126,13 @@ should still return 404. Old `/public/assets/*` bundles and unused legacy
 images are not migrated; retain specific files if external references need them.
 
 ## Editing
+
+The Greek (`el`) content was imported from `Γραμματα από το Σαράγιεβο_edited.docx`.
+Green highlighted phrases become illustrated words, and yellow highlighted
+descriptions become image alt text. The two document footnotes are retained on
+their respective reply pages. UI labels and the dedication were translated
+separately where the document did not provide them. Greek letters use Mynerve
+for handwriting; the existing prose font supports Greek.
 
 - `src/i18n/*.json`: translated labels and homepage copy. Every locale uses the
   same keys; `index.ts` defines the language type, domains, and URL helpers.

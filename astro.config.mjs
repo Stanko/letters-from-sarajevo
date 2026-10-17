@@ -32,6 +32,7 @@ export default defineConfig({
                   en: "https://lettersfromsarajevo.com/",
                   ru: "https://lettersfromsarajevo.com/ru/",
                   "pt-br": "https://lettersfromsarajevo.com/pt-br/",
+                  el: "https://lettersfromsarajevo.com/el/",
                 }
               : { en: "/", sr: "https://pismaizsarajeva.com/" };
 
@@ -44,7 +45,7 @@ export default defineConfig({
             rules.push(`/${lang}/index.html ${destination} 301!`);
           }
 
-          // Keep Jekyll's .html URLs for every emitted reading and About page.
+          // Keep Jekyll's .html URLs for the original languages' reading and About pages.
           for (const { pathname } of pages) {
             const path = `/${pathname.replace(/^\/+|\/+$/g, "")}`;
             if (
@@ -57,7 +58,7 @@ export default defineConfig({
 
           rules.push("/public/img/* /img/:splat 301");
           // Unforced rules allow real files to win and preserve the HTTP 404 status.
-          for (const lang of ["en", "sr", "ru", "pt-br"]) {
+          for (const lang of ["en", "sr", "ru", "pt-br", "el"]) {
             rules.push(`/${lang}/* /${lang}/404/index.html 404`);
           }
           rules.push("/* /404.html 404");
