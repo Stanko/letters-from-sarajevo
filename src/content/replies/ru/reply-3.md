@@ -4,7 +4,7 @@ lang: ru
 slug: tretiy-otvet
 title: Третий ответ
 kind: reply
-date: 10. августейший 1993.
+date: 10. августа 1993.
 ---
 
 Дорогой папа,
