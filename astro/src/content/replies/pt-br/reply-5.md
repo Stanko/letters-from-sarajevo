@@ -4,7 +4,7 @@ lang: pt-br
 slug: quinta-resposta
 title: Quinta resposta
 kind: reply
-date: January 17, 1994
+date: 17 de janeiro de 1994
 ---
 
 Querido pai,

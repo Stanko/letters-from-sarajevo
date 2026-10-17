@@ -36,7 +36,7 @@ O resultado é maravilhoso, e abaixo você pode comparar um dos desenhos origina
 <div class="About-drawings">
   <div class="About-drawing">
 
-![Desenho original, digitalizado Original drawing, digitalizada em baixa resolução](../../assets/scan.jpg)
+![Desenho original, digitalizado em baixa resolução](../../assets/scan.jpg)
 
   </div>
   <div class="About-drawing">
