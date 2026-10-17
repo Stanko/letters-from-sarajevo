@@ -16,7 +16,7 @@ sentenceTwo:
     alt: the Earth
   - made
   - image: ../../../assets/letter-04/earth-run.png
-    alt: one rotation
+    alt: one orbit
     modifier: xl
   - around
   - image: ../../../assets/letter-04/sun.png
@@ -31,16 +31,16 @@ sentenceFour:
     alt: lost weight
   - or
   - image: ../../../assets/letter-04/fat.png
-    alt: gained
+    alt: gained weight
   - or
   - image: ../../../assets/letter-04/mustaches.png
-    alt: grown moustache?
+    alt: grown moustaches
     modifier: xl
   - "?"
 sentenceLeft:
   text: Are you exercising?
   image: ../../../assets/letter-04/lazy.png
-  alt: Kole and Stane lying on the couch.
+  alt: Kole and Stane lying on the couch and smoking.
 sentenceRight:
   text: Are you listening to your mum?
   image: ../../../assets/letter-04/mom.png

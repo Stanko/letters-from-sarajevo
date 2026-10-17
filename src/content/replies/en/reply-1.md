@@ -17,8 +17,7 @@ Then the bus broke down. Right next to the soldiers. They ordered us to get off 
 
 We waited in the crowd until another bus came along. It was already full, and it had all of its window panes. I knew I was going to feel sick in this one.
 
-Mum pushed through the crowd and managed to get us on the bus quickly. She shouted she would get right on, just as soon as she takes care of the rucksacks. I was standing on a crowded bus with Stane, trying to see the door. When the bus got going, I started to weep
-convulsively, gripping to Stane's shoulders. The next thing I remember were the hands of strangers around me, padding me on the shoulders and saying "Don't be scared, your mum is here, she got on..."
+Mum pushed through the crowd and managed to get us on the bus quickly. She shouted she would get right on, just as soon as she takes care of the rucksacks. I was standing on a crowded bus with Stane, trying to see the door. When the bus got going, I started to weep convulsively, gripping Stane's shoulders. The next thing I remember were the hands of strangers around me, patting me on the shoulders and saying "Don't be scared, your mum is here, she got on..."
 
 I threw up on that bus.
 

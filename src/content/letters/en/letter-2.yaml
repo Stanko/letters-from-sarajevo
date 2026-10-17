@@ -44,7 +44,7 @@ sentenceThree:
 sentenceFour:
   - I'm in Kosa’s room now.
   - image: ../../../assets/letter-02/bed.png
-    alt: Dad lying in bed, holding his head up.
+    alt: Dad lying in bed with his hands on his head.
     modifier: xl
 sentenceFive:
   - Best
