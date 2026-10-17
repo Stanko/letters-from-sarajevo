@@ -7,8 +7,13 @@ interface Props {
   lang: Locale;
   previous?: string;
   next?: string;
+  previousTitle?: string;
+  nextTitle?: string;
+  position?: number;
+  total?: number;
 }
-const { lang, previous, next } = Astro.props;
+const { lang, previous, next, previousTitle, nextTitle, position, total } =
+  Astro.props;
 const t = translations[lang];
 ---
 
@@ -18,32 +23,37 @@ const t = translations[lang];
       class="Pagination-link Pagination-link--prev"
       href={previous}
       rel="prev"
-      title={t.prevLinkText}
-      aria-label={t.prevLinkText}
+      title={previousTitle ?? t.prevLinkText}
+      aria-label={previousTitle ?? t.prevLinkText}
     >
-      &laquo;
+      <span aria-hidden="true">&larr;</span>
+      <span class="Pagination-title">{previousTitle ?? t.prevLinkText}</span>
     </a>
   )}
   {!previous && <div class="Pagination-placeholder" />}
-  <div class="Pagination-imageWrapper">
-    <a
-      href={homeUrl(lang)}
-      class="Pagination-homeLink"
-      title={t.homeLinkText}
-      aria-label={t.homeLinkText}
-    >
-      <Image layout="none" src={letterImage} alt="" />
-    </a>
-  </div>
+  <a
+    href={homeUrl(lang)}
+    class="Pagination-homeLink"
+    title={t.homeLinkText}
+    aria-label={t.homeLinkText}
+  >
+    <Image layout="none" src={letterImage} alt="" />
+    {position && total && (
+      <span class="Pagination-position">
+        {String(position).padStart(2, "0")} / {total}
+      </span>
+    )}
+  </a>
   {next && (
     <a
       class="Pagination-link Pagination-link--next"
       href={next}
       rel="next"
-      title={t.nextLinkText}
-      aria-label={t.nextLinkText}
+      title={nextTitle ?? t.nextLinkText}
+      aria-label={nextTitle ?? t.nextLinkText}
     >
-      &raquo;
+      <span class="Pagination-title">{nextTitle ?? t.nextLinkText}</span>
+      <span aria-hidden="true">&rarr;</span>
     </a>
   )}
   {!next && <div class="Pagination-placeholder" />}

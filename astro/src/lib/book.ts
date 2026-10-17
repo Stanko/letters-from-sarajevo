@@ -88,14 +88,27 @@ export function readingNeighbours(entry: BookEntry, entries: BookEntry[]) {
   const nextKey = readingOrder[index + 1];
   let previous: string | undefined;
   let next: string | undefined;
+  let previousTitle: string | undefined;
+  let nextTitle: string | undefined;
 
   if (previousKey) {
-    previous = entryUrl(getBookEntry(entries, entry.data.lang, previousKey));
+    const previousEntry = getBookEntry(entries, entry.data.lang, previousKey);
+    previous = entryUrl(previousEntry);
+    previousTitle = previousEntry.data.title;
   }
 
   if (nextKey) {
-    next = entryUrl(getBookEntry(entries, entry.data.lang, nextKey));
+    const nextEntry = getBookEntry(entries, entry.data.lang, nextKey);
+    next = entryUrl(nextEntry);
+    nextTitle = nextEntry.data.title;
   }
 
-  return { previous, next };
+  return {
+    previous,
+    next,
+    previousTitle,
+    nextTitle,
+    position: index + 1,
+    total: readingOrder.length,
+  };
 }

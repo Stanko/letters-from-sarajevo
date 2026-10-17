@@ -2,7 +2,7 @@
 key: reply-5
 lang: ru
 slug: pyatyy-otvet
-title: Peti odgovor
+title: Пятый ответ
 kind: reply
 date: 17. январь 1994.
 ---

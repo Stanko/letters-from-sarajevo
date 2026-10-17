@@ -2,7 +2,7 @@
 key: epilogue
 lang: ru
 slug: epilog
-title: Epilog
+title: Эпилог
 kind: epilogue
 ---
 

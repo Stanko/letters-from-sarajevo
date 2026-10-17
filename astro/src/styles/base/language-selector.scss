@@ -3,8 +3,12 @@
 @use "./mixins" as *;
 
 .LanguageSelector {
-  font-size: 0.9em;
+  font-size: 1.6rem;
   position: relative;
+
+  @include md {
+    font-size: 2rem;
+  }
 
   [hidden] {
     display: none;
@@ -38,7 +42,6 @@
 .LanguageSelector-text {
   margin-left: 0.6rem;
   display: inline-block;
-  transform: translateY(-0.1rem);
 
   @include md {
     margin-left: 0.8rem;
