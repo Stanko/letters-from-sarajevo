@@ -1,29 +1,31 @@
 {
-  "name": "letters-from-sarajevo",
-  "version": "1.0.0",
-  "description": "",
-  "repository": {
-    "type": "git",
-    "url": "git+ssh://git@github.com/Stanko/letters-from-sarajevo.git"
-  },
-  "dependencies": {
-    "@parcel/transformer-sass": "^2.8.3",
-    "has-tabbed": "^0.9.2",
-    "lightningcss-linux-x64-gnu": "^1.18.0",
-    "parcel": "^2.8.3"
+  "name": "astro",
+  "type": "module",
+  "version": "0.0.1",
+  "engines": {
+    "node": ">=22.22.0"
   },
   "scripts": {
-    "build-assets": "rm -rf ./public/assets && parcel build _assets/js/app.js --dist-dir ./public/assets --public-url /public/assets",
-    "watch-assets": "rm -rf ./public/assets && parcel watch _assets/js/app.js --dist-dir ./public/assets --public-url /public/assets",
-    "serve": "bundle exec jekyll serve --incremental --livereload --host 0.0.0.0",
-    "build-jekyll": "bundle exec jekyll build",
-    "clean": "rm -rf ./_site",
-    "start": "npm run clean && npm run build-assets && npm run serve",
-    "build": "sh build.sh",
-    "build-serbian": "sh build-serbian.sh",
-    "dev": "npm run clean && npm run watch-assets & npm run serve"
+    "dev": "astro dev --host",
+    "start": "npm run dev",
+    "check": "astro check",
+    "build": "SITE_TARGET=international astro build",
+    "build:sr": "SITE_TARGET=serbian astro build",
+    "preview": "astro preview",
+    "preview:sr": "SITE_TARGET=serbian astro preview",
+    "astro": "astro",
+    "format": "prettier . --write",
+    "format:check": "prettier . --check"
   },
-  "author": "Stanko",
-  "license": "CC BY-NC 4.0",
-  "browserslist": "> 0.5%, last 2 versions, not dead"
+  "dependencies": {
+    "astro": "^7.4.0"
+  },
+  "devDependencies": {
+    "@astrojs/check": "^0.9.10",
+    "@types/node": "^26.6.5",
+    "prettier": "^3.9.10",
+    "prettier-plugin-astro": "^1.1.1",
+    "sass": "^1.105.2",
+    "typescript": "^6.0.3"
+  }
 }
