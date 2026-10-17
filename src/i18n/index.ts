@@ -4,6 +4,7 @@ import ru from "./ru.json";
 import ptBr from "./pt-br.json";
 import el from "./el.json";
 import hu from "./hu.json";
+import zh from "./zh.json";
 
 export const languages = [
   { code: "en", label: "English" },
@@ -11,6 +12,7 @@ export const languages = [
   { code: "pt-br", label: "Português do Brasil" },
   { code: "el", label: "Ελληνικά" },
   { code: "hu", label: "Magyar" },
+  { code: "zh", label: "简体中文" },
   { code: "sr", label: "Srpski" },
 ] as const;
 
@@ -29,6 +31,7 @@ export const translations: Record<Locale, Translation> = {
   "pt-br": ptBr,
   el,
   hu,
+  zh,
 };
 export const isSerbianSite = import.meta.env.SITE_TARGET === "serbian";
 

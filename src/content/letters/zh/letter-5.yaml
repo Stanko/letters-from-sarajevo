@@ -1,0 +1,20 @@
+key: letter-5
+lang: zh
+slug: diwufengxin
+title: 第五封信
+template: letter-five
+date: 萨拉热窝，1993年12月2日
+header: 亲爱的斯坦呢（Stane）和科乐(Kole)，
+intro: 我没什么消息：
+newsImage:
+  image: ../../../assets/letter-05/news.png
+  alt: 没有电，没有水，没有面包，没有电话
+paragraphs:
+  - text: 我在房间里放了一个小炉子。 我可以在上面煮茶。
+    caption: （图1）
+  - text: 炉子很小，黑色，难看。 所以我给它画上了眉毛和鼻子。 它已经有穿过门的圆形开口，通过这些开口可以看到火焰。 当灰斗打开时，看起来好像在打哈欠或说话。
+    caption: （图2）
+stoveImage:
+  image: ../../../assets/letter-05/stove.png
+  alt: 炉子，眉毛和鼻子都画上了
+signoff: 热心问候！

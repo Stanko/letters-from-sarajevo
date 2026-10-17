@@ -25,7 +25,7 @@ const modifiers = ["one", "two", "three", "four"];
     letter.sentenceThree,
     letter.sentenceFour,
   ].map((parts) => (
-    <IllustratedSentence parts={parts} />
+    <IllustratedSentence parts={parts} spaced={letter.lang !== "zh"} />
   ))}
   <div class="LetterFour-lastSentence">
     {[letter.sentenceLeft, letter.sentenceRight].map((sentence) => (

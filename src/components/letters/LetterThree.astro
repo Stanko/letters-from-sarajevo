@@ -12,10 +12,10 @@ const { letter } = Astro.props;
 <div class="LetterThree">
   <div class="LetterFive-date">{letter.date}</div>
   <div class="LetterThree-block">
-    <StampSentence parts={letter.header} />
+    <StampSentence parts={letter.header} spaced={letter.lang !== "zh"} />
   </div>
   <div class="LetterThree-block LetterThree-block--two">
-    <StampSentence parts={letter.phoneSentence} />
+    <StampSentence parts={letter.phoneSentence} spaced={letter.lang !== "zh"} />
   </div>
   <div class="LetterThree-block LetterThree-block--double">
     {letter.questions.map((question) => (
@@ -25,7 +25,10 @@ const { letter } = Astro.props;
   <div class="LetterThree-block LetterThree-block--four">
     {letter.activityText}
     <div class="LetterThree-blockFourStamps">
-      <StampSentence parts={letter.activityOptions} />
+      <StampSentence
+        parts={letter.activityOptions}
+        spaced={letter.lang !== "zh"}
+      />
     </div>
   </div>
   <div class="LetterThree-block LetterThree-block--double">

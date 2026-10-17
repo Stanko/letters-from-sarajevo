@@ -17,7 +17,7 @@ const sentences = [
 
 <div class="LetterTwo">
   {sentences.map((parts) => (
-    <IllustratedSentence parts={parts} />
+    <IllustratedSentence parts={parts} spaced={letter.lang !== "zh"} />
   ))}
   <slot />
 </div>

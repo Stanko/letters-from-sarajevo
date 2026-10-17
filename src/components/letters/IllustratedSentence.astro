@@ -3,8 +3,10 @@ import { Image } from "astro:assets";
 import type { LetterData } from "../../lib/book";
 interface Props {
   parts: Extract<LetterData, { template: "letter-two" }>["header"];
+  spaced?: boolean;
 }
-const { parts } = Astro.props;
+const { parts, spaced = true } = Astro.props;
+const separator = spaced ? " " : "";
 ---
 
 <div class="Sentence">
@@ -26,7 +28,8 @@ const { parts } = Astro.props;
             alt={part.alt}
           />
         </div>
-      )}{" "}
+      )}
+      {separator}
     </Fragment>
   ))}
 </div>

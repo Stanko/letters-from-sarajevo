@@ -1,0 +1,66 @@
+key: letter-4
+lang: zh
+slug: disifengxin
+title: 第四封信
+template: letter-four
+date: 萨拉热窝，1993年8月20日
+header: 亲爱的科乐（Kole）和斯坦呢 (Stane)，
+sentenceOne:
+  - 你们
+  - image: ../../../assets/letter-04/left.png
+    alt: 离开了萨拉热窝市
+    modifier: xwide
+  - 已经一年了
+sentenceTwo:
+  - 在此期间，
+  - image: ../../../assets/letter-04/earth.png
+    alt: 地球
+  - 曾经
+  - image: ../../../assets/letter-04/earth-run.png
+    alt: 绕着
+    modifier: xl
+  - image: ../../../assets/letter-04/sun.png
+    alt: 太阳
+    modifier: lg
+  - 转了一圈。
+sentenceThree:
+  - 在这段时间里，你们越过了一条较小的路：从萨拉热窝市到Divljan村。
+sentenceFour:
+  - 你们是否改变了→
+  - image: ../../../assets/letter-04/thin.png
+    alt: 减肥
+  - 或
+  - image: ../../../assets/letter-04/fat.png
+    alt: 变胖
+  - ，或者
+  - image: ../../../assets/letter-04/mustaches.png
+    alt: 长了胡子
+    modifier: xl
+  - 吗？
+sentenceLeft:
+  text: 你们还锻炼，做体操吗？
+  image: ../../../assets/letter-04/lazy.png
+  alt: 科乐（Kole）和斯坦呢 (Stane)躺在沙发上吸烟。
+sentenceRight:
+  text: 你们听妈妈的话吗？
+  image: ../../../assets/letter-04/mom.png
+  alt: 妈妈站在科乐（Kole）和斯坦呢 (Stane)背后戴着木棍和拳击手套。
+blockOne:
+  image: ../../../assets/letter-04/truce.png
+  alt: 一个士兵躺在大炮上，炮管被软木塞堵住了。
+  text: 大约十天这里已经安静了。
+blockTwo:
+  image: ../../../assets/letter-04/electricity.png
+  alt: 一个发光的灯泡和一个向它望不了的人。
+  text: 很长一段时间后昨晚，就有了电。
+  textBottom: 我们已经习惯了黑暗。
+blockThree:
+  image: ../../../assets/letter-04/sick.png
+  alt: 一个有玩具和拨浪鼓的人。
+  text: 过去的一年在这里非常困难，有些人没有忍受，他们轻轻地《生病》了。
+blockFour:
+  image: ../../../assets/letter-04/icarus.png
+  alt: 爸爸在想着有伊卡洛斯翅膀。
+  text: |-
+    我向你们致敬！
+    希望很快见到你们。

@@ -68,6 +68,11 @@
     line-height: 1.3;
   }
 
+  &:lang(zh) {
+    font-family: "Ma Shan Zheng", "Kaiti SC", KaiTi, serif;
+    line-height: 1.6;
+  }
+
   @include md {
     font-size: 2.5rem;
   }

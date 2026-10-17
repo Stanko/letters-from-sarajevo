@@ -3,13 +3,16 @@ import StampImage from "./StampImage.astro";
 import type { LetterData } from "../../lib/book";
 interface Props {
   parts: Extract<LetterData, { template: "letter-three" }>["header"];
+  spaced?: boolean;
 }
-const { parts } = Astro.props;
+const { parts, spaced = true } = Astro.props;
+const separator = spaced ? " " : "";
 ---
 
 {parts.map((part) => (
   <Fragment>
     {typeof part === "string" && part}
-    {typeof part !== "string" && <StampImage stamp={part} />}{" "}
+    {typeof part !== "string" && <StampImage stamp={part} />}
+    {separator}
   </Fragment>
 ))}

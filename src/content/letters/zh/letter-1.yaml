@@ -1,0 +1,24 @@
+key: letter-1
+lang: zh
+slug: diyifengxin
+title: 第一封信
+template: letter-one
+header: 亲爱的科乐（Kole）和斯坦呢(Stane)，
+blockOne:
+  image: ../../../assets/letter-01/01.png
+  alt: 人带水桶，同时想象着啤酒。
+  text: 没有水。我们从城市的另一端带它。
+blockTwo:
+  image: ../../../assets/letter-01/02.png
+  alt: 老鼠逃进洞里时，拉着抓住其尾巴的人。
+  text: 榴弹继续下降。我们已经完善了救援方法。
+blockThree:
+  image: ../../../assets/letter-01/03.png
+  alt: 人们在“当心狙击手”牌旁边的街道上跑来跑去。
+  text: 通过许多路口，仍然必须以跑去经过。警告牌代替交通信号灯。
+  warningInscription: 当心狙击手！
+blockFour:
+  image: ../../../assets/letter-01/04.png
+  alt: 公园里的最后一棵树是一棵小白桦树，带着招牌“谁将砍伐这棵桦树，就完蛋了！”。
+  text: 今年冬天时，在该市中砍伐了几乎所有树用于烧暖。只有几棵被保留了。我在兽医学院见过这样的一棵（一棵小桦树）。树上有一片招牌：
+  treeInscription: 谁将砍伐这棵桦树，就完蛋了！

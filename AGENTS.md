@@ -21,6 +21,12 @@ Consult these guides before working on related tasks:
 - [Adding styles or using Tailwind](https://docs.astro.build/en/guides/styling/)
 - [Supporting multiple languages](https://docs.astro.build/en/guides/internationalization/)
 
+## Translations
+
+- Serbian is the original language and the source of truth for all translations.
+- Use `src/content/letters/sr/`, `src/content/replies/sr/`, `src/content/about/sr.md`, and `src/i18n/sr.json` to verify meaning, dates, names, and illustration placement.
+- When another translation conflicts with the Serbian original, follow Serbian. Other translations may help with implementation, but are not authoritative sources.
+
 ## Code Style
 
 - Keep changes small, local, and focused. Ask before refactoring.

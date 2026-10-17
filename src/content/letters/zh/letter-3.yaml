@@ -1,0 +1,77 @@
+key: letter-3
+lang: zh
+slug: disanfengxin
+title: 第三封信
+template: letter-three
+date: 萨拉热窝，1993年7月5日
+header:
+  - 亲爱的科斯塔（Kosta)
+  - image: ../../../assets/letter-03/football-player.jpg
+    alt: ""
+    modifiers:
+      - tall
+    decorative: true
+  - 和斯坦呢 (Stane)
+  - image: ../../../assets/letter-03/olimpics.jpg
+    alt: ""
+    modifiers:
+      - square
+    decorative: true
+  - ，
+phoneSentence:
+  - 这里还没有
+  - image: ../../../assets/letter-03/phone.jpg
+    alt: 电话
+  - 可用。
+questions:
+  - text: 你们两个为什么不给我
+    image:
+      image: ../../../assets/letter-03/letter.jpg
+      alt: 写
+    narrow: false
+    imageWrapped: true
+    bottomText: 信？
+  - text: 也许那里没有
+    image:
+      image: ../../../assets/letter-03/postbox.jpg
+      alt: 邮电局
+    narrow: false
+    imageWrapped: false
+    suffix: ？
+activityText: 你们如何度过时间：
+activityOptions:
+  - 在
+  - image: ../../../assets/letter-03/tree.jpg
+    alt: 室外
+    modifiers:
+      - landscape
+  - 或在
+  - image: ../../../assets/letter-03/home.jpg
+    alt: 室内
+    modifiers:
+      - landscape
+  - 。
+games:
+  - text: 你们忘了下
+    image:
+      image: ../../../assets/letter-03/chess.jpg
+      alt: 棋
+    narrow: false
+    imageWrapped: false
+    bottomText: 吗？
+  - text: 如果你们不听妈妈的话，我建议妈妈使用
+    image:
+      image: ../../../assets/letter-03/boxing.jpg
+      alt: 拳击
+    narrow: false
+    imageWrapped: false
+signoff: 热情地问候
+dreamImages:
+  - image: ../../../assets/letter-03/plane.jpg
+    alt: ""
+    modifiers:
+      - landscape
+      - bottom
+    decorative: true
+  - image: ../../../assets/letter-03/tadija.png
+    alt: 爸爸在幻想着一架飞往Divljan村的飞机
