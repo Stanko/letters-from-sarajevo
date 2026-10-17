@@ -17,5 +17,5 @@ Ovdje u Divljani stekao sam dobrog druga, Mihajla. (Moj najbolji drug je i dalje
 
 Ponosan sam što pripadam "Sutjesci", iako su ovi iz Igmana brojniji. Osim Mihajla i mene, u "Sutjesci" su samo još dvojica mlađih dječaka koji nisu baš od neke koristi, a oni stariji ne učestvuju u ratu. Mihajlo i ja smo vođe u "Sutjesci", a vođa igmanovaca je Siniša, i takođe je četvrti razred.
 
-I Stane je stekao dobrog druga, Ivicu. Pošto su još mali za školu, njih dvojica se igraju po cijeli dan. Jedino ne vole debelog Boru iz restorana. On tjera djecu da prije jela umoče ruke u neku smrdljivu tečnost. Od nje ti poslije ruke skroz ispucaju. Bora se dere na Staneta i Ivicu kad god pokušaju da izbjegnu tu smrdljivu vodu. Stane jedva čeka da ti dođeš i pokažes debelom Bori.
+I Stane je stekao dobrog druga, Ivicu. Pošto su još mali za školu, njih dvojica se igraju po cijeli dan. Jedino ne vole debelog Boru iz restorana. On tjera djecu da prije jela umoče ruke u neku smrdljivu tečnost. Od nje ti poslije ruke skroz ispucaju. Bora se dere na Staneta i Ivicu kad god pokušaju da izbjegnu tu smrdljivu vodu. Stane jedva čeka da ti dođeš i pokažeš debelom Bori.
 I ja jedva čekam da dođeš.

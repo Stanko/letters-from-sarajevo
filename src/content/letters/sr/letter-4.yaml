@@ -28,7 +28,7 @@ sentenceThree:
 sentenceFour:
   - Da li ste se promjenili →
   - image: ../../../assets/letter-04/thin.png
-    alt: smšali
+    alt: smršali
   - ili
   - image: ../../../assets/letter-04/fat.png
     alt: se ugojili
