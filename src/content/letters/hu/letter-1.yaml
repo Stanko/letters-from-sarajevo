@@ -1,0 +1,31 @@
+key: letter-1
+lang: hu
+slug: elso-level
+title: Első levél
+template: letter-one
+header: Kedves Kole és Sztane!
+blockOne:
+  image: ../../../assets/letter-01/01.png
+  alt: Egy ember vizeskannákat húz, miközben sörön ábrándozik.
+  text: Nincs víz. A város másik végéből hozzuk.
+blockTwo:
+  image: ../../../assets/letter-01/02.png
+  alt: Az egér a lyukba fut, miközben húzza a farkába kapaszkodó embert.
+  text: A gránátok még mindig esnek. Kifejlesztettük a megmenekülés módját.
+blockThree:
+  image: ../../../assets/letter-01/03.png
+  alt: Az emberek átfutnak az utcán a „Vigyázz az orvlövész” jel mellett.
+  text:
+    Számos kereszteződésen még át kell futni. A közlekedési lámpák helyett figyelmeztető táblák
+    vannak.
+  warningInscription: Vigyázz az orvlövész
+blockFour:
+  image: ../../../assets/letter-01/04.png
+  alt:
+    "Az utolsó fa a parkban, egy kis nyírfa felirattal: „Aki ezt a nyírt kivágja, az legyen neki az
+    utolsó!”."
+  text:
+    "Télen szinte az összes, városban található fát kivágták tüzifának. Csupán néhányat hagytak
+    meg. Egy ilyent (egy kis nyírfa) láttam az Állatorvostudományi Karnál. Egy tábla áll rajta a
+    következő felirattal:"
+  treeInscription: Aki ezt a nyírt kivágja, az legyen neki az utolsó!

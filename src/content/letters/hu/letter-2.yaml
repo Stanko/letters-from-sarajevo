@@ -1,0 +1,58 @@
+key: letter-2
+lang: hu
+slug: masodik-level
+title: Második levél
+template: letter-two
+date: Szarajevó, 1993. május 4.
+header:
+  - Kedves
+  - image: ../../../assets/letter-02/kole.png
+    alt: Kole
+  - és
+  - image: ../../../assets/letter-02/stane.png
+    alt: Sztane
+  - "!"
+sentenceOne:
+  - A múlt héten, április 28-án,
+  - image: ../../../assets/letter-02/clock.png
+    alt: délben
+  - image: ../../../assets/letter-02/fly-in.png
+    alt: gránát repült
+  - a szobába.
+sentenceTwo:
+  - image: ../../../assets/letter-02/rocket-1.png
+    alt: A gránát
+  - valójában maga
+  - image: ../../../assets/letter-02/window.png
+    alt: az ablak
+    modifier: window
+  - fölé
+  - image: ../../../assets/letter-02/hit.png
+    alt: csapott
+  - .
+sentenceThree:
+  - image: ../../../assets/letter-02/tadija-1.png
+    alt: Én
+  - az egyetemen voltam.
+  - image: ../../../assets/letter-02/rocket-2.png
+    alt: A gránát
+  - mindent
+  - image: ../../../assets/letter-02/destroy.png
+    alt: elpusztított
+    modifier: lg
+  - a szobánkban.
+sentenceFour:
+  - Most Koszta szobájában vagyok.
+  - image: ../../../assets/letter-02/bed.png
+    alt: Apa az ágyban a fejét fogja.
+    modifier: xl
+sentenceFive:
+  - image: ../../../assets/letter-02/greetings.png
+    alt: Üdvözlet
+    modifier: lg
+  - image: ../../../assets/letter-02/two-of-you.png
+    alt: mindkettőtöknek
+    modifier: lg
+  - image: ../../../assets/letter-02/tadija-2.png
+    alt: ""
+    decorative: true

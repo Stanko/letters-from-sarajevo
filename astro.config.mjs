@@ -33,6 +33,7 @@ export default defineConfig({
                   ru: "https://lettersfromsarajevo.com/ru/",
                   "pt-br": "https://lettersfromsarajevo.com/pt-br/",
                   el: "https://lettersfromsarajevo.com/el/",
+                  hu: "https://lettersfromsarajevo.com/hu/",
                 }
               : { en: "/", sr: "https://pismaizsarajeva.com/" };
 
@@ -58,7 +59,7 @@ export default defineConfig({
 
           rules.push("/public/img/* /img/:splat 301");
           // Unforced rules allow real files to win and preserve the HTTP 404 status.
-          for (const lang of ["en", "sr", "ru", "pt-br", "el"]) {
+          for (const lang of ["en", "sr", "ru", "pt-br", "el", "hu"]) {
             rules.push(`/${lang}/* /${lang}/404/index.html 404`);
           }
           rules.push("/* /404.html 404");

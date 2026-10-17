@@ -1,0 +1,66 @@
+key: letter-4
+lang: hu
+slug: negyedik-level
+title: Negyedik levél
+template: letter-four
+date: Szarajevó, 1993. augusztus 20.
+header: Kedves Kole és Sztane!
+sentenceOne:
+  - Egy év telt el, mióta
+  - image: ../../../assets/letter-04/left.png
+    alt: elhagytátok Szarajevót
+    modifier: xwide
+  - .
+sentenceTwo:
+  - Ez idő alatt
+  - image: ../../../assets/letter-04/earth.png
+    alt: a Föld
+  - egyszer
+  - image: ../../../assets/letter-04/earth-run.png
+    alt: megkerülte
+    modifier: xl
+  - image: ../../../assets/letter-04/sun.png
+    alt: a Napot
+    modifier: lg
+  - .
+sentenceThree:
+  - "Ez idő alatt ti egy kicsit kisebb utat tettetek meg: Szarajevó - Divljana."
+sentenceFour:
+  - Megváltoztatok-e?
+  - image: ../../../assets/letter-04/thin.png
+    alt: lefogytatok
+  - vagy
+  - image: ../../../assets/letter-04/fat.png
+    alt: meghíztatok
+  - ", vagy"
+  - image: ../../../assets/letter-04/mustaches.png
+    alt: bajszot növesztettetek
+    modifier: xl
+  - "?"
+sentenceLeft:
+  text: Tornáztok?
+  image: ../../../assets/letter-04/lazy.png
+  alt: Kole és Stane fekszenek a kanapén és dohányoznak.
+sentenceRight:
+  text: Hallgattok anyura?
+  image: ../../../assets/letter-04/mom.png
+  alt: Anya Kolet és Stane mögött áll sodrófával és boksz-kesztyűben.
+blockOne:
+  image: ../../../assets/letter-04/truce.png
+  alt: A katona ágyún fekszik, melynek csöve parafadugóval van lezárva. gyapottal.
+  text: Itt már tíz napja nyugalom van.
+blockTwo:
+  image: ../../../assets/letter-04/electricity.png
+  alt: Felkapcsolt lámpa és egy ember, aki nem tud belenézni.
+  text: Tegnap este hosszú-hosszú idő után megjött az áram.
+  textBottom: Már megszoktuk a sötétséget.
+blockThree:
+  image: ../../../assets/letter-04/sick.png
+  alt: Egy ember játékkal és csörgővel.
+  text: Az elmúlt év nagyon nehéz volt itt, néhányan nem tartottak ki, egy kicsit „megfáztak”.
+blockFour:
+  image: ../../../assets/letter-04/icarus.png
+  alt: Apa Ikarusz szárnyairól fantáziál.
+  text: |-
+    Üdvözöllek benneteket!
+    Remélem, hamarosan találkozunk!

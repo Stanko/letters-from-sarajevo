@@ -1,0 +1,28 @@
+{
+  "title": "Levelek Szarajevóból",
+  "language": "Nyelv",
+  "metaDescription": "A boszniai háború kezdete A tízéves Koszta anyja és öccse mellett hagyja el Szarajevót. Az apa az ostromolt, bombázott városban marad, és más szarajevóival együtt nehéz napokat él túl. Ennek ellenére vicces leveleket küld fiainak, felvidítani szeretné őket és bátorítani. Tíz évvel később apja leveleinek felhasználásával, Koszta összeállítja gyermekkori történetét.",
+  "metaImage": "letters-from-sarajevo.jpg",
+  "firstLetterText": "Első levél",
+  "prevLinkText": "Előző levél",
+  "nextLinkText": "Következő levél",
+  "homeLinkText": "Kezdőlap",
+  "aboutText": "A könyvről és a webhelyről",
+  "aboutLink": "/hu/a-konyvrol-es-a-webhelyrol",
+  "footerText": "Koszta emlékére, szeretettel. Belgrád, 2020.",
+  "footerCopyright": "A webhely teljes tartalma és forráskódja a <a href=\"https://creativecommons.org/licenses/by-nc/4.0/\">CC BY-NC 4.0</a> licenc alatt érhető el.",
+  "error404": "404-es hiba",
+  "pageNotFound": "Az oldal nem található",
+  "home": {
+    "title": "Levelek Szarajevóból",
+    "author": "Kosta Tadić",
+    "paragraphs": [
+      "A boszniai háború kezdete",
+      "A tízéves Koszta anyja és öccse mellett hagyja el Szarajevót. Az apa az ostromolt, bombázott városban marad, és más szarajevóival együtt nehéz napokat él túl. Ennek ellenére vicces leveleket küld fiainak, felvidítani szeretné őket és bátorítani.",
+      "Tíz évvel később apja leveleinek felhasználásával, Koszta összeállítja gyermekkori történetét."
+    ],
+    "dedication": "Szamirnak és Sinišának"
+  },
+  "replySignature": "Koszta",
+  "footnoteReturnLabel": "Vissza a szöveghez"
+}

@@ -1,0 +1,23 @@
+key: letter-5
+lang: hu
+slug: otodik-level
+title: Ötödik levél
+template: letter-five
+date: Szarajevó, 1993. december 2.
+header: Kedves Kole és Sztane!
+intro: "Semmi újdonság nálam:"
+newsImage:
+  image: ../../../assets/letter-05/news.png
+  alt: Nincs áram, nincs víz, nincs kenyér, nincs telefon
+paragraphs:
+  - text: Kaptam egy kis tűzhelyet, amelyet a szobában állítottam fel. Tudok rajta teát készíteni.
+    caption: (1. kép)
+  - text:
+      A kályha kicsi, fekete, csúnya. Tehát rajzoltam neki szemöldököt és orrot. Az ajtón a kör
+      alakú nyílások már megvoltak, amelyeken keresztül a láng látszódik. Amikor az ajtaja kinyílik,
+      úgy néz ki, mintha ásítana vagy beszélne.
+    caption: (2. kép)
+stoveImage:
+  image: ../../../assets/letter-05/stove.png
+  alt: Kemence megrajzolt szemöldökkel és orral
+signoff: Üdvözöllek benneteket!

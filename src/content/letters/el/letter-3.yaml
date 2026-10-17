@@ -27,7 +27,7 @@ questions:
   - text: Γιατί δεν μου
     image:
       image: ../../../assets/letter-03/letter.jpg
-      alt: γράφετε εσείς
+      alt: γράφετε
     narrow: false
     imageWrapped: true
     bottomText: εσείς οι δύο;

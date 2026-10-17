@@ -1,0 +1,76 @@
+key: letter-3
+lang: hu
+slug: harmadik-level
+title: Harmadik levél
+template: letter-three
+date: Szarajevó, 1993. július 5.
+header:
+  - Kedves Kole
+  - image: ../../../assets/letter-03/football-player.jpg
+    alt: ""
+    modifiers:
+      - tall
+    decorative: true
+  - és Sztane
+  - image: ../../../assets/letter-03/olimpics.jpg
+    alt: ""
+    modifiers:
+      - square
+    decorative: true
+  - "!"
+phoneSentence:
+  - image: ../../../assets/letter-03/phone.jpg
+    alt: A telefonok
+  - itt még mindig nem működnek itt.
+questions:
+  - text: Miért nem
+    image:
+      image: ../../../assets/letter-03/letter.jpg
+      alt: írtok
+    narrow: false
+    imageWrapped: true
+    bottomText: nekem?
+  - text: Talán ott nem működik
+    image:
+      image: ../../../assets/letter-03/postbox.jpg
+      alt: a posta
+    narrow: false
+    imageWrapped: false
+    suffix: "?"
+activityText: Hogyan töltitek az időtöket?
+activityOptions:
+  - image: ../../../assets/letter-03/tree.jpg
+    alt: Kint
+    modifiers:
+      - landscape
+  - vagy
+  - image: ../../../assets/letter-03/home.jpg
+    alt: bent
+    modifiers:
+      - landscape
+  - "?"
+games:
+  - text: Elfelejtettetek-e
+    image:
+      image: ../../../assets/letter-03/chess.jpg
+      alt: sakkozni
+    narrow: false
+    imageWrapped: false
+    suffix: "?"
+  - text: Ha nem hallgattok anyutokra
+    image:
+      image: ../../../assets/letter-03/boxing.jpg
+      alt: a bokszot
+    narrow: false
+    imageWrapped: false
+    bottomText: javaslom neki.
+signoff: Üdvözlet
+dreamImages:
+  - image: ../../../assets/letter-03/plane.jpg
+    alt: ""
+    modifiers:
+      - landscape
+      - bottom
+    decorative: true
+  - image: ../../../assets/letter-03/tadija.png
+    alt: Apa, aki fantáziál a Divljana felé tartó repülőgépről

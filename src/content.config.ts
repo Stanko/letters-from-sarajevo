@@ -3,7 +3,7 @@ import { glob } from "astro/loaders";
 import { z } from "astro/zod";
 
 const metadata = {
-  lang: z.enum(["en", "sr", "ru", "pt-br", "el"]),
+  lang: z.enum(["en", "sr", "ru", "pt-br", "el", "hu"]),
   slug: z.string().regex(/^[a-z0-9-]+$/),
   title: z.string().min(1),
 };
