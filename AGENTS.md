@@ -43,5 +43,6 @@ Consult these guides before working on related tasks:
 
 - Use the repository's Prettier configuration.
 - Do not introduce alternative formatting conventions.
+- Keep each Markdown paragraph on a single line. Do not manually wrap paragraphs across multiple lines.
 - Run `npm run format` after modifying code.
 - Ensure `npm run format:check` passes before finishing.
