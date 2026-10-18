@@ -33,7 +33,7 @@ sentenceTwo:
   - .
 sentenceThree:
   - image: ../../../assets/letter-02/tadija-1.png
-    alt: Ο μπαμπάς
+    alt: Εγώ
   - ήμουν στο Πανεπιστήμιο.
   - image: ../../../assets/letter-02/rocket-2.png
     alt: Η βόμβα

@@ -61,7 +61,7 @@ games:
   - text: Εάν δεν ακούτε τη μαμά, της προτείνω
     image:
       image: ../../../assets/letter-03/boxing.jpg
-      alt: παίξει μποξ
+      alt: να κάνει μποξ
     narrow: false
     imageWrapped: false
     suffix: .
