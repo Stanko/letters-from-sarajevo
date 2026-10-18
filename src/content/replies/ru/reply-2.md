@@ -4,7 +4,7 @@ lang: ru
 slug: vtoroy-otvet
 title: Второй ответ
 kind: reply
-date: 11. июнь 1993.
+date: 11 июня 1993 г.
 ---
 
 Дорогой папа,

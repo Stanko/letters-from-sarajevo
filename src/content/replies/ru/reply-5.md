@@ -4,7 +4,7 @@ lang: ru
 slug: pyatyy-otvet
 title: Пятый ответ
 kind: reply
-date: 17. январь 1994.
+date: 17 января 1994 г.
 ---
 
 Дорогой папа,

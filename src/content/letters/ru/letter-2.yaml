@@ -17,14 +17,14 @@ sentenceOne:
     alt: полдень
   - в нашу комнату
   - image: ../../../assets/letter-02/fly-in.png
-    alt: влетела граната
+    alt: влетел снаряд
   - .
 sentenceTwo:
   - На самом деле
   - image: ../../../assets/letter-02/rocket-1.png
-    alt: граната
+    alt: снаряд
   - image: ../../../assets/letter-02/hit.png
-    alt: разорвалась
+    alt: разорвался
   - над самым
   - image: ../../../assets/letter-02/window.png
     alt: окном
@@ -35,9 +35,9 @@ sentenceThree:
     alt: Я
   - был на факультете.
   - image: ../../../assets/letter-02/rocket-2.png
-    alt: Граната
+    alt: Снаряд
   - image: ../../../assets/letter-02/destroy.png
-    alt: уничтожила
+    alt: уничтожил
     modifier: lg
   - все в нашей комнате.
 sentenceFour:

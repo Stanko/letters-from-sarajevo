@@ -48,7 +48,7 @@ sentenceRight:
 blockOne:
   image: ../../../assets/letter-04/truce.png
   alt: Солдат лежит на пушке с заткнутым дулом.
-  text: Здесь уже десять дней спокойно.
+  text: Здесь уже около десяти дней спокойно.
 blockTwo:
   image: ../../../assets/letter-04/electricity.png
   alt: Включенная лампочка и человек, который не может на нее смотреть.

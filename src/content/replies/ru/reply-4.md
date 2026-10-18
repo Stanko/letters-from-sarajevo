@@ -4,7 +4,7 @@ lang: ru
 slug: cetvertyy-otvet
 title: Четвертый ответ
 kind: reply
-date: 4. ноябрь 1993.
+date: 4 ноября 1993 г.
 ---
 
 Дорогой папа,

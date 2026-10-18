@@ -51,7 +51,7 @@ activityOptions:
       - landscape
   - "?"
 games:
-  - text: Не забываете играть в
+  - text: Не разучились ли вы играть в
     image:
       image: ../../../assets/letter-03/chess.jpg
       alt: шахматы
