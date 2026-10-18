@@ -11,7 +11,7 @@ Dear dad,
 
 I'm sorry to hear about our room, but mum says it doesn't matter. She says "The room doesn't matter so long as we're together again."
 
-I made a good friend here in Divljana. His name is Mihajlo. (Samir is still my best friend, even though I haven't seen him since leaving Sarajevo.) Mihajlo lives on the ground floor of Sutjeska, our Inn. Recently, they found a snake in his room. I think the snakes won't climb all the way up to our second-story room.
+I made a good friend here in Divljana. His name is Mihajlo. (Samir is still my best friend, even though I haven't seen him since leaving Sarajevo.) Mihajlo lives on the ground floor of Sutjeska, our Inn. Recently, they found a snake in his room. I think the snakes won't climb all the way up to our second-floor room.
 
 As soon as I got to the Sutjeska Inn, Mihajlo explained to me we were at war with the boys from the other Inn, which was called Igman. We attacked some of them with pine cones right away. Since they outnumbered us, we retreated and watched them from afar using Mihajlo's big binoculars. He told me he was moving away soon and that he'll leave his binoculars to me when he does.
 

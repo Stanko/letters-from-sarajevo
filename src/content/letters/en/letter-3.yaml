@@ -34,7 +34,7 @@ questions:
   - text: Perhaps, there's no
     image:
       image: ../../../assets/letter-03/postbox.jpg
-      alt: post service
+      alt: postal service
     narrow: true
     imageWrapped: false
     bottomText: "?"

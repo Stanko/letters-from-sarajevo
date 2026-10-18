@@ -9,7 +9,7 @@ date: November 4, 1993
 
 Dear dad,
 
-I was happy about your letter, and then mum entered the room in tears. She found out that uncle Grujo had died. I went with her to the Administration Office to request a written confirmation which would allow her to ride the train without a ticket. Obtaining it wasn't easy and it took a few hours. This morning she went to the funeral and asked me to look after Stane. He's outside with Ivica now. I'm watching them play out the window. I didn't tell Stane where mum had gone. I only told him she was coming back tomorrow.
+I was happy about your letter, and then mum entered the room in tears. She found out that uncle Grujo had died. I went with her to the Administration Office to request a written confirmation which would allow her to ride the train without paying for a ticket. Obtaining it wasn't easy and it took a few hours. This morning she went to the funeral and asked me to look after Stane. He's outside with Ivica now. I'm watching them play out the window. I didn't tell Stane where mum had gone. I only told him she was coming back tomorrow.
 
 We moved to the Igman Inn a couple of months ago so now I'm hanging out with Siniša. At first, I longed for the Sutjeska, but now I'm proud to be one of the Igman boys. The ones from Sutjeska attack us cowardly with pine cones, but they avoid real open combat. I still haven't received a letter from Mihajlo. Maybe he hasn't written to me because he has found out about my becoming an Igman boy or perhaps has forgotten all about me. (I don't know why but I'm certain Samir hasn't forgotten about me. He would write to me if he could.)
 
