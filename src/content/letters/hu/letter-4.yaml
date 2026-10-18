@@ -57,7 +57,7 @@ blockTwo:
 blockThree:
   image: ../../../assets/letter-04/sick.png
   alt: Egy ember játékkal és csörgővel.
-  text: Az elmúlt év nagyon nehéz volt itt, néhányan nem tartottak ki, egy kicsit „megfáztak”.
+  text: Az elmúlt év nagyon nehéz volt itt, néhányan nem tartottak ki, egy kicsit becsavarodtak.
 blockFour:
   image: ../../../assets/letter-04/icarus.png
   alt: Apa Ikarusz szárnyairól fantáziál.
