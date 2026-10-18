@@ -47,8 +47,8 @@ sentenceRight:
   alt: Anya Kolet és Stane mögött áll sodrófával és boksz-kesztyűben.
 blockOne:
   image: ../../../assets/letter-04/truce.png
-  alt: A katona ágyún fekszik, melynek csöve parafadugóval van lezárva. gyapottal.
-  text: Itt már tíz napja nyugalom van.
+  alt: A katona ágyún fekszik, melynek csöve parafadugóval van lezárva.
+  text: Itt már körülbelül tíz napja nyugalom van.
 blockTwo:
   image: ../../../assets/letter-04/electricity.png
   alt: Felkapcsolt lámpa és egy ember, aki nem tud belenézni.

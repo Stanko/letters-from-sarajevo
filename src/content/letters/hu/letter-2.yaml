@@ -42,7 +42,7 @@ sentenceThree:
     modifier: lg
   - a szobánkban.
 sentenceFour:
-  - Most Koszta szobájában vagyok.
+  - Most Kosa szobájában vagyok.
   - image: ../../../assets/letter-02/bed.png
     alt: Apa az ágyban a fejét fogja.
     modifier: xl

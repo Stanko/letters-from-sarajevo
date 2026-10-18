@@ -14,11 +14,11 @@ blockTwo:
   text: A gránátok még mindig esnek. Kifejlesztettük a megmenekülés módját.
 blockThree:
   image: ../../../assets/letter-01/03.png
-  alt: Az emberek átfutnak az utcán a „Vigyázz az orvlövész” jel mellett.
+  alt: Az emberek átfutnak az utcán a „Vigyázat, orvlövész!” jel mellett.
   text:
     Számos kereszteződésen még át kell futni. A közlekedési lámpák helyett figyelmeztető táblák
     vannak.
-  warningInscription: Vigyázz az orvlövész
+  warningInscription: Vigyázat, orvlövész!
 blockFour:
   image: ../../../assets/letter-01/04.png
   alt:

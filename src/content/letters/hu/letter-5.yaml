@@ -14,10 +14,10 @@ paragraphs:
     caption: (1. kép)
   - text:
       A kályha kicsi, fekete, csúnya. Tehát rajzoltam neki szemöldököt és orrot. Az ajtón a kör
-      alakú nyílások már megvoltak, amelyeken keresztül a láng látszódik. Amikor az ajtaja kinyílik,
+      alakú nyílások már megvoltak, amelyeken keresztül a láng látszódik. Amikor kinyílik a hamuzóajtó,
       úgy néz ki, mintha ásítana vagy beszélne.
     caption: (2. kép)
 stoveImage:
   image: ../../../assets/letter-05/stove.png
-  alt: Kemence megrajzolt szemöldökkel és orral
+  alt: Kályha megrajzolt szemöldökkel és orral
 signoff: Üdvözöllek benneteket!

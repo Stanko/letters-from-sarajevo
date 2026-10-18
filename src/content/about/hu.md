@@ -6,13 +6,13 @@ title: A könyvről és a webhelyről
 
 # A könyvről
 
-Az 1990-es években, a boszniai háború alatt apánk bennragadt Szarajevóban, míg anyámnak, Kosta öcsémnem és nekem sikerült elmenekülnünk Szerbiába. A nehéz helyzet ellenére apánk leveleket küldött nekünk - szellemeseket, pozitívakat és rajzokkal teli leveleket.
+Az 1990-es években, a boszniai háború alatt apánk bennragadt Szarajevóban, míg anyámnak, Kosta testvéremnek és nekem sikerült elmenekülnünk Szerbiába. A nehéz helyzet ellenére apánk leveleket küldött nekünk - szellemeseket, pozitívakat és rajzokkal teli leveleket.
 
-Tíz évvel később a Tankönyvkiadó Intézet kiadott egy könyvet, amely az apám válogatott, eredeti leveleiből és a válaszokból áll, amelyeket Koszta írt egy jegyzetfüzetbe.
+Körülbelül tíz évvel később a Tankönyvkiadó Intézet kiadott egy könyvet, amely az apám válogatott, eredeti leveleiből és a válaszokból áll, amelyeket Koszta írt egy jegyzetfüzetbe.
 
 <div class="About-book">
 
-![A  2005-ben megjelent meg könyvborító](../../assets/korice.jpg)
+![A 2005-ben megjelent könyv borítója](../../assets/korice.jpg)
 
 </div>
 
@@ -20,7 +20,7 @@ Együtt egy kissé más és derűsebb történetet mesélnek a háborúról.
 
 ## A webhelyről
 
-A webhelyet azért jött létre, mert szeretnénk megosztani ezt a történetet mindenkivel.
+A webhely azért jött létre, mert szeretnénk megosztani ezt a történetet mindenkivel.
 
 Nehéz ezt a formát tartalmazó könyvet hűen feltölteni egy weboldalra. A tőlem telhető lehető legjobban dolgoztam, de azt javaslom, hogy a _Leveleket_ kissé nagyobb képernyőn, ne a telefonján nézze.
 

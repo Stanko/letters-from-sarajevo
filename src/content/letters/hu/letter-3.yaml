@@ -21,7 +21,7 @@ header:
 phoneSentence:
   - image: ../../../assets/letter-03/phone.jpg
     alt: A telefonok
-  - itt még mindig nem működnek itt.
+  - itt még mindig nem működnek.
 questions:
   - text: Miért nem
     image:
