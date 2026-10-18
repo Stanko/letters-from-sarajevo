@@ -3,48 +3,48 @@ lang: zh
 slug: dierfengxin
 title: 第二封信
 template: letter-two
-date: 萨拉热窝，1993年5月4日
+date: 萨拉热窝（Sarajevo），1993年5月4日
 header:
   - 亲爱的
   - image: ../../../assets/letter-02/kole.png
-    alt: 科乐
+    alt: 科乐（Kole）
   - 和
   - image: ../../../assets/letter-02/stane.png
-    alt: 斯坦呢
+    alt: 斯塔内（Stane）
   - ，
 sentenceOne:
-  - 上周，即4月28日
+  - 上周4月28日，
   - image: ../../../assets/letter-02/clock.png
-    alt: 中午
+    alt: 中午十二点整
   - ，一枚
   - image: ../../../assets/letter-02/fly-in.png
-    alt: 榴弹飞入
+    alt: 炮弹飞进了
   - 我们的房间。
 sentenceTwo:
-  - 实际上，
+  - 其实，
   - image: ../../../assets/letter-02/rocket-1.png
-    alt: 榴弹
+    alt: 炮弹
   - image: ../../../assets/letter-02/hit.png
     alt: 击中了
   - image: ../../../assets/letter-02/window.png
     alt: 窗户
     modifier: window
-  - 正上方。
+  - 的正上方。
 sentenceThree:
   - 当时
   - image: ../../../assets/letter-02/tadija-1.png
     alt: 我
   - 在大学。
   - image: ../../../assets/letter-02/rocket-2.png
-    alt: 榴弹
+    alt: 炮弹
   - image: ../../../assets/letter-02/destroy.png
     alt: 摧毁
     modifier: lg
   - 了我们房间里的所有东西。
 sentenceFour:
-  - 我现在在科斯的房间里
+  - 现在我住在科萨（Kosa）的房间里。
   - image: ../../../assets/letter-02/bed.png
-    alt: 爸爸在床上低着头。
+    alt: 爸爸躺在床上，双手抱着头。
     modifier: xl
 sentenceFive:
   - image: ../../../assets/letter-02/tadija-2.png
@@ -53,7 +53,7 @@ sentenceFive:
   - image: ../../../assets/letter-02/two-of-you.png
     alt: 你们
     modifier: lg
-  - 两个
+  - 俩
   - image: ../../../assets/letter-02/greetings.png
-    alt: 多多问候
+    alt: 问好！
     modifier: lg

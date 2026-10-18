@@ -3,15 +3,15 @@ lang: zh
 slug: disanfengxin
 title: 第三封信
 template: letter-three
-date: 萨拉热窝，1993年7月5日
+date: 萨拉热窝（Sarajevo），1993年7月5日
 header:
-  - 亲爱的科斯塔（Kosta)
+  - 亲爱的科乐（Kole）
   - image: ../../../assets/letter-03/football-player.jpg
     alt: ""
     modifiers:
       - tall
     decorative: true
-  - 和斯坦呢 (Stane)
+  - 和斯塔内（Stane）
   - image: ../../../assets/letter-03/olimpics.jpg
     alt: ""
     modifiers:
@@ -19,53 +19,53 @@ header:
     decorative: true
   - ，
 phoneSentence:
-  - 这里还没有
+  - 这里的
   - image: ../../../assets/letter-03/phone.jpg
     alt: 电话
-  - 可用。
+  - 还是不通。
 questions:
-  - text: 你们两个为什么不给我
+  - text: 你们两个怎么不给我
     image:
       image: ../../../assets/letter-03/letter.jpg
       alt: 写
     narrow: false
     imageWrapped: true
-    bottomText: 信？
-  - text: 也许那里没有
+    bottomText: 信，
+  - text: 是不是那里没有
     image:
       image: ../../../assets/letter-03/postbox.jpg
-      alt: 邮电局
+      alt: 邮局
     narrow: false
     imageWrapped: false
     suffix: ？
-activityText: 你们如何度过时间：
+activityText: 你们平时在哪儿：
 activityOptions:
   - 在
   - image: ../../../assets/letter-03/tree.jpg
-    alt: 室外
+    alt: 外面
     modifiers:
       - landscape
-  - 或在
+  - 还是在
   - image: ../../../assets/letter-03/home.jpg
-    alt: 室内
+    alt: 家里
     modifiers:
       - landscape
-  - 。
+  - ？
 games:
-  - text: 你们忘了下
+  - text: 你们忘了怎么下
     image:
       image: ../../../assets/letter-03/chess.jpg
-      alt: 棋
+      alt: 国际象棋
     narrow: false
     imageWrapped: false
-    bottomText: 吗？
-  - text: 如果你们不听妈妈的话，我建议妈妈使用
+    bottomText: 了吗？
+  - text: 你们要是不听话，我建议妈妈试试
     image:
       image: ../../../assets/letter-03/boxing.jpg
-      alt: 拳击
+      alt: 拳击。
     narrow: false
     imageWrapped: false
-signoff: 热情地问候
+signoff: 向你们问好！
 dreamImages:
   - image: ../../../assets/letter-03/plane.jpg
     alt: ""
@@ -74,4 +74,4 @@ dreamImages:
       - bottom
     decorative: true
   - image: ../../../assets/letter-03/tadija.png
-    alt: 爸爸在幻想着一架飞往Divljan村的飞机
+    alt: 爸爸幻想着坐飞机去迪夫利亚纳（Divljana）。

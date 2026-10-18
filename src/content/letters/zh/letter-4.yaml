@@ -3,19 +3,19 @@ lang: zh
 slug: disifengxin
 title: 第四封信
 template: letter-four
-date: 萨拉热窝，1993年8月20日
-header: 亲爱的科乐（Kole）和斯坦呢 (Stane)，
+date: 萨拉热窝（Sarajevo），1993年8月20日
+header: 亲爱的科乐（Kole）和斯塔内（Stane），
 sentenceOne:
   - 你们
   - image: ../../../assets/letter-04/left.png
-    alt: 离开了萨拉热窝市
+    alt: 离开萨拉热窝
     modifier: xwide
-  - 已经一年了
+  - 已经一年了。
 sentenceTwo:
-  - 在此期间，
+  - 这段时间里，
   - image: ../../../assets/letter-04/earth.png
     alt: 地球
-  - 曾经
+  - 已经
   - image: ../../../assets/letter-04/earth-run.png
     alt: 绕着
     modifier: xl
@@ -24,43 +24,43 @@ sentenceTwo:
     modifier: lg
   - 转了一圈。
 sentenceThree:
-  - 在这段时间里，你们越过了一条较小的路：从萨拉热窝市到Divljan村。
+  - 这段时间里，你们走的路要短一些：从萨拉热窝到迪夫利亚纳（Divljana）。
 sentenceFour:
-  - 你们是否改变了→
+  - 你们变了吗？→
   - image: ../../../assets/letter-04/thin.png
-    alt: 减肥
-  - 或
+    alt: 变瘦了
+  - ，还是
   - image: ../../../assets/letter-04/fat.png
-    alt: 变胖
-  - ，或者
+    alt: 变胖了
+  - ，还是
   - image: ../../../assets/letter-04/mustaches.png
     alt: 长了胡子
     modifier: xl
-  - 吗？
+  - ？
 sentenceLeft:
-  text: 你们还锻炼，做体操吗？
+  text: 你们做体操吗？
   image: ../../../assets/letter-04/lazy.png
-  alt: 科乐（Kole）和斯坦呢 (Stane)躺在沙发上吸烟。
+  alt: 科乐和斯塔内躺在沙发上抽烟。
 sentenceRight:
   text: 你们听妈妈的话吗？
   image: ../../../assets/letter-04/mom.png
-  alt: 妈妈站在科乐（Kole）和斯坦呢 (Stane)背后戴着木棍和拳击手套。
+  alt: 妈妈站在科乐和斯塔内身后，手里拿着擀面杖，戴着拳击手套。
 blockOne:
   image: ../../../assets/letter-04/truce.png
   alt: 一个士兵躺在大炮上，炮管被软木塞堵住了。
-  text: 大约十天这里已经安静了。
+  text: 这里已经平静了十来天。
 blockTwo:
   image: ../../../assets/letter-04/electricity.png
-  alt: 一个发光的灯泡和一个向它望不了的人。
-  text: 很长一段时间后昨晚，就有了电。
+  alt: 灯泡亮着，一个人受不了灯光，没法直视它。
+  text: 停了好久好久的电，昨晚终于来电了。
   textBottom: 我们已经习惯了黑暗。
 blockThree:
   image: ../../../assets/letter-04/sick.png
-  alt: 一个有玩具和拨浪鼓的人。
-  text: 过去的一年在这里非常困难，有些人没有忍受，他们轻轻地《生病》了。
+  alt: 一个人拿着玩具和拨浪鼓。
+  text: 过去这一年，这里的日子很难熬。有些人没能撑住，精神有点儿“不对劲”了。
 blockFour:
   image: ../../../assets/letter-04/icarus.png
-  alt: 爸爸在想着有伊卡洛斯翅膀。
+  alt: 爸爸幻想着拥有伊卡洛斯（Ikar）的翅膀。
   text: |-
-    我向你们致敬！
+    向你们问好！
     希望很快见到你们。

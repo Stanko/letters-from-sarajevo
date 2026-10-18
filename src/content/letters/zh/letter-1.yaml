@@ -3,22 +3,22 @@ lang: zh
 slug: diyifengxin
 title: 第一封信
 template: letter-one
-header: 亲爱的科乐（Kole）和斯坦呢(Stane)，
+header: 亲爱的科乐（Kole）和斯塔内（Stane），
 blockOne:
   image: ../../../assets/letter-01/01.png
-  alt: 人带水桶，同时想象着啤酒。
-  text: 没有水。我们从城市的另一端带它。
+  alt: 一个人拖着装水的桶，心里却想着啤酒。
+  text: 没水了。我们得从城的另一头把水拖回来。
 blockTwo:
   image: ../../../assets/letter-01/02.png
-  alt: 老鼠逃进洞里时，拉着抓住其尾巴的人。
-  text: 榴弹继续下降。我们已经完善了救援方法。
+  alt: 一只老鼠往洞里逃，拖着一个抓住它尾巴的人。
+  text: 炮弹还在落下来。我们已经练好了逃生的本事。
 blockThree:
   image: ../../../assets/letter-01/03.png
-  alt: 人们在“当心狙击手”牌旁边的街道上跑来跑去。
-  text: 通过许多路口，仍然必须以跑去经过。警告牌代替交通信号灯。
+  alt: 人们跑着穿过街道，旁边立着一块“当心狙击手”的牌子。
+  text: 过很多路口时，还是得跑过去。红绿灯的位置上立着警告牌。
   warningInscription: 当心狙击手！
 blockFour:
   image: ../../../assets/letter-01/04.png
-  alt: 公园里的最后一棵树是一棵小白桦树，带着招牌“谁将砍伐这棵桦树，就完蛋了！”。
-  text: 今年冬天时，在该市中砍伐了几乎所有树用于烧暖。只有几棵被保留了。我在兽医学院见过这样的一棵（一棵小桦树）。树上有一片招牌：
-  treeInscription: 谁将砍伐这棵桦树，就完蛋了！
+  alt: 公园里最后一棵树是一棵小白桦树，上面挂着牌子：“谁砍了这棵桦树，这就是他砍的最后一棵树！”
+  text: 这个冬天，城里的树几乎都被砍来烧火取暖了。只剩下零星几棵。我在兽医学院附近就见到过一棵（一棵小白桦树）。树上挂着一块牌子，上面写着：
+  treeInscription: 谁砍了这棵桦树，这就是他砍的最后一棵树！

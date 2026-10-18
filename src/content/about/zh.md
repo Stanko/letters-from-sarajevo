@@ -6,9 +6,9 @@ title: 关于本书和网站
 
 # 关于这本书
 
-在1990年代，在波斯尼亚战争期间中，我们的父亲留在萨拉热窝市不能离开，而我的母亲，我的兄弟科斯塔和我逃到了塞尔维亚。 尽管困难重重，我们父亲还是给我们寄来了一些富有幽默的，积极的，充满图画的信件。
+20世纪90年代，波斯尼亚战争期间，我们的父亲被困在萨拉热窝（Sarajevo），而母亲、我的哥哥科斯塔（Kosta）和我逃到了塞尔维亚。尽管处境艰难，父亲还是给我们寄来了一封封风趣、乐观、画满插图的信。
 
-十年后，教科书出版社出版了一本书，其中包括我父亲精选的原始信件以及科斯塔在笔记本中写的回信。
+大约十年后，教科书出版社（Zavod za udžbenike）出版了一本书，收录了父亲的原信选篇，以及科斯塔在本子上写下的回信。
 
 <div class="About-book">
 
@@ -16,42 +16,42 @@ title: 关于本书和网站
 
 </div>
 
-这些信讲述了一个战争中的稍微不同而乐观的故事。
+这些信放在一起，讲述了一个有些不同、也更明朗的战争故事。
 
 ## 关于网站
 
-创建该网站是因为我们想与所有人分享这个故事。
+我们建这个网站，是想把这个故事分享给所有人。
 
-很难如实将这种形式的书上传到网站上。 我已尽力而为，但我仍然建议您在稍大的屏幕上而非手机上看《寄自萨拉热窝的信》。
+要在网站上忠实呈现这样一本书，并不容易。我已经尽力了，但还是建议您用大一些的屏幕阅读《寄自萨拉热窝的信》，尽量不要用手机。
 
-同时非常感谢我的同事Felipe和Ana，他们将网站翻译成巴西葡萄牙语。
+同时，也非常感谢我的同事Felipe和Ana，他们把网站翻译成了巴西葡萄牙语。
 
-根据[CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/)许可，所有网站内容和代码均可在[GitHub](https://github.com/Stanko/letters-from-sarajevo)上获得。
+本网站的全部内容和代码均采用[CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/)许可协议，可在[GitHub](https://github.com/Stanko/letters-from-sarajevo)上获取。
 
-## 图纸
+## 插图
 
-不幸的是，原始信已随时间的流逝而被丢失了，只有其他数字版本的扫描但其质量很差。 因此，我们要非常感谢我的朋友[伊凡（Ivan Nedeljkovic）](https://www.instagram.com/sun_day_sign/)，他根据原图重新绘制了所有图纸，并将其数字化。
+遗憾的是，原信在这些年里遗失了，留下的数字版本也只是质量不佳的扫描件。因此，我们要特别感谢我的朋友[伊万（Ivan Nedeljković）](https://www.instagram.com/sun_day_sign/)，他根据原图重新画出了所有插图，并制作成了数字版本。
 
-结果是惊人的，并且在下面您可以看到原始图纸之一和伊凡（Ivan）版本的比较。
+效果非常好，下面您可以看到一幅原图和伊万重绘版本的对比。
 
 <div class="About-drawings">
   <div class="About-drawing">
 
-![原图，以较差的分辨率扫描](../../assets/scan.jpg)
+![原图的低分辨率扫描件](../../assets/scan.jpg)
 
   </div>
   <div class="About-drawing">
 
-![同一幅图，伊凡重新绘制并数字化的](../../assets/letter-01/03.png)
+![伊万重绘并制作成数字版本的同一幅插图](../../assets/letter-01/03.png)
 
   </div>
 </div>
 
-现在，如果您想帮助将该书翻译成另一种语言或提出建议，请在GitHub上创建一个新的[Issue](https://github.com/Stanko/letters-from-sarajevo/issues)，以实现此目的。
+目前，如果您愿意帮助把这本书翻译成更多语言，或想提出建议，请在GitHub上创建一个新的[Issue](https://github.com/Stanko/letters-from-sarajevo/issues)。
 
 感谢您的关注！
 
 <div class="About-signature">
   斯坦科·塔迪奇（Stanko Tadić）<br/>
-  贝尔格莱德，2020年
+  贝尔格莱德（Beograd），2020年
 </div>
