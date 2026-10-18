@@ -24,7 +24,7 @@ sentenceTwo:
   - image: ../../../assets/letter-02/rocket-1.png
     alt: снаряд
   - image: ../../../assets/letter-02/hit.png
-    alt: разорвался
+    alt: ударил
   - над самым
   - image: ../../../assets/letter-02/window.png
     alt: окном

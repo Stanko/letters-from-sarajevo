@@ -26,7 +26,7 @@ title: Σχετικά με το βιβλίο και τον ιστότοπο
 
 Ευχαριστώ επίσης τους συναδέλφους μου Felipe και Ana, οι οποίοι μετέφρασαν τον ιστότοπο στα Βραζιλιάνικα-Πορτογαλικά.
 
-Όλο το περιεχόμενο του ιστότοπου καθώς και ο κώδικάς είναι διαθέσιμοι στο [GitHub](https://github.com/Stanko/letters-from-sarajevo) με άδεια [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/).
+Όλο το περιεχόμενο του ιστότοπου καθώς και ο κώδικας είναι διαθέσιμοι στο [GitHub](https://github.com/Stanko/letters-from-sarajevo) με άδεια [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/).
 
 ## Σχέδια
 

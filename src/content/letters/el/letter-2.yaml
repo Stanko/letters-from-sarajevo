@@ -5,7 +5,7 @@ title: Δεύτερο γράμμα
 template: letter-two
 date: Σαράγιεβο, 4 Μαΐου 1993
 header:
-  - Αγαπητέ
+  - Αγαπητοί
   - image: ../../../assets/letter-02/kole.png
     alt: Κώστα
   - "&"
@@ -18,11 +18,11 @@ sentenceOne:
     alt: το μεσημέρι
   - ", μια"
   - image: ../../../assets/letter-02/fly-in.png
-    alt: βόμβα έπεσε
+    alt: οβίδα έπεσε
   - στο δωμάτιό μας.
 sentenceTwo:
   - image: ../../../assets/letter-02/rocket-1.png
-    alt: Η βόμβα
+    alt: Η οβίδα
   - ", στην πραγματικότητα,"
   - image: ../../../assets/letter-02/hit.png
     alt: χτύπησε
@@ -36,12 +36,12 @@ sentenceThree:
     alt: Εγώ
   - ήμουν στο Πανεπιστήμιο.
   - image: ../../../assets/letter-02/rocket-2.png
-    alt: Η βόμβα
+    alt: Η οβίδα
   - έχει
   - image: ../../../assets/letter-02/destroy.png
     alt: καταστρέψει
     modifier: lg
-  - όλο το δωμάτιό μας.
+  - τα πάντα στο δωμάτιό μας.
 sentenceFour:
   - Μένω στο δωμάτιο της Κόσα τώρα.
   - image: ../../../assets/letter-02/bed.png

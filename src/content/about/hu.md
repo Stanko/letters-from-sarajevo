@@ -8,7 +8,7 @@ title: A könyvről és a webhelyről
 
 Az 1990-es években, a boszniai háború alatt apánk bennragadt Szarajevóban, míg anyámnak, Kosta testvéremnek és nekem sikerült elmenekülnünk Szerbiába. A nehéz helyzet ellenére apánk leveleket küldött nekünk - szellemeseket, pozitívakat és rajzokkal teli leveleket.
 
-Körülbelül tíz évvel később a Tankönyvkiadó Intézet kiadott egy könyvet, amely az apám válogatott, eredeti leveleiből és a válaszokból áll, amelyeket Koszta írt egy jegyzetfüzetbe.
+Körülbelül tíz évvel később a Tankönyvkiadó Intézet kiadott egy könyvet, amely az apám válogatott, eredeti leveleiből és a válaszokból áll, amelyeket Kosta írt egy jegyzetfüzetbe.
 
 <div class="About-book">
 
@@ -22,7 +22,7 @@ Együtt egy kissé más és derűsebb történetet mesélnek a háborúról.
 
 A webhely azért jött létre, mert szeretnénk megosztani ezt a történetet mindenkivel.
 
-Nehéz ezt a formát tartalmazó könyvet hűen feltölteni egy weboldalra. A tőlem telhető lehető legjobban dolgoztam, de azt javaslom, hogy a _Leveleket_ kissé nagyobb képernyőn, ne a telefonján nézze.
+Nehéz egy ilyen formátumú könyvet hűen átültetni egy weboldalra. A tőlem telhető lehető legjobban dolgoztam, de azt javaslom, hogy a _Leveleket_ kissé nagyobb képernyőn, ne a telefonján nézze.
 
 Nagyon köszönöm Felipe és Ana kollégáimnak is, akik lefordították a weboldalt brazil-portugál nyelvre.
 
@@ -42,7 +42,7 @@ Az eredmény fantasztikus, és alább látható az eredeti rajz és Ivan verzió
   </div>
   <div class="About-drawing">
 
-![Ugyanaz a rajz, amelyet Ivan újrarajzolott és digitalizált](../../assets/letter-01/03.png)
+![Ugyanaz a rajz, amelyet Ivan újrarajzolt és digitalizált](../../assets/letter-01/03.png)
 
   </div>
 </div>

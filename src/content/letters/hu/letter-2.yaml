@@ -10,7 +10,7 @@ header:
     alt: Kole
   - és
   - image: ../../../assets/letter-02/stane.png
-    alt: Sztane
+    alt: Stane
   - "!"
 sentenceOne:
   - A múlt héten, április 28-án,
@@ -54,5 +54,4 @@ sentenceFive:
     alt: mindkettőtöknek
     modifier: lg
   - image: ../../../assets/letter-02/tadija-2.png
-    alt: ""
-    decorative: true
+    alt: tőlem

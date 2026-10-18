@@ -6,7 +6,7 @@ template: letter-four
 date: Сараево, 20.VIII 1993
 header: Дорогие Коле и Стане,
 sentenceOne:
-  - Прошел уже год с того дня как вы
+  - Прошел уже год с того дня, как вы
   - image: ../../../assets/letter-04/left.png
     alt: уехали из Сараева
     modifier: xwide

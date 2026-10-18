@@ -31,7 +31,7 @@ questions:
     narrow: false
     imageWrapped: true
     suffix: ","
-  - text: Может быть там нет
+  - text: может быть, там нет
     image:
       image: ../../../assets/letter-03/postbox.jpg
       alt: почты

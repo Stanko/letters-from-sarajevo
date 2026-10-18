@@ -4,7 +4,7 @@ slug: negyedik-level
 title: Negyedik levél
 template: letter-four
 date: Szarajevó, 1993. augusztus 20.
-header: Kedves Kole és Sztane!
+header: Kedves Kole és Stane!
 sentenceOne:
   - Egy év telt el, mióta
   - image: ../../../assets/letter-04/left.png
@@ -44,7 +44,7 @@ sentenceLeft:
 sentenceRight:
   text: Hallgattok anyura?
   image: ../../../assets/letter-04/mom.png
-  alt: Anya Kolet és Stane mögött áll sodrófával és boksz-kesztyűben.
+  alt: Anya Kole és Stane mögött áll sodrófával és boksz-kesztyűben.
 blockOne:
   image: ../../../assets/letter-04/truce.png
   alt: A katona ágyún fekszik, melynek csöve parafadugóval van lezárva.

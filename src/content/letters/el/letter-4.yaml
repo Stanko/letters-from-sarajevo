@@ -4,7 +4,7 @@ slug: tetarto-gramma
 title: Τέταρτο γράμμα
 template: letter-four
 date: Σαράγιεβο, 20 Αυγούστου 1993
-header: Αγαπητοί Κωστή και Στάνε,
+header: Αγαπητοί Κώστα και Στάνε,
 sentenceOne:
   - Πέρασε ήδη ένας χρόνος από τότε που
   - image: ../../../assets/letter-04/left.png
@@ -25,7 +25,7 @@ sentenceTwo:
     modifier: lg
   - .
 sentenceThree:
-  - "Εσείς στο μεταξύ κάνατε ένα λίγο μικρότερο δρόμο: Σαράγιεβο - Ντίβλιανι."
+  - "Εσείς στο μεταξύ κάνατε ένα λίγο μικρότερο δρόμο: Σαράγιεβο - Ντίβλιανα."
 sentenceFour:
   - Έχετε αλλάξει →
   - image: ../../../assets/letter-04/thin.png
@@ -41,7 +41,7 @@ sentenceFour:
 sentenceLeft:
   text: Κάνετε γυμναστική;
   image: ../../../assets/letter-04/lazy.png
-  alt: Ο Κώστας και ο Στάνε ξαπλώνουν στον καναπέ και καπνίζουν.
+  alt: Ο Κώστα και ο Στάνε ξαπλώνουν στον καναπέ και καπνίζουν.
 sentenceRight:
   text: Ακούτε τη μαμά;
   image: ../../../assets/letter-04/mom.png
@@ -52,7 +52,7 @@ blockOne:
   text: Εδώ και περίπου δέκα ημέρες τα πράγματα είναι ήρεμα.
 blockTwo:
   image: ../../../assets/letter-04/electricity.png
-  alt: Ένας λαμπτήρας και ένας άντρας που δεν μπορεί να το κοιτάξει.
+  alt: Ένας αναμμένος λαμπτήρας και ένας άντρας που δεν μπορεί να τον κοιτάξει.
   text: Χτες το βράδυ, μετά από πολύ, πολύ καιρό, ήρθε και το ρεύμα.
   textBottom: Είχαμε ήδη συνηθίσει στο σκοτάδι.
 blockThree:

@@ -1,7 +1,7 @@
 {
   "title": "Levelek Szarajevóból",
   "language": "Nyelv",
-  "metaDescription": "A boszniai háború kezdete. A tízéves Koszta anyja és öccse mellett hagyja el Szarajevót. Az apa az ostromolt, bombázott városban marad, és más szarajevóival együtt nehéz napokat él túl. Ennek ellenére vicces leveleket küld fiainak, felvidítani szeretné őket és bátorítani. Körülbelül tíz évvel később apja leveleinek felhasználásával, Koszta összeállítja gyermekkori történetét.",
+  "metaDescription": "A boszniai háború kezdete. A tízéves Kosta anyja és öccse mellett hagyja el Szarajevót. Az apa az ostromolt, bombázott városban marad, és más szarajevóiakkal együtt nehéz napokat él túl. Ennek ellenére vicces leveleket küld fiainak, felvidítani szeretné őket és bátorítani. Körülbelül tíz évvel később apja eredeti leveleinek felhasználásával Kosta összeállítja gyermekkori történetét.",
   "metaImage": "letters-from-sarajevo.jpg",
   "firstLetterText": "Első levél",
   "prevLinkText": "Előző levél",
@@ -9,7 +9,7 @@
   "homeLinkText": "Kezdőlap",
   "aboutText": "A könyvről és a webhelyről",
   "aboutLink": "/hu/a-konyvrol-es-a-webhelyrol",
-  "footerText": "Koszta emlékére, szeretettel. Belgrád, 2020.",
+  "footerText": "Kosta emlékére, szeretettel. Belgrád, 2020.",
   "footerCopyright": "A webhely teljes tartalma és forráskódja a <a href=\"https://creativecommons.org/licenses/by-nc/4.0/\">CC BY-NC 4.0</a> licenc alatt érhető el.",
   "error404": "404-es hiba",
   "pageNotFound": "Az oldal nem található",
@@ -18,11 +18,11 @@
     "author": "Kosta Tadić",
     "paragraphs": [
       "A boszniai háború kezdete",
-      "A tízéves Koszta anyja és öccse mellett hagyja el Szarajevót. Az apa az ostromolt, bombázott városban marad, és más szarajevóival együtt nehéz napokat él túl. Ennek ellenére vicces leveleket küld fiainak, felvidítani szeretné őket és bátorítani.",
-      "Körülbelül tíz évvel később apja leveleinek felhasználásával, Koszta összeállítja gyermekkori történetét."
+      "A tízéves Kosta anyja és öccse mellett hagyja el Szarajevót. Az apa az ostromolt, bombázott városban marad, és más szarajevóiakkal együtt nehéz napokat él túl. Ennek ellenére vicces leveleket küld fiainak, felvidítani szeretné őket és bátorítani.",
+      "Körülbelül tíz évvel később apja eredeti leveleinek felhasználásával Kosta összeállítja gyermekkori történetét."
     ],
-    "dedication": "Szamirnak és Sinišának"
+    "dedication": "Samirnak és Sinišának"
   },
-  "replySignature": "Koszta",
+  "replySignature": "Kosta",
   "footnoteReturnLabel": "Vissza a szöveghez"
 }

@@ -3,7 +3,7 @@ lang: hu
 slug: elso-level
 title: Első levél
 template: letter-one
-header: Kedves Kole és Sztane!
+header: Kedves Kole és Stane!
 blockOne:
   image: ../../../assets/letter-01/01.png
   alt: Egy ember vizeskannákat húz, miközben sörön ábrándozik.
@@ -22,10 +22,10 @@ blockThree:
 blockFour:
   image: ../../../assets/letter-01/04.png
   alt:
-    "Az utolsó fa a parkban, egy kis nyírfa felirattal: „Aki ezt a nyírt kivágja, az legyen neki az
-    utolsó!”."
+    "Az utolsó fa a parkban, egy kis nyírfa felirattal: „Aki kivágja ezt a nyírfát, annak ez lesz
+    az utolsó!”"
   text:
-    "Télen szinte az összes, városban található fát kivágták tüzifának. Csupán néhányat hagytak
+    "Télen szinte az összes, városban található fát kivágták tűzifának. Csupán néhányat hagytak
     meg. Egy ilyent (egy kis nyírfa) láttam az Állatorvostudományi Karnál. Egy tábla áll rajta a
     következő felirattal:"
-  treeInscription: Aki ezt a nyírt kivágja, az legyen neki az utolsó!
+  treeInscription: Aki kivágja ezt a nyírfát, annak ez lesz az utolsó!
