@@ -15,6 +15,6 @@ Fomos parar no hospital por comer cogumelos venenosos. Frequentemente a tia Nada
 
 A ambulância nos levou até Niš. Pela primeira vez na vida mamãe ficou feliz pelo Stane ser chato para comer. Ele nem experimentou os cogumelos.
 
-Ficamos no hospital por uns dez dias, adultos e crianças separados. No dia seguinte já estavamos nos sentindo melhor, mas continuamos recebendo infusões. Ontem eles nos levaram de volta a Divljana, de novo de ambulância. Tia Nada e eu concordamos em não colher mais cogumelos.
+Ficamos no hospital por uns dez dias, adultos e crianças separados. No dia seguinte já estávamos nos sentindo melhor, mas continuamos recebendo infusões. Ontem eles nos levaram de volta a Divljana, de novo de ambulância. Tia Nada e eu concordamos em não colher mais cogumelos.
 
 Hoje soube que Mihajlo se mudou para Novi Sad. Como eu estava no hospital, ele deixou os binóculos para outro garoto. Ele também deixou uma mensagem, dizendo que escreveria para mim de Novi Sad. Agora vou receber cartas tanto dele quanto de você. (Eu gostaria que vocês dois estivessem aqui.)

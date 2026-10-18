@@ -38,10 +38,10 @@ questions:
     narrow: true
     imageWrapped: false
     bottomText: aí.
-activityText: "O que vocês têm feito:"
+activityText: "Como vocês têm passado o tempo:"
 activityOptions:
   - image: ../../../assets/letter-03/tree.jpg
-    alt: Fora
+    alt: fora
     modifiers:
       - landscape
   - ou
@@ -57,10 +57,10 @@ games:
       alt: xadrez
     narrow: false
     imageWrapped: false
-  - text: Se vocês não se comportarem, vou mandar sua mãe
+  - text: Se vocês não se comportarem, recomendo à mamãe
     image:
       image: ../../../assets/letter-03/boxing.jpg
-      alt: usar suas habilidades de boxeadora
+      alt: o boxe
     narrow: false
     imageWrapped: false
 signoff: Com muito amor

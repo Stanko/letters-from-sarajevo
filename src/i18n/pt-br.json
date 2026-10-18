@@ -2,7 +2,7 @@
   "title": "Cartas de Sarajevo",
   "language": "Língua",
   "allLetters": "Todas as cartas",
-  "metaDescription": "O começo da Guerra da Bósnia. Kosta, um garoto de dez anos, foge de Sarajevo com sua mãe e irmão mais novo. Seu pai fica na cidade, sitiada e bombardeada, sobrevivendo a tempos difíceis com outros sarajevanos. Apesar de tudo, ele escreve cartas divertidas para seus filhos, tentando encorajá-los e animá-los. Dez anos depois, usando as cartas originais escritas por seu pai, Kosta escreve a história de sua infância.",
+  "metaDescription": "O começo da Guerra da Bósnia. Kosta, um garoto de dez anos, foge de Sarajevo com sua mãe e irmão mais novo. Seu pai fica na cidade, sitiada e bombardeada, sobrevivendo a tempos difíceis com outros sarajevanos. Apesar de tudo, ele escreve cartas divertidas para seus filhos, tentando encorajá-los e animá-los. Cerca de dez anos depois, usando as cartas originais escritas por seu pai, Kosta escreve a história de sua infância.",
   "metaImage": "letters-from-sarajevo.jpg",
   "firstLetterText": "Primeira carta",
   "startReading": "Abra a primeira carta",
@@ -12,7 +12,7 @@
   "aboutText": "Sobre",
   "aboutLink": "/pt-br/sobre",
   "footerText": "Em memória de Kosta, Belgrado 2020.",
-  "footerCopyright": "Todo o conteúdo e o código desse site está disponível sob a licença <a href=\"https://creativecommons.org/licenses/by-nc/4.0/\">CC BY-NC 4.0</a>.",
+  "footerCopyright": "Todo o conteúdo e o código desse site estão disponíveis sob a licença <a href=\"https://creativecommons.org/licenses/by-nc/4.0/\">CC BY-NC 4.0</a>.",
   "error404": "Erro 404",
   "pageNotFound": "Página não encontrada",
   "home": {
@@ -21,7 +21,7 @@
     "paragraphs": [
       "O começo da Guerra da Bósnia.",
       "Kosta, um garoto de dez anos, foge de Sarajevo com sua mãe e irmão mais novo. Seu pai fica na cidade, sitiada e bombardeada, sobrevivendo a tempos difíceis com outros sarajevanos. Apesar de tudo, ele escreve cartas divertidas para seus filhos, tentando encorajá-los e animá-los.",
-      "Dez anos depois, usando as cartas originais escritas por seu pai, Kosta escreve a história de sua infância."
+      "Cerca de dez anos depois, usando as cartas originais escritas por seu pai, Kosta escreve a história de sua infância."
     ],
     "dedication": "Para Samir e Siniša"
   },

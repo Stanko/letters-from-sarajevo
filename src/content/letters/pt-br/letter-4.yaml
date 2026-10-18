@@ -14,32 +14,32 @@ sentenceTwo:
   - Nesse tempo,
   - image: ../../../assets/letter-04/earth.png
     alt: a Terra
-  - continuou
+  - deu
   - image: ../../../assets/letter-04/earth-run.png
-    alt: girando
+    alt: uma volta
     modifier: xl
   - ao redor
   - image: ../../../assets/letter-04/sun.png
     alt: do Sol
     modifier: lg
 sentenceThree:
-  - "Ao mesmo tempo, você viajou por uma rota menor: Sarajevo - Divljana."
+  - "Nesse tempo, vocês percorreram um caminho um pouco menor: Sarajevo - Divljana."
 sentenceFour:
-  - Você mudou →
+  - Vocês mudaram →
   - image: ../../../assets/letter-04/thin.png
-    alt: ficou mais magro
+    alt: ficaram mais magros
   - ou
   - image: ../../../assets/letter-04/fat.png
-    alt: mais gordo
+    alt: mais gordos
   - ou
   - image: ../../../assets/letter-04/mustaches.png
-    alt: cresceram seus bigodes
+    alt: deixaram crescer os bigodes
     modifier: xl
   - "?"
 sentenceLeft:
-  text: Estão fazendo musculação?
+  text: Estão fazendo ginástica?
   image: ../../../assets/letter-04/lazy.png
-  alt: Kole e Stane deitados no sofá.
+  alt: Kole e Stane deitados no sofá e fumando.
 sentenceRight:
   text: Estão ouvindo a mãe de vocês?
   image: ../../../assets/letter-04/mom.png
@@ -47,10 +47,10 @@ sentenceRight:
 blockOne:
   image: ../../../assets/letter-04/truce.png
   alt: Um soldado deitado em um canhão tampado com uma rolha.
-  text: Os últimos dez dias tem sido quietos por aqui.
+  text: Os últimos dez dias, mais ou menos, têm sido tranquilos por aqui.
 blockTwo:
   image: ../../../assets/letter-04/electricity.png
-  alt: Uma lâmpada acesa na frente de um homem que não quer olhar para ela.
+  alt: Uma lâmpada acesa na frente de um homem que não consegue olhar para ela.
   text: Na última noite, depois de muito, muito tempo, nossa luz voltou.
   textBottom: Nós já estávamos nos acostumando com a escuridão.
 blockThree:

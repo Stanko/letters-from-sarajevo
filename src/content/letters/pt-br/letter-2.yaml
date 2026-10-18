@@ -15,17 +15,17 @@ sentenceOne:
   - Na semana passada, bem ao
   - image: ../../../assets/letter-02/clock.png
     alt: meio-dia
-  - do dia 28 de Abril
+  - do dia 28 de abril
   - image: ../../../assets/letter-02/fly-in.png
-    alt: um foguete voou
-  - bem no nosso quarto.
+    alt: um projétil de artilharia entrou
+  - no nosso quarto.
 sentenceTwo:
   - image: ../../../assets/letter-02/rocket-1.png
-    alt: O foguete
+    alt: O projétil de artilharia
   - de fato,
   - image: ../../../assets/letter-02/hit.png
     alt: atingiu
-  - a nossa
+  - um ponto logo acima da
   - image: ../../../assets/letter-02/window.png
     alt: janela
     modifier: window
@@ -35,7 +35,7 @@ sentenceThree:
     alt: Eu
   - estava na Universidade.
   - image: ../../../assets/letter-02/rocket-2.png
-    alt: O foguete
+    alt: O projétil de artilharia
   - veio e
   - image: ../../../assets/letter-02/destroy.png
     alt: destruiu

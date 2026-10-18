@@ -11,11 +11,11 @@ blockOne:
 blockTwo:
   image: ../../../assets/letter-01/02.png
   alt: Um rato corre para um buraco na parede carregando um homem pendurado à sua cauda.
-  text: Os mísseis continuam caindo. Nós aprimoramos nossas técnicas de resgate.
+  text: Os projéteis de artilharia continuam caindo. Nós aprimoramos nossas técnicas de resgate.
 blockThree:
   image: ../../../assets/letter-01/03.png
   alt: Pessoas correndo nas ruas, é possível ler um cartaz dizendo "Cuidado com os franco-atiradores"
-  text: "Ainda temos que correr por muitas ruas. Ao invés de semáforos, há cartazes que dizem:"
+  text: "Ainda temos que atravessar muitos cruzamentos correndo. Ao invés de semáforos, há cartazes que dizem:"
   warningInscription: Cuidado com os franco-atiradores!
 blockFour:
   image: ../../../assets/letter-01/04.png
@@ -25,5 +25,5 @@ blockFour:
   text:
     "Nesse inverno quase todas as árvores da cidade foram cortadas para serem usadas nos
     aquecedores. Apenas algumas sobraram. Eu vi uma delas (uma pequena bétula) perto da
-    Universidade. Nela tinha uma placa que dizia:"
+    Faculdade de Veterinária. Nela tinha uma placa que dizia:"
   treeInscription: Se você cortar essa árvore, será a sua última!
