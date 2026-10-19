@@ -7,27 +7,39 @@ import { readingOrder } from "../lib/reading-order";
 
 interface Props {
   lang: Locale;
+  id?: string;
+  className?: string;
+  buttonClassName?: string;
 }
 
-const { lang } = Astro.props;
+const {
+  lang,
+  id = "letters",
+  className = "",
+  buttonClassName = "Navigation-item",
+} = Astro.props;
 const t = translations[lang];
 const entries = await getBookEntries();
 const letters = readingOrder.map((key) => getBookEntry(entries, lang, key));
 ---
 
-<div class="LetterNavigation" data-letter-navigation>
+<div class:list={["LetterNavigation", className]} data-letter-navigation>
   <button
-    id="letters-button"
-    class="Navigation-item"
+    id={`${id}-button`}
+    class={buttonClassName}
     type="button"
+    title={t.allLetters}
+    aria-label={t.allLetters}
     aria-haspopup="menu"
     aria-expanded="false"
-    aria-controls="letters-menu"
+    aria-controls={`${id}-menu`}
   >
-    {t.allLetters} <Image layout="none" src={letter} alt="" />
+    <slot>
+      {t.allLetters} <Image layout="none" src={letter} alt="" />
+    </slot>
   </button>
   <nav
-    id="letters-menu"
+    id={`${id}-menu`}
     class="LetterNavigation-menu"
     aria-label={t.allLetters}
     hidden
@@ -49,11 +61,12 @@ const letters = readingOrder.map((key) => getBookEntry(entries, lang, key));
   </nav>
   <noscript>
     <style is:inline>
-      #letters-menu[hidden] {
+      .LetterNavigation-menu[hidden] {
         display: flex;
-        position: relative;
+        position: static;
+        transform: none;
       }
-      #letters-button {
+      [data-letter-navigation] > button {
         display: none;
       }
     </style>

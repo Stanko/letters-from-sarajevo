@@ -51,8 +51,8 @@
   margin-bottom: 1em;
 
   @include lg {
-    width: 150%;
-    margin-left: -25%;
+    width: calc(100% + 20rem);
+    margin-left: -10rem;
     display: flex;
     justify-content: space-between;
   }
@@ -63,6 +63,9 @@
 }
 
 .About-drawing {
+  background-color: white;
+  border-radius: 4px;
+
   p {
     margin-bottom: 0;
   }

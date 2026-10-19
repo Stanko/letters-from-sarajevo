@@ -62,9 +62,7 @@
   text-underline-offset: 0.125rem;
 }
 
-.Pagination-homeLink {
-  border: none;
-
+.Pagination-letters {
   @include sm-only {
     order: 3;
     grid-column-start: 1;
@@ -72,6 +70,21 @@
     margin-top: 1rem;
     padding: 1rem 0;
   }
+
+  @include md {
+    .LetterNavigation-menu {
+      top: auto;
+      bottom: calc(100% + 1rem);
+      right: 50%;
+      transform: translateX(50%);
+    }
+  }
+}
+
+.Pagination-lettersButton {
+  border: none;
+  width: 100%;
+  cursor: pointer;
 
   &:hover {
     img {

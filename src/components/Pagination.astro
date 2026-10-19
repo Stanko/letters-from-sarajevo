@@ -1,7 +1,8 @@
 ---
 import { Image } from "astro:assets";
 import letterImage from "../assets/letter.png";
-import { homeUrl, translations, type Locale } from "../i18n";
+import { translations, type Locale } from "../i18n";
+import LetterNavigation from "./LetterNavigation.astro";
 
 interface Props {
   lang: Locale;
@@ -31,11 +32,11 @@ const t = translations[lang];
     </a>
   )}
   {!previous && <div class="Pagination-placeholder" />}
-  <a
-    href={homeUrl(lang)}
-    class="Pagination-homeLink"
-    title={t.homeLinkText}
-    aria-label={t.homeLinkText}
+  <LetterNavigation
+    lang={lang}
+    id="pagination-letters"
+    className="Pagination-letters"
+    buttonClassName="Pagination-lettersButton"
   >
     <Image layout="none" src={letterImage} alt="" />
     {position && total && (
@@ -43,7 +44,7 @@ const t = translations[lang];
         {String(position).padStart(2, "0")} / {total}
       </span>
     )}
-  </a>
+  </LetterNavigation>
   {next && (
     <a
       class="Pagination-link Pagination-link--next"

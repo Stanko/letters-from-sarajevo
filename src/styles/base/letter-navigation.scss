@@ -1,17 +1,24 @@
 @use "./breakpoints" as *;
 
 @include sm-only {
-  html:has(#letters-button[aria-expanded="true"]),
-  body:has(#letters-button[aria-expanded="true"]) {
+  html:has([data-letter-navigation] button[aria-expanded="true"]),
+  body:has([data-letter-navigation] button[aria-expanded="true"]) {
     overflow: hidden;
   }
 
-  .Navigation:has(#letters-button[aria-expanded="true"])::before {
+  .Navigation:has(
+      [data-letter-navigation] button[aria-expanded="true"]
+    )::before,
+  .Content:has(.Pagination-letters button[aria-expanded="true"])::before {
     content: "";
     position: fixed;
     inset: 0;
     z-index: 3;
     background: var(--color-backdrop);
+  }
+
+  .Content:has(.Pagination-letters button[aria-expanded="true"]) {
+    z-index: 3;
   }
 }
 
@@ -26,7 +33,6 @@
 .LetterNavigation-menu {
   background: var(--color-background);
   color: var(--color-text);
-  border: thin solid var(--color-border);
   z-index: 5;
   display: flex;
   flex-direction: column;
@@ -67,7 +73,7 @@
 
   &:hover,
   &:focus-visible {
-    background: var(--color-surface);
+    background: var(--color-surface-dark);
     outline: none;
   }
 

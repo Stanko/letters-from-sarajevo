@@ -65,19 +65,3 @@ a {
     text-decoration-color: inherit;
   }
 }
-
-hr {
-  border: none;
-  border-top: thin solid var(--color-border);
-  margin: 4rem auto;
-  width: 10rem;
-  position: relative;
-
-  @include md {
-    margin: 5rem auto;
-  }
-
-  @include lg {
-    margin: 6rem auto;
-  }
-}

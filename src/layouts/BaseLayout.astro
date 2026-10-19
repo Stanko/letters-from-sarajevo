@@ -142,6 +142,6 @@ const imageUrl = new URL(`/img/${t.metaImage}`, siteOrigin(lang)).href;
     <main class="Content">
       <slot />
     </main>
-    <Footer lang={lang} isHome={isHome} />
+    <Footer lang={lang} isHome={isHome} alternates={alternateLinks} />
   </body>
 </html>

@@ -20,9 +20,17 @@ interface Props {
   lang: Locale;
   alternates?: LocalizedLink[];
   className?: string;
+  id?: string;
+  showIcon?: boolean;
 }
 
-const { lang, alternates, className = "" } = Astro.props;
+const {
+  lang,
+  alternates,
+  className = "",
+  id = "language",
+  showIcon = true,
+} = Astro.props;
 const t = translations[lang];
 const currentLanguage = languages.find(({ code }) => code === lang);
 const flags = {
@@ -38,18 +46,18 @@ const flags = {
 
 <div class="LanguageSelector" data-language-selector>
   <button
-    id="language-button"
+    id={`${id}-button`}
     class:list={["LanguageSelector-button", className]}
     type="button"
     aria-haspopup="menu"
     aria-expanded="false"
-    aria-controls="language-menu"
+    aria-controls={`${id}-menu`}
   >
     {currentLanguage?.label}
-    <Image layout="none" loading="eager" src={earth} alt="" />
+    {showIcon && <Image layout="none" loading="eager" src={earth} alt="" />}
   </button>
   <nav
-    id="language-menu"
+    id={`${id}-menu`}
     class="LanguageSelector-menu"
     aria-label={t.language}
     hidden
@@ -80,11 +88,11 @@ const flags = {
   </nav>
   <noscript>
     <style is:inline>
-      #language-menu[hidden] {
+      .LanguageSelector-menu[hidden] {
         display: flex;
         position: relative;
       }
-      #language-button {
+      .LanguageSelector-button {
         display: none;
       }
     </style>

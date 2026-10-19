@@ -7,10 +7,11 @@ img {
 
 html {
   scrollbar-color: var(--color-scrollbar) transparent;
+  scrollbar-gutter: stable;
 }
 
 body {
-  background: var(--color-background);
+  background: var(--color-background) url("/img/noise.svg");
   color: var(--color-text);
 }
 

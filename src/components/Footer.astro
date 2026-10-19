@@ -1,11 +1,19 @@
 ---
-import { aboutUrl, homeUrl, translations, type Locale } from "../i18n";
+import {
+  aboutUrl,
+  homeUrl,
+  translations,
+  type Locale,
+  type LocalizedLink,
+} from "../i18n";
+import LanguageSelector from "./LanguageSelector.astro";
 
 interface Props {
   lang: Locale;
   isHome?: boolean;
+  alternates?: LocalizedLink[];
 }
-const { lang, isHome = false } = Astro.props;
+const { lang, isHome = false, alternates } = Astro.props;
 const t = translations[lang];
 ---
 
@@ -15,6 +23,13 @@ const t = translations[lang];
     <nav class="Footer-nav">
       {!isHome && <a href={homeUrl(lang)}>{t.homeLinkText}</a>}
       <a href={aboutUrl(lang)}>{t.aboutText}</a>
+      <LanguageSelector
+        id="footer-language"
+        className="Footer-language"
+        lang={lang}
+        alternates={alternates}
+        showIcon={false}
+      />
     </nav>
     <!-- These strings contain the existing, trusted license link. -->
     <p class="Footer-license" set:html={t.footerCopyright} />

@@ -1,6 +1,7 @@
 @use "./breakpoints" as *;
 
 .Navigation {
+  background: var(--color-background) url("/img/noise.svg");
   width: 100%;
   z-index: 2;
   position: relative;
@@ -67,7 +68,7 @@
   transition: opacity var(--transition-fast);
 
   .Navigation-menu:hover & {
-    opacity: 0.3;
+    opacity: 0.4;
   }
 
   .Navigation-menu:hover &:hover {

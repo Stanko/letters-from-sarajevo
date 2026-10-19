@@ -4,6 +4,8 @@
 .LetterThree {
   @include letter;
 
+  background: var(--color-background) url("/img/noise.svg");
+
   @include sm-only {
     font-size: 2rem;
     text-align: center;
@@ -13,6 +15,7 @@
 .LetterThree-stamp {
   vertical-align: middle;
   max-width: 8rem;
+  mix-blend-mode: multiply;
 
   @include md {
     max-width: 10rem;

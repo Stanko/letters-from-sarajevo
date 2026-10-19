@@ -4,23 +4,24 @@
   // Colors
   --color-background: #fcf8f3;
   --color-surface: #f6f1e9;
+  --color-surface-dark: #eae5dd;
   --color-text: #292725;
-  --color-link: #111;
+  --color-link: #15110e;
   --color-link-content: #a11;
-  --color-text-muted: #777;
-  --color-text-faint: #999;
-  --color-border: #ddd;
-  --color-scrollbar: #a9a7a5;
+  --color-text-muted: #7d756d;
+  --color-text-faint: #9f978e;
+  --color-border: #e2dcd4;
+  --color-scrollbar: #afa69b;
   --color-focus: rgb(150 20 20 / 0.25);
   --color-backdrop: rgb(41 39 37 / 0.5);
   --color-flag-outline: rgb(41 39 37 / 0.1);
-  --color-navigation-border: rgb(0 0 0 / 0.03);
+  --color-navigation-border: rgb(41 39 37 / 0.03);
 
   // Shadows
   --shadow-content: 0 10px 15px rgb(100 80 60 / 0.03);
   --shadow-navigation: 0 0 25px rgb(100 80 60 / 0.05);
   --shadow-menu: 0 0 8px rgb(100 80 60 / 0.2);
-  --shadow-envelope: 0 0 8px rgb(0 0 0 / 0.2);
+  --shadow-envelope: 0 0 8px rgb(100 80 60 / 0.2);
 
   // Fonts
   --font-family-serif: "Literata", Georgia, serif;

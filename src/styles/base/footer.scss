@@ -3,7 +3,7 @@
 
 .Footer {
   width: 100%;
-  background: var(--color-surface);
+  background: var(--color-surface) url("/img/noise.svg");
   padding: 4rem 0;
   color: var(--color-text-muted);
   line-height: 1.4;
@@ -17,10 +17,6 @@
   @include lg {
     padding: 6rem 0;
   }
-
-  a {
-    margin-top: 0.5rem;
-  }
 }
 
 .Footer-nav {
@@ -28,8 +24,40 @@
   display: inline-flex;
   flex-direction: column;
   align-items: flex-start;
+  gap: 0.5rem;
 }
 
 .Footer-license {
-  font-size: 1.2rem;
+  font-size: 1.4rem;
+}
+
+.Footer-language {
+  color: var(--color-link);
+  cursor: pointer;
+  text-decoration: underline;
+  text-decoration-color: transparent;
+  transition: all var(--transition-base);
+
+  &:hover {
+    color: var(--color-link-content);
+    text-decoration-color: inherit;
+  }
+}
+
+.Footer .LanguageSelector-menu {
+  @include md {
+    left: 0;
+    right: auto;
+    top: auto;
+    bottom: calc(100% + 1rem);
+  }
+}
+
+.Footer .LanguageSelector-link {
+  margin-top: 0;
+  text-decoration: none;
+
+  &:hover {
+    text-decoration: none;
+  }
 }
