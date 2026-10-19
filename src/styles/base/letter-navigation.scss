@@ -6,19 +6,18 @@
     overflow: hidden;
   }
 
-  .Navigation:has(
-      [data-letter-navigation] button[aria-expanded="true"]
-    )::before,
-  .Content:has(.Pagination-letters button[aria-expanded="true"])::before {
+  body:has([data-letter-navigation] button[aria-expanded="true"])::before {
     content: "";
-    position: fixed;
+    // Paint behind Safari's floating controls without a fixed viewport layer.
+    position: absolute;
     inset: 0;
     z-index: 3;
     background: var(--color-backdrop);
   }
 
+  .Navigation:has([data-letter-navigation] button[aria-expanded="true"]),
   .Content:has(.Pagination-letters button[aria-expanded="true"]) {
-    z-index: 3;
+    z-index: auto;
   }
 }
 

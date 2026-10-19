@@ -6,13 +6,17 @@
     overflow: hidden;
   }
 
-  .Navigation:has(.LanguageSelector-button[aria-expanded="true"])::before,
-  .Footer:has(.LanguageSelector-button[aria-expanded="true"])::before {
+  body:has(.LanguageSelector-button[aria-expanded="true"])::before {
     content: "";
-    position: fixed;
+    // Paint behind Safari's floating controls without a fixed viewport layer.
+    position: absolute;
     inset: 0;
     z-index: 5;
     background: var(--color-backdrop);
+  }
+
+  .Navigation:has(.LanguageSelector-button[aria-expanded="true"]) {
+    z-index: auto;
   }
 }
 
