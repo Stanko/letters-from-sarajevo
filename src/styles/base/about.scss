@@ -15,7 +15,7 @@
 
   p {
     font-size: 1.8rem;
-    line-height: 1.4em;
+    line-height: 1.4;
     margin-bottom: 1em;
 
     @include lg {
@@ -78,7 +78,7 @@
 .About-signature {
   color: #aaa;
   font-size: 0.8em;
-  line-height: 1.4em;
+  line-height: 1.4;
   margin-top: 10rem;
   text-align: right;
 }

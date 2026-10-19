@@ -6,13 +6,21 @@ img {
   height: auto;
 }
 
+html {
+  scrollbar-color: #a9a7a5 transparent;
+}
+
 body {
-  background: $gray-light;
+  background: $white;
+  background: #fcf8f3;
+  // background: #efedea;
+  color: #292725;
 }
 
 :focus-visible {
-  outline: 1px dotted rgba(0, 0, 0, 0.7);
+  outline: 2px solid rgba(60, 35, 30, 0.25);
   outline-offset: 0.5rem;
+  border-radius: 2px;
 }
 
 button {
@@ -23,9 +31,14 @@ button {
   color: inherit;
 }
 
+a {
+  color: inherit;
+}
+
 .Content {
-  background: $white;
   overflow: hidden;
+  position: relative;
+  box-shadow: 0 10px 15px rgb(100 80 60 / 0.03);
 }
 
 .Container {

@@ -47,7 +47,7 @@
   font-family: $font-family-serif;
   font-weight: $font-weight-serif;
   font-size: 1.8rem;
-  line-height: 1.4em;
+  line-height: 1.4;
 
   @include md {
     font-size: 2rem;
@@ -57,7 +57,7 @@
 @mixin handwritten-font {
   font-size: 2.3rem;
   font-family: $font-family-handwriting;
-  line-height: 1.1em;
+  line-height: 1.1;
 
   &:lang(el) {
     font-family: "Mynerve", Helvetica, Arial, sans-serif;

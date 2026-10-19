@@ -4,12 +4,13 @@
 
 .Footer {
   width: 100%;
-  border-top: thin solid $gray-border;
-  background: $gray-light;
+  background: #f6f1e9;
   padding: 4rem 0;
   color: $gray;
-  line-height: 1.4em;
+  line-height: 1.4;
   font-size: 1.6rem;
+  position: relative;
+  z-index: -1;
 
   @include md {
     padding: 5rem 0;

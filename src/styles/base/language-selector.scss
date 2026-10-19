@@ -1,6 +1,21 @@
 @use "./variables" as *;
 @use "./breakpoints" as *;
 
+@include sm-only {
+  html:has(.LanguageSelector-button[aria-expanded="true"]),
+  body:has(.LanguageSelector-button[aria-expanded="true"]) {
+    overflow: hidden;
+  }
+
+  .Navigation:has(.LanguageSelector-button[aria-expanded="true"])::before {
+    content: "";
+    position: fixed;
+    inset: 0;
+    z-index: 3;
+    background: rgb(0 0 0 / 0.5);
+  }
+}
+
 .LanguageSelector {
   position: relative;
 
@@ -32,37 +47,42 @@
 .LanguageSelector-menu {
   background: $gray-light;
   border: thin solid $gray-border;
-
-  z-index: 2;
+  z-index: 5;
   display: flex;
   flex-direction: column;
   border-radius: 8px;
   box-shadow: 0 0 8px rgb(0 0 0 / 0.2);
 
-  // TODO this is medium screen styling
-  position: absolute;
-  right: 0;
-  top: calc(100% + 1rem);
+  @include sm-only {
+    &:not([hidden]) {
+      position: fixed;
+      left: 50%;
+      top: 50%;
+      transform: translate(-50%, -50%);
+      max-height: calc(100dvh - 4rem);
+      overflow-y: auto;
+    }
+  }
+
+  @include md {
+    position: absolute;
+    right: 0;
+    top: calc(100% + 1rem);
+  }
 }
 
 .LanguageSelector-link {
-  font-size: 1.8rem;
   align-items: center;
   border: none;
   display: flex;
   white-space: nowrap;
   width: 24rem;
   line-height: 0;
-  height: 3.5rem;
-  padding-inline: 0.8rem;
+  height: 4rem;
+  padding-inline: 1.2rem;
 
   &:hover,
   &:focus {
     background: $gray-hover;
-  }
-
-  @include md {
-    height: 3.8rem;
-    padding-inline: 1rem;
   }
 }

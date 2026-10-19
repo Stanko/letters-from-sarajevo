@@ -6,12 +6,16 @@ html {
   font-size: 10px;
 
   @include xl {
-    font-size: 12px;
+    font-size: 11px;
   }
 }
 
 body {
   @include typewriter-font;
+
+  font-kerning: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 
   &:lang(zh) {
     font-family: "Noto Serif SC", "Songti SC", SimSun, serif;
