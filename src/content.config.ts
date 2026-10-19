@@ -9,9 +9,10 @@ const metadata = {
 };
 const letters = defineCollection({
   loader: glob({
-    pattern: "**/*.yaml",
-    base: "./src/content/letters",
-    generateId: ({ entry }) => entry.replace(/\.yaml$/, ""),
+    pattern: "*/letters/*.yaml",
+    base: "./src/content",
+    generateId: ({ entry }) =>
+      entry.replace("/letters/", "/").replace(/\.yaml$/, ""),
   }),
   schema: ({ image: assetImage }) => {
     const image = z.object({
@@ -122,9 +123,10 @@ const letters = defineCollection({
 
 const replies = defineCollection({
   loader: glob({
-    pattern: "**/*.md",
-    base: "./src/content/replies",
-    generateId: ({ entry }) => entry.replace(/\.md$/, ""),
+    pattern: "*/replies/*.md",
+    base: "./src/content",
+    generateId: ({ entry }) =>
+      entry.replace("/replies/", "/").replace(/\.md$/, ""),
   }),
   schema: z.discriminatedUnion("kind", [
     z.object({
@@ -143,7 +145,7 @@ const replies = defineCollection({
 });
 
 const about = defineCollection({
-  loader: glob({ pattern: "**/*.md", base: "./src/content/about" }),
+  loader: glob({ pattern: "*/about.md", base: "./src/content" }),
   schema: z.object(metadata),
 });
 

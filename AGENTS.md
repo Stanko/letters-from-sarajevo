@@ -24,7 +24,7 @@ Consult these guides before working on related tasks:
 ## Translations
 
 - Serbian is the original language and the source of truth for all translations.
-- Use `src/content/letters/sr/`, `src/content/replies/sr/`, `src/content/about/sr.md`, and `src/i18n/sr.json` to verify meaning, dates, names, and illustration placement.
+- Use `src/content/sr/letters/`, `src/content/sr/replies/`, `src/content/sr/about.md`, and `src/i18n/sr.json` to verify meaning, dates, names, and illustration placement.
 - When another translation conflicts with the Serbian original, follow Serbian. Other translations may help with implementation, but are not authoritative sources.
 
 ## Code Style

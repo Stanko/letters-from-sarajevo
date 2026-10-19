@@ -41,23 +41,6 @@ const {
   >
     <slot />
   </nav>
-  <noscript>
-    <style is:inline>
-      .Dropdown-menu[hidden] {
-        display: flex;
-        position: var(--dropdown-fallback-position, static);
-        inset: auto;
-        opacity: 1;
-        translate: none;
-        transform: none;
-        pointer-events: auto;
-        transition: none;
-      }
-      .Dropdown-button {
-        display: none;
-      }
-    </style>
-  </noscript>
 </div>
 
 <script>

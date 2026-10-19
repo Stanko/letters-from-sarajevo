@@ -52,6 +52,7 @@ a {
   font-weight: 350;
 }
 
+.Response a,
 .About a {
   color: var(--color-link-content);
   text-decoration: underline;
@@ -70,5 +71,21 @@ a {
     color: var(--color-link-content);
     text-decoration: underline;
     text-decoration-color: inherit;
+  }
+}
+
+hr {
+  width: 60%;
+  max-width: 30rem;
+  border: none;
+  border-top: 1px solid var(--color-border);
+  margin: 4rem auto;
+
+  @include md {
+    margin: 5rem auto;
+  }
+
+  @include lg {
+    margin: 6rem auto;
   }
 }
