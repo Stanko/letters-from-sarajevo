@@ -1,0 +1,73 @@
+@use "./variables" as *;
+@use "./breakpoints" as *;
+@use "./mixins" as *;
+
+.Envelope {
+  transition: transform 500ms;
+  display: block;
+  border: none;
+  position: relative;
+  max-width: 45rem;
+  opacity: 0;
+  margin: 1rem auto 4rem;
+  aspect-ratio: 1;
+  overflow: hidden;
+
+  @include md {
+    margin-top: -2rem;
+    margin-bottom: 5rem;
+  }
+
+  @include lg {
+    margin-bottom: 6rem;
+  }
+}
+
+.Envelope-show {
+  opacity: 1;
+}
+
+.Envelope-text {
+  font-size: 2rem;
+  left: 14%;
+  position: absolute;
+  top: 23%;
+  z-index: 1;
+
+  @include md {
+    top: 24%;
+    font-size: 2rem;
+  }
+}
+
+.Envelope-back {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+.Envelope-paperWrapper {
+  width: 92%;
+  left: 4%;
+  position: absolute;
+  opacity: 1;
+  bottom: 10%;
+  filter: drop-shadow(0 0 8px rgb(0 0 0 / 0.2));
+  transform: rotate(-1deg);
+  transition: transform 500ms;
+}
+
+.Envelope:hover,
+.Envelope:focus {
+  transform: rotate(-0.5deg);
+
+  .Envelope-paperWrapper {
+    transform: rotate(-3deg) translateY(-15%);
+  }
+}
+
+.Envelope-front {
+  position: relative;
+  padding-top: 37.75%;
+}

@@ -52,10 +52,6 @@
   @include md {
     font-size: 2rem;
   }
-
-  @include lg {
-    font-size: 2.2rem;
-  }
 }
 
 @mixin handwritten-font {
@@ -91,10 +87,4 @@
 @mixin vh($value, $property: height) {
   #{ $property }: #{$value}vh;
   #{ $property }: #{$value}dvh;
-}
-
-@mixin ie {
-  @media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
-    @content;
-  }
 }

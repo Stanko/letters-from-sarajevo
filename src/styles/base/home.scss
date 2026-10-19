@@ -7,20 +7,6 @@
   flex-direction: column;
   justify-content: space-between;
   background: $white;
-
-  @include ie {
-    display: block;
-  }
-}
-
-@media (max-height: 1200px) {
-  .Home {
-    @include vh(100, min-height);
-
-    @include ie {
-      min-height: unset;
-    }
-  }
 }
 
 .Home-top {
@@ -65,44 +51,5 @@
 
   @include md {
     margin-top: 5rem;
-  }
-}
-
-.Home-start {
-  border: none;
-  color: $black;
-  display: block;
-  margin: 3rem auto 0;
-  position: relative;
-  transform: translate3d(0, 1rem, 0);
-  transition: transform 300ms;
-
-  &:hover {
-    transform: translate3d(0, 0, 0);
-  }
-}
-
-.Home-startImage {
-  display: block;
-  opacity: 0.9;
-  transition: opacity 300ms;
-  width: 100%;
-  height: auto;
-
-  .Home-start:hover & {
-    opacity: 1;
-  }
-}
-
-.Home-startText {
-  font-size: 2rem;
-  left: 30%;
-  position: absolute;
-  top: 45%;
-  transform: rotate(6deg);
-  z-index: 1;
-
-  @include md {
-    font-size: 2.6rem;
   }
 }

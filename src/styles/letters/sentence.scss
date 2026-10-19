@@ -36,10 +36,6 @@
   --image-height: 4rem;
   width: calc(var(--image-height) * var(--image-ratio));
 
-  @include ie {
-    width: 100%;
-  }
-
   @include md {
     --image-height: 5rem;
   }

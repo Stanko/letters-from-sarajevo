@@ -1,7 +1,4 @@
 ---
-import { Image } from "astro:assets";
-import letterImage from "../assets/letter-color1.jpg";
-import BaseLayout from "../layouts/BaseLayout.astro";
 import {
   homeUrl,
   languages,
@@ -9,8 +6,9 @@ import {
   translations,
   type Locale,
 } from "../i18n";
-import { entryUrl, getBookEntries, getBookEntry } from "../lib/book";
-
+import BaseLayout from "../layouts/BaseLayout.astro";
+import { getBookEntries, getBookEntry } from "../lib/book";
+import Envelope from "./Envelope.astro";
 interface Props {
   lang: Locale;
 }
@@ -31,9 +29,6 @@ const alternates = languages.map(({ code }) => ({
     <a href={homeUrl(lang)}>{t.homeLinkText}</a>
   </div>
   <div class="Container">
-    <a class="Home-start" href={entryUrl(firstLetter)}>
-      <span class="Home-startText">{t.firstLetterText}</span>
-      <Image layout="none" class="Home-startImage" src={letterImage} alt="" />
-    </a>
+    <Envelope lang={lang} />
   </div>
 </BaseLayout>
