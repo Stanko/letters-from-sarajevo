@@ -6,17 +6,32 @@
     overflow: hidden;
   }
 
-  body:has(.Dropdown-button[aria-expanded="true"])::before {
+  body::before {
     content: "";
     // Paint behind Safari's floating controls without a fixed viewport layer.
     position: absolute;
     inset: 0;
     z-index: 3;
     background: var(--color-backdrop);
+    opacity: 0;
+    pointer-events: none;
+    transition:
+      opacity var(--transition-fast) ease,
+      z-index var(--transition-fast) step-end;
+  }
+
+  body:has(.Dropdown-button[aria-expanded="true"])::before {
+    opacity: 1;
+    pointer-events: auto;
+  }
+
+  .Navigation {
+    transition: z-index var(--transition-fast) step-end allow-discrete;
   }
 
   .Navigation:has(.Dropdown-button[aria-expanded="true"]) {
     z-index: auto;
+    transition: none;
   }
 }
 
@@ -36,14 +51,29 @@
   border-radius: 8px;
   box-shadow: var(--shadow-menu);
   padding-block: 0.5rem;
+  opacity: 1;
+  translate: 0 0;
+  transition:
+    opacity var(--transition-fast) ease,
+    translate var(--transition-fast) ease,
+    display var(--transition-fast) allow-discrete;
+
+  &[hidden] {
+    opacity: 0;
+    translate: 0 10px;
+    pointer-events: none;
+  }
+
+  @starting-style {
+    opacity: 0;
+    translate: 0 10px;
+  }
 
   @include sm-only {
-    &:not([hidden]) {
-      position: fixed;
-      left: 50%;
-      top: 50%;
-      transform: translate(-50%, -50%);
-    }
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
   }
 
   @include md {

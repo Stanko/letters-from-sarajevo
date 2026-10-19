@@ -46,7 +46,12 @@ const {
       .Dropdown-menu[hidden] {
         display: flex;
         position: var(--dropdown-fallback-position, static);
+        inset: auto;
+        opacity: 1;
+        translate: none;
         transform: none;
+        pointer-events: auto;
+        transition: none;
       }
       .Dropdown-button {
         display: none;

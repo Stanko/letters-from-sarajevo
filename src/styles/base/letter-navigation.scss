@@ -3,6 +3,7 @@
 @include sm-only {
   .Content:has(.Pagination-letters button[aria-expanded="true"]) {
     z-index: auto;
+    transition: none;
   }
 }
 

@@ -3,6 +3,7 @@
 @include sm-only {
   body:has(.LanguageSelector-button[aria-expanded="true"])::before {
     z-index: 5;
+    transition-duration: var(--transition-fast), 0s;
   }
 }
 
@@ -29,10 +30,8 @@
   overflow: hidden;
 
   @include sm-only {
-    &:not([hidden]) {
-      max-height: calc(100dvh - 4rem);
-      overflow-y: auto;
-    }
+    max-height: calc(100dvh - 4rem);
+    overflow-y: auto;
   }
 }
 
@@ -48,4 +47,11 @@
 
 .LanguageSelector-link--current {
   color: var(--color-text-muted);
+}
+
+@media (scripting: none) {
+  .LanguageSelector-menu {
+    max-height: none;
+    overflow: hidden;
+  }
 }
