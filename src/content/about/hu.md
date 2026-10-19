@@ -10,11 +10,7 @@ Az 1990-es években, a boszniai háború alatt apánk bennragadt Szarajevóban, 
 
 Körülbelül tíz évvel később a Tankönyvkiadó Intézet kiadott egy könyvet, amely az apám válogatott, eredeti leveleiből és a válaszokból áll, amelyeket Kosta írt egy jegyzetfüzetbe.
 
-<div class="About-book">
-
 ![A 2005-ben megjelent könyv borítója](../../assets/korice.jpg)
-
-</div>
 
 Együtt egy kissé más és derűsebb történetet mesélnek a háborúról.
 
@@ -34,18 +30,8 @@ Sajnos az eredeti levelek idővel elvesztek, és csak a digitális verziók mara
 
 Az eredmény fantasztikus, és alább látható az eredeti rajz és Ivan verziójának összehasonlítása.
 
-<div class="About-drawings">
-  <div class="About-drawing">
-
 ![Eredeti rajz, rossz felbontással](../../assets/scan.jpg)
-
-  </div>
-  <div class="About-drawing">
-
 ![Ugyanaz a rajz, amelyet Ivan újrarajzolt és digitalizált](../../assets/letter-01/03.png)
-
-  </div>
-</div>
 
 Egyelőre, ha segíteni szeretne a könyv másik nyelvre történő lefordításában vagy javaslatot tenni, kérjük, tegye ezt a GitHubon egy új [_Issue_](https://github.com/Stanko/letters-from-sarajevo/issues) létrehozásával.
 

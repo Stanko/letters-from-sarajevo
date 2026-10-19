@@ -11,11 +11,7 @@ para a Sérvia. Apesar de tudo, nosso pai nos escrevia cartas - divertidas, posi
 
 Cerca de dez anos depois, o livro foi publicado, consistindo em cartas selecionadas do meu pai e as respostas que meu irmão Kosta escrevia em um caderno.
 
-<div class="About-book">
-
 ![O Livro, publicado em 2005.](../../assets/korice.jpg)
-
-</div>
 
 Combinadas, essas cartas contam uma história um pouco mais alegre e diferente da guerra.
 
@@ -33,18 +29,8 @@ Infelizmente, as cartas originais foram perdidas no processo e nos restou apenas
 
 O resultado é maravilhoso, e abaixo você pode comparar um dos desenhos originais com a versão do Ivan.
 
-<div class="About-drawings">
-  <div class="About-drawing">
-
 ![Desenho original, digitalizado em baixa resolução](../../assets/scan.jpg)
-
-  </div>
-  <div class="About-drawing">
-
 ![O mesmo desenho, redesenhado pelo Ivan](../../assets/letter-01/03.png)
-
-  </div>  
-</div>
 
 Agora, se você quiser ajudar a traduzir esse livro para outra língua ou se tiver qualquer sugestão, por favor faça isso abrindo uma _issue_ no <a href="https://github.com/Stanko/letters-from-sarajevo/issues">Github</a>.
 

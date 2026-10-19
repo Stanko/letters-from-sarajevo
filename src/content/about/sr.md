@@ -10,11 +10,7 @@ Devedesetih godina, za vreme rata u Bosni, naš otac je ostao zaglavljen u Saraj
 
 Desetak godina kasnije Zavod za udžbenike je objavio knjigu koja se sastoji od probranih, originalnih pisama mog oca i odgovora koje je Kosta zapisivao u svesku.
 
-<div class="About-book">
-
 ![Korice knjige, objavljene 2005. godine](../../assets/korice.jpg)
-
-</div>
 
 Zajedno, ona pričaju jednu malo drugačiju i vedriju priču o ratu.
 
@@ -32,18 +28,8 @@ Nažalost originalna pisma su vremenom zagubljena, i samo su nam ostale digitaln
 
 Rezultat je fantastičan, i ispod možete videti poređenje jednog od originalnih crteža i Ivanove verzije.
 
-<div class="About-drawings">
-  <div class="About-drawing">
-
 ![Originalni crtež, skeniran u lošoj rezoluciji](../../assets/scan.jpg)
-
-  </div>
-  <div class="About-drawing">
-
 ![Isti crtež, koji je Ivan ponovo nacrtao i digitalizovao](../../assets/letter-01/03.png)
-
-  </div>  
-</div>
 
 Za sada, ako želite da pomognete da se knjiga prevede na još neki jezik ili date sugestiju molim Vas da to učinite na GitHub-u, tako što ćete <a href="https://github.com/Stanko/letters-from-sarajevo/issues">ovde</a> kreirati novi _Issue_.
 

@@ -10,11 +10,7 @@ In the 1990s, during the war in Bosnia, our father was stuck in Sarajevo while m
 
 The book consisting of a number of selected authentic letters written by my father and the replies Kosta wrote down in his notebook was published some ten years later by the Institute for textbook publishing.
 
-<div class="About-book">
-
 ![Book covers, published in 2005](../../assets/korice.jpg)
-
-</div>
 
 Combined, these letters tell a slightly different and more buoyant tale of the war.
 
@@ -33,18 +29,9 @@ The entire website content and code are available on [GitHub](https://github.com
 Unfortunately, the original letters got lost and all we are left with are the digital versions of them, and poorly scanned ones too. That's why we are very grateful to my friend [Ivan Nedeljković](https://www.instagram.com/sun_day_sign/) who, based on the originals, made new copies of the drawings and digitalized them.
 
 The end result is fantastic. Below you can see one of the original drawings compared to Ivan’s version.
-<div class="About-drawings">
-  <div class="About-drawing">
 
 ![An original drawing scanned in low resolution.](../../assets/scan.jpg)
-
-  </div>
-  <div class="About-drawing">
-
 ![The same drawing Ivan remade and digitalized.](../../assets/letter-01/03.png)
-
-  </div>  
-</div>
 
 For the time being, if you want to help translate the book into another language or make a suggestion, please do so on GitHub by creating a new [_Issue_](https://github.com/Stanko/letters-from-sarajevo/issues).
 

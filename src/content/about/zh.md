@@ -10,11 +10,7 @@ title: 关于本书和网站
 
 大约十年后，教科书出版社（Zavod za udžbenike）出版了一本书，收录了父亲的原信选篇，以及科斯塔在本子上写下的回信。
 
-<div class="About-book">
-
 ![2005年出版的书籍封面](../../assets/korice.jpg)
-
-</div>
 
 这些信放在一起，讲述了一个有些不同、也更明朗的战争故事。
 
@@ -34,18 +30,8 @@ title: 关于本书和网站
 
 效果非常好，下面您可以看到一幅原图和伊万重绘版本的对比。
 
-<div class="About-drawings">
-  <div class="About-drawing">
-
 ![原图的低分辨率扫描件](../../assets/scan.jpg)
-
-  </div>
-  <div class="About-drawing">
-
 ![伊万重绘并制作成数字版本的同一幅插图](../../assets/letter-01/03.png)
-
-  </div>
-</div>
 
 目前，如果您愿意帮助把这本书翻译成更多语言，或想提出建议，请在GitHub上创建一个新的[Issue](https://github.com/Stanko/letters-from-sarajevo/issues)。
 
