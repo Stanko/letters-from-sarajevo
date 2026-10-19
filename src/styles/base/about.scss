@@ -44,6 +44,7 @@
   img {
     display: block;
     height: auto;
+    border-radius: 4px;
   }
 }
 
@@ -51,10 +52,15 @@
   margin-bottom: 1em;
 
   @include lg {
-    width: calc(100% + 20rem);
-    margin-left: -10rem;
+    width: calc(100% + 18rem);
+    margin-left: -9rem;
     display: flex;
     justify-content: space-between;
+  }
+
+  @include xl {
+    width: 150%;
+    margin-left: -25%;
   }
 
   img {
