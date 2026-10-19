@@ -6,7 +6,7 @@
 @mixin container {
   margin: 0 auto;
   width: 100%;
-  max-width: 70rem;
+  max-width: 75rem;
   padding-left: 2rem;
   padding-right: 2rem;
 
@@ -71,16 +71,6 @@
 
   @include md {
     font-size: 2.5rem;
-  }
-}
-
-@mixin link {
-  border-bottom: thin solid $gray-light;
-  color: $black;
-  border-bottom: thin solid #ddd;
-
-  &:hover {
-    border-bottom-color: #999;
   }
 }
 

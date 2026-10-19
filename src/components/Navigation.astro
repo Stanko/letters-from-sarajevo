@@ -1,29 +1,60 @@
 ---
-import LanguageSelector from "./LanguageSelector.astro";
+import { Image } from "astro:assets";
+import tadija from "../assets/letter-02/tadija-1.png";
+import letter from "../assets/letter.png";
 import {
   homeUrl,
+  aboutUrl,
   translations,
   type Locale,
   type LocalizedLink,
 } from "../i18n";
+import LanguageSelector from "./LanguageSelector.astro";
 
 interface Props {
   lang: Locale;
-  title: string;
+  title?: string;
   alternates?: LocalizedLink[];
 }
+
 const { lang, title, alternates } = Astro.props;
+const t = translations[lang];
 ---
 
 <header class="Navigation">
-  <nav class="Navigation-content">
-    <a class="Navigation-link" href={homeUrl(lang)}>
-      {translations[lang].title}
-    </a>
-    <span class="Navigation-separator" aria-hidden="true">
-      &bull;
-    </span>
-    <span class="Navigation-title">{title}</span>
-    <LanguageSelector lang={lang} alternates={alternates} />
+  <nav class="Navigation-content Container">
+    <div>
+      {title ? (
+        <>
+          <a class="Navigation-title" href={homeUrl(lang)}>
+            {t.home.title}
+          </a>
+          <h1 class="Navigation-subtitle">{title}</h1>
+        </>
+      ) : (
+        <>
+          <h1 class="Navigation-title">
+            <a href={homeUrl(lang)}>{t.home.title}</a>
+          </h1>
+          <p class="Navigation-subtitle">{t.home.author}</p>
+        </>
+      )}
+    </div>
+
+    <div class="Navigation-menu">
+      <button class="Navigation-item" type="button">
+        Letters <Image layout="none" src={letter} alt="" />
+      </button>
+
+      <a href={aboutUrl(lang)} class="Navigation-item">
+        {t.aboutText} <Image layout="none" src={tadija} alt="" />
+      </a>
+
+      <LanguageSelector
+        className="Navigation-item"
+        lang={lang}
+        alternates={alternates}
+      />
+    </div>
   </nav>
 </header>

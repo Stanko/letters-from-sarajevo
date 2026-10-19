@@ -11,7 +11,6 @@ html {
 }
 
 body {
-  // -moz-osx-font-smoothing: grayscale;
   @include typewriter-font;
 
   &:lang(zh) {
@@ -28,8 +27,9 @@ h4,
 h5,
 h6 {
   font-size: 1em;
-  font-weight: normal;
+  font-weight: 600;
   margin: 0;
+  line-height: 1;
 }
 
 p {
@@ -37,7 +37,7 @@ p {
 }
 
 a {
-  @include link;
+  color: $black;
   transition:
     background 300ms,
     color 300ms,

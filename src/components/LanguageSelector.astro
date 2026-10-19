@@ -1,6 +1,6 @@
 ---
 import { Image } from "astro:assets";
-import translationIcon from "../assets/translation.svg";
+import earth from "../assets/earth.png";
 import enFlag from "../assets/flags/en.svg";
 import srFlag from "../assets/flags/sr.svg";
 import ruFlag from "../assets/flags/ru.svg";
@@ -19,9 +19,12 @@ import {
 interface Props {
   lang: Locale;
   alternates?: LocalizedLink[];
+  className?: string;
 }
-const { lang, alternates } = Astro.props;
+
+const { lang, alternates, className = "" } = Astro.props;
 const t = translations[lang];
+const currentLanguage = languages.find(({ code }) => code === lang);
 const flags = {
   en: enFlag,
   sr: srFlag,
@@ -36,20 +39,14 @@ const flags = {
 <div class="LanguageSelector" data-language-selector>
   <button
     id="language-button"
-    class="LanguageSelector-button"
+    class:list={["LanguageSelector-button", className]}
     type="button"
     aria-haspopup="menu"
     aria-expanded="false"
     aria-controls="language-menu"
   >
-    <Image
-      layout="none"
-      loading="eager"
-      class="LanguageSelector-icon"
-      src={translationIcon}
-      alt=""
-    />
-    <span class="LanguageSelector-text">{t.language}</span>
+    {currentLanguage?.label}
+    <Image layout="none" loading="eager" src={earth} alt="" />
   </button>
   <nav
     id="language-menu"

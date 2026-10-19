@@ -1,14 +1,8 @@
 @use "./variables" as *;
 @use "./breakpoints" as *;
-@use "./mixins" as *;
 
 .LanguageSelector {
-  font-size: 1.6rem;
   position: relative;
-
-  @include md {
-    font-size: 2rem;
-  }
 
   [hidden] {
     display: none;
@@ -16,8 +10,9 @@
 }
 
 .LanguageSelector-button {
-  display: flex;
-  align-items: center;
+  @include sm-only {
+    max-width: 8em;
+  }
 }
 
 .LanguageSelector-flag {
@@ -30,91 +25,44 @@
   border-radius: 2px;
 }
 
-.LanguageSelector-icon {
-  width: 2.4rem;
-  vertical-align: middle;
-
-  @include md {
-    width: 3rem;
-  }
-}
-
-.LanguageSelector-text {
-  margin-left: 0.6rem;
-  display: inline-block;
-
-  @include md {
-    margin-left: 0.8rem;
-  }
-}
-
 .LanguageSelector-link--current {
   color: $gray;
-}
-
-.LanguageSelector-button {
-  cursor: pointer;
-  margin: 0;
-  padding: 0;
-  border: none;
-  background: none;
-  list-style: none;
-  transition: opacity 300ms;
-  color: inherit;
-
-  &:hover,
-  &:focus,
-  .LanguageSelector[open] & {
-    opacity: 1;
-  }
-  @include md {
-    opacity: 0.5;
-  }
-}
-
-.LanguageSelector-button::-webkit-details-marker {
-  display: none;
 }
 
 .LanguageSelector-menu {
   background: $gray-light;
   border: thin solid $gray-border;
-  left: 0;
-  top: calc(100% + 1rem);
+
   z-index: 2;
-  width: auto;
   display: flex;
   flex-direction: column;
+  border-radius: 8px;
+  box-shadow: 0 0 8px rgb(0 0 0 / 0.2);
 
-  @include md {
-    left: auto;
-    right: 0;
-  }
-}
-
-.LanguageSelector-button:not([hidden]) + .LanguageSelector-menu {
+  // TODO this is medium screen styling
   position: absolute;
+  right: 0;
+  top: calc(100% + 1rem);
 }
 
 .LanguageSelector-link {
+  font-size: 1.8rem;
   align-items: center;
   border: none;
   display: flex;
-  padding: 0 0.8rem;
   white-space: nowrap;
-  width: 20.5rem;
+  width: 24rem;
   line-height: 0;
   height: 3.5rem;
+  padding-inline: 0.8rem;
 
-  &:hover {
-    background: $gray-hover;
-  }
-
+  &:hover,
   &:focus {
     background: $gray-hover;
   }
 
   @include md {
-    width: 24rem;
+    height: 3.8rem;
+    padding-inline: 1rem;
   }
 }

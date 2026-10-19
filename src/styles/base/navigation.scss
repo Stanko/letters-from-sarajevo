@@ -1,41 +1,65 @@
 @use "./variables" as *;
 @use "./breakpoints" as *;
-@use "./mixins" as *;
 
 .Navigation {
   width: 100%;
   border-bottom: thin solid $gray-border;
   background: $gray-light;
   padding: 2rem 0;
-
-  .LanguageSelector {
-    margin-top: 1rem;
-
-    @include md {
-      margin: 0;
-    }
-  }
 }
 
 .Navigation-content {
-  @include container;
-  margin: 0 auto;
-  width: 100%;
-
-  @include md {
-    display: flex;
-    align-items: center;
-  }
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 2rem;
 }
 
 .Navigation-title {
-  margin-right: auto;
+  display: block;
+  font-size: 3rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
 }
 
-.Navigation-link {
-  @include link;
+.Navigation-subtitle {
+  color: $gray;
+  font-weight: 600;
+  line-height: 1;
 }
 
-.Navigation-separator {
-  margin: 0 0.5rem;
+.Navigation-menu {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 0.3rem;
+  flex-shrink: 0;
+}
+
+.Navigation-item {
+  font-size: 1.8rem;
+  display: grid;
+  grid-template-columns: 1fr 3rem;
+  gap: 0.5rem;
+  align-items: center;
+  cursor: pointer;
+  text-align: right;
+  word-break: keep-all;
+
+  img {
+    transition: transform 300ms;
+    justify-self: center;
+    width: 2.6rem;
+    height: 3rem;
+    object-fit: contain;
+
+    @include md {
+      width: 3.2rem;
+      height: 3.2rem;
+    }
+  }
+
+  &:hover img {
+    transform: rotate(-10deg);
+  }
 }

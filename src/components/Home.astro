@@ -2,7 +2,6 @@
 import { translations, type Locale } from "../i18n";
 import BaseLayout from "../layouts/BaseLayout.astro";
 import Envelope from "./Envelope.astro";
-import LanguageSelector from "./LanguageSelector.astro";
 
 interface Props {
   lang: Locale;
@@ -13,22 +12,11 @@ const t = translations[lang];
 
 <BaseLayout lang={lang} isHome>
   <div class="Home">
-    <div class="Home-content">
-      <div class="Home-top">
-        <div class="Home-topContent Container">
-          <div>
-            <h1 class="Home-title">{t.home.title}</h1>
-            <div class="Home-author">{t.home.author}</div>
-          </div>
-          <LanguageSelector lang={lang} />
-        </div>
-      </div>
-      <div class="Container">
-        {t.home.paragraphs.map((paragraph) => (
-          <p class="Home-text">{paragraph}</p>
-        ))}
-        <p class="Home-dedication">{t.home.dedication}</p>
-      </div>
+    <div class="Home-content Container">
+      {t.home.paragraphs.map((paragraph) => (
+        <p class="Home-text">{paragraph}</p>
+      ))}
+      <p class="Home-dedication">{t.home.dedication}</p>
     </div>
     <div class="Container">
       <Envelope lang={lang} />

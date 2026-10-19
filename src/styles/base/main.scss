@@ -1,5 +1,4 @@
 @use "./variables" as *;
-@use "./breakpoints" as *;
 @use "./mixins" as *;
 
 img {
@@ -14,6 +13,14 @@ body {
 :focus-visible {
   outline: 1px dotted rgba(0, 0, 0, 0.7);
   outline-offset: 0.5rem;
+}
+
+button {
+  border: none;
+  padding: 0;
+  border-radius: 0;
+  background: none;
+  color: inherit;
 }
 
 .Content {

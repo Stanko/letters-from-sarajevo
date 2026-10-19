@@ -132,9 +132,7 @@ const imageUrl = new URL(`/img/${t.metaImage}`, siteOrigin(lang)).href;
     <meta name="theme-color" content="#ffffff" />
   </head>
   <body>
-    {title && (
-      <Navigation lang={lang} title={title} alternates={alternateLinks} />
-    )}
+    <Navigation lang={lang} title={title} alternates={alternateLinks} />
     <main class="Content">
       <slot />
     </main>
