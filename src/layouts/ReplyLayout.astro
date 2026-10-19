@@ -1,21 +1,23 @@
 ---
-import { translations } from "../i18n";
+import { translations, type Locale } from "../i18n";
 import type { ReplyData } from "../lib/book";
 
 interface Props {
   reply: ReplyData;
 }
 const { reply } = Astro.props;
+
+const lang = reply.lang as Locale;
 ---
 
 <div class="Response">
   {reply.kind === "reply" && <div class="Response-date">{reply.date}</div>}
-  <slot />
+  <div class="Response-content">
+    <slot />
+  </div>
   {reply.kind === "reply" && (
     <>
-      <div class="Response-signature">
-        {translations[reply.lang].replySignature}
-      </div>
+      <div class="Response-signature">{translations[lang].replySignature}</div>
       {reply.footnote && (
         <footer class="Footnote">
           <h2 id="footnote-label">{reply.footnote.label}</h2>
@@ -23,7 +25,7 @@ const { reply } = Astro.props;
             <a
               id="footnote-1"
               href="#footnote-index-1"
-              aria-label={translations[reply.lang].footnoteReturnLabel}
+              aria-label={translations[lang].footnoteReturnLabel}
             >
               1
             </a>
