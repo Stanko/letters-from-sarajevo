@@ -1,5 +1,6 @@
 ---
 import { Image } from "astro:assets";
+import Dropdown from "./Dropdown.astro";
 import letter from "../assets/letter.png";
 import { translations, type Locale } from "../i18n";
 import { entryPath, entryUrl, getBookEntries, getBookEntry } from "../lib/book";
@@ -23,17 +24,16 @@ const entries = await getBookEntries();
 const letters = readingOrder.map((key) => getBookEntry(entries, lang, key));
 ---
 
-<div class:list={["LetterNavigation", className]} data-letter-navigation>
-  <button
-    id={`${id}-button`}
-    class={buttonClassName}
-    type="button"
-    title={t.allLetters}
-    aria-label={t.allLetters}
-    aria-haspopup="menu"
-    aria-expanded="false"
-    aria-controls={`${id}-menu`}
-  >
+<Dropdown
+  id={id}
+  label={t.allLetters}
+  className={`LetterNavigation ${className}`}
+  buttonClassName={buttonClassName}
+  menuClassName="LetterNavigation-menu"
+  buttonTitle={t.allLetters}
+  buttonLabel={t.allLetters}
+>
+  <Fragment slot="button">
     <slot>
       {t.allLetters}{" "}
       <Image
@@ -44,46 +44,19 @@ const letters = readingOrder.map((key) => getBookEntry(entries, lang, key));
         alt=""
       />
     </slot>
-  </button>
-  <nav
-    id={`${id}-menu`}
-    class="LetterNavigation-menu"
-    aria-label={t.allLetters}
-    hidden
-  >
-    {letters.map((entry) => (
-      <a
-        class="LetterNavigation-link"
-        href={entryUrl(entry)}
-        aria-current={
-          Astro.url.pathname.replace(/\/$/, "") ===
-          entryPath(entry).replace(/\/$/, "")
-            ? "page"
-            : undefined
-        }
-      >
-        {entry.data.title}
-      </a>
-    ))}
-  </nav>
-  <noscript>
-    <style is:inline>
-      .LetterNavigation-menu[hidden] {
-        display: flex;
-        position: static;
-        transform: none;
+  </Fragment>
+  {letters.map((entry) => (
+    <a
+      class="Dropdown-link LetterNavigation-link"
+      href={entryUrl(entry)}
+      aria-current={
+        Astro.url.pathname.replace(/\/$/, "") ===
+        entryPath(entry).replace(/\/$/, "")
+          ? "page"
+          : undefined
       }
-      [data-letter-navigation] > button {
-        display: none;
-      }
-    </style>
-  </noscript>
-</div>
-
-<script>
-  import { initDropdown } from "../scripts/dropdown";
-
-  document
-    .querySelectorAll<HTMLElement>("[data-letter-navigation]")
-    .forEach(initDropdown);
-</script>
+    >
+      {entry.data.title}
+    </a>
+  ))}
+</Dropdown>

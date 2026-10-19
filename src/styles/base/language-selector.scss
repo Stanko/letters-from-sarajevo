@@ -1,30 +1,8 @@
 @use "./breakpoints" as *;
 
 @include sm-only {
-  html:has(.LanguageSelector-button[aria-expanded="true"]),
-  body:has(.LanguageSelector-button[aria-expanded="true"]) {
-    overflow: hidden;
-  }
-
   body:has(.LanguageSelector-button[aria-expanded="true"])::before {
-    content: "";
-    // Paint behind Safari's floating controls without a fixed viewport layer.
-    position: absolute;
-    inset: 0;
     z-index: 5;
-    background: var(--color-backdrop);
-  }
-
-  .Navigation:has(.LanguageSelector-button[aria-expanded="true"]) {
-    z-index: auto;
-  }
-}
-
-.LanguageSelector {
-  position: relative;
-
-  [hidden] {
-    display: none;
   }
 }
 
@@ -45,51 +23,27 @@
 }
 
 .LanguageSelector-menu {
-  background: var(--color-background);
-  color: var(--color-text);
+  --dropdown-fallback-position: relative;
+
   z-index: 6;
-  display: flex;
-  flex-direction: column;
-  border-radius: 8px;
-  box-shadow: var(--shadow-menu);
   overflow: hidden;
-  padding-block: 0.5rem;
 
   @include sm-only {
     &:not([hidden]) {
-      position: fixed;
-      left: 50%;
-      top: 50%;
-      transform: translate(-50%, -50%);
       max-height: calc(100dvh - 4rem);
       overflow-y: auto;
     }
-  }
-
-  @include md {
-    position: absolute;
-    right: 0;
-    top: calc(100% + 1rem);
   }
 }
 
 .LanguageSelector-link {
   font-size: 1.8rem;
-  align-items: center;
-  color: inherit;
   border: none;
-  display: flex;
   white-space: nowrap;
   width: 25rem;
   line-height: 0;
   height: 4rem;
   padding-inline: 1.4rem;
-
-  &:hover,
-  &:focus-visible {
-    background: var(--color-surface-dark);
-    outline: none;
-  }
 }
 
 .LanguageSelector-link--current {

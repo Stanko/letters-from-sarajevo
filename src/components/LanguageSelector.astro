@@ -1,5 +1,6 @@
 ---
 import { Image } from "astro:assets";
+import Dropdown from "./Dropdown.astro";
 import earth from "../assets/earth.png";
 import enFlag from "../assets/flags/en.svg";
 import srFlag from "../assets/flags/sr.svg";
@@ -44,67 +45,40 @@ const flags = {
 };
 ---
 
-<div class="LanguageSelector" data-language-selector>
-  <button
-    id={`${id}-button`}
-    class:list={["LanguageSelector-button", className]}
-    type="button"
-    aria-haspopup="menu"
-    aria-expanded="false"
-    aria-controls={`${id}-menu`}
-  >
+<Dropdown
+  id={id}
+  label={t.language}
+  className="LanguageSelector"
+  buttonClassName={`LanguageSelector-button ${className}`}
+  menuClassName="LanguageSelector-menu"
+>
+  <Fragment slot="button">
     {currentLanguage?.label}
     {showIcon && (
       <Image decoding="sync" layout="none" loading="eager" src={earth} alt="" />
     )}
-  </button>
-  <nav
-    id={`${id}-menu`}
-    class="LanguageSelector-menu"
-    aria-label={t.language}
-    hidden
-  >
-    {languages.map(({ code, label }) => (
-      <a
-        href={
-          alternates?.find((link) => link.lang === code)?.href ?? homeUrl(code)
-        }
-        lang={code}
-        hreflang={code}
-        aria-current={code === lang ? "page" : undefined}
-        class:list={[
-          "LanguageSelector-link",
-          { "LanguageSelector-link--current": code === lang },
-        ]}
-      >
-        <Image
-          layout="none"
-          loading="eager"
-          class="LanguageSelector-flag"
-          src={flags[code]}
-          alt=""
-        />
-        {label}
-      </a>
-    ))}
-  </nav>
-  <noscript>
-    <style is:inline>
-      .LanguageSelector-menu[hidden] {
-        display: flex;
-        position: relative;
+  </Fragment>
+  {languages.map(({ code, label }) => (
+    <a
+      href={
+        alternates?.find((link) => link.lang === code)?.href ?? homeUrl(code)
       }
-      .LanguageSelector-button {
-        display: none;
-      }
-    </style>
-  </noscript>
-</div>
-
-<script>
-  import { initDropdown } from "../scripts/dropdown";
-
-  document
-    .querySelectorAll<HTMLElement>("[data-language-selector]")
-    .forEach(initDropdown);
-</script>
+      lang={code}
+      hreflang={code}
+      aria-current={code === lang ? "page" : undefined}
+      class:list={[
+        "Dropdown-link LanguageSelector-link",
+        { "LanguageSelector-link--current": code === lang },
+      ]}
+    >
+      <Image
+        layout="none"
+        loading="eager"
+        class="LanguageSelector-flag"
+        src={flags[code]}
+        alt=""
+      />
+      {label}
+    </a>
+  ))}
+</Dropdown>

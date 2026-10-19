@@ -1,0 +1,64 @@
+---
+interface Props {
+  id: string;
+  label: string;
+  className?: string;
+  buttonClassName?: string;
+  menuClassName?: string;
+  buttonTitle?: string;
+  buttonLabel?: string;
+}
+
+const {
+  id,
+  label,
+  className,
+  buttonClassName,
+  menuClassName,
+  buttonTitle,
+  buttonLabel,
+} = Astro.props;
+---
+
+<div class:list={["Dropdown", className]} data-dropdown>
+  <button
+    id={`${id}-button`}
+    class:list={["Dropdown-button", buttonClassName]}
+    type="button"
+    title={buttonTitle}
+    aria-label={buttonLabel}
+    aria-haspopup="menu"
+    aria-expanded="false"
+    aria-controls={`${id}-menu`}
+  >
+    <slot name="button" />
+  </button>
+  <nav
+    id={`${id}-menu`}
+    class:list={["Dropdown-menu", menuClassName]}
+    aria-label={label}
+    hidden
+  >
+    <slot />
+  </nav>
+  <noscript>
+    <style is:inline>
+      .Dropdown-menu[hidden] {
+        display: flex;
+        position: var(--dropdown-fallback-position, static);
+        transform: none;
+      }
+      .Dropdown-button {
+        display: none;
+      }
+    </style>
+  </noscript>
+</div>
+
+<script>
+  import { initDropdown } from "../scripts/dropdown";
+
+  document
+    .querySelectorAll<HTMLElement>("[data-dropdown]")
+    .forEach(initDropdown);
+</script>
