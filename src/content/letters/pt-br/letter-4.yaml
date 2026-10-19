@@ -37,7 +37,7 @@ sentenceFour:
     modifier: xl
   - "?"
 sentenceLeft:
-  text: Estão fazendo ginástica?
+  text: Estão fazendo exercício?
   image: ../../../assets/letter-04/lazy.png
   alt: Kole e Stane deitados no sofá e fumando.
 sentenceRight:

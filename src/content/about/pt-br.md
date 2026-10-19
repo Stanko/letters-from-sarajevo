@@ -8,7 +8,7 @@ title: Sobre
 
 Nos anos 90, durante a Guerra da Bósnia, nosso pai ficou em Sarajevo (Saraievo), enquanto minha mãe, meu irmão Kosta e eu conseguimos fugir para a Sérvia. Apesar de tudo, nosso pai nos escrevia cartas - divertidas, positivas e cheias de desenhos.
 
-Cerca de dez anos depois, a editora Zavod za udžbenike publicou o livro, composto por cartas originais selecionadas do meu pai e as respostas que meu irmão Kosta escrevia em um caderno.
+Cerca de dez anos depois, o livro foi publicado, consistindo em cartas originais selecionadas do meu pai e as respostas que meu irmão Kosta escrevia em um caderno.
 
 <div class="About-book">
 
@@ -22,7 +22,7 @@ Combinadas, essas cartas contam uma história um pouco mais alegre e diferente d
 
 Esse website foi criado para que pudéssemos compartilhar essa história com todo mundo.
 
-É muito difícil reeditar fielmente um livro como esse para o formato digital. Eu fiz o melhor que eu pude, mas recomendo fortemente que você leia _as cartas_ em uma tela grande ao invés de em um _smartphone_.
+É muito difícil reeditar fielmente um livro como esse para o formato digital. A diferença entre outras línguas e o Sérvio não ajuda muito. Eu fiz o melhor que eu pude, mas recomendo fortemente que você leia _as cartas_ em uma tela grande ao invés de em um _smartphone_.
 
 Todo o conteúdo e o código-fonte desse website estão disponíveis no [GitHub](https://github.com/Stanko/letters-from-sarajevo) sob a licença [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/).
 

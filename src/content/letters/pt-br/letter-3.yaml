@@ -60,7 +60,7 @@ games:
   - text: Se vocês não se comportarem, recomendo à mamãe
     image:
       image: ../../../assets/letter-03/boxing.jpg
-      alt: o boxe
+      alt: usar suas habilidades de boxeadora
     narrow: false
     imageWrapped: false
 signoff: Com muito amor
