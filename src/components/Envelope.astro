@@ -15,12 +15,30 @@ const firstLetter = getBookEntry(await getBookEntries(), lang, "letter-1");
 ---
 
 <a class="Envelope" href={entryUrl(firstLetter)}>
-  <Image layout="none" class="Envelope-back" src={backImage} alt="" />
+  <Image
+    layout="none"
+    loading="eager"
+    class="Envelope-back"
+    src={backImage}
+    alt=""
+  />
   <span class="Envelope-paperWrapper">
     <span class="Envelope-text">{t.startReading}</span>
-    <Image layout="none" class="Envelope-paper" src={paperImage} alt="" />
+    <Image
+      layout="none"
+      loading="eager"
+      class="Envelope-paper"
+      src={paperImage}
+      alt=""
+    />
   </span>
-  <Image layout="none" class="Envelope-front" src={frontImage} alt="" />
+  <Image
+    layout="none"
+    loading="eager"
+    class="Envelope-front"
+    src={frontImage}
+    alt=""
+  />
 </a>
 
 <noscript>

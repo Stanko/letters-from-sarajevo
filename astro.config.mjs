@@ -2,6 +2,7 @@
 import { env } from "node:process";
 import { writeFile } from "node:fs/promises";
 import { defineConfig } from "astro/config";
+import { satteri } from "@astrojs/markdown-satteri";
 
 const target = env.SITE_TARGET ?? "international";
 
@@ -17,6 +18,21 @@ export default defineConfig({
   output: "static",
   outDir: `./dist/${target}`,
   trailingSlash: "always",
+  markdown: {
+    processor: satteri({
+      hastPlugins: [
+        {
+          name: "eager-images",
+          element: {
+            filter: ["img"],
+            visit(node, ctx) {
+              ctx.setProperty(node, "loading", "eager");
+            },
+          },
+        },
+      ],
+    }),
+  },
   integrations: [
     {
       name: "netlify-static-routing",

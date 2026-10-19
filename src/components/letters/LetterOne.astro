@@ -17,6 +17,7 @@ const { letter } = Astro.props;
       </p>
       <Image
         layout="none"
+        loading="eager"
         class="LetterOne-image LetterOne-image--one"
         src={letter.blockOne.image}
         alt={letter.blockOne.alt}
@@ -28,6 +29,7 @@ const { letter } = Astro.props;
       </p>
       <Image
         layout="none"
+        loading="eager"
         class="LetterOne-image"
         src={letter.blockTwo.image}
         alt={letter.blockTwo.alt}
@@ -46,6 +48,7 @@ const { letter } = Astro.props;
       </div>
       <Image
         layout="none"
+        loading="eager"
         class="LetterOne-image"
         src={letter.blockThree.image}
         alt={letter.blockThree.alt}
@@ -58,6 +61,7 @@ const { letter } = Astro.props;
       <p class="LetterOne-inscription">{letter.blockFour.treeInscription}</p>
       <Image
         layout="none"
+        loading="eager"
         class="LetterOne-image"
         src={letter.blockFour.image}
         alt={letter.blockFour.alt}

@@ -38,7 +38,7 @@ const t = translations[lang];
     className="Pagination-letters"
     buttonClassName="Pagination-lettersButton"
   >
-    <Image layout="none" src={letterImage} alt="" />
+    <Image layout="none" loading="eager" src={letterImage} alt="" />
     {position && total && (
       <span class="Pagination-position">
         {String(position).padStart(2, "0")} / {total}

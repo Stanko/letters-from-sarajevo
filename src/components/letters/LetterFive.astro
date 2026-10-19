@@ -15,6 +15,7 @@ const { letter } = Astro.props;
     <div class="LetterFive-topImageWrapper">
       <Image
         layout="none"
+        loading="eager"
         class="LetterFive-topImage"
         src={letter.newsImage.image}
         alt={letter.newsImage.alt}
@@ -33,6 +34,7 @@ const { letter } = Astro.props;
           {index === 0 && (
             <Image
               layout="none"
+              loading="eager"
               class="LetterFive-bottomImageSmall"
               src={letter.stoveImage.image}
               alt={letter.stoveImage.alt}
@@ -44,6 +46,7 @@ const { letter } = Astro.props;
     <div class="LetterFive-bottomImageLargeWrapper">
       <Image
         layout="none"
+        loading="eager"
         class="LetterFive-bottomImageLarge"
         src={letter.stoveImage.image}
         alt={letter.stoveImage.alt}

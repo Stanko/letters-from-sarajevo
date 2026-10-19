@@ -10,6 +10,12 @@ const { href } = Astro.props;
 ---
 
 <a class="CTA" href={href} lang="en">
-  <Image layout="none" class="CTA-icon" src={letterOpen} alt="" />
+  <Image
+    layout="none"
+    loading="eager"
+    class="CTA-icon"
+    src={letterOpen}
+    alt=""
+  />
   <span class="CTA-text">Read the first letter</span>
 </a>

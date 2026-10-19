@@ -54,7 +54,9 @@ const flags = {
     aria-controls={`${id}-menu`}
   >
     {currentLanguage?.label}
-    {showIcon && <Image layout="none" loading="eager" src={earth} alt="" />}
+    {showIcon && (
+      <Image decoding="sync" layout="none" loading="eager" src={earth} alt="" />
+    )}
   </button>
   <nav
     id={`${id}-menu`}

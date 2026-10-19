@@ -31,7 +31,12 @@ const modifiers = ["one", "two", "three", "four"];
     {[letter.sentenceLeft, letter.sentenceRight].map((sentence) => (
       <div class="LetterFour-lastSentenceBlock">
         <p>{sentence.text}</p>
-        <Image layout="none" src={sentence.image} alt={sentence.alt} />
+        <Image
+          layout="none"
+          loading="eager"
+          src={sentence.image}
+          alt={sentence.alt}
+        />
       </div>
     ))}
   </div>
@@ -43,6 +48,7 @@ const modifiers = ["one", "two", "three", "four"];
         </p>
         <Image
           layout="none"
+          loading="eager"
           class:list={[
             "LetterFour-image",
             { "LetterFour-image--one": index === 0 },

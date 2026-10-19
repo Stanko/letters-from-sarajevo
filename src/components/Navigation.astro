@@ -45,7 +45,14 @@ const t = translations[lang];
       <LetterNavigation lang={lang} />
 
       <a href={aboutUrl(lang)} class="Navigation-item">
-        {t.aboutText} <Image layout="none" src={tadija} alt="" />
+        {t.aboutText}{" "}
+        <Image
+          layout="none"
+          loading="eager"
+          src={tadija}
+          decoding="sync"
+          alt=""
+        />
       </a>
 
       <LanguageSelector

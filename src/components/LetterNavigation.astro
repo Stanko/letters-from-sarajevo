@@ -35,7 +35,14 @@ const letters = readingOrder.map((key) => getBookEntry(entries, lang, key));
     aria-controls={`${id}-menu`}
   >
     <slot>
-      {t.allLetters} <Image layout="none" src={letter} alt="" />
+      {t.allLetters}{" "}
+      <Image
+        decoding="sync"
+        layout="none"
+        loading="eager"
+        src={letter}
+        alt=""
+      />
     </slot>
   </button>
   <nav
