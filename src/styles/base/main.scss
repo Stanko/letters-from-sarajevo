@@ -1,4 +1,3 @@
-@use "./variables" as *;
 @use "./mixins" as *;
 
 img {
@@ -7,18 +6,16 @@ img {
 }
 
 html {
-  scrollbar-color: #a9a7a5 transparent;
+  scrollbar-color: var(--color-scrollbar) transparent;
 }
 
 body {
-  background: $white;
-  background: #fcf8f3;
-  // background: #efedea;
-  color: #292725;
+  background: var(--color-background);
+  color: var(--color-text);
 }
 
 :focus-visible {
-  outline: 2px solid rgba(60, 35, 30, 0.25);
+  outline: 2px solid var(--color-focus);
   outline-offset: 0.5rem;
   border-radius: 2px;
 }
@@ -36,9 +33,9 @@ a {
 }
 
 .Content {
-  overflow: hidden;
   position: relative;
-  box-shadow: 0 10px 15px rgb(100 80 60 / 0.03);
+  box-shadow: var(--shadow-content);
+  z-index: 1;
 }
 
 .Container {

@@ -1,7 +1,6 @@
 ---
 import { Image } from "astro:assets";
 import tadija from "../assets/letter-02/tadija-1.png";
-import letter from "../assets/letter.png";
 import {
   homeUrl,
   aboutUrl,
@@ -10,6 +9,7 @@ import {
   type LocalizedLink,
 } from "../i18n";
 import LanguageSelector from "./LanguageSelector.astro";
+import LetterNavigation from "./LetterNavigation.astro";
 
 interface Props {
   lang: Locale;
@@ -42,9 +42,7 @@ const t = translations[lang];
     </div>
 
     <div class="Navigation-menu">
-      <button class="Navigation-item" type="button">
-        Letters <Image layout="none" src={letter} alt="" />
-      </button>
+      <LetterNavigation lang={lang} />
 
       <a href={aboutUrl(lang)} class="Navigation-item">
         {t.aboutText} <Image layout="none" src={tadija} alt="" />

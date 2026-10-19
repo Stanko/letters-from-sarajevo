@@ -1,16 +1,14 @@
-@use "./variables" as *;
 @use "./breakpoints" as *;
 @use "./mixins" as *;
 
 .Footer {
   width: 100%;
-  background: #f6f1e9;
+  background: var(--color-surface);
   padding: 4rem 0;
-  color: $gray;
+  color: var(--color-text-muted);
   line-height: 1.4;
   font-size: 1.6rem;
   position: relative;
-  z-index: -1;
 
   @include md {
     padding: 5rem 0;

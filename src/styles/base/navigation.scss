@@ -1,4 +1,3 @@
-@use "./variables" as *;
 @use "./breakpoints" as *;
 
 .Navigation {
@@ -6,8 +5,8 @@
   z-index: 2;
   position: relative;
   padding: 2rem 0;
-  box-shadow: 0 0 25px rgb(100 80 60 / 0.05);
-  border-bottom: 1px solid rgb(0 0 0 / 0.03);
+  box-shadow: var(--shadow-navigation);
+  border-bottom: 1px solid var(--color-navigation-border);
 }
 
 .Navigation-content {
@@ -22,12 +21,12 @@
   font-size: 3rem;
   font-weight: 600;
   line-height: 1;
-  transition: opacity 250ms;
+  transition: opacity var(--transition-fast);
 
   &::after {
     content: " »";
     opacity: 0;
-    transition: opacity 250ms;
+    transition: opacity var(--transition-fast);
   }
 
   &:hover {
@@ -42,7 +41,7 @@
 .Navigation-subtitle {
   display: block;
   font-weight: 400;
-  color: $gray;
+  color: var(--color-text-muted);
   line-height: 1;
   margin-top: 1rem;
 }
@@ -65,7 +64,7 @@
   cursor: pointer;
   text-align: right;
   word-break: keep-all;
-  transition: opacity 250ms;
+  transition: opacity var(--transition-fast);
 
   .Navigation-menu:hover & {
     opacity: 0.3;
@@ -80,7 +79,7 @@
   }
 
   img {
-    transition: transform 300ms;
+    transition: transform var(--transition-base);
     justify-self: center;
     width: 2.6rem;
     height: 3rem;

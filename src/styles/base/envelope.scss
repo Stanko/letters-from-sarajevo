@@ -1,8 +1,9 @@
 @use "./breakpoints" as *;
 
 .Envelope {
-  transition: transform 500ms;
+  transition: transform var(--transition-slow);
   display: block;
+  color: var(--color-text);
   border: none;
   position: relative;
   max-width: 45rem;
@@ -46,9 +47,9 @@
   position: absolute;
   opacity: 1;
   bottom: 10%;
-  filter: drop-shadow(0 0 8px rgb(0 0 0 / 0.2));
+  filter: drop-shadow(var(--shadow-envelope));
   transform: rotate(-1deg);
-  transition: transform 500ms;
+  transition: transform var(--transition-slow);
 }
 
 .Envelope:hover,

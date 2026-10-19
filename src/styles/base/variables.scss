@@ -1,19 +1,46 @@
-@use "sass:color";
+@use "./breakpoints" as *;
 
-// Colors
-$white: #fff;
-$black: #111;
-$blue: #3498db;
-$gray: #777;
-$gray-light: #f7f7f7;
-$gray-border: #ddd;
-$gray-hover: color.adjust($gray-light, $lightness: -5%);
+:root {
+  // Colors
+  --color-background: #fcf8f3;
+  --color-surface: #f6f1e9;
+  --color-text: #292725;
+  --color-link: #111;
+  --color-link-content: #a11;
+  --color-text-muted: #777;
+  --color-text-faint: #999;
+  --color-border: #ddd;
+  --color-scrollbar: #a9a7a5;
+  --color-focus: rgb(150 20 20 / 0.25);
+  --color-backdrop: rgb(41 39 37 / 0.5);
+  --color-flag-outline: rgb(41 39 37 / 0.1);
+  --color-navigation-border: rgb(0 0 0 / 0.03);
 
-// Fonts
-$font-family-serif: "Literata", Georgia, serif;
-$font-family-handwriting:
-  "Patrick Hand SC", Pangolin, Helvetica, Arial, sans-serif;
+  // Shadows
+  --shadow-content: 0 10px 15px rgb(100 80 60 / 0.03);
+  --shadow-navigation: 0 0 25px rgb(100 80 60 / 0.05);
+  --shadow-menu: 0 0 8px rgb(100 80 60 / 0.2);
+  --shadow-envelope: 0 0 8px rgb(0 0 0 / 0.2);
 
-$font-weight-serif: 400;
+  // Fonts
+  --font-family-serif: "Literata", Georgia, serif;
+  --font-family-serif-zh: "Noto Serif SC", "Songti SC", SimSun, serif;
+  --font-family-handwriting:
+    "Patrick Hand SC", Pangolin, Helvetica, Arial, sans-serif;
+  --font-family-handwriting-el: "Mynerve", Helvetica, Arial, sans-serif;
+  --font-family-handwriting-zh: "Ma Shan Zheng", "Kaiti SC", KaiTi, serif;
+  --font-weight-serif: 400;
 
-// Timings
+  // Timings
+  --transition-fast: 250ms;
+  --transition-base: 300ms;
+  --transition-slow: 500ms;
+
+  // Layout
+  --container-width: 75rem;
+  --container-gutter: 2rem;
+
+  @include md {
+    --container-gutter: 3rem;
+  }
+}

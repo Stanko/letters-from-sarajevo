@@ -1,4 +1,3 @@
-@use "./variables" as *;
 @use "./breakpoints" as *;
 
 .Home {
@@ -16,7 +15,7 @@
 
 .Home-dedication {
   margin-top: 3rem;
-  color: $gray;
+  color: var(--color-text-muted);
 
   @include md {
     margin-top: 5rem;

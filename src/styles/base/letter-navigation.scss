@@ -1,0 +1,77 @@
+@use "./breakpoints" as *;
+
+@include sm-only {
+  html:has(#letters-button[aria-expanded="true"]),
+  body:has(#letters-button[aria-expanded="true"]) {
+    overflow: hidden;
+  }
+
+  .Navigation:has(#letters-button[aria-expanded="true"])::before {
+    content: "";
+    position: fixed;
+    inset: 0;
+    z-index: 3;
+    background: var(--color-backdrop);
+  }
+}
+
+.LetterNavigation {
+  position: relative;
+
+  [hidden] {
+    display: none;
+  }
+}
+
+.LetterNavigation-menu {
+  background: var(--color-background);
+  color: var(--color-text);
+  border: thin solid var(--color-border);
+  z-index: 5;
+  display: flex;
+  flex-direction: column;
+  width: 24rem;
+  max-width: calc(100vw - 4rem);
+  max-height: calc(100dvh - 4rem);
+  overflow-y: auto;
+  overscroll-behavior: contain;
+  border-radius: 8px;
+  box-shadow: var(--shadow-menu);
+  padding-block: 0.5rem;
+
+  @include sm-only {
+    &:not([hidden]) {
+      position: fixed;
+      left: 50%;
+      top: 50%;
+      transform: translate(-50%, -50%);
+    }
+  }
+
+  @include md {
+    position: absolute;
+    right: 0;
+    top: calc(100% + 1rem);
+    max-height: calc(100dvh - 12rem);
+  }
+}
+
+.LetterNavigation-link {
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+  color: inherit;
+  min-height: 4rem;
+  padding: 0.8rem 2rem 1.2rem;
+  line-height: 1.2;
+
+  &:hover,
+  &:focus-visible {
+    background: var(--color-surface);
+    outline: none;
+  }
+
+  &[aria-current="page"] {
+    color: var(--color-link-content);
+  }
+}
