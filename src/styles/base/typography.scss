@@ -41,7 +41,10 @@ p {
 
 a {
   color: var(--color-link);
-  transition: all var(--transition-base);
+  transition:
+    text-decoration-color var(--transition-base),
+    color var(--transition-base),
+    background var(--transition-base);
   text-decoration: none;
 }
 
