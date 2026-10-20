@@ -42,29 +42,30 @@
 
   img {
     display: block;
-    height: auto;
     border-radius: 4px;
   }
 
   p:has(img:nth-child(2)) {
-    display: flex;
-    flex-direction: column;
+    display: grid;
     gap: 1em;
 
     @include lg {
-      flex-direction: row;
-      width: calc(100% + 18rem);
-      margin-left: -9rem;
+      grid-template-columns: 1fr 1fr;
+      width: calc(100% + 12rem);
+      margin-left: -6rem;
       justify-content: space-between;
+      align-items: center;
     }
 
     @include xl {
-      width: 160%;
-      margin-left: -30%;
+      width: 140%;
+      margin-left: -20%;
     }
 
     img {
-      width: 100%;
+      aspect-ratio: 3/2;
+      object-fit: contain;
+      flex-grow: 1;
       background-color: white;
     }
   }
