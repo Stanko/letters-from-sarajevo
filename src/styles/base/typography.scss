@@ -44,7 +44,8 @@ a {
   transition:
     text-decoration-color var(--transition-base),
     color var(--transition-base),
-    background var(--transition-base);
+    background var(--transition-base),
+    opacity var(--transition-base);
   text-decoration: none;
 }
 
