@@ -30,21 +30,20 @@
   font-size: 3rem;
   font-weight: 600;
   line-height: 1;
-  color: var(--color-ink-blue);
-
-  a {
-    color: inherit;
-    text-decoration: 2px underline dotted;
-    text-decoration-color: transparent;
-
-    &:hover {
-      color: var(--color-link);
-      text-decoration-color: var(--color-link);
-    }
-  }
 
   @include sm-only {
     font-size: 2.6rem;
+  }
+}
+
+.Navigation-title-link {
+  color: var(--color-ink-blue);
+  text-decoration: 2px underline dotted;
+  text-decoration-color: transparent;
+
+  &:hover {
+    color: var(--color-link);
+    text-decoration-color: var(--color-link);
   }
 }
 

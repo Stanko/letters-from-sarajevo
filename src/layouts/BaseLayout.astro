@@ -78,35 +78,25 @@ const imageUrl = new URL(`/img/${t.metaImage}`, siteOrigin(lang)).href;
     <meta name="twitter:description" content={t.metaDescription} />
     <meta name="twitter:image" content={imageUrl} />
 
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      rel="stylesheet"
-      href="https://fonts.googleapis.com/css?family=Patrick+Hand+SC&display=swap&subset=latin-ext"
-    />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&display=swap"
-      rel="stylesheet"
-    />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Literata:ital,opsz,wght@0,7..72,200..900;1,7..72,200..900&display=swap"
-      rel="stylesheet"
-    />
-    <link
-      rel="stylesheet"
-      href="https://fonts.googleapis.com/css?family=Pangolin&display=swap"
-    />
-    {lang === "el" && (
-      <link
-        rel="stylesheet"
-        href="https://fonts.googleapis.com/css2?family=Mynerve&display=swap"
-      />
+    <link rel="stylesheet" href="/fonts/literata/font.css" />
+    {lang !== "el" && lang !== "zh" && (
+      <>
+        <link rel="stylesheet" href="/fonts/patrick-hand-sc/font.css" />
+        {lang === "ru" && (
+          <link rel="stylesheet" href="/fonts/pangolin/font.css" />
+        )}
+      </>
     )}
+    {lang === "el" && <link rel="stylesheet" href="/fonts/mynerve/font.css" />}
     {lang === "zh" && (
-      <link
-        rel="stylesheet"
-        href="https://fonts.googleapis.com/css2?family=Ma+Shan+Zheng&family=Noto+Serif+SC:wght@300;400&display=swap"
-      />
+      <>
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+          rel="stylesheet"
+          href="https://fonts.googleapis.com/css2?family=Ma+Shan+Zheng&family=Noto+Serif+SC:wght@400&display=swap"
+        />
+      </>
     )}
     <link
       rel="apple-touch-icon"
