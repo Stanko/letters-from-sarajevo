@@ -8,19 +8,32 @@
   --color-text: #292725;
   --color-link: #15110e;
   --color-link-content: #a11;
+  --color-ink-blue: #345f96;
+  --color-dark-blue: #143f76;
+  --color-menu-hover: #fbede7;
+  --color-menu-selected: #f8e6df;
+  --color-menu-border: #e4c4ba;
   --color-text-muted: #7d756d;
   --color-text-faint: #9f978e;
   --color-border: #e2dcd4;
   --color-scrollbar: #afa69b;
-  --color-focus: rgb(150 20 20 / 0.25);
   --color-backdrop: rgb(41 39 37 / 0.5);
   --color-flag-outline: rgb(41 39 37 / 0.1);
   --color-navigation-border: rgb(41 39 37 / 0.03);
 
+  // Airmail edging
+  --airmail-stripe: repeating-linear-gradient(
+    135deg,
+    var(--color-link-content) 0 0.7rem,
+    transparent 0.7rem 1.3rem,
+    var(--color-ink-blue) 1.3rem 2rem,
+    transparent 2rem 2.6rem
+  );
+
   // Shadows
   --shadow-content: 0 10px 15px rgb(100 80 60 / 0.03);
   --shadow-navigation: 0 0 25px rgb(100 80 60 / 0.05);
-  --shadow-menu: 0 0 8px rgb(100 80 60 / 0.2);
+  --shadow-menu: 0 0 12px rgb(100 60 45 / 0.4);
   --shadow-envelope: 0 0 8px rgb(100 80 60 / 0.2);
 
   // Fonts
@@ -38,7 +51,7 @@
   --transition-slow: 500ms;
 
   // Layout
-  --container-width: 75rem;
+  --container-width: 80rem;
   --container-gutter: 2rem;
 
   @include md {

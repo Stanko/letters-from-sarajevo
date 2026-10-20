@@ -11,15 +11,15 @@ const t = translations[lang];
 ---
 
 <BaseLayout lang={lang} isHome>
-  <div class="Home">
-    <div class="Home-content Container">
+  <div class="Home Container">
+    <div class="Home-content">
       {t.home.paragraphs.map((paragraph) => (
         <p class="Home-text">{paragraph}</p>
       ))}
-      <p class="Home-dedication">{t.home.dedication}</p>
     </div>
-    <div class="Container">
+    <div class="Home-invitation">
       <Envelope lang={lang} />
+      <p class="Home-dedication">{t.home.dedication}</p>
     </div>
   </div>
 </BaseLayout>

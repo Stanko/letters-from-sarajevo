@@ -45,10 +45,6 @@
   padding-inline: 1.4rem;
 }
 
-.LanguageSelector-link--current {
-  color: var(--color-text-muted);
-}
-
 @media (scripting: none) {
   .LanguageSelector-menu {
     max-height: none;

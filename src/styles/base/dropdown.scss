@@ -45,12 +45,15 @@
 
 .Dropdown-menu {
   background: var(--color-background);
+  background-image: var(--airmail-stripe);
+  background-repeat: repeat-x;
+  background-size: auto 0.3rem;
   color: var(--color-text);
   display: flex;
   flex-direction: column;
   border-radius: 8px;
   box-shadow: var(--shadow-menu);
-  padding-block: 0.5rem;
+  padding-block: 1rem 0.5rem;
   opacity: 1;
   translate: 0 0;
   transition:
@@ -88,9 +91,15 @@
   align-items: center;
   color: inherit;
 
+  &[aria-current="page"] {
+    color: var(--color-link-content);
+    background: var(--color-menu-selected);
+    box-shadow: inset 2px 0 var(--color-link-content);
+  }
+
   &:hover,
   &:focus-visible {
-    background: var(--color-surface-dark);
+    background: var(--color-menu-hover);
     outline: none;
   }
 }

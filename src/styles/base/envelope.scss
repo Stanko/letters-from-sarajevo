@@ -1,25 +1,16 @@
 @use "./breakpoints" as *;
 
 .Envelope {
-  transition: transform var(--transition-slow);
   display: block;
-  color: var(--color-text);
+  color: var(--color-dark-blue);
   border: none;
   position: relative;
   max-width: 45rem;
   opacity: 0;
-  margin: 1rem auto 4rem;
+  margin: 0 auto;
   aspect-ratio: 1;
   overflow: hidden;
-
-  @include md {
-    margin-top: -1rem;
-    margin-bottom: 5rem;
-  }
-
-  @include lg {
-    margin-bottom: 6rem;
-  }
+  transition: transform var(--transition-base);
 }
 
 .Envelope-show {
@@ -27,11 +18,20 @@
 }
 
 .Envelope-text {
-  font-size: 2rem;
-  left: 8%;
+  font-size: 1.8rem;
+  left: 9%;
+  max-width: 86%;
+  line-height: 1.4;
   position: absolute;
   top: 10%;
   z-index: 1;
+  text-decoration: underline;
+  text-decoration-color: transparent;
+  transition: text-decoration var(--transition-fast);
+
+  @include md {
+    font-size: 2rem;
+  }
 }
 
 .Envelope-back {
@@ -49,15 +49,18 @@
   bottom: 10%;
   filter: drop-shadow(var(--shadow-envelope));
   transform: rotate(-1deg);
-  transition: transform var(--transition-slow);
+  transition: transform var(--transition-base);
 }
 
 .Envelope:hover,
-.Envelope:focus {
-  transform: rotate(-0.5deg);
+.Envelope:focus-visible {
+  transform: rotate(0.5deg);
 
+  .Envelope-text {
+    text-decoration: underline;
+  }
   .Envelope-paperWrapper {
-    transform: rotate(-3deg) translateY(-15%);
+    transform: rotate(-3deg) translateY(-12%);
   }
 }
 

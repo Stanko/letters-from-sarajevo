@@ -1,23 +1,51 @@
 @use "./breakpoints" as *;
 
 .Home {
-  display: flex;
-  flex-direction: column;
+  display: grid;
+  gap: 2rem;
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+
+  @include lg {
+    grid-template-columns: 1.15fr 1fr;
+    align-items: center;
+    gap: 3rem;
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+  }
 }
 
 .Home-content {
-  padding-top: 4rem;
+  line-height: 1.6;
 }
 
 .Home-text {
   margin-bottom: 1em;
+
+  &:first-child {
+    color: var(--color-link-content);
+    font-style: italic;
+    font-weight: 400;
+
+    &:lang(zh) {
+      font-style: normal;
+    }
+  }
+
+  &:last-child {
+    margin-bottom: 0;
+  }
 }
 
-.Home-dedication {
-  margin-top: 3rem;
+.Home .Home-dedication {
+  margin-top: 2.5rem;
   color: var(--color-text-muted);
+  text-align: center;
+  font-style: italic;
+  font-size: 0.85em;
+  font-weight: 400;
 
-  @include md {
-    margin-top: 5rem;
+  &:lang(zh) {
+    font-style: normal;
   }
 }
