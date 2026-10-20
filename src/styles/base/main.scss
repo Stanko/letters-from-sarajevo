@@ -15,7 +15,6 @@ body {
   min-height: 100lvh;
   background: var(--color-background) url("/img/noise.svg");
   color: var(--color-text);
-  padding-top: 0.5rem;
 }
 
 body::after {
@@ -27,6 +26,7 @@ body::after {
   height: 0.3rem;
   background: var(--airmail-stripe);
   pointer-events: none;
+  z-index: 2;
 }
 
 :focus-visible {
@@ -48,6 +48,7 @@ a {
 }
 
 .Content {
+  align-self: flex-start;
   position: relative;
   z-index: 1;
 }
@@ -68,4 +69,10 @@ a {
     margin-top: 3rem;
     display: inline-block;
   }
+}
+
+.Wrapper {
+  display: grid;
+  align-items: flex-start;
+  min-height: 100vh;
 }

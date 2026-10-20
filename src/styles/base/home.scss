@@ -3,15 +3,20 @@
 .Home {
   display: grid;
   gap: 2rem;
-  padding-top: 4rem;
-  padding-bottom: 4rem;
+  padding-block: 4rem;
+
+  @include md {
+    padding-block: 5rem;
+  }
 
   @include lg {
+    padding-block: 6rem;
+  }
+
+  @media (min-width: 750px) {
     grid-template-columns: 1.15fr 1fr;
     align-items: center;
     gap: 3rem;
-    padding-top: 6rem;
-    padding-bottom: 6rem;
   }
 }
 

@@ -138,10 +138,12 @@ const imageUrl = new URL(`/img/${t.metaImage}`, siteOrigin(lang)).href;
     <meta name="theme-color" content="#ffffff" />
   </head>
   <body>
-    <Navigation lang={lang} title={title} alternates={alternateLinks} />
-    <main class="Content">
-      <slot />
-    </main>
-    <Footer lang={lang} isHome={isHome} alternates={alternateLinks} />
+    <div class="Wrapper">
+      <Navigation lang={lang} title={title} alternates={alternateLinks} />
+      <main class="Content">
+        <slot />
+      </main>
+      <Footer lang={lang} isHome={isHome} alternates={alternateLinks} />
+    </div>
   </body>
 </html>
