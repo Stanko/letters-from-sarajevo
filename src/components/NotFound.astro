@@ -26,9 +26,12 @@ const alternates = languages.map(({ code }) => ({
   <div class="NotFound">
     <h1>{t.error404}</h1>
     <p>{t.pageNotFound}</p>
-    <a href={homeUrl(lang)}>{t.homeLinkText}</a>
+    <a href={homeUrl(lang)}>
+      {t.homeLinkText}
+      <span aria-hidden="true">&rarr;</span>
+    </a>
   </div>
-  <div class="Container">
+  <div class="NotFound-envelope Container">
     <Envelope lang={lang} />
   </div>
 </BaseLayout>

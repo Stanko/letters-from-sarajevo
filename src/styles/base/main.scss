@@ -1,4 +1,5 @@
 @use "./mixins" as *;
+@use "./breakpoints" as *;
 
 img {
   max-width: 100%;
@@ -58,15 +59,36 @@ a {
 
 .NotFound {
   @include response;
+  text-align: center;
 
   h1 {
     font-size: 3rem;
-    margin-bottom: 1rem;
+    margin-bottom: 0.5rem;
   }
 
   a {
-    margin-top: 3rem;
+    color: var(--color-ink-blue);
+    margin-block: 1rem 2rem;
     display: inline-block;
+    text-decoration: 2px underline dotted;
+    text-decoration-color: transparent;
+
+    &:hover {
+      color: var(--color-text);
+      text-decoration-color: currentColor;
+    }
+  }
+}
+
+.NotFound-envelope {
+  padding-bottom: 3rem;
+
+  @include md {
+    padding-bottom: 5rem;
+  }
+
+  @include lg {
+    padding-bottom: 6rem;
   }
 }
 
