@@ -82,7 +82,7 @@ const imageUrl = new URL(`/img/${t.metaImage}`, siteOrigin(lang)).href;
     {lang !== "el" && lang !== "zh" && (
       <>
         <link rel="stylesheet" href="/fonts/patrick-hand-sc/font.css" />
-        {lang === "ru" && (
+        {(lang === "ru" || lang === "mk") && (
           <link rel="stylesheet" href="/fonts/pangolin/font.css" />
         )}
       </>

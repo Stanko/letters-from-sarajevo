@@ -28,14 +28,17 @@
 
   z-index: 6;
   overflow: hidden;
+  max-height: calc(100dvh - 4rem);
+  overflow-y: auto;
+  overscroll-behavior: contain;
 
-  @include sm-only {
-    max-height: calc(100dvh - 4rem);
-    overflow-y: auto;
+  @include md {
+    max-height: calc(100dvh - 12rem);
   }
 }
 
 .LanguageSelector-link {
+  flex-shrink: 0;
   font-size: 1.8rem;
   border: none;
   white-space: nowrap;

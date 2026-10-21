@@ -1,0 +1,66 @@
+key: letter-4
+lang: mk
+slug: chetvrto-pismo
+title: Четврто писмо
+template: letter-four
+date: Сараево, 20.VIII 1993
+header: Драги Коле и Стане,
+sentenceOne:
+  - Помина веќе една година откако
+  - image: ../../../assets/letter-04/left.png
+    alt: го напуштивте Сараево
+    modifier: xwide
+sentenceTwo:
+  - За тоа време
+  - image: ../../../assets/letter-04/earth.png
+    alt: Земјата
+  - еднаш
+  - image: ../../../assets/letter-04/earth-run.png
+    alt: обиколи
+    modifier: xl
+  - околу
+  - image: ../../../assets/letter-04/sun.png
+    alt: Сонцето
+    modifier: lg
+  - .
+sentenceThree:
+  - "Вие за тоа време поминавте малку пократок пат: Сараево – Дивљана."
+sentenceFour:
+  - Дали се променивте →
+  - image: ../../../assets/letter-04/thin.png
+    alt: ослабевте
+  - или
+  - image: ../../../assets/letter-04/fat.png
+    alt: се здебеливте
+  - или
+  - image: ../../../assets/letter-04/mustaches.png
+    alt: пуштивте мустаќи
+    modifier: xl
+  - "?"
+sentenceLeft:
+  text: Дали правите гимнастика?
+  image: ../../../assets/letter-04/lazy.png
+  alt: Коле и Стане лежат на каучот и пушат.
+sentenceRight:
+  text: Дали ја слушате мама?
+  image: ../../../assets/letter-04/mom.png
+  alt: Мама стои зад Коле и Стане со оклагија и боксерска ракавица.
+blockOne:
+  image: ../../../assets/letter-04/truce.png
+  alt: Војник лежи на топ затнат со тапа.
+  text: Овде веќе десетина дена е мирно.
+blockTwo:
+  image: ../../../assets/letter-04/electricity.png
+  alt: Запалена сијалица и човек што не може да гледа во неа.
+  text: Синоќа, по долго, долго време, дојде струја.
+  textBottom: Веќе бевме навикнати на темнината.
+blockThree:
+  image: ../../../assets/letter-04/sick.png
+  alt: Човек со играчка и ѕвечка.
+  text: Изминатата година овде беше многу тешка, некои не издржаа, малку „настинаа“.
+blockFour:
+  image: ../../../assets/letter-04/icarus.png
+  alt: Тато сонува за Икаровите крилја.
+  text: |-
+    Многу ве поздравувам!
+    Се надевам дека наскоро ќе се видиме.

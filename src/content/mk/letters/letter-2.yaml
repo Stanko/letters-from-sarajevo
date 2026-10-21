@@ -1,0 +1,60 @@
+key: letter-2
+lang: mk
+slug: vtoro-pismo
+title: Второ писмо
+template: letter-two
+date: Сараево, 4.V 93.
+header:
+  - Драги
+  - image: ../../../assets/letter-02/kole.png
+    alt: Коле
+  - "&"
+  - image: ../../../assets/letter-02/stane.png
+    alt: Стане
+  - ","
+sentenceOne:
+  - Минатата недела, на 28 април точно на
+  - image: ../../../assets/letter-02/clock.png
+    alt: пладне
+  - во нашата соба
+  - image: ../../../assets/letter-02/fly-in.png
+    alt: влета граната
+  - .
+sentenceTwo:
+  - image: ../../../assets/letter-02/rocket-1.png
+    alt: Гранатата
+  - ", всушност,"
+  - image: ../../../assets/letter-02/hit.png
+    alt: удри
+  - точно над
+  - image: ../../../assets/letter-02/window.png
+    alt: прозорецот
+    modifier: window
+  - .
+sentenceThree:
+  - image: ../../../assets/letter-02/tadija-1.png
+    alt: Јас
+  - бев на факултет.
+  - image: ../../../assets/letter-02/rocket-2.png
+    alt: Гранатата
+  - image: ../../../assets/letter-02/destroy.png
+    alt: уништи
+    modifier: lg
+  - сè во нашата соба.
+sentenceFour:
+  - Сега сум во соба на Коса
+  - image: ../../../assets/letter-02/bed.png
+    alt: Тато се држи за главата во креветот.
+    modifier: xl
+sentenceFive:
+  - Многу
+  - image: ../../../assets/letter-02/greetings.png
+    alt: поздрави
+    modifier: lg
+  - за вас
+  - image: ../../../assets/letter-02/two-of-you.png
+    alt: двајцата
+    modifier: lg
+  - од
+  - image: ../../../assets/letter-02/tadija-2.png
+    alt: мене

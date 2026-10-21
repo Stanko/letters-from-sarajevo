@@ -1,0 +1,76 @@
+key: letter-3
+lang: mk
+slug: treto-pismo
+title: Трето писмо
+template: letter-three
+date: Сараево, 5.VII '93.
+header:
+  - Драги Коле
+  - image: ../../../assets/letter-03/football-player.jpg
+    alt: ""
+    decorative: true
+    modifiers:
+      - tall
+  - и Стане
+  - image: ../../../assets/letter-03/olimpics.jpg
+    alt: ""
+    decorative: true
+    modifiers:
+      - square
+  - ","
+phoneSentence:
+  - Овде сè уште не работат
+  - image: ../../../assets/letter-03/phone.jpg
+    alt: телефоните
+  - .
+questions:
+  - text: Зошто вие двајцата не ми
+    image:
+      image: ../../../assets/letter-03/letter.jpg
+      alt: пишувате
+    narrow: false
+    imageWrapped: true
+    suffix: "?"
+  - text: Можеби таму нема
+    image:
+      image: ../../../assets/letter-03/postbox.jpg
+      alt: пошта
+    narrow: false
+    imageWrapped: false
+    suffix: "?"
+activityText: "Како го поминувате времето:"
+activityOptions:
+  - image: ../../../assets/letter-03/tree.jpg
+    alt: Надвор
+    modifiers:
+      - landscape
+  - или
+  - image: ../../../assets/letter-03/home.jpg
+    alt: дома
+    modifiers:
+      - landscape
+  - "?"
+games:
+  - text: Дали заборавивте да играте
+    image:
+      image: ../../../assets/letter-03/chess.jpg
+      alt: шах
+    narrow: false
+    imageWrapped: false
+    suffix: "?"
+  - text: Ако не слушате, на мама ѝ препорачувам
+    image:
+      image: ../../../assets/letter-03/boxing.jpg
+      alt: бокс
+    narrow: false
+    imageWrapped: false
+signoff: Многу поздрави
+dreamImages:
+  - image: ../../../assets/letter-03/plane.jpg
+    alt: ""
+    decorative: true
+    modifiers:
+      - landscape
+      - bottom
+  - image: ../../../assets/letter-03/tadija.png
+    alt: Тато, кој сонува за авион до Дивљана

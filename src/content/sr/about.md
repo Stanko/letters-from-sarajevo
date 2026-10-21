@@ -20,6 +20,8 @@ Sajt je napravljen jer smo želeli da ovu priču podelimo sa svima.
 
 Teško je verno preneti knjigu ovakve forme na web sajt. Ja sam uradio najbolje što sam mogao, ali Vam i dalje preporučujem da _Pisma_ gledate na malo većim ekranima, a ne na telefonu.
 
+Veliko hvala i mojim kolegama Felipeu and Anai koji su preveli sajt na brazilski portugalski.
+
 Sav sadržaj i kod sajta su dostupni na [GitHub-u](https://github.com/Stanko/letters-from-sarajevo) pod [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/) licencom.
 
 ## Crteži
