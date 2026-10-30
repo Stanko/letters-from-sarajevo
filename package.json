@@ -18,15 +18,15 @@
     "format:check": "prettier . --check"
   },
   "dependencies": {
-    "@astrojs/markdown-satteri": "^0.4.4",
-    "astro": "^7.4.0"
+    "@astrojs/markdown-satteri": "^0.4.6",
+    "astro": "^7.4.4"
   },
   "devDependencies": {
-    "@astrojs/check": "^0.9.10",
-    "@types/node": "^26.6.5",
+    "@astrojs/check": "^0.9.12",
+    "@types/node": "^26.6.6",
     "prettier": "^3.9.10",
-    "prettier-plugin-astro": "^1.1.1",
-    "sass": "^1.105.2",
+    "prettier-plugin-astro": "^1.1.2",
+    "sass": "^1.107.1",
     "typescript": "^6.0.3"
   }
 }
